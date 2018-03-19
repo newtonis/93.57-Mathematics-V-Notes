@@ -1,0 +1,54 @@
+createdAt: "2018-03-19T12:03:03.758Z"
+updatedAt: "2018-03-19T12:59:45.701Z"
+type: "MARKDOWN_NOTE"
+folder: "e58a84a619a157cea5b5"
+title: "Notas clase 3/19/2018"
+content: '''
+  ## Notas clase 3/19/2018
+  Si $X$ tiene discontinuidad tipo salto en $T$
+  $$\\frac{x(t^{+})+x(t^{-})}{2}=\\sum_{n=-\\infty}^{\\infty}X_{n}e^{ in2\\pi t/T}$$
+  
+  Observacion: Si $X$ es derivable
+  
+  $$X(t) = \\sum_{n=-\\infty}^{\\infty}X_{n}e^{ in2\\pi t/T}$$
+  
+  ### Se demuestra con fourier
+  
+  $$\\frac{\\pi}{4}=\\sum_{n=-\\infty}^{\\infty}\\frac{(-1)^{n+1}}{2n-1}$$
+  
+  Usando 
+  $$ \\sum_{n=-\\infty}^{\\infty}\\frac{sin(nt)}{n} $$
+  
+  ### Convergencia uniforme 
+  
+  Pedimos el mismo $n$ para todo $t^{*}$
+  
+  Podemos conseguir el mismo error con el mismo $n$ en toda la funcion
+  
+  $X$ continua en $[to,to+T] \\; x(to)=x(to+T)$ -> convergencia uniforme
+  El resto de las hipotesis aseguran que converge al valor de la funcion
+  
+  
+  $x(t)=|t|$ $t$ $\\epsilon$ $(-\\pi,\\pi)$ -> aplica teorema de convergencia uniforme
+  
+  
+  $$x(t)=\\frac{\\pi}{2}-\\frac{4}{\\pi}\\sum_{n\\geq1}\\frac{cos((2n-1)t)}{(2n-1)^2}$$
+  converge uniformemente y al ritmo de $1/n^2$
+  
+  ### Derivación
+  
+  $$\\frac{x'(t^{+}) + x'(t^{-})}{2}=\\sum_{n \\neq 0}inw_{0}C_{n}e^{inw_{o}t}$$
+  
+  $$x'(t) = \\frac{4}{\\pi}\\sum_{n\\geq1}\\frac{sin( (2n-1)t) }{2n-1} $$
+  
+  ### Integracion
+  
+  $$\\int_{t_{0}}^{t}x(t)dt=c_{0}(t-t_{0})+\\sum_{n\\neq0}\\frac{c_{n}}{inw_{0}}(e^{inw_{0}t}-e^{inw_{0}t_{0}})$$
+  $$t \\; \\epsilon \\; [t_{0},t_{0}+T]$$
+  
+  
+  
+'''
+tags: []
+isStarred: false
+isTrashed: false
