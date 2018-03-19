@@ -1,5 +1,5 @@
 createdAt: "2018-03-19T12:03:03.758Z"
-updatedAt: "2018-03-19T12:59:45.701Z"
+updatedAt: "2018-03-19T13:54:04.635Z"
 type: "MARKDOWN_NOTE"
 folder: "e58a84a619a157cea5b5"
 title: "Notas clase 3/19/2018"
@@ -45,6 +45,69 @@ content: '''
   
   $$\\int_{t_{0}}^{t}x(t)dt=c_{0}(t-t_{0})+\\sum_{n\\neq0}\\frac{c_{n}}{inw_{0}}(e^{inw_{0}t}-e^{inw_{0}t_{0}})$$
   $$t \\; \\epsilon \\; [t_{0},t_{0}+T]$$
+  
+  
+  ### Transformada de Fourier
+  
+  Transformada de $x$ en $f$
+  
+  $$ F[x(t)](f) = X(f) = \\int_{-\\infty}^{\\infty}x(t)e^{-i2\\pi ft}dt$$
+  cuando esta integral existe
+  
+  Transformada inversa de $X(f)$ en $x$
+  
+  $$F^{-1}[X(f)](t) = \\int_{-\\infty}^{\\infty}X(f)e^{i2pif t}df$$ 
+  cuando esta integral existe
+  
+  $$x(t) \\sim \\int_{-\\infty}^{\\infty}X(f)e^{i2\\pi ft} df$$
+  
+  Para que exista ala transfoprmada pedimos que $x$ cumpla que
+  
+  $$\\int_{-\\infty}^{\\infty}|x(t)|dt < \\infty $$
+  
+  Si pasa eso, ademas $X(f)$ sera *uniformemente continua* 
+  
+  
+  ### Ejemplo
+  
+  $$X(e^{-a|t|}) =\\frac{2a}{a^2+4\\pi^2f^2}$$ 
+  (cuenta)
+  
+  ### Propiedad
+  Si $x$ es integrable, y cuadrado integrable, luego $X(f)$ es cuadrado integrable
+  
+  #### Vale la formula de Parseval
+  
+  si $x,y$ son cuadrado integrables
+  
+  $$\\int_{-\\infty}^{\\infty}x(t)y^*(t)dt=\\int_{-\\infty}^{\\infty}X(f)Y^*(f)df$$
+  
+  En particular, si $x=y$
+  
+  $$\\int_{-\\infty}^{\\infty}|x(t)|^2dt=\\int_{-\\infty}^{\\infty}|X(f))|^2df$$
+  
+  $$\\sum_{n}|X_{n}|^2=\\frac{1}{T}\\int_{t_{0}}^{t_{0}+T}|x(t)|^2dt$$
+  
+  Es decir, la transformada de fourier mantinene el concepto de energia
+  
+  ### Otro teorema
+  Si $x$ $\\epsilon$ $L^2$
+  $$\\lim_{L\\to \\infty}\\int_{-\\infty}^{\\infty}|x(t)-(\\int_{-L}^{L}X(f)e^{i2\\pi ft} dt)|^2 dt =0$$
+  
+  Si $x$ $\\epsilon$ $L'$ o $x$ $\\epsilon$ $L^2$
+  
+  $$\\frac{x(t^{+}) + t(2-)}{2}=\\int_{-\\infty}^{\\infty}X(f)e^{i 2\\pi f t}df$$
+  
+  ### Se corrige la definicion de transformada de Fourier para funciones generalizadas
+  
+  Sea $x$ una funcion generalizada, definimos su transformada
+  
+  $$F(x(t))(f)=\\langle X(f), \\phi(f) \\rangle = \\langle x(t) ,F(\\phi (t)\\rangle $$
+  
+  En princpio para $\\phi$ $\\epsilon$ $C_{0}^{\\infty}$ pero para las funciones que trabajamos se puede ampliar (ej: con la delta de Dirac)
+  
+  $$\\hat \\phi(t)=\\int_{-\\infty}^{\\infty}\\phi(f)e^{-i2\\pi ft} df$$
+  $$\\hat \\phi(0) = \\langle 1 , \\phi(t) \\rangle $$
   
   
   

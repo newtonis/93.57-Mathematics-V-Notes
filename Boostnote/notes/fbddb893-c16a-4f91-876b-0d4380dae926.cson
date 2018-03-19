@@ -1,5 +1,5 @@
 createdAt: "2018-03-19T02:03:33.866Z"
-updatedAt: "2018-03-19T02:03:36.589Z"
+updatedAt: "2018-03-19T13:01:16.011Z"
 type: "MARKDOWN_NOTE"
 folder: "58c175c2f5d0af47f676"
 title: "Formulas guia 1 y 2"
@@ -10,7 +10,7 @@ content: '''
   $$x' = \\gamma (x- vt)$$
   $$y' = y$$
   $$z' = z$$
-  
+  $$t' = (t-\\frac{v}{c^2}x)$$
   $$ \\gamma = \\frac{1}{\\sqrt{1-v^2/c^2}} $$
   
   ### Velocidad
