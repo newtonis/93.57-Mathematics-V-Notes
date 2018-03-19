@@ -1,75 +1,9 @@
 createdAt: "2018-03-15T20:17:18.185Z"
-updatedAt: "2018-03-19T22:35:55.464Z"
+updatedAt: "2018-03-19T23:14:14.038Z"
 type: "MARKDOWN_NOTE"
 folder: "58c175c2f5d0af47f676"
-title: "Ejercicio 3 guia 2  (rinaldi)"
+title: ""
 content: '''
-  ## Ejercicio 3 guia 2  (rinaldi)
-  
-  $$E_{0}=135 \\; MeV$$
-  $$K=1  \\; GeV$$
-  
-  Se pide calcular la energia de los fotones
-  (Nota: hay exceso de informacion)
-  
-  ## Inicialmente
-  Inicialmente hay una particula con una velocidad inicial
-  ## Finalmente
-  En el instante final hay dos fotones que salen en la misma direccion X pero en sentidos opuestos.
-  ## Observacion
-  En el examen no me dicen el sentido en el que salen los fotones
-  
-  
-  ## Continuamos la resolucion
-  
-  $$ E = E_{0} + k = 0.135 + 1 = 1.125 \\; GeV$$
-  - Por conservacion de $E$:
-  
-  $$E = E_{f1} + E_{f2}$$
-  
-  $$E_{f1} + E_{f2} = 1.135$$
-  Ecuacion 1
-  - Por conservacion de $\\vec{p}$:
-  
-  $$\\frac{\\sqrt{E^2-E_{0}^2}}{c}=\\frac{f_{1}}{c}+\\frac{f_{2}}{c}$$
-  
-  Por lo tanto siguiendo la resolucion
-  
-  $$\\sqrt{E^2-E_{0}^2} = \\sqrt{1.35^2-0.135^2}=1.127 \\; GeV $$
-  
-  Se llega a un absurdo y se deduce que van en sentido contrario
-  
-  $$E_{f1}-E_{f2}=1.135$$ 
-  Ecuacion 2
-  
-  De 1 y de 2 se deduce
-  
-  $$E_{f1}+E_{f2}=1.135$$
-  $$E_{f1}-E_{f2}=1.127$$
-  $$2E_{f1} = 2.262$$
-  $$E_{f1}=\\frac{2.262}{2}=1.131 Gev$$
-  $$E_{f2}=1.135-E_{f1}=1.135-1.131=0.004 GeV = 4 MeV$$
-  
-  ## Resolucion item B
-  
-  Hay un dibujo que hice en la carpeta de las situaciones inicial y final
-  
-  Por conservacion de $\\vec{E}$
-  
-  $$E_{f1}+E_{f2}=1.135$$
-  
-  Por conservacion de $\\vec{p}$
-  
-  Analizo el versor $\\hat j$
-  
-  $$0 = \\frac{E_{f1}}{c}sin{\\theta}-{\\frac{E_{f2}}{c}sin{\\theta}}$$
-  
-  $$E_{f1}=E_{f2}$$ 
-  Por lo tanto
-  $$2E_{f1}=1.135$$
-  
-  $$E_{f1}=\\frac{1.135}{2}=0.569 GeV$$
-  
   
   
 '''
@@ -77,4 +11,4 @@ tags: [
   "Ejprofesor"
 ]
 isStarred: false
-isTrashed: false
+isTrashed: true
