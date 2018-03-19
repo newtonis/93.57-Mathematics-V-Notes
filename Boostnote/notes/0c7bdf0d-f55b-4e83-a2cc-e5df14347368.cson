@@ -1,0 +1,48 @@
+createdAt: "2018-03-17T17:15:35.067Z"
+updatedAt: "2018-03-17T18:14:10.149Z"
+type: "MARKDOWN_NOTE"
+folder: "62b181bab41a3648ab47"
+title: "Formulas guia 1 y 2"
+content: '''
+  # Formulas guia 1 y 2
+  
+  ### Posición
+  $$x' = \\gamma (x- vt)$$
+  $$y' = y$$
+  $$z' = z$$
+  
+  $$ \\gamma = \\frac{1}{\\sqrt{1-v^2/c^2}} $$
+  
+  ### Velocidad
+  
+  $$u_{x}'=\\frac{u_{x}-v}{1-u_{x}v/c^2}$$
+  $$u_{y}'=\\frac{u_{y}}{\\gamma(1-u_{x}v/c^2)}$$
+  $$u_{z}'=\\frac{u_{z}}{\\gamma(1-u_{x}v/c^2)}$$
+  
+  ### Efecto Doppler relativista
+  
+  $$f_{obs}=f_{fuente}\\frac{\\sqrt{1+v/c}}{\\sqrt{1-v/c}}$$
+  
+  ### Cantidad de movimiento
+  
+  $$\\vec p=\\frac{m\\vec u}{\\sqrt{1-u^2/c^2}}$$
+  $$\\vec F = \\frac{d\\vec{p}}{dt}$$
+  $$\\vec F = q\\vec{v} \\times\\vec B$$
+  
+  ### Energía
+  
+  $$E = mc^2 + K = \\gamma mc^2$$
+  $$E^2=\\vec p^2c^2+(mc^2)^2$$
+  #### En fotones
+  $$E = pc$$
+  
+  #### En particulas
+  $$E_{i} = \\frac{m_{i}c^2}{\\sqrt{1-u_{i}^2/c^2}}$$
+  
+  
+  
+  
+'''
+tags: []
+isStarred: false
+isTrashed: false

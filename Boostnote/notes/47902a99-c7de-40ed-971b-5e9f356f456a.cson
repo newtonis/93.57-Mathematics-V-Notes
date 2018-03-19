@@ -1,0 +1,120 @@
+createdAt: "2018-03-15T13:13:16.870Z"
+updatedAt: "2018-03-15T14:39:34.742Z"
+type: "MARKDOWN_NOTE"
+folder: "82bec2fdf2f2d22d3517"
+title: "Repaso"
+content: '''
+  ### Repaso
+  $E$: Experimento aleatorio
+  $S$: Espacio muestral
+  
+  $$X:S \\to R_{x}$$
+  $$p_{k}=P(X=x_{k})$$
+  $$F(x)=\\sum_{X_{k}\\leq x} p_{k}$$
+  $$E(x)=\\sum_{R_{x}} x_{k}p_{k}$$
+  $$V(X)=E(X^2)-E(X)^2$$
+  
+  ### Distribucion hipergeometrica
+  $$X \\to H(N,R,n)$$
+  $X$: # de objetos de la clase I en la muestra
+  
+  
+  $$P(X=r) = \\frac{\\binom{R}{r}*\\binom{N-R}{n-r}} {\\binom{N}{n}}$$
+  
+  $$V(x)=n(\\frac{R}{N})(1-\\frac{R}{N})(\\frac{N-n}{N-1})$$
+  
+  $$E(x)=\\frac{nR}{N}$$
+  $$r \\; \\epsilon \\; ( max(0,n-N+R), ... , min(R,n) )$$
+  
+  $n=N$: "censo"
+  
+  $$r \\geq n-N+R$$
+  $$R \\geq 0 $$
+  
+  
+  ### Distribución binomial
+  
+  $$X \\to Bin(n,p)$$
+  
+  $$P(X=r)= \\binom{n}{r}p^r(1-p)^{(n-r)}$$
+  
+  $$r \\; \\epsilon \\;(0,1,...,n)$$
+  
+  $$E(x)=np$$
+  $$V(x)=np(1-p)$$
+  
+  ### Ejemplo
+  
+  $E:$ experimento aleatorio
+  
+  $$P(A)=p, \\; \\;A \\subset S $$
+  
+  $n$ repeticiones *Independientes* de $E$ 
+  $X:$ Numero de exitos en las $n$ repeticiones
+  $$P(X=r)=\\binom{n}{r}p^{r}(1-p)^{n-r} , r \\; \\epsilon (0,1,...,n)$$ 
+  
+  ### Notas
+  - Cuando N >> n luego tanto muestrear con o sin reemplazo es equivalente.
+  - Con reemplazo es mas facil de analizar
+  
+  ### Distribucion geométrica
+  
+  $$X: Geom(p)$$
+  
+  $E$: Experimento aleatorio
+  $$A \\subset S , P(A)=p$$
+  
+  Repeticiones independientes de $E$
+  $X:$ Numero de repeticiones de E hasta la primera ocurrencia de A
+  
+  $$P(X=1) = p$$
+  $$P(X=2) = (1-p)p$$
+  $$P(X=3) = (1-p)^2p$$
+  $$...$$
+  $$P(X=r) = (1-p)^{(r-1)}p , \\; \\; r \\; \\epsilon \\; N$$
+  
+  Nota: es una variable infinita
+  
+  $$\\sum_{r=1}^{\\infty}(1-p)^{(r-1)}p=p\\sum_{r=1}^{\\infty}(1-p)^{(r-1)}=1$$
+  $$E(X)=\\frac{1}{p}$$
+  $$V(x)=\\frac{1-p}{p^2}$$
+  
+  ### Demostracion esperanza
+  
+  $$|q|<1$$
+  $$\\sum_{k=0}^{\\infty}q^{k}=\\frac{1}{1-q}$$
+  derivamos
+  $$\\sum_{k=0}^{\\infty}kq^{(k-1)}=\\sum_{k=1}^{\\infty}kq^{(k-1)}=\\frac{1}{(1-q)^2}$$
+  Y haciendo un cambio de variable en E(x) queda
+  Ademas
+  $$\\sum_{r=0}^{n}\\binom{n}{r}p^r(1-p)^{(n-r)} = (p+(1-p))^n=1$$ 
+  (formula 1)
+  Por lo tanto es una genuina funcion de probabilidad
+  
+  si $p = 0.5$ observar
+  $$P(X=r) = \\binom{n}{r} 0.5^n$$
+  y tambien
+  $$\\binom{n}{r}=\\binom{n}{n-r}$$
+  por lo tanto
+  $$P(X=r) = P(X=n-r)$$
+  (Simetria combinatorios)
+  $$E(x)=\\sum_{r=0}^{n}r\\binom{n}{r}p^r(1-p)^{(n-r)}$$ 
+  $$ = \\sum_{r=1}^{n}r\\frac{n!}{r!(n-r)!}p^r(1-p)^{(n-r)}=\\sum_{r=1}^{n}\\frac{n(n-1)!}{(r-1)!((n-1)-(r-1)!)}pp^{r-1}(1-p)^{(n-1)-(r-1)}$$
+  
+  $$=np \\sum_{k=0}^{n-1}\\frac{(n-1)!}{(k!)(n-1-k)!}p^k(1-p)^{(n-1)-k}$$
+  Observar que el primer factor es un numero combinatorio para simplificar
+  $$=np\\sum_{k=0}^{n-1}\\binom{n-1}{k}p^k(1-p)^{(n-1)-k}= np$$ 
+  (Acabamos de usar la formula 1)
+  
+  Para $E(x^2)$ considerar $k^2=k(k-1)+k$
+  
+  ### Mas notas
+  - Probability distributions: Aplicacion de celular
+  
+  - Ensayo de bernoulli Toma 1 o 0 (exito o fracaso)
+  
+  
+'''
+tags: []
+isStarred: false
+isTrashed: false

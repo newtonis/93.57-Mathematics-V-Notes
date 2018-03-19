@@ -1,0 +1,32 @@
+createdAt: "2018-03-15T19:53:29.937Z"
+updatedAt: "2018-03-15T20:08:13.468Z"
+type: "MARKDOWN_NOTE"
+folder: "58c175c2f5d0af47f676"
+title: " Cinematica relativista "
+content: '''
+  <h1> Cinematica relativista </h1>
+  
+  $$x'=\\gamma(x-vt)$$
+  $$y'=y$$
+  $$z'=z$$
+  $$t'=\\gamma(t-\\frac{vx}{c^2})$$
+  $$\\gamma=\\frac{1}{\\sqrt{1-\\frac{v^2}{c^2}}}$$
+  
+  
+  <h1> Comentarios </h1>
+  
+  - No hacer esto: 
+  
+  $$\\frac{m_{o}c^2\\gamma}{2}$$
+  
+  - Evitar pasar por el $\\gamma$ si es posible cuando se usan estas expresiones
+  
+  $$E = m_{0}c\\gamma$$
+  $$E = K + E_{0}$$
+  $$p = \\sqrt{ \\frac{E^2-E_{0}^2}{c} }
+  
+  
+'''
+tags: []
+isStarred: false
+isTrashed: false

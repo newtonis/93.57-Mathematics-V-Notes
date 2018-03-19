@@ -1,0 +1,35 @@
+createdAt: "2018-03-15T19:58:22.869Z"
+updatedAt: "2018-03-15T20:17:14.821Z"
+type: "MARKDOWN_NOTE"
+folder: "58c175c2f5d0af47f676"
+title: "Ejercicio 4 guia 2"
+content: '''
+  ### Ejercicio 4 guia 2
+  
+  $$E_{OA}=m_{0}c^2$$
+  $$k_{1}=2m_{0}c^2$$
+  $$E_{OB}=m_{0}c^2$$
+  
+  Por conservacion de $E$
+  
+  $$E_{A} + E_{OB} = E_{c}$$
+  $$m_{0}c^2+2m_{0}c^2+2m_{0}c^2=E_{c}$$
+  $$E_{c}=5m_{0}c^2$$
+  
+  Por conservacion de $\\vec{p}$
+  
+  $$p_{a}=p_{c}$$
+  $$\\sqrt{\\frac{E_{A}^2-E_{OA}^2}{c}}=\\sqrt{\\frac{E_{c}^2-E_{OC}^2}{c} }$$
+  
+  $$(3m_{o}c^2)^2 - (m_{0}c)^2 = (5m_{0}c^2)^2 - (M_{0}c^2)^2$$
+  
+  $$m_{0}^2c^4-m_{0}^2c_{4} = 25m_{0}^2c^4 - M_{0}^2c^{4}$$
+  
+  $$M_{0}^2=25m_{0}^2-9m_{0}^2+m_{0}^2=17m_{0}^2$$
+  $$M_{0}=\\sqrt{17}M_{0}$$
+  
+  
+'''
+tags: []
+isStarred: false
+isTrashed: false
