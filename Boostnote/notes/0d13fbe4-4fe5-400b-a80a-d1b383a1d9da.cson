@@ -1,0 +1,20 @@
+createdAt: "2018-03-15T02:35:00.050Z"
+updatedAt: "2018-03-15T02:42:07.749Z"
+type: "MARKDOWN_NOTE"
+folder: "e58a84a619a157cea5b5"
+title: "TeX support"
+content: '''
+  # TeX support
+  $$$ 1 + \\frac{q^2}{(1-q)}+\\frac{q^6}{(1-q)(1-q^2)}+\\cdots = \\prod_{j=0}^{\\infty}\\frac{1}{(1-q^{5j+2})(1-q^{5j+3})}, \\quad\\quad \\text{for }\\lvert q\\rvert<1. $$$
+  
+  ## inline math
+  This $$\\begin{Bmatrix}
+     a & b \\\\
+     c & d
+  \\end{Bmatrix}$$ is a matrix
+'''
+tags: [
+  "formulas"
+]
+isStarred: false
+isTrashed: true
