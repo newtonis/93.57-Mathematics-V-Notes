@@ -1,0 +1,183 @@
+createdAt: "2018-03-19T18:35:29.120Z"
+updatedAt: "2018-03-19T21:25:52.780Z"
+type: "MARKDOWN_NOTE"
+folder: "e58a84a619a157cea5b5"
+title: "Formulas Nelly 3/19/2018"
+content: '''
+  ## Formulas Nelly 3/19/2018
+  
+  #### Convergencia en media cuadratica
+  
+  $$dist^2(f,S_{n}(f)) = \\lim_{n\\to\\infty}||f-S_{n}(f)||^2=0$$
+  
+  #### Convergencia puntual
+  
+  Se pide $f$ contiinua a trozos en $[a,b]$, y que en cada punto existan derivadas laterales finitas
+  
+  La convergencia puntual nos dice que vale que 
+  
+  $$S_{n}(t)\\to\\frac{f(t^{+})+f{(t^{-})}}{2}$$ 
+  conforme $n \\to \\infty$
+  En particular si f es continua en $R$, $S_{n}(t)\\to f(t)$
+  
+  #### Nota 1 sobre convergencia puntual de la Serie
+  $f'$ continua a trozos en $[a,b]$ es equivalente a decir que en cada punto existe derivadas laterales finitas.
+  (existen $f(x^{+})$ y $f(x^{-})$). (Hipotesis para condiciones de Dirichlet)
+  
+  #### Convergencia uniforme
+  En un intervalo $I = [a,b]$
+  Se necesitan dos condiciones para que haya convergencia uniforme en $I$ de la serie
+  $f$ continua en $I$
+  $f'$ continua a trozos en $I$
+  Convergencia uniforme $\\to$ convergencia absoluta
+  $|S_{n}(t)-f(t)|| \\leq \\alpha_{n} \\to 0$ conforme $n\\to 0$ $\\forall t$ $\\epsilon$ $I$
+  
+  #### Nota 2 sobre convergencia uniforme de la serie
+  Convergencia uniforme implica convergencia puntual y convergencia en media cuadratica
+  
+  
+  ### Notas sobre derivación de la serie de Fourier
+  
+  Se pide $f$ continua en $I$, $f'$ continua a trozos en $I$
+  La derivacion nos dice que
+  $$f'(t) \\sim \\sum_{n=1}^{\\infty}f_{n}'(t)$$ 
+  Notar que la convergencia que existe no es necesariamente uniforme, por lo tanto en princpio no podemos decir nada de la continuidad de $f'$
+  
+  Notar $f''(t_{0}^{-})$,$f''(t_{0}^{+})$ existen en cada punto 
+  
+  ### Conserguir serie de fourier teniendo la exponencial
+  
+  
+  Si $f$ real : $c_{n} = c_{-n} , \\forall n \\; \\epsilon \\; Z$
+  
+  $$c_{0}=a_{0}$$
+  
+  $$Re(c_{n})=\\frac{1}{T} \\int_{t_{0}}^{t_{0}+T}f(t)cos(2\\pi nt /T)dt= \\frac{a_{n}}{2} $$
+  
+  $$Im(C_{n})= -\\frac{1}{T} \\int_{t_{0}}^{t_{0}+T}f(t)sin(2n\\pi t/T)= -\\frac{b_{n}}{2}$$
+  
+  $$c_{n} = \\frac{a_{n}-ib_{n}}{2}$$
+  
+  #### Nota 3
+  A veces tengo la serie de fourier pero necesito cambiarle el periodo sin calcular denuevo la serie
+  
+  Sea $x(t)$ periodica de periodo T
+  $$x(t) \\to {X_{n}} ,n \\; \\epsilon \\; Z$$
+  $$x(t) \\sim X_{n}e^{i2n \\pi t/T}$$
+  
+  Suponemos $y(t)=x(at)$, el periodo de $y$ es $\\frac{T}{a}$ (se demuestra facil)
+  
+  Ahora tenemos que hallar los coeficientes de $y(t)$ en terminos de $X_{n}$
+  
+  $$Y_{n}=\\frac{a}{T}\\int_{0}^{T/a}y(t)e^{-i2n\\pi a t/T}dt=\\frac{a}{T}\\int_{0}^{T/a}x(at)*e^{-i2n \\pi a t / T}dt$$
+  
+  $$Y_{n}=\\frac{1}{T}\\int_{0}^{T}x(t)e^{-i2n \\pi t/T}dt = X_{n}$$
+  
+  #### Ejercicio 17-b
+  Fue modificado por Nelly
+  $$w(t)= x(t)e^{i 2\\pi kf_{0}t}$$
+  $$f_{0}=1/T_{0}$$
+  $x$ periodica de periodo $T_{0}$
+  $k$ $\\epsilon$ $Z$
+  $W_{n}$ en terminos de $X_{n}$
+  
+  
+  #### Comentario sobre Laplace
+  
+  $$Z(t) = x(t)cos(2 pi k f_{0} t) \\; k \\epsilon Z$$ 
+  encuentr los coeficientes de $Z$ en funcion de los $X$
+  
+  $$Z(t) = \\frac{1}{2}x(t)[e^{i2k \\pi f_{0} t} + e^{-i 2 k \\pi f_{0} t}]$$
+  
+  $$z_{n} = \\frac{1}{2} [X_{n-k} +X_{n-k}]$$
+  
+  #### Simetria de media onda
+  
+  $X$ periodica, periodo $T$, tiene simetria de media onda si
+  
+  $$x(t+\\frac{T}{2})=-x(t), \\forall t$$
+  
+  Se enuncia entonces la propiedad
+  $$X(t+\\frac{T}{2})=-X(t) \\implies X_{2n}=0$$
+  
+  La demostracion, es un ejercicio de mate 1
+  
+  Necesitamos ver que 
+  
+  $$\\int_{0}^{T}x(t)e^{-i4n\\pi f_{0}t}dt=0$$
+  La partimos, 
+  
+  $$= \\underbrace{\\int_{0}^{T/2}x(t)e^{-i4n \\pi f_{0} t}dt}_{(1)} + \\underbrace{\\int_{T/2}^{T}x(t)e^{-i4n \\pi f_{0} t} dt}_{(2)}$$
+  Y hacemos un cambio de variable con (2), $t^{*}=t-T/2$
+  $$(2) = \\int_{0}^{T/2}x(t^{*}+T/2)e^{-i4 n \\pi f_{0}(t^{*}+T/2)}dt^{*}$$
+  $$= \\int_{0}^{T/2}-x(t)e^{-i4 \\pi n f_{0}t}\\underbrace{e^{-i 2 n \\pi}}_{=1} dt$$
+  
+  por lo tanto $(2)=-(1)$
+  
+  #### Ejercicio 21
+  
+  Encontrar las series de fourier de $\\delta_{T}$ y ${\\delta_{T'}}$
+  
+  $$\\delta_{T}=\\sum_{n=-\\infty}^{\\infty} \\delta(t-nT)$$
+  
+  Serie exponencial de fourier
+  
+  $$X_{n}=\\frac{1}{T}\\underbrace{\\int_{-T/2}^{T/2}\\delta_{T}(t)e^{-i2n \\pi t/T}dt}_{=1}$$
+  
+  $$X_{n}=\\frac{1}{T}\\int_{-T/2}^{T/2}\\underbrace{\\sum_{k=-\\infty}^{\\infty}\\delta(t-kT)}_{\\delta_{t}(t)}e^{-i2n \\pi t / T}dt$$
+  
+  $$X_{n} = \\frac{1}{T} \\sum_{k=-\\infty}^{\\infty} \\underbrace{\\int_{-T/2}^{T/2} \\delta (t-kT)e^{-i2n \\pi t/T  }}_{(1)}$$
+  
+  $$(1)=\\begin{cases} 0 & k\\neq 0 \\\\ 1 & k=0 \\end{cases}$$
+  
+  $$\\delta_{T}(t) \\underbrace{=}_{?}\\sum_{n=-\\infty}^{\\infty} \\frac{1}{T}e^{i2 n \\pi t / T}$$
+  $? \\to$ en que sentido? Delta es una funcion generalizada, no tiene sentido pensar en su convergencia sobre puntos, sino en el sentido generalizado
+  
+  $$X_{n}=\\frac{1}{T}$$
+  
+  $$|X_{n}|=\\frac{1}{T} \\to 0 $$ 
+  (no pasa)
+  
+  #### Nota
+  
+  $$x(t) \\to X_{n}$$
+  $$x'(t) \\to Y_{n}=(in 2 \\pi f_{0})X_{n}$$
+  $$...$$
+  $$x^{k}(t) \\to (i2n \\pi f_{0})^{k}X_{n}$$
+  
+  $$Y_{n}=\\frac{1}{T}\\int_{0}^{T}x'(t)e^{-i2n \\pi f_{0}t}dt$$
+  
+  $$Y_{n}= \\frac{1}{T}x(t)e^{-i2 n \\pi f_{0}t}|_{0}^{T} + \\frac{1}{T} \\int_{0}^{T}x(t)(i2n \\pi f_{0})e^{-i2n \\pi f_{0} t} $$
+  
+  $$= \\frac{1}{T}\\underbrace{px(t)e^{-i2 n \\pi} - x(0)]}_{=0}+ (i2n \\pi f_{0})\\underbrace{\\frac{1}{T}\\int_{0}^{T}x(t)e^{-i2 n \\pi f_{0} t}dt}_{X_{n}}$$
+  
+  Por lo tanto
+  
+  $$\\delta_{T} (t)=\\frac{1}{T} + \\sum_{n=1}^{\\infty}\\frac{2}{T}cos(\\frac{2n \\pi t}{T})$$
+  #### Correccion ejercicio 14
+  
+  Dice ${a_{n}^2+b_{n}^2}$
+  
+  #### Ejercicio 10
+  
+  $$x_{1}(t)=\\sum_{n=\\infty}^{\\infty}\\frac{1}{1+in \\pi}e^{i(3n \\pi t/2)}$$
+  
+  La respuesta del item A es
+  $$T_{0}= \\frac{4}{3}$$
+  
+  EL item B pide el valor medio de $X_{1}(t)$ en $[0,T_{0}]$ , $X_{0}=1$
+  
+  El item C pregunta si tiene  algun tipo de simetria, lo tiene?
+  
+  $$X_{n}=\\frac{1}{1+in\\pi}=\\frac{1-in\\pi}{1+n^2\\pi^2}$$
+  Notar
+  $$\\begin{cases}Re(X_{n})\\neq 0 \\to no\\;impar\\\\ Im(X_{n}) \\neq 0\\to no\\;par \\\\ X_{2n}=0 \\to no\\;sim\\;de\\;media\\;onda\\end{cases}$$
+  
+  $$X_{n}=\\frac{1}{1-in\\pi}=X_{n}^{*}$$
+  Por lo tanto por propiedad
+  
+  $x_{1}(t)$ es real
+'''
+tags: []
+isStarred: false
+isTrashed: false

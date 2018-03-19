@@ -1,5 +1,5 @@
 createdAt: "2018-03-15T13:13:16.870Z"
-updatedAt: "2018-03-19T02:04:17.207Z"
+updatedAt: "2018-03-19T14:06:24.934Z"
 type: "MARKDOWN_NOTE"
 folder: "82bec2fdf2f2d22d3517"
 title: "Clase 3/15/2018"
@@ -11,7 +11,7 @@ content: '''
   $$X:S \\to R_{x}$$
   $$p_{k}=P(X=x_{k})$$
   $$F(x)=\\sum_{X_{k}\\leq x} p_{k}$$
-  $$E(x)=\\sum_{R_{x}} x_{k}p_{k}$$
+  $$E(X)=\\sum_{R_{x}} x_{k}p_{k}$$
   $$V(X)=E(X^2)-E(X)^2$$
   
   ### Distribucion hipergeometrica
@@ -23,7 +23,7 @@ content: '''
   
   $$V(x)=n(\\frac{R}{N})(1-\\frac{R}{N})(\\frac{N-n}{N-1})$$
   
-  $$E(x)=\\frac{nR}{N}$$
+  $$E(X)=\\frac{nR}{N}$$
   $$r \\; \\epsilon \\; ( max(0,n-N+R), ... , min(R,n) )$$
   
   $n=N$: "censo"
