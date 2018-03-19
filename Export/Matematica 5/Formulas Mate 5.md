@@ -1,0 +1,50 @@
+(Ariel Nowik: anowik@itba.edu.ar )
+# Formulas Mate 5
+
+## Integrales delta de Dirac
+
+Sea $f$ continua a trozos, continua en $t_{0}$
+
+$$\int_{-\infty}^{\infty}\delta(t-t_{0})f(t)dt=f(t_{0}) $$
+
+$$\int_{-\infty}^{\infty}\delta^{(n)}(t-t_{0})f(t)dt=(-1)^n\int_{-\infty}^{\infty}\delta(t-t_{0})f^{(n)}(t)dt$$
+
+
+$$\int_{a}^{b}\delta(t-t_{0})f(t)dt  = \begin{cases}
+f(t_{o}), & a< t_{0}< b \\
+0 & t_{0} <a \lor t_{0} >b \\
+?? & sino
+\end{cases}
+ $$
+ 
+ ## Fourier
+
+### Serie trigonometrica
+
+Sea $X(t)$ periodica de periodo $T$, frecuencia $f_{0}$
+
+$$w_{n}=2\pi f_{0}n=w_{0}n$$
+
+$$x(t) \sim a_{0} +\sum_{n=1}^{\infty}a_{n}cos(w_{n}t)+b_{n} sin(w_{n}t)$$
+
+Donde
+$$\begin{cases} a_{0}=1/T \int_{t_{0}}^{t_{0}+T}x(t)dt \\
+a_{n}=2/T \int_{t_{0}}^{t_{0}+T}x(t)cos(w_{n}t)dt \\
+b_{n}=2/T \int_{t_{0}}^{t_{0}+T}x(t)sin(w_{n}t)dt\end{cases}$$
+
+#### Parseval
+
+$$2|a_{0}|^2+\sum_{n=1}^{\infty}|a_{n}|^2+|b_{n}|^2=\frac{2}{T}\int_{t_{0}}^{t_{0}+T}|x(t)|^2dt$$
+
+### Serie exponencial
+
+$$x(t) \sim \sum_{n=-\infty}^{\infty}X_{k}e^{iw_{n}t}$$
+
+#### Parseval
+
+$$\sum_{k=-\infty}^{\infty}|X_{k}|^2=\frac{1}{T}\int_{to}^{to+T}|x(t)|^2dt$$
+
+### Formula util
+
+$$c_{j}=\frac{\langle v,\phi_{j}\rangle}{||\phi_j||^2}$$
+

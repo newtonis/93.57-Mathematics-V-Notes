@@ -1,5 +1,5 @@
 createdAt: "2018-03-18T20:34:39.692Z"
-updatedAt: "2018-03-18T21:57:08.738Z"
+updatedAt: "2018-03-19T22:36:25.459Z"
 type: "MARKDOWN_NOTE"
 folder: "e58a84a619a157cea5b5"
 title: "Formulas Mate 5"
@@ -56,6 +56,8 @@ content: '''
   
   
 '''
-tags: []
+tags: [
+  "Formulas"
+]
 isStarred: false
 isTrashed: false

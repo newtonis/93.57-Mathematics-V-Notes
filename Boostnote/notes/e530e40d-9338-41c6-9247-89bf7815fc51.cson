@@ -1,5 +1,5 @@
 createdAt: "2018-03-19T12:03:03.758Z"
-updatedAt: "2018-03-19T18:56:13.725Z"
+updatedAt: "2018-03-19T22:36:48.874Z"
 type: "MARKDOWN_NOTE"
 folder: "e58a84a619a157cea5b5"
 title: "Notas clase 3/19/2018"
@@ -74,11 +74,11 @@ content: '''
   (cuenta)
   
   ### Propiedad
-  Si $x$ es integrable, y cuadrado integrable, luego $X(f)$ es cuadrado integrable
+  Si $x$ es integrable, y cuadrado integrable, luego $X(f)$ $\\epsilon$ $L^2$
   
   #### Vale la formula de Parseval
   
-  si $x,y$ son cuadrado integrables
+  si $x,y$ $\\epsilon$ $L^2$
   
   $$\\int_{-\\infty}^{\\infty}x(t)y^*(t)dt=\\int_{-\\infty}^{\\infty}X(f)Y^*(f)df$$
   
@@ -112,6 +112,8 @@ content: '''
   
   
 '''
-tags: []
+tags: [
+  "Teoricas"
+]
 isStarred: false
 isTrashed: false

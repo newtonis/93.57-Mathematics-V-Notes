@@ -1,5 +1,5 @@
 createdAt: "2018-03-18T21:11:35.484Z"
-updatedAt: "2018-03-18T21:17:32.171Z"
+updatedAt: "2018-03-19T22:36:28.927Z"
 type: "MARKDOWN_NOTE"
 folder: "e58a84a619a157cea5b5"
 title: "Identidades"
@@ -11,6 +11,8 @@ content: '''
   
   
 '''
-tags: []
+tags: [
+  "Formulas"
+]
 isStarred: false
 isTrashed: false

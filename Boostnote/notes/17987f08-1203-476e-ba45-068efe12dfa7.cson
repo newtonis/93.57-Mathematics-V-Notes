@@ -1,5 +1,5 @@
 createdAt: "2018-03-15T20:17:18.185Z"
-updatedAt: "2018-03-19T02:05:00.709Z"
+updatedAt: "2018-03-19T22:35:55.464Z"
 type: "MARKDOWN_NOTE"
 folder: "58c175c2f5d0af47f676"
 title: "Ejercicio 3 guia 2  (rinaldi)"
@@ -73,6 +73,8 @@ content: '''
   
   
 '''
-tags: []
+tags: [
+  "Ejprofesor"
+]
 isStarred: false
 isTrashed: false

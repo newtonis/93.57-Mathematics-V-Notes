@@ -1,5 +1,5 @@
 createdAt: "2018-03-15T20:55:26.879Z"
-updatedAt: "2018-03-19T02:04:52.336Z"
+updatedAt: "2018-03-19T22:35:56.743Z"
 type: "MARKDOWN_NOTE"
 folder: "58c175c2f5d0af47f676"
 title: "Ejercicio 1 guia 2 (rinaldi)"
@@ -55,6 +55,8 @@ content: '''
   $$d2 = 120 - 5.8 = 114.2 km$$ 
   (sobre el nivel del mar)
 '''
-tags: []
+tags: [
+  "Ejprofesor"
+]
 isStarred: false
 isTrashed: false
