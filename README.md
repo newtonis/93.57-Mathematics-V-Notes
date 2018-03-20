@@ -8,6 +8,6 @@
 
 #### Organización
 
-- export: Ahi estan los pdf
+- Export: Ahi estan los pdf
 - Boostnote: Ahi esta el codigo de los archivos, editables usando Boostnote
 
