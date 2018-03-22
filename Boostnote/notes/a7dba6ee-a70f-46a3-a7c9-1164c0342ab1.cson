@@ -1,0 +1,105 @@
+createdAt: "2018-03-20T15:10:58.069Z"
+updatedAt: "2018-03-20T15:53:50.513Z"
+type: "MARKDOWN_NOTE"
+folder: "82bec2fdf2f2d22d3517"
+title: "Clase 3/20/2018"
+content: '''
+  ### Clase 3/20/2018
+  
+  
+  $$R_{x}=\\begin{cases} un\\;intervalo\\;real \\\\ union\\;de\\;intervalos\\;reales \\end{cases}$$
+  
+  $\\implies$ $X$ es una variable aleatoria continua
+  
+  Ya no ocurre que $x$ $\\epsilon$ $R_{x}$ sino que $x$ $\\epsilon$ $R$
+  Vale que
+  $$P(X=x)=0$$
+  Se define
+  $$P(X \\;\\epsilon\\;(c,d)) = \\int_{c}^{d}f_{x}(x)dx$$
+  
+  ### Funcion densidad de probabilidad
+  $f_{x}(x)$ : Se la llama funcion **densidad de probabilidad**
+  
+  Cumple tres cosas
+  $$f_{x}(x) \\geq 0 \\; \\forall x \\; \\epsilon \\; R$$
+  
+  $$P(x \\epsilon R)=P(-\\infty<X<\\infty)=1$$
+  
+  $$\\int_{-\\infty}^{\\infty}f(x)dx=1$$
+  (los Intervalos de la integral podrian ser finitos)
+  
+  Si valen estas caractersiticas nos permiten decir que la funcion es una **Genuina funcion de probabilidad**
+  
+  
+  ##### Ejemplo
+  
+  $$f_{x}(x)=(1-|x|)I_{(-1,1)}(x)$$
+  
+  Donde
+  
+  $$I_{(a,b)}=\\begin{cases}1 & x \\; \\epsilon \\; (a,b) \\\\ 0 & sino  \\end{cases}$$
+  Se la llama **funcion caracteristica del intervalo (a,b)**
+  
+  ### Funcion de distribucion de X
+  
+  Se define funcion de distribucion de $X$ a 
+  $$F_{x}(x)=P(X<=x)=\\int_{-\\infty}^{x}f_{x}(t)dt$$
+  
+  No vemos casos donde la funcion F tenga un salto infinito
+  
+  #### Propiedad
+  
+  Por el teorema fundamental del calculo integral vale que
+  $$F'_{x}(x)=f_{x}(x) $$
+  $f_{x}$ Es continua en $x$
+  
+  #### Aclaracion
+  
+  Esta propiedad nos permite decir que vale que 
+  
+  $$P(X \\;\\epsilon\\;(c,d)) = \\int_{c}^{d}f_{x}(x)dx = F_{x}(d) - F_{x}(c)$$
+  
+  
+  #### Definicion de distribucion uniforme
+  Se dice que x $X$ tiene distribucion uniforme, que se nota como
+  $$X \\sim U(a,b)$$
+  cuando
+  $$f_{x}(x) = C I_{(a,b)}(x)$$
+  Donde C es una constante
+  
+  Geometricamente se puede ver que
+  $$C=\\frac{1}{b-a}$$
+  Ya que la integral sobre $(-\\infty,\\infty)$ debe dar 1
+  
+  $$F_x(x)= \\begin{cases} 0 & x \\leq a \\\\ \\frac{x-a}{b-a} & a<x<b \\\\ 1 & b \\leq x
+  \\end{cases}$$
+  
+  ### Definicion de distribucion exponencial
+  $X$ tiene distribucion exponencia, que se nota como
+  
+  $$ X \\sim Exp(b) \\;\\;\\; b>0$$
+  Cuando
+  $$ f_{x}(x)=Ce^{-bx}I_{(0,+\\infty)}=\\begin{cases}Ce^{-bx} & x > 0 \\\\ 0 & x \\leq 0 \\end{cases} $$
+  
+  Grafico sencillo.
+  Necesitamos hallar $C$, para ello notar que vale que
+  
+  $$\\int_{0}^{\\infty}Ce^{-bx}(x)dx=1$$
+  
+  Resolviendo la integral
+  
+  $$\\lim_{A \\to \\infty}\\int_{0}^{A}Ce^{-bx}dx=1$$
+  $$\\lim_{A \\to \\infty}\\frac{-C}{b}( \\underbrace{e^{-bA}}_{\\to 0} -1)=1 \\implies C=b$$
+  
+  $$F_{x}(x)=\\begin{cases} 0 & x \\leq 0 \\\\ \\int_{0}^{x}be^{-bx}dx=1-e^{-bx} & x > 0 \\end{cases} $$
+  
+  En 0 la funcion es continua pero no derivable
+  Las rectas tangentes de $F_x$ y $f_x$ en $x=0$ cortan al eje $X$ en $\\frac{1}{b}$
+  
+  Si aumenta la altura se hace mas angosta la zona de la funcion ya que la integral de la funcion debe ser 1
+  
+  
+'''
+tags: []
+isStarred: false
+isTrashed: false

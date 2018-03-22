@@ -1,0 +1,156 @@
+createdAt: "2018-03-22T13:08:22.596Z"
+updatedAt: "2018-03-22T13:51:49.693Z"
+type: "MARKDOWN_NOTE"
+folder: "82bec2fdf2f2d22d3517"
+title: "Clase 3/22/2018"
+content: '''
+  ### Clase 3/22/2018
+  
+  
+  Si X es V.A.C. 
+  #### Algunas definiciones de repaso
+  
+  $$R_{x} = (a,b) \\; o \\; R_{x}= \\cup_{i}(a_i,b_i)$$
+  
+  Se denomina $f_x(x)$ funcion densidad de probabilidad
+  
+  Se define
+  $$P(X \\epsilon (c,d))=\\int_{c}^{d}f_x(x)dx=F_x(d)-F_x(c)$$
+  
+  Por otro lado vale que
+  
+  $$\\begin{cases} f_x(x) \\geq 0 & \\forall x \\epsilon R \\\\ \\int_{-\\infty}^{\\infty} f_x(x) dx=1 \\end{cases}$$
+  
+  Se define
+  
+  $$F_x(x)=\\int_{-\\infty}^{\\infty}f_x(t)dt$$
+  
+  #### Valor esperado
+  
+  $$E_x= \\int_{-\\infty}^{\\infty} xf_x(x)dx$$
+  
+  En general
+  
+  $$E(G(X))=\\int_{-\\infty}^{\\infty}G(x)f_x(x)dx$$
+  
+  #### Varianza
+  
+  $$V(X)=E(X^2)-(E(X))^2=\\int_{-\\infty}^{\\infty}x^2f_x(x)dx-(E(X))^2$$
+  
+  
+  #### Si X tiene distribucion uniforme vemos algunas cosas que suceden
+  
+  Es decir, si 
+  $$X \\sim U(a,b)$$
+  $$ X \\sim Exp(b) \\;\\;\\; b>0$$
+  Cuando
+  $$ f_{x}(x)=Ce^{-bx}I_{(0,+\\infty)}=\\begin{cases}Ce^{-bx} & x > 0 \\\\ 0 & x \\leq 0 \\end{cases} $$
+  entonces vale que
+  
+  $$E(x)=\\int_{a}^{b}\\frac{xdx}{a-b}=\\frac{b^2-a^2}{2(b-a)}=\\frac{a+b}{2}$$
+  
+  $$V(X)=\\int_{a}^{b}\\frac{x^2dx}{b-a}-\\frac{b^3-a^3}{3(b-a)}=\\frac{b^3-a^3}{3(b-a)}-\\frac{(a+b)^2}{4}=\\frac{(b-a)^2}{12}$$
+  
+  $$\\sigma(X)=\\sqrt{V(X)}=\\frac{b-a}{\\sqrt{12}}\\approx 0.289(b-a)$$
+  
+  
+  #### Un caso facil, funcion triangular
+  
+  
+  
+  $$f_{x}(x)=(1-|x|)I_{(-1,1)}(x)$$
+  
+  $$E(X)=0$$
+  $$V(X)=E(X^2)=2\\int_{0}^{1}x^2(1-x)dx=2(\\frac{1}{3}-\\frac{1}{4})=\\frac{1}{6}$$
+  $$\\sigma(X)=\\frac{1}{\\sqrt{6}} = \\approx 0.408$$
+  
+  #### Otro ejemplo
+  
+  $$ X \\sim Exp(\\lambda) \\;\\;\\; \\lambda>0$$
+  
+  $$ f_{x}(x)=Ce^{-b\\lambda}I_{(0,+\\infty)}=\\begin{cases}Ce^{-\\lambda x} & x > 0 \\\\ 0 & x \\leq 0 \\end{cases} $$
+  
+  $$\\int_{0}^{\\infty}e^{-\\lambda x} dx=\\frac{1}{\\lambda} ,\\;\\;\\; \\lambda >0$$
+  
+  $$\\int_{0}^{\\infty}xe^{-\\lambda x}dx=\\frac{1}{\\lambda^2}$$
+  
+  Por lo tanto
+  
+  $$E(X)=\\int_{0}^{\\infty}x e^{-\\lambda x}dx = \\frac{1}{\\lambda}$$
+  
+  Seguimos haciendo calculos para sacar la varianza
+  
+  $$ \\int_{0}^{\\infty}x^2e^{-\\lambda x}dx=\\frac{1}{\\lambda ^3}$$
+  
+  Por lo tanto
+  
+  $$V(X)=\\int_{0}^{\\infty}x^2\\lambda e^{-\\lambda x}dx - \\frac{1}{\\lambda^2}=\\frac{2}{\\lambda^2}-\\frac{1}{\\lambda ^2}=\\frac{1}{\\lambda^2}$$
+  
+  Se puede probar por induccion que dado $n$ $\\epsilon$ $N$
+  $$\\int_{0}^{\\infty}x^{n-1}e^{-\\lambda x}dx=\\frac{(n-1)!}{\\lambda ^n}$$
+  
+  #### Propiedad
+  $$\\int_{0}^{\\infty} {x^{n-1}}{e^{-x}dx=(n-1)!}$$
+  
+  #### Definicion en base a la propiedad
+  
+  Dado $z$ $\\epsilon$ $R$, se define la funcion gamma como
+  
+  $$\\Gamma(z)=\\int_{0}^{\\infty}x^{n-1}e^{-\\lambda x}dx$$
+  
+  Entonces usando la propiedad anterior, si en particular, $z$ $\\epsilon$ $N$, value que
+  
+  $$\\Gamma(z)=(z-1)!$$
+  
+  La funcion gamma la pensamos como on **factorial generalizado**
+  
+  ### Ejemplo de aplicacion
+  
+  Definimos la variable aleatoria
+  $T$: Tiempo hasta la ocurrencia de la falla de un equipo 
+  
+  Que cumple que
+  
+  $$T \\sim Exp(\\lambda)$$
+  
+  $$E(T)=\\frac{1}{\\lambda}$$
+  
+  A esta esperanza se la denomina **MTBF**: la media de los tiempos del bueno funcionamiento
+  mean time between failures en ingles
+  
+  Otras caractersiticas de $T$
+  $$\\sigma(T)=\\frac{1}{\\lambda}$$
+  
+  $$P(E(T) - \\sigma(T) < T < E(T) + \\sigma(T)) = P(0<T<2/\\lambda)=
+  
+  \\underbrace{F_T(2/\\lambda)}_{1-e^{-\\lambda(2/\\lambda)}}-\\underbrace{F_T(0)}_{0} = 1-e^{-2} \\approx 0.865 $$
+  
+  
+  ### Ejemplo
+  
+  Si 
+  $$ \\lambda=10^3 $$
+  
+  El tiempo medio hasta que falla 1000 horas o ocurre una falla cada 1000 horas
+  
+  #### Definicion conceptual acerca de la variable anterior
+  
+  
+  $\\lambda(t)$: Promedio de falla por unidad de tiempo$
+  
+  (Dibujo 4)
+  
+  El dibujo muestra que en el primer sector hay 
+  - **Fallas infantiles** ($\\Gamma$ alto), (Sector inicial)
+  - **Fallas al azar** ($\\Gamma$ muy bajo) (Sector medio)
+  - **Fallas por envegecimiento** ($\\Gamma$ alto) (Sector final)
+  
+  Se dio un ejemplo con computadoras acer que fallan seguido
+  
+  
+  
+  
+'''
+tags: []
+isStarred: false
+isTrashed: false
