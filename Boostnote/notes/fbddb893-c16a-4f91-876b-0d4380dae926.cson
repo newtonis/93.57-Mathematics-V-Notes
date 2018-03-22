@@ -1,5 +1,5 @@
 createdAt: "2018-03-19T02:03:33.866Z"
-updatedAt: "2018-03-20T00:38:21.859Z"
+updatedAt: "2018-03-22T15:10:57.965Z"
 type: "MARKDOWN_NOTE"
 folder: "58c175c2f5d0af47f676"
 title: "Formulas guia 1 y 2"
@@ -26,19 +26,19 @@ content: '''
   
   ### Cantidad de movimiento
   
-  $$\\vec p=\\frac{m\\vec u}{\\sqrt{1-u^2/c^2}}$$
+  $$\\vec p=\\gamma m_0 \\vec u$$
   $$\\vec F = \\frac{d\\vec{p}}{dt}$$
   $$\\vec F = q\\vec{v} \\times\\vec B$$
   
   ### Energía
   
-  $$E = mc^2 + K = \\gamma mc^2$$
-  $$E^2=\\vec p^2c^2+(mc^2)^2$$
+  $$E = m_0c^2 + K = \\gamma m_0c^2$$
+  $$E^2=\\vec p^2c^2+m_0^2c^4$$
   #### En fotones
   $$E = pc$$
   
   #### En particulas
-  $$E_{i} = \\frac{m_{i}c^2}{\\sqrt{1-u_{i}^2/c^2}}$$
+  $$E_{i} = \\gamma_i m_{i}c^2$$
   
   
   
