@@ -1,11 +1,11 @@
 createdAt: "2018-03-18T21:11:35.484Z"
-updatedAt: "2018-03-20T00:37:51.489Z"
+updatedAt: "2018-03-22T22:14:24.629Z"
 type: "MARKDOWN_NOTE"
 folder: "e58a84a619a157cea5b5"
-title: "(Ariel Nowik: anowik@itba.edu.ar )"
+title: "Identidades"
 content: '''
-  (Ariel Nowik: anowik@itba.edu.ar )
   ## Identidades
+  (Ariel Nowik: anowik@itba.edu.ar )
   $$sin(x)cos(y)=\\frac{sin(x+y)+sin(x-y)}{2}$$
   $$cos^2(x)=\\frac{cos(2x)+1}{2}$$
   

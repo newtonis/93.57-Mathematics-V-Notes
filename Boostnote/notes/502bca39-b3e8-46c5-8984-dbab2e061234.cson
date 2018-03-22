@@ -1,5 +1,5 @@
 createdAt: "2018-03-22T19:02:33.758Z"
-updatedAt: "2018-03-22T20:47:45.419Z"
+updatedAt: "2018-03-22T22:20:39.767Z"
 type: "MARKDOWN_NOTE"
 folder: "58c175c2f5d0af47f676"
 title: "Notas clase 3/22/2018 (rinaldi)"
@@ -60,7 +60,7 @@ content: '''
   
   #### Ejercicio 3
   
-  $$T=4000 \\dot K$$
+  $$T=4000 \\degree K$$
   
   $$[9,9; 10,1]\\mu m$$
   
@@ -70,7 +70,7 @@ content: '''
   $$u_R(\\lambda)=\\frac{8 \\pi KT}{\\lambda^4}$$
   
   
-  $$\\mu_r(\\lambda)=\\frac{8\\pi kT}{\\lambda ^4}=\\frac{8 \\pi 1,381*10^{-23}j/ \\dot K *4000*\\dot K}{(10\\mu m*\\frac{Jm}{10^6\\mu m})^{1/4}}$$
+  $$\\mu_r(\\lambda)=\\frac{8\\pi kT}{\\lambda ^4}=\\frac{8 \\pi 1,381*10^{-23}J/ \\degree K *4000*\\degree K}{(10\\mu m*\\frac{Jm}{10^6\\mu m})^{1/4}}$$
   
   Usando Planck
   
@@ -108,7 +108,7 @@ content: '''
   
   $$r_{est}=\\sqrt{ 100 *(\\frac{T_{sol}}{T_{est}})^4 } = (1)$$
   
-  $$T_{sol}=\\frac{b}{(\\lambda_{max})_{sol}}=\\frac{2,9*10^3mK}{499,6 nm * 1m/ (10^9nm) } \\approx 5800 K$$
+  $$T_{sol}=\\frac{b}{(\\lambda_{max})_{sol}}=\\frac{2,9*10^3mK}{499,6 nm * 1m/ (10^9nm) } \\approx 5800 \\degree K$$
   
   Por lo tanto
   $$(1)= \\sqrt{100(\\frac{5800}{2900})^{1/4} }r_{sol}=40r_{sol}$$
@@ -145,7 +145,7 @@ content: '''
   
   $$u(\\lambda)=\\frac{8 \\pi h c}{\\lambda^5(e^{hc/(\\lambda KT) }-1 )} = (4)$$
   
-  $$\\frac{hc}{\\lambda KT}=\\frac{6,62*10^{-34}Js *3* 10^8}{50,5 \\mu m *\\frac{1 m}{10^6 \\mu m} * 1,381*10^{-23}*(J/K)*2900K}\\approx 0.098$$
+  $$\\frac{hc}{\\lambda KT}=\\frac{6,62*10^{-34}Js *3* 10^8}{50,5 \\mu m *\\frac{1 m}{10^6 \\mu m} * 1,381*10^{-23}*(J/K)*2900 \\degree K}\\approx 0.098$$
   
   Por lo tanto
   
@@ -248,7 +248,7 @@ content: '''
   Nos sugiere para fenomenos cuanticos que (las expresiones son sencillas).
   Pensar con cuidad las formulas con los datos que se dan. Hay que con cuidad o estudiar que fenomeno esta sucediendo.
   
-  PRoduccion aniquilacion de partes proxima clase pesadita tomar redbull
+  Produccion aniquilacion de partes proxima clase pesadita tomar redbull
 '''
 tags: []
 isStarred: false
