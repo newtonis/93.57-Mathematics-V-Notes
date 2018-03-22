@@ -11,3 +11,6 @@
 - Export: Ahi estan los pdf
 - Boostnote: Ahi esta el codigo de los archivos, editables usando Boostnote
 
+#### En caso de errores
+
+Mandar mail a anowik@itba.edu.ar
