@@ -1,9 +1,10 @@
 createdAt: "2018-03-15T02:43:43.448Z"
-updatedAt: "2018-03-19T02:05:37.965Z"
+updatedAt: "2018-03-20T00:38:02.870Z"
 type: "MARKDOWN_NOTE"
 folder: "e58a84a619a157cea5b5"
-title: "Formulas 2 Mate 5"
+title: "(Ariel Nowik: anowik@itba.edu.ar )"
 content: '''
+  (Ariel Nowik: anowik@itba.edu.ar )
   ## Formulas 2 Mate 5
   
   [Function Support in KaTeX](https://khan.github.io/KaTeX/function-support.html)
@@ -51,6 +52,8 @@ content: '''
   
   
 '''
-tags: []
+tags: [
+  "Formulas"
+]
 isStarred: false
 isTrashed: false

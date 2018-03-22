@@ -1,60 +1,11 @@
 createdAt: "2018-03-15T20:55:26.879Z"
-updatedAt: "2018-03-19T02:04:52.336Z"
+updatedAt: "2018-03-19T23:14:15.271Z"
 type: "MARKDOWN_NOTE"
 folder: "58c175c2f5d0af47f676"
-title: "Ejercicio 1 guia 2 (rinaldi)"
-content: '''
-  
-  ## Ejercicio 1 guia 2 (rinaldi)
-  
-  $$E=1.35*10^5 MeV$$
-  
-  $$\\triangle t'=2*10^{-8}s$$
-  
-  $S$ : Sistema de la tierra
-  $S'$ : Sistema solidario al Pion
-  $$d=120km$$ 
-  (sobre el nivel del mar)
-  
-  (Dibujo en la carpeta)
-  
-  $d1:$ distancia recorrida por el pion medida desde la tierra
-  
-  Se necesita medir $d2$
-  
-  $d2=d-d1$ (todo en coordenadas terrestres)
-  $E_{0}=139.6 MeV$
-  
-  $$\\triangle t = (\\triangle t' + \\frac{v}{c^2}\\triangle x')\\gamma$$
-  
-  Observar $\\triangle x' = 0$
-  
-  Por lo tanto la expresion anterior es equivalente a 
-  $$\\triangle t'=\\gamma$$
-  El inicio y el fin de su vida son eventos coincidentes en $S'$
-  
-  Por lo tanto
-  
-  $E = E_{0}\\gamma$
-  
-  Lo cual implica
-  
-  $$\\gamma=\\frac{E}{E_{0}}=\\frac{1.35*10^5}{139.6}=967$$
-  
-  $$\\triangle t = 2*10^8*967=1.93*10^{-5}$$
-  
-  $$d1=v*\\triangle t$$
-  
-  Despejamos $v$ la velocidad de S' con respecto a S
-  No trabajar con el $\\gamma$ cuando hay aniquilacion de particulas
-  
-  $$v = 0.99c$$
-  
-  por lo tanto
-  $$d1=v*\\triangle t = 0.99 *3*10^{8} * 1.93 * 10^{-5}=5790m = 5.8km$$
-  $$d2 = 120 - 5.8 = 114.2 km$$ 
-  (sobre el nivel del mar)
-'''
-tags: []
+title: ""
+content: ""
+tags: [
+  "Ejprofesor"
+]
 isStarred: false
-isTrashed: false
+isTrashed: true

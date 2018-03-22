@@ -1,5 +1,5 @@
 createdAt: "2018-03-22T13:08:22.596Z"
-updatedAt: "2018-03-22T13:51:49.693Z"
+updatedAt: "2018-03-22T14:55:08.121Z"
 type: "MARKDOWN_NOTE"
 folder: "82bec2fdf2f2d22d3517"
 title: "Clase 3/22/2018"
@@ -147,7 +147,121 @@ content: '''
   
   Se dio un ejemplo con computadoras acer que fallan seguido
   
+  Se dio un ejemplo de la utilizacion del acronimo **MTBF** para discos rigidos
   
+  #### Propiedad ejercicio 8
+  
+  Dice que 
+  $$P(X>x_{0}+d/X>x_{0}) =k \\;\\; \\forall x_{0}$$
+  
+  
+  Es decir, la probabilidad de que un equipo no falle en un intervalo $(x_0,x_{0}+d)$ es la misma sin importar el lugar del intervalo sino tan solo su tamanio
+  
+  ##### Demostracion de la propiedad
+  
+  Por definicion
+  $$f_X(x)=P(X \\leq x)$$
+  Sea
+  $$G_X(x)=P(X\\geq x) = 1-f_x(x)$$
+  Como 
+  $$x \\sim Exp(b)$$
+  
+  Luego
+  
+  $$F_x(x)=1-e^{-bx} \\;\\;\\; x > 0$$
+  $$G_X(x)=e^{-bx}$$
+  
+  Por lo tanto
+  
+  $$P(X>x_{0}+d / X>x_0)
+  
+  \\underbrace{=}_{Proporcion}
+  
+  \\frac{P(X>x_0+d)}{P(X>x_0)}=\\frac{e^{-b(x_0+d)}}{e^{-bx_0}}=e^{-bd}$$
+  
+  #### Ejercicio 10 (guia 4)
+  
+  Notar $E(x)=1000 \\; h$
+  
+  Se plantea
+  
+  $$P(X>X_g)=e^{-\\frac{X_g}{1000}}=0.95 \\implies X_g \\approx 5.13 \\; h $$
+  
+  
+  ##### Item B
+  
+  Necesitamos que funcione 100 o mas horas
+  
+  $$[G_x(100)]^5=(e^{-\\frac{100}{1000}})^2 = e^{-\\frac{5}{10}} \\approx 0.61$$
+  
+  Vale hacer el producto de ambos lados porque hay **Independencia**
+  
+  $A_k$: el displositivo $k$ dura $100 h$ como minimo
+  $B$: el sistema dura $100h$ como minimo
+  
+  $$B=A_1 \\cap A_2 \\cap A_3 \\cap A_4 \\cap A_5$$
+  
+  $$P(A_k)=e^{\\frac{100}{1000}}$$
+  $$P(B)=\\prod_{k=1}^{5} P(A_k)$$
+  
+  $Y$: Numero de sistemas que duran mas de 100 hs
+  
+  $$Y \\sim Bin(n=5,p = e^{-1})$$
+  
+  $$P(Y \\geq 3)$$
+  lo deja para nosotros el calculo
+  
+  #### Nota
+  El Ejercicio 13 es una generalizacion del 10
+  
+  Lo comenzamos a resolver
+  $A_k$: el displositivo $k$ dura $t$ como minimo
+  $B$: el sistema dura $t$ como minimo
+  $$k = 1,2, ... ,n $$
+  
+  $$B=\\cap{A_{i}}$$
+  
+  $$P(A_k)=e^{-0.01t}, k=1,2,...,n$$
+  $$P(B)=\\prod_{k=1}^{5} P(A_k) = 1-F(t)$$
+  
+  Por lo tanto
+  $$e^{-0.1nt}=1-F(t)$$
+  $$F(t)=1-e^{-(0.01n)t},\\;\\; t > 0$$
+  
+  $$T \\sim Exp(0.01n)$$
+  
+  $$E(T)=\\frac{1}{0.01n}=(\\frac{1}{0.01})\\frac{1}{n}$$
+  
+  #### Suponemos en paralelo (ejercicio adicional)
+  
+  El sistema falla antes de $T$ si todos fallan antes de $T$
+  
+  $$\\overline{B}= \\bigcup_{i=1}^{n}\\overline{A_k}$$
+  
+  $$P(\\overline{A_{k}})=1-e^{-0.01t}$$
+  
+  Por independencia
+  
+  $$
+  \\underbrace{P(\\overline{B})}_{P(T<t)}
+  
+  =(1-e^{-0.01t})^2$$
+  
+  $$F(t)=(1-e^{-0.01t})^n$$
+  
+  #### Ejercicio 15 (guia 4)
+  
+  Se hace un cociente de probabilidad, la fraccion de que la falla este en $(t,\\triangle t)$ sabiendo que ya fallo despues de $t$
+  
+  $$\\frac{t<T<t+\\triangle t}{\\triangle t *P(T>t)}=\\frac{\\int_{t}^{t+\\triangle t} f(x)dx}{\\triangle t (1-F(t))}=(1)$$
+  
+  Notar que 
+  
+  $$t < \\zeta < t+\\triangle t$$
+  
+  Entonces vale que
+  
+  $$(1)=\\frac{f(\\zeta) \\triangle t }{ \\triangle t (1-F(t))}\\to\\frac{f(t)}{1-F(t)}$$
   
   
 '''

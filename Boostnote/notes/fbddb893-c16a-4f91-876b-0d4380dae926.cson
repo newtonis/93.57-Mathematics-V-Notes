@@ -1,9 +1,10 @@
 createdAt: "2018-03-19T02:03:33.866Z"
-updatedAt: "2018-03-19T13:01:16.011Z"
+updatedAt: "2018-03-20T00:38:21.859Z"
 type: "MARKDOWN_NOTE"
 folder: "58c175c2f5d0af47f676"
 title: "Formulas guia 1 y 2"
 content: '''
+  (Ariel Nowik: anowik@itba.edu.ar )
   # Formulas guia 1 y 2
   
   ### Posición
@@ -43,6 +44,8 @@ content: '''
   
   
 '''
-tags: []
+tags: [
+  "Formulas"
+]
 isStarred: false
 isTrashed: false
