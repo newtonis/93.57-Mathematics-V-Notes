@@ -1,0 +1,255 @@
+createdAt: "2018-03-22T19:02:33.758Z"
+updatedAt: "2018-03-22T20:47:45.419Z"
+type: "MARKDOWN_NOTE"
+folder: "58c175c2f5d0af47f676"
+title: "Notas clase 3/22/2018 (rinaldi)"
+content: '''
+  ### Notas clase 3/22/2018 (rinaldi)
+  
+  #### Ejercicio 1
+  $$d = 1 cm$$
+  
+  $$T = 6000  k$$
+  
+  $$[5500 \\dot A , 5510 \\dot A]$$
+  
+  $$[Pot .rad.] =  [WaH] = [\\frac{J}{s}] $$
+  
+  $$ [e(\\lambda)]=[\\frac{J}{m^3s}]$$
+  
+  $$e_t(\\lambda)=\\frac{c}{4}u_t(\\lambda)$$
+  
+  $$ e(\\lambda)= \\int_{5500}^{5510} e_t(\\lambda)d\\lambda=\\frac{c}{4}\\int_{5500}^{5510}u_t(\\lambda)d\\lambda$$
+  
+  $${u_t(\\lambda)=\\frac{8\\pi hc}{\\lambda^5(e^{hc/(\\lambda k t)}-1)}}$$
+  (Dibujo carpeta) 
+  Aproximamos el area de la funcion con un truco de integracion aproximando la funcion como constante en el intervalo $(\\lambda,\\lambda + d\\lambda)$
+  Notar constante de planck no es unidimensional
+  
+  Por lo tanto
+  
+  $$Pot.rad= \\frac{S_{orificio} c}{4}\\int_{5500}^{5510}u_t(\\lambda)d\\lambda $$
+  
+  
+  $$\\frac{hc}{\\lambda kT}=\\frac{6.62*10^{-34}Js *3*10^8 m/s}{5505 \\dot A*Jm/10^{10}*1.381*10^{-23}J/K*6000K} \\approx 4.36$$
+   
+   $$Pot.Rad = \\frac{3*10^8 m/s}{4}*\\frac{8 \\pi 6.62*10^{-34}Js * 3*10^8 m/s}{5505A Jm/(10^{10}J)(e^{4.36}-1)}$$
+   
+   
+   #### Ejercicio 2
+   
+   $$\\lambda_{max}=6500 \\dot A$$
+   
+   $$e_{T_1}=\\sigma T_1^4 \\implies T_1=(\\frac{e_{T_1}}{\\sigma})^{1/4}$$
+  
+  $$e_{T_2}= \\sigma T_2^4 \\implies T_2=(\\frac{e_{T_2}}{\\sigma})^{1/4}$$
+  
+  $$e_{T_2}=2e_{T_1}$$
+  
+  Por las ultimas dos ecuaciones
+  
+  $$T_2=(\\frac{2e_{T_1}}{\\sigma})^{1/4}$$
+  
+  $$\\frac{T_1}{T_2}=(\\frac{e_{T1}}{e_{T2}}) = \\frac{1}{2^{1/4}}$$
+  
+    $$\\frac{b/\\lambda_{max1}}{b/\\lambda_{max2}} = \\frac{1}{2^{1/4}}$$
+  
+  Despejando
+  
+  $$\\lambda_{max2}= \\frac{\\lambda_{max1}}{2^{1/4}}= \\frac{6500}{2^{1/4}} = 5465.8 \\dot A$$
+  
+  #### Ejercicio 3
+  
+  $$T=4000 \\dot K$$
+  
+  $$[9,9; 10,1]\\mu m$$
+  
+  $$\\varepsilon \\% =|\\frac{\\mu_{P}-\\mu_{R}}{\\mu_{P}}|$$
+  
+  Densidad de energia segun Raleight
+  $$u_R(\\lambda)=\\frac{8 \\pi KT}{\\lambda^4}$$
+  
+  
+  $$\\mu_r(\\lambda)=\\frac{8\\pi kT}{\\lambda ^4}=\\frac{8 \\pi 1,381*10^{-23}j/ \\dot K *4000*\\dot K}{(10\\mu m*\\frac{Jm}{10^6\\mu m})^{1/4}}$$
+  
+  Usando Planck
+  
+  $$\\mu_{p}=\\frac{8 \\pi hc}{\\lambda^5(e^{hc/(\\lambda k T)}-1)} = \\frac{8 \\pi 6.62*10^{-34}Js*3*10^8m/s}{10 \\mu m (\\frac{jm}{10^6\\mu m})^5(e^{0.36}-1)}$$
+  
+  $$\\frac{hc}{\\lambda KT}=\\frac{6.62 * 10^{-34}Js*3*10^{8}m/s}{10 \\mu m Jm/(10^6\\mu m)1.381*10^{-23}J/\\dot K * 4000  \\dot K} \\approx 0.36$$
+  
+  Por lo tanto
+  
+  $$\\varepsilon \\%=|\\frac{115.3-138.83}{115.3}|100 \\approx 20.4 \\%$$
+  
+  ### Ejercicio 4
+  
+  $$T=10^6 \\dot K$$
+  
+  $$\\lambda \\approx 100 nm$$
+  
+  La idea es entrar al espectro y ver si con esos 100 nm estas dentro de los valores en donde la forma de raleigh/jeans tiene validez o si cae dentro de la catastrofe del ultra-violeta.
+  No hay que hacer ningun numero
+  
+  ### Ejercicio 5
+  
+  $$(PotRad)_{est}=100(Pot.Rad)_{sol}$$
+  
+  $$T_{est}=2900 K$$
+  
+  
+  $$(\\lambda_{max})_{sol}=499.6 nm$$
+  
+  $$(e_t)_{est}S_{est}=100(e_t)_{sol}S_{sol}$$
+  
+  $$\\sigma T_{est}^4 4\\pi r_{est}^2 = 100 \\sigma T_{sol}^4 \\pi r_{sol}^2$$
+  
+  Pensamos que es un cuerpo negro aunque no lo diga el enuncado
+  
+  $$r_{est}=\\sqrt{ 100 *(\\frac{T_{sol}}{T_{est}})^4 } = (1)$$
+  
+  $$T_{sol}=\\frac{b}{(\\lambda_{max})_{sol}}=\\frac{2,9*10^3mK}{499,6 nm * 1m/ (10^9nm) } \\approx 5800 K$$
+  
+  Por lo tanto
+  $$(1)= \\sqrt{100(\\frac{5800}{2900})^{1/4} }r_{sol}=40r_{sol}$$
+  
+  
+  #### Item B
+  
+  $$u(\\lambda)=1.6*10^{-7}J/m^3$$
+  $$[50\\mu m;51\\mu m]$$
+  
+  Consideramos apropiado considerar a la estrella como un cuerpo negro?
+  
+  Imaginamos que 
+  
+  $$(e_T)_{real}= a (e_T)_{teorico}$$
+  
+  (Esta vincoulado con el e total teorico)
+  
+  Si pasa que
+  
+  $$\\frac{(e_t)_{real}}{(e_t)_{teorico}} \\approx 1 \\implies (3)$$
+  
+  $(3) \\implies$ es valido analizar la estrella como un cuerpo negro
+  
+  ### Ejercicio 5
+  
+  $$[(e_T)_{teorico]} = [\\frac{c u(\\lambda)\\triangle \\lambda}{4}] =[\\frac{J}{m^2s}]$$
+  
+  $$[(e_T)_{real}] = [\\frac{c}{4}(u)_{real} ] = [\\frac{J}{m^2s} ]$$
+  
+  $$a=\\frac{c*1.6*10^{7}/4}{c*u(\\lambda) \\triangle \\lambda} = (5)$$
+  
+  Por lo tanto
+  
+  $$u(\\lambda)=\\frac{8 \\pi h c}{\\lambda^5(e^{hc/(\\lambda KT) }-1 )} = (4)$$
+  
+  $$\\frac{hc}{\\lambda KT}=\\frac{6,62*10^{-34}Js *3* 10^8}{50,5 \\mu m *\\frac{1 m}{10^6 \\mu m} * 1,381*10^{-23}*(J/K)*2900K}\\approx 0.098$$
+  
+  Por lo tanto
+  
+  $$(4) \\approx  0.148$$
+  
+  $$(5) = \\frac{1.6*10^{-7}J/m^3}{0.148J/m^4*1\\mu m * 1m/(10^{^6}\\mu m)}0.925 \\approx 1$$
+  
+  Comentario: cambiar el orden de los items del ejercicio
+  
+  $a$ debe estar entre 0 y 1
+  Error tal vez hay un error en el calculo
+  
+  ### Ejercicio 6
+  
+  Lo vamos a comentar, es igual que el ejercicio 5
+  
+  $$r=  2cm$$
+  $$R=  3m$$
+  $$3m$$
+  
+  $$I_{det}=100 \\frac{mW}{m^2}$$
+  
+  De que color veran la esfera
+  
+  Imaginarse una esfera de randio R a una distancia de 3 metro
+  
+  $$(e_{T})S_{R}=(e_{T})_{R}S_{R}$$
+  
+  $$(e_{T})_{T}r^2=(e_{T})_{R}R^2$$
+  
+  $$(e_T)_R=\\frac{R^2}{r^2}(e_{T})_{R}R^2$$
+  
+  $$(e_{T})_{R}=\\frac{R^2}{r^2}(e_{T})_{R}$$
+  
+  $$(e_{r})=\\sigma T_{r}^4 \\implies T_r^4$$
+  
+  $$\\lambda_{max}=\\frac{b}{T_r} \\implies (6)$$
+  
+  $(6)\\implies$ comparo con el espectro
+  Si no tengo el lambda no tengo el espectro si no tengo el espectro no puedo entrar a ningun color
+  
+  ### Ejercicio propuesto 5
+  
+  $$ 
+  \\underbrace{m_{op}}_{masa\\;en\\;reposo}=273m_{oe}$$
+  
+  $$m_{on}=0$$
+  
+  $$m_{o\\mu}=207 m_{oe}$$
+  
+  Inicialmente tengo una particular en reposo por lo tanto hay solo energia en movimiento
+  
+  Deben salir en direcciones opuestas para que se conserve la cantidad de movimiento
+  
+  Por conservacion de E
+  
+  $$E_{op}= E_{n}+E_{\\mu} \\implies E_n=E_{op}-E_{\\mu}(1)$$
+  
+  Por conservacion de $\\vec p$
+  
+  $$0= \\frac{ \\sqrt{E_{\\mu}^2-E_{0\\mu}} }{c} - \\frac{E_n}{c}$$
+  
+  Cancelo las C
+  
+  $$E_n=\\sqrt{E_{\\mu}^2-E_{o\\mu}^2} = (2)$$
+  
+  De $(1)$ en $(2)$ y elevalndo al cuadrado miembro a miembro
+  
+  $$(E_{op}-E_{\\mu})^2=(\\sqrt{E_{\\mu}^2-E_{o\\mu}^2})^2$$
+  
+  Por lo tanto
+  
+  $$E_{op}^2-2E_{opE_{\\mu}}+E_{\\mu}^2=E{\\mu}^2-E_{o\\mu}^2$$
+  
+  $$2E_{op}E_u =E_{op}^2+E_{o\\mu}^2$$
+  
+  $$E_{\\mu}=\\frac{E_{op}^2+E_{o\\mu}^2} {2E_{op}}$$
+  
+  $$E_{\\mu}=K_{\\mu}+E_{o \\mu}$$
+  
+  $$K_{u} + E_{o\\mu} = \\frac{E_{op}^2+E_{o\\mu}^2}{2E_{op}}$$
+  
+  $$K_{u}  = \\frac{E_{op}^2+E_{o\\mu}^2}{2E_{op}} - E_{o\\mu}$$
+  
+  $$K_{u}\\frac{273^2(m_{oe}c^2)^2+207^2(m_{oe}^2c^2)^2}{2 * 273 m_{oe}c^2}-207 m_{oe}c^2$$
+  
+  Finalmente
+  
+  $$K_{u}=\\frac{(273^2+207^2)m_{o}c^2}{2*273}-207 m_{oe}c^2$$
+  
+  $$K_{u}=(\\frac{273^2+207^2}{2*273} ) - 207 m_{oe}c^2$$
+  
+  $$K_{u}=(\\frac{273^3+207^2}{2*273}-207)0.511 = 4.1MeV $$
+  
+  Buscamos la energia cinetica
+  
+  $$E_{n}=E_{op}-(E_{ou}+K_{u}) = 273 m_{oe}c^2 - 207 m_{oe}c^2 - 4.1 MeV$$
+  $$(273-207)0.511 - 4.1 = 29.65 MeV$$
+  
+  Nos sugiere para fenomenos cuanticos que (las expresiones son sencillas).
+  Pensar con cuidad las formulas con los datos que se dan. Hay que con cuidad o estudiar que fenomeno esta sucediendo.
+  
+  PRoduccion aniquilacion de partes proxima clase pesadita tomar redbull
+'''
+tags: []
+isStarred: false
+isTrashed: false
