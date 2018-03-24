@@ -1,0 +1,44 @@
+createdAt: "2018-03-24T04:16:29.772Z"
+updatedAt: "2018-03-24T04:29:39.289Z"
+type: "MARKDOWN_NOTE"
+folder: "58c175c2f5d0af47f676"
+title: "Ejercicio 30 del libro guia 2"
+content: '''
+  ### Ejercicio 30 del libro guia 2
+  
+  Por conservacion de la energia
+  
+  $$E_i=E_f \\implies (\\gamma_i+1)m_pc^2=\\gamma_fMc^2 \\implies M=\\frac{m_p(\\gamma_i+1)}{\\gamma_f} (1)$$
+  
+  Notar 
+  $$p_i=p_f=p$$
+  
+  Ahora como
+  
+  $$Mc^2=\\sqrt{E_f^2-p^2c^2} = \\sqrt{\\gamma_f^2M^2c^4-p^2c^2}$$
+  
+  y ademas por formula
+  
+  $$p^2c^2=E_i^2-m_p^2c^4=\\gamma_i^2m_p^2c^4-m_p^2c^4$$
+  
+  Entonces se tiene
+  
+  $$Mc^2=\\sqrt{\\gamma_f^2M^2c^4-\\gamma_i^2m_p^2c^4+m_p^2c^4}$$
+  
+  Usando $(1)$ Dejamos todo en funcion de $m$ , $\\gamma_i$, $\\gamma_f$
+  
+  $$Mc^2=\\sqrt{m_p^2(\\gamma_i+1)^2c^4-\\gamma_i^2m_p^2c^4+m_p^2c^4}= m_pc^2\\sqrt{(\\gamma_i+1)^2-\\gamma_i^2+1}=m_pc^2\\sqrt{2}\\sqrt{\\gamma_i+1}$$
+  
+  Como vale que
+  
+  $$\\frac{K}{m_0c^2}+1=\\gamma_i$$
+  
+  Luego
+  
+  $$Mc^2=2m_pc^2\\sqrt{\\frac{K}{2m_oC^2}+1}$$
+  
+  
+'''
+tags: []
+isStarred: false
+isTrashed: false

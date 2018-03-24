@@ -1,36 +1,9 @@
 createdAt: "2018-03-22T15:14:59.493Z"
-updatedAt: "2018-03-22T22:34:16.673Z"
+updatedAt: "2018-03-24T00:40:36.745Z"
 type: "MARKDOWN_NOTE"
 folder: "58c175c2f5d0af47f676"
-title: "Formulas guia 3"
-content: '''
-  ### Formulas guia 3
-  
-  $$e_f=J(f,T)A_f$$
-  
-  $$e_f=J(f,T)$$
-  
-  
-  $$e_j=\\int_{0}^{\\infty}e_f df = \\sigma T^4 $$
-  
-  $$e_{total} = a\\sigma T^4$$
-  
-  $$\\lambda_{max}=Tb $$
-  
-  $$J(f,T)=u(f,T)c/4$$
-  
-  $$u(f,T)=Af^3e^{-Bf/T}$$
-  
-  $$u(f,T)=\\frac{8\\pi h f^3}{c^3}(\\frac{1}{e^{hf/(k_bT)}-1})$$
-  
-  $$E_{resonador}=nhf$$
-  
-  $$n=1,2,3,...,$$
-  
-  $$\\triangle E = hf$$
-  
-  $$u(f,T)df=\\overline{E}N(f)df
-'''
+title: ""
+content: ""
 tags: []
 isStarred: false
 isTrashed: false
