@@ -1,11 +1,45 @@
 createdAt: "2018-03-18T20:34:39.692Z"
-updatedAt: "2018-03-19T22:36:25.459Z"
+updatedAt: "2018-03-25T06:41:03.675Z"
 type: "MARKDOWN_NOTE"
 folder: "e58a84a619a157cea5b5"
-title: "Formulas Mate 5"
+title: "Recopilacion de propiedades de funciones generalizadas"
 content: '''
+  ## Recopilacion de propiedades de funciones generalizadas
+  **(Incompleto, falta pulir , emprolijar, completar)**
+  
   (Ariel Nowik: anowik@itba.edu.ar )
-  # Formulas Mate 5
+  
+  
+  - $f:R\\to R$ continua a trozos 
+  - $\\phi \\; \\epsilon \\; C_{0}^{\\infty}$
+  - $f',f^{(n)}$ no necesariamente existen. Pero si los funcionales notados como ellas.
+  $$\\langle  f ,\\phi \\rangle = \\int_{-\\infty}^{\\infty}f(x)\\phi(x)dx$$
+  $$\\langle f',\\phi\\rangle=-\\langle f,\\phi'\\rangle$$
+  
+  $$\\langle f'',\\phi \\rangle=(-1)^2\\langle f,\\phi''\\rangle
+  $$
+  $$\\langle f^{(n)},\\phi\\rangle=(-1)^n\\langle f,\\phi^{(n)}\\rangle$$
+  
+  
+  $$\\langle f,\\alpha_{1}\\phi_{1}+\\alpha_{2}\\phi_{2}\\rangle=\\alpha_{1}\\langle f,\\phi_{1}\\rangle+\\alpha_{2}\\langle f,\\phi_{2}\\rangle$$
+  
+  $$\\langle r',\\phi\\rangle=\\langle u,\\phi\\rangle$$
+  
+  $$\\langle u',\\phi \\rangle=\\phi(0)$$
+  
+  $$\\langle \\delta,\\phi \\rangle=\\phi(0)$$
+  
+  Sean $f1,f2$ funciones generalizadas
+  $\\langle c_{1}f_{1} +c_{2}f_{2},\\phi\\rangle=c_{1}\\langle f_{1},\\phi \\rangle + c_{2}\\langle f_{2},\\phi \\rangle$
+  
+  Sea $g \\; \\epsilon \\; C^{\\infty}$ , $f$ generalizada 
+  $$\\langle gf,\\phi \\rangle=\\langle f,g \\phi \\rangle$$
+  $$\\langle g\\delta ,\\phi \\rangle=\\langle g(0)\\delta,\\phi\\rangle$$
+  
+  Sea $f$ generalizada, $g \\; \\epsilon \\; C^{\\infty}$
+  
+  $\\langle (gf)',\\phi\\rangle=\\langle gf'+g'f,\\phi\\rangle$
+  
   
   ## Integrales delta de Dirac
   
