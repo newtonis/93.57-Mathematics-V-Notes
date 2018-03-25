@@ -1,5 +1,5 @@
 createdAt: "2018-03-19T02:03:33.866Z"
-updatedAt: "2018-03-24T00:40:42.984Z"
+updatedAt: "2018-03-25T04:14:16.576Z"
 type: "MARKDOWN_NOTE"
 folder: "58c175c2f5d0af47f676"
 title: "Formulas guia 1 y 2"
@@ -66,7 +66,13 @@ content: '''
   
   $$\\triangle E = hf$$
   
-  $$u(f,T)df=\\overline{E}N(f)df
+  $$u(f,T)df=\\overline{E}N(f)df$$
+  
+  ### Unidades
+  
+  $$h = 
+  
+  
   
 '''
 tags: [

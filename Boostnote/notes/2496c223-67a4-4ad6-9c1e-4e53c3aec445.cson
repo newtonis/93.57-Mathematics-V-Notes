@@ -1,5 +1,5 @@
 createdAt: "2018-03-19T18:35:29.120Z"
-updatedAt: "2018-03-22T22:14:18.421Z"
+updatedAt: "2018-03-25T03:14:30.894Z"
 type: "MARKDOWN_NOTE"
 folder: "e58a84a619a157cea5b5"
 title: "Formulas Nelly 3/19/2018"
@@ -13,7 +13,7 @@ content: '''
   
   #### Convergencia puntual
   
-  Se pide $f$ contiinua a trozos en $[a,b]$, y que en cada punto existan derivadas laterales finitas
+  Se pide $f$ continua a trozos en $[a,b]$, y que en cada punto existan derivadas laterales finitas
   
   La convergencia puntual nos dice que vale que 
   

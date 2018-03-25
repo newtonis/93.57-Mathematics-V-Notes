@@ -1,5 +1,5 @@
 createdAt: "2018-03-22T19:02:33.758Z"
-updatedAt: "2018-03-22T22:34:08.897Z"
+updatedAt: "2018-03-25T04:56:13.966Z"
 type: "MARKDOWN_NOTE"
 folder: "58c175c2f5d0af47f676"
 title: "Notas clase 3/22/2018 (rinaldi)"
@@ -66,7 +66,7 @@ content: '''
   
   $$\\varepsilon \\% =|\\frac{\\mu_{P}-\\mu_{R}}{\\mu_{P}}|$$
   
-  Densidad de energia segun Raleight
+  Densidad de energia segun Rayleigh 
   $$u_R(\\lambda)=\\frac{8 \\pi KT}{\\lambda^4}$$
   
   

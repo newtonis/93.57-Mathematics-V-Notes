@@ -1,5 +1,5 @@
 createdAt: "2018-03-15T19:53:29.937Z"
-updatedAt: "2018-03-22T22:34:13.414Z"
+updatedAt: "2018-03-25T06:35:32.618Z"
 type: "MARKDOWN_NOTE"
 folder: "58c175c2f5d0af47f676"
 title: "Notas Clase 14/3/2018 (rinaldi)"
@@ -8,16 +8,7 @@ content: '''
   ### Notas Clase 14/3/2018 (rinaldi)
   (Ariel Nowik: anowik@itba.edu.ar )
   
-  ### Cinematica relativista ###
-  
-  $$x'=\\gamma(x-vt)$$
-  $$y'=y$$
-  $$z'=z$$
-  $$t'=\\gamma(t-\\frac{vx}{c^2})$$
-  $$\\gamma=\\frac{1}{\\sqrt{1-\\frac{v^2}{c^2}}}$$
-  
-  
-  ### Comentarios
+  ### Observaciones del profesor
   
   - No hacer esto: 
   
@@ -30,8 +21,9 @@ content: '''
   $$p = \\sqrt{ \\frac{E^2-E_{0}^2}{c} }$$
   
   
-  ## Ejercicio 1 guia 2 (rinaldi)
-  
+  ## Ejercicio 1 guia 2
+  **(Revisado $\\checkmark$)**
+   
   $$E=1.35*10^5 MeV$$
   
   $$\\triangle t'=2*10^{-8}s$$
@@ -80,7 +72,8 @@ content: '''
   $$d2 = 120 - 5.8 = 114.2 km$$ 
   (sobre el nivel del mar)
   
-  ## Ejercicio 3 guia 2  (rinaldi)
+  ## Ejercicio 3 guia 2
+  **(Revisado $\\checkmark$)**
   
   $$E_{0}=135 \\; MeV$$
   $$K=1  \\; GeV$$
@@ -98,25 +91,39 @@ content: '''
   
   ## Continuamos la resolucion
   
-  $$ E = E_{0} + k = 0.135 + 1 = 1.125 \\; GeV$$
+  $$ E = E_{0} + k = 0.135 + 1 = 1.135 \\; GeV$$
   - Por conservacion de $E$:
   
   $$E = E_{f1} + E_{f2}$$
   
   $$E_{f1} + E_{f2} = 1.135$$
+  (Ecuacion 1)
+  
+  Hay dos casos posibles, que los fotones vayan en el mismo sentido, o en sentido contrario
+  
+  Supongamos que los dos fotones van en el **mismo sentido**. Luego $p_t=p_1+p_2$
+  
   Ecuacion 1
   - Por conservacion de $\\vec{p}$:
   
-  $$\\frac{\\sqrt{E^2-E_{0}^2}}{c}=\\frac{f_{1}}{c}+\\frac{f_{2}}{c}$$
+  $$\\frac{\\sqrt{E^2-E_{0}^2}}{c}=\\frac{E_{f_1}}{c}+\\frac{E_{f_2}}{c}$$
   
   Por lo tanto siguiendo la resolucion
   
-  $$\\sqrt{E^2-E_{0}^2} = \\sqrt{1.35^2-0.135^2}=1.127 \\; GeV $$
+  $$\\sqrt{E^2-E_{0}^2} = \\sqrt{1.135^2-0.135^2}=1.127 \\; GeV $$
   
-  Se llega a un absurdo y se deduce que van en sentido contrario
+  Por lo tanto deberia darse que $E_{f_1} + E_{f_2}$ sume dos numeros distintos, abusrdo.
+  Esto implica que los fotones se mueven en sentido contrario, y por lo tanto $p_t=p_1-p_2$ (definimos sin perdida de generalidad 1 como el foton que va hacia adelante y 2 el que va hacia atras)
+  
+  
+  
+  Por lo tanto
+  
+  $$\\frac{\\sqrt{E^2-E_{0}^2}}{c}=\\frac{E_{f_1}}{c}-\\frac{E_{f_2}}{c}$$
   
   $$E_{f1}-E_{f2}=1.135$$ 
-  Ecuacion 2
+  
+  (Ecuacion 2)
   
   De 1 y de 2 se deduce
   
@@ -127,6 +134,7 @@ content: '''
   $$E_{f2}=1.135-E_{f1}=1.135-1.131=0.004 GeV = 4 MeV$$
   
   ## Resolucion item B
+  **(Revisado $\\checkmark$)**
   
   Hay un dibujo que hice en la carpeta de las situaciones inicial y final
   
@@ -146,7 +154,8 @@ content: '''
   
   $$E_{f1}=\\frac{1.135}{2}=0.569 GeV$$
   
-  ### Ejercicio 4 guia 2  (rinaldi)
+  ### Ejercicio 4 guia 2
+  **(Revisado $\\checkmark$)**
   
   $$E_{OA}=m_{0}c^2$$
   $$k_{1}=2m_{0}c^2$$
