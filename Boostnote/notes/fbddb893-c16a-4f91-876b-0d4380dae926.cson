@@ -1,13 +1,15 @@
 createdAt: "2018-03-19T02:03:33.866Z"
-updatedAt: "2018-03-25T04:14:16.576Z"
+updatedAt: "2018-03-25T21:20:36.051Z"
 type: "MARKDOWN_NOTE"
 folder: "58c175c2f5d0af47f676"
-title: "Formulas guia 1 y 2"
+title: "Formulas guia 1,2,3"
 content: '''
   (Ariel Nowik: anowik@itba.edu.ar )
-  # Formulas guia 1 y 2
+  # Formulas guia 1,2,3
   
   ### Posición
+  
+  **(Revisado $\\checkmark$)**
   $$x' = \\gamma (x- vt)$$
   $$y' = y$$
   $$z' = z$$
@@ -15,33 +17,45 @@ content: '''
   $$ \\gamma = \\frac{1}{\\sqrt{1-v^2/c^2}} $$
   
   ### Velocidad
-  
+  **(Revisado $\\checkmark$)**
   $$u_{x}'=\\frac{u_{x}-v}{1-u_{x}v/c^2}$$
   $$u_{y}'=\\frac{u_{y}}{\\gamma(1-u_{x}v/c^2)}$$
   $$u_{z}'=\\frac{u_{z}}{\\gamma(1-u_{x}v/c^2)}$$
   
   ### Efecto Doppler relativista
-  
+  **(Revisado $\\checkmark$)**
   $$f_{obs}=f_{fuente}\\frac{\\sqrt{1+v/c}}{\\sqrt{1-v/c}}$$
   
   ### Cantidad de movimiento
+  **(Revisado $\\checkmark$)**
   
   $$\\vec p=\\gamma m_0 \\vec u$$
   $$\\vec F = \\frac{d\\vec{p}}{dt}$$
   $$\\vec F = q\\vec{v} \\times\\vec B$$
   
   ### Energía
+  **(Revisado $\\checkmark$)**
   
   $$E = m_0c^2 + K = \\gamma m_0c^2$$
   $$E^2=\\vec p^2c^2+m_0^2c^4$$
   #### En fotones
+  **(Revisado $\\checkmark$)**
   $$E = pc$$
   
-  #### En particulas
-  $$E_{i} = \\gamma_i m_{i}c^2$$
-  
-  
   ### Formulas guia 3
+  **(En construcción)**
+  
+  
+  $$[e_{total}] = [\\frac{W}{m^{2}}]$$
+  Es la **Energia por unidad de area**, o **densidad de energia** sobre la superficie de un cuerpo caliente producida por **todas las longitudes de onda**
+  
+  $$[e_\\lambda] = [\\frac{W}{m^3}] $$
+  Es la **energia por unidad de area por unidad de frecuencia**. Su principal propiedad es que 
+  $$e_\\lambda*\\triangle\\lambda \\approx e_{(\\lambda,\\lambda+\\triangle\\lambda)}$$
+  siempre que $\\triangle\\lambda$ sea suficientemente chico (En esos casos escribimos $\\triangle \\lambda=d\\lambda$)
+  
+  
+  
   
   $$e_f=J(f,T)A_f$$
   
@@ -50,15 +64,25 @@ content: '''
   
   $$e_j=\\int_{0}^{\\infty}e_f df = \\sigma T^4 $$
   
+  Ley de **Stefan**
   $$e_{total} = a\\sigma T^4$$
   
-  $$\\lambda_{max}=Tb $$
+  Ley del desplazamiento de **Wien**
+  $$\\lambda_{max}b=T $$
   
+  Relacion densidad de energia con la energia
   $$J(f,T)=u(f,T)c/4$$
+  
   
   $$u(f,T)=Af^3e^{-Bf/T}$$
   
+  Ley de **Planck**
   $$u(f,T)=\\frac{8\\pi h f^3}{c^3}(\\frac{1}{e^{hf/(k_bT)}-1})$$
+  
+  En terminos de longitud de onda
+  
+  
+  
   
   $$E_{resonador}=nhf$$
   
@@ -68,9 +92,10 @@ content: '''
   
   $$u(f,T)df=\\overline{E}N(f)df$$
   
-  ### Unidades
+  $\\overline{E}$ es el promedio estacionario de la energia
   
-  $$h = 
+  
+  
   
   
   

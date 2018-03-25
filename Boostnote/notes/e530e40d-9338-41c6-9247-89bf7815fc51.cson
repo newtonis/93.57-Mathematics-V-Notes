@@ -1,11 +1,15 @@
 createdAt: "2018-03-19T12:03:03.758Z"
-updatedAt: "2018-03-25T06:41:22.501Z"
+updatedAt: "2018-03-25T18:09:13.461Z"
 type: "MARKDOWN_NOTE"
 folder: "e58a84a619a157cea5b5"
 title: "Notas clase 3/19/2018"
 content: '''
   ## Notas clase 3/19/2018
   (Ariel Nowik: anowik@itba.edu.ar )
+  
+  **Nota:** estos apuntes son en bruto, no estan especialmente ordenados y depurados.
+  El archivo "PropiedadesMate5.pdf" busca lograr ese objetivo
+  
   
   Si $X$ tiene discontinuidad tipo salto en $t$
   $$\\frac{x(t^{+})+x(t^{-})}{2}=\\sum_{n=-\\infty}^{\\infty}X_{n}e^{ in2\\pi t/T}$$

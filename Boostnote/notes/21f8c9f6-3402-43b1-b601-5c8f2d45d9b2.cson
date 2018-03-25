@@ -1,5 +1,5 @@
 createdAt: "2018-03-18T20:34:39.692Z"
-updatedAt: "2018-03-25T14:19:04.071Z"
+updatedAt: "2018-03-25T19:06:43.408Z"
 type: "MARKDOWN_NOTE"
 folder: "e58a84a619a157cea5b5"
 title: "Recopilacion de propiedades de funciones generalizadas"
@@ -9,40 +9,12 @@ content: '''
   
   (Ariel Nowik: anowik@itba.edu.ar )
   
-  
-  - $f:R\\to R$ continua a trozos 
-  - $\\phi \\; \\epsilon \\; C_{0}^{\\infty}$
-  - $f',f^{(n)}$ no necesariamente existen. Pero si los funcionales notados como ellas.
-  $$\\langle  f ,\\phi \\rangle = \\int_{-\\infty}^{\\infty}f(x)\\phi(x)dx$$
-  $$\\langle f',\\phi\\rangle=-\\langle f,\\phi'\\rangle$$
-  
-  $$\\langle f'',\\phi \\rangle=(-1)^2\\langle f,\\phi''\\rangle
-  $$
-  $$\\langle f^{(n)},\\phi\\rangle=(-1)^n\\langle f,\\phi^{(n)}\\rangle$$
-  
-  
-  $$\\langle f,\\alpha_{1}\\phi_{1}+\\alpha_{2}\\phi_{2}\\rangle=\\alpha_{1}\\langle f,\\phi_{1}\\rangle+\\alpha_{2}\\langle f,\\phi_{2}\\rangle$$
-  
-  $$\\langle r',\\phi\\rangle=\\langle u,\\phi\\rangle$$
-  
-  $$\\langle u',\\phi \\rangle=\\phi(0)$$
-  
-  $$\\langle \\delta,\\phi \\rangle=\\phi(0)$$
-  
-  Sean $f1,f2$ funciones generalizadas
-  $\\langle c_{1}f_{1} +c_{2}f_{2},\\phi\\rangle=c_{1}\\langle f_{1},\\phi \\rangle + c_{2}\\langle f_{2},\\phi \\rangle$
-  
-  Sea $g \\; \\epsilon \\; C^{\\infty}$ , $f$ generalizada 
-  $$\\langle gf,\\phi \\rangle=\\langle f,g \\phi \\rangle$$
-  $$\\langle g\\delta ,\\phi \\rangle=\\langle g(0)\\delta,\\phi\\rangle$$
-  
-  Sea $f$ generalizada, $g \\; \\epsilon \\; C^{\\infty}$
-  
-  $\\langle (gf)',\\phi\\rangle=\\langle gf'+g'f,\\phi\\rangle$
+  ## Por hacer: un resumen de las propiedades de funciones generalizadas
   
   
   ## Integrales delta de Dirac
   
+  **(Revisado $\\checkmark$)**
   Sea $f$ continua a trozos, continua en $t_{0}$
   
   $$\\int_{-\\infty}^{\\infty}\\delta(t-t_{0})f(t)dt=f(t_{0}) $$
@@ -60,6 +32,7 @@ content: '''
    ## Fourier
   
   ### Serie trigonometrica
+  **(Revisado $\\checkmark$)**
   
   Sea $X(t)$ periodica de periodo $T$, frecuencia $f_{0}$
   
@@ -77,6 +50,7 @@ content: '''
   $$2|a_{0}|^2+\\sum_{n=1}^{\\infty}|a_{n}|^2+|b_{n}|^2=\\frac{2}{T}\\int_{t_{0}}^{t_{0}+T}|x(t)|^2dt$$
   
   ### Serie exponencial
+  **(Revisado $\\checkmark$)**
   
   $$x(t) \\sim \\sum_{n=-\\infty}^{\\infty}X_{k}e^{iw_{n}t}$$
   
@@ -86,6 +60,61 @@ content: '''
   ##### Parseval serie exponencial
   
   $$\\sum_{k=-\\infty}^{\\infty}|X_{k}|^2=\\frac{1}{T}\\int_{to}^{to+T}|x(t)|^2dt$$
+  
+  ### Relacion Exponencial-Trigonometrica
+  **(Revisado $\\checkmark$)**
+  
+  $$a_0=X_0$$
+  $$X_n = \\frac{a_n-ib_n}{2}$$
+  
+  $$a_n= 2Re(C_n)$$
+  $$b_n= -2Im(C_n)$$
+  ### Relgas relacionadas con los coeficientes de Fourier
+  
+  $$Im(x(t))=0  \\implies X_n=X_{-n}^{*}$$
+  
+  $$x(t)=x(-t) \\implies  \\begin{cases} b_n=0  \\\\ X_n=X_{-n}=a_n/2\\end{cases}$$
+  $$x(t)=-x(-t) \\implies \\begin{cases}  a_n=0 \\\\ X_n=-X_{-n}=-ib_n/2\\end{cases}$$
+  $$x(t)=-x(t+T/2) \\implies X_{2n}=0$$
+  
+  ### Convergencia
+  
+  #### Puntual
+  - $X$ continua a trozos en $I=[t_0,t_0+T]$
+  - Existen en $t$ $\\epsilon$ $I$ tanto $X'(t^+)$,$X'(t^-)$
+  Luego
+  $$S[X](t) \\to \\frac{X(t^+)+X(t^-)}{2}$$
+  $$\\forall t \\; \\epsilon \\; [t_0,t_0+T] $$
+  #### Uniforme
+  
+  - $X$ continua en $I=[t_0,t_0+T]$
+  - $X'$ continua a trozos en $I=[t_0,t_0+T]$
+  - $X(t_0)=X(t_0+T)$
+  
+  Luego
+  
+  $$S[X] \\to X (uniforme)\\; en\\; I $$
+  
+  ### Derivación
+  
+  - $X$ continua en $I=[t_0,t_0+T]$
+  - $X'$ continua a trozos en $I=[t_0,t_0+T]$
+  - Existen en $t$ $\\epsilon$ $I$ tanto $X''(t^+)$,$X''(t^-)$
+  
+  Luego
+  $$S'[X](t) \\to \\frac{X'(t^+)+X'(t^-)}{2}$$
+  $$\\forall t \\; \\epsilon \\; [t_0,t_0+T] $$
+  Donde $S'[X]$ es la serie de fourier de $X$ pero derivada termino a termino
+  
+  ### Integración
+  - $X$ continua a trozos en $I=[t_0,t_0+T]$
+  
+  $$s[X](t) \\to \\int_{t_0}^{t}X(u)du$$
+  
+  Donde $s$ es la serie obtenida de integrar termino a termino la serie de $X$ entre $t_0$ y $t_0+t$. 
+  $s$ es una serie de fourier si y solo si $X_0=0$
+  
+  
   
   
 '''
