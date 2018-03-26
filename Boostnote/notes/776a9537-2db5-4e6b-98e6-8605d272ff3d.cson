@@ -1,0 +1,274 @@
+createdAt: "2018-03-26T18:41:03.218Z"
+updatedAt: "2018-03-26T20:39:25.810Z"
+type: "MARKDOWN_NOTE"
+folder: "e58a84a619a157cea5b5"
+title: "Notas clase Nelly 3/26/2018"
+content: '''
+  ### Notas clase Nelly 3/26/2018
+  
+  Sea $X : R \\to C$
+  
+  $$F[X](f)=X(f)=\\int_{-\\infty}^{\\infty}x(t)e^{-2\\pi ift}dt$$
+  (si converge)
+  
+  $$X:R \\to C$$
+  
+  $$f \\; \\epsilon  X(f)$$
+  $$X(f) \\; \\epsilon \\; C$$
+  
+  ## Propiedad
+  
+  si $x$ $\\epsilon$ $L^1(R)$ $\\implies$ existe X(f) y es uniformemente continua en $R$
+  
+  
+  
+  En sentido clasico hay funciones no L1 con transformada 
+  por ejempplo $sinc(t)=\\frac{sin(\\pi t)}{\\pi t}$
+  
+  
+  ### Continua vs uniformemente continua
+  
+  F es uniformemente continua 
+  
+  $F$ es continua si
+  Cont en $X_0$: Dado $\\epsilon>0$ existe $\\delta$>0 :
+  
+  $$|x-x_0|< \\delta \\implies |f(x)-f(x_0)|<\\epsilon$$
+  $\\delta$ varia segun $x_0$
+  
+  Uniformemente continua
+  
+  
+  Dado $\\epsilon$>0, existe $\\delta$>0 tal que
+  
+  $$\\forall x,y \\epsilon D : |x-y|<\\delta \\implies |f(x)-f(y)|<\\epsilon $$
+  
+  $\\delta$ no varia segun $x_0$
+  
+  
+  ## Propiedades elementales transformada
+  
+  - Linealidad
+  - Dualidad
+  $$X(t) \\to (-f)$$
+  
+  - Traslacion
+  $$X(t-t_0) \\to X(f)e^{-i2\\pi t_0f}$$
+  $$x(t)e^{i2\\pi f_0t} \\to X(f-f_0)$$
+  - Escalamiento
+  $$x(at) \\to \\frac{1}{|a|}X(f/a)$$
+  - Derivada
+  $$X^{(n)}(t) \\to (i2\\pi f)^{(n)}X(f)$$
+  $$t^{(n)}x(t) \\to\\frac{X^{(n)}(f)}{(-i2\\pi)^{(n)}}$$
+  - Integral
+  
+  $$y(t)=\\int_{-\\infty}^{t}x(t')dt' \\to \\frac{X(f)}{i2\\pi f}+\\frac{X(0)}{2}\\delta(f)$$
+  
+  Si conozco la transformada puedo conseguir la $X$?
+  No, no es inyectiva la transformada
+  Hay distintas funcioens con la misma transformada
+  En algunos espacios mas buenos como funciones $C^{\\infty}$ si vale y esto nos sirve para propositos practicos
+  
+  $$x^*(t)= \\int_{-\\infty}^{\\infty}X(f)e^{i2\\pi ft}df$$
+  
+  ### Demostracion 
+  **(falta)**
+  
+  ### Transformadas utiles
+  
+  $$\\prod(\\frac{t}{T}) \\leftrightarrow Tsinc(fT)$$
+  $$\\bigwedge(\\frac{t}{T}) \\leftrightarrow T^2sinc^2(fT)$$
+  $$u(t) \\to \\frac{1}{i2\\pi f}+\\frac{1}{2}\\delta(f)$$
+  Esta ultima es una **transformada en sentido generalizado**
+  
+  $$\\delta(t) \\to 1$$
+  $$1 \\to \\delta(f)$$
+  $$signo(t) \\to \\frac{1}{i\\pi f}$$
+  $$e^{-\\alpha t}u(t) \\to \\frac{1}{\\alpha+i2\\pi f}$$
+  $$e^{-\\alpha |t|} \\leftrightarrow \\frac{2\\alpha}{\\alpha^2+4\\pi^2f^2}$$
+  
+  La integral suaviza, al ser L1 la transformada es uniformemente continua
+  
+  ## Ejercicio 2 guia 3
+  
+  $$x_a(t)=e^{-\\alpha t}u(t)$$
+  
+  $$X_a(f) \\underbrace{=}_{calculo} \\frac{1}{\\alpha+i2\\pi f}$$
+  
+  $$x_b(t)=e^{\\alpha t}u(-t)$$
+  
+  $x_b(t)=x_a(-t)$ $\\implies$ $X_b(f)=\\frac{1}{|-1|}X_a(\\frac{f}{-1})$
+  
+  $$X_b(f)=\\frac{1}{\\alpha-i 2\\pi f}$$
+  
+  $$x_c(t)=e^{-\\alpha |t|}$$
+  
+  Notar
+  
+  $$x_c(t)=x_a(t)+x_b(t)$$
+  $$x_c(t)=e^{-\\alpha t}u(t)+e^{\\alpha t}u(-t)$$
+  
+  $$X_c(f)=\\frac{2\\alpha}{\\alpha ^2 + (2\\pi f)^2}$$
+  
+  Otro caso
+  
+  $$y(t)=\\frac{1}{t^2+b^2}$$
+  
+  $$F(y(t))$$
+  
+  $$b\\neq 0$$
+  $$Y(f)=\\int_{-\\infty}^{\\infty}\\frac{1}{t^2+b^2}e^{-i2\\pi f t}dt$$
+  
+  Usando mate 4 la podemos resolver pero vamos a utilizar dualidad, no usaremos las tecnicas con residuos de mate 4
+  
+  $$\\frac{2 \\alpha}{\\alpha^2 + 4\\pi^2t^2} \\to e^{-\\alpha |f|}$$
+  $$\\frac{2 \\alpha}{4\\pi^2(t^2+\\frac{\\alpha^2}{4\\pi^2})} \\to e^{-\\alpha |f|}$$
+  
+  $$\\frac{1}{t^2+\\frac{\\alpha^2}{4\\pi^2}} \\to \\frac{2\\pi^2}{\\alpha}e^{-\\alpha|f|}$$
+  
+  $$Y(f)= F[\\frac{1}{t^2+b^2}] = \\frac{2\\pi^2}{2\\pi b}e^{-2\\pi b|f|}=\\frac{\\pi}{b}e^{-2\\pi b|f|}$$
+  
+  $$\\frac{\\alpha ^2}{2\\pi^2}=b^2 \\to \\alpha = 2\\pi b$$ 
+  $$(b>0)$$
+  
+  ejercicio 3 para hacer cuentas
+  el ejercicio 4b esta raro
+  
+  ### Ejemplo
+  
+  $$x(t)=cos(6\\pi t)$$
+  
+  $$\\int_{-\\infty}^{\\infty}cos(6\\pi t)e^{-i2\\pi f t}dt = I$$
+  
+  Notar que $I$ diverge
+  Por lo tanto solo podemos pensar en $X(f)$ en el sentido generalizado
+  
+  $$x(t)=\\frac{1}{2}e^{i6\\pi t}+\\frac{1}{2}e^{-i6\\pi t}$$
+  transformamos
+  
+  $$X(f)=\\frac{1}{2}\\delta(f-3)+\\frac{1}{2}\\delta(f+3)$$
+  
+  Supongamos que
+  
+  $$x(t) \\to X(f)$$
+  
+  defino
+  $$Y(t)=x(2t+5)$$
+  exprese la transformada de $y$ en terminos de $X(f)$
+  
+  $$y(t)=x(2(t+5/2))$$
+  $$Y(f)=\\frac{1}{2}X(\\frac{f}{2}e^{+i2\\pi f5/2})$$
+  
+  La definicion no falla jamas!
+  
+  Quien es $Y(f)$ por defincion?
+  
+  $$Y(f)=\\int_{-\\infty}^{\\infty}x(2t+5)e^{-i2\\pi f t }dt$$
+  hacemos $\\tau = 2t + 5$
+  
+  $$Y(f)=\\int_{-\\infty}^{\\infty}x(\\tau)e^{-i2\\pi f (\\tau-5)/2)}\\frac{d\\tau}{2}$$
+  
+  $$Y(f)=\\frac{1}{2}e^{-i2\\pi f 5/2} 
+  
+  \\underbrace { \\int_{-\\infty}^{\\infty}x(\\tau)e^{-i2\\pi f \\tau / 2} d\\tau}_{X(f/2)}$$
+  
+  Antes de ir al ejercicio 5 algunas cuestiones
+  
+  Supogamos que 
+  $$x: R\\to R,real \\implies X(f)=\\int_{-\\infty}^{\\infty}x(t)e^{-i2\\pi f t} dt$$
+  
+  La conjugada de la integral es la integral de la conjuntada
+  
+  $$X^*(f)=\\int_{-\\infty}^{\\infty}x(t)e^{-i2\\pi f t}dt = X(-f)$$
+  
+  Supongamos que
+  
+  $$x:R ->R, par \\implies $$
+  $$X(f)=\\int_{-\\infty}^{\\infty}x(t)e^{-2\\pi f t}dt=\\int_{-\\infty}^{\\infty}x(t)cos(2\\pi f t)dt-
+  
+  \\underbrace{ i\\int_{-\\infty}^{\\infty} x(t)cos(2\\pi f t)dt }_{ =0}$$
+  
+  Por lo tanto $X(f)$ real y par
+  
+  Analogamente
+  
+  $$x:R\\to R,impar \\implies X(f) \\;imaginaria \\;pura\\;e\\; impar $$
+  
+  
+  Las transformadas de $\\delta, 1 , signo(t)$ son en el sentido generalizado
+  
+  Ahora vamos al ejercicio 5
+  
+  hacemos el 5-c
+  
+  hay un dibujito
+  
+  Lo escribimos en terminos de pulsos solamente
+  
+  $$x_c(t)= \\prod(\\frac{t+3/2}{1})+2\\prod(\\frac{t-0}{2})+\\prod{(\\frac{t-3/2}{1})}$$
+  
+  $$x_c(t)=\\prod(t+3/2)+2\\prod(t/2)+\\prod(t-3/2)$$
+  
+  transformamos
+  
+  $$X_c(f)=e^{i2\\pi f3/2} sinc(f)+2*2sinc(2f)+e^{-i2\\pi f3/2}sinc(f) $$
+  
+  $$X_c(f)=4sinc(2f)+sinc(f)( \\underbrace{e^{i3\\pi f}+e^{-i3\\pi f} }_{2cos(3\\pi f)} )$$
+  
+  Observar que es real y par, por lo tanto es razonable el resultado que obtuvimos
+  
+  Se puede pensar como la suma de los pulsos tambien!
+  
+  $$X_c(t)=\\prod(\\frac{t}{4})+\\prod{(\\frac{t}{2})}$$
+  
+  ### Otro ejemplo
+  
+  $$X(t)=e^{-\\alpha t^2} (\\alpha >0)$$
+  
+  Observar que es conocido que
+  
+  $$\\int_{-\\infty}^{\\infty}x(t)dt=\\sqrt{\\frac{\\pi}{\\alpha}}$$
+  
+  Un asco calcular la transformada por definicion
+  
+  $$x'(t)=-2\\alpha te^{-\\alpha t^2}$$
+  
+  $$\\begin{cases}x'(t)=-2 \\alpha tx(t) \\leftrightarrow x'(t)+2\\alpha t x(t)=0 \\\\ 
+  x(0)=1 \\end{cases}$$
+  (Tenemos una edo)
+  
+  $$i2\\pi f X(f)= 2\\alpha \\frac{X'(f)}{+2i\\pi}$$
+  
+  $$\\frac{\\alpha}{\\pi}X'(f)+2\\pi fX(f)=0$$
+  
+  $$X'(f)+\\frac{2\\pi^2}{\\alpha f}X(f)=0$$
+  
+  $$X(0)=\\int_{-\\infty}^{\\infty}x(t)dt=\\sqrt{\\frac{\\pi}{\\alpha}}$$
+  
+  Recuerdo
+  
+  $$\\int_{-\\infty}^{\\infty}e^{-x^2/2}dx = \\sqrt{2\\pi}$$
+  
+  
+  $$x'(f)+\\frac{2\\pi^2}{\\alpha}fX(f)=0$$
+  
+  $$\\frac{X'(f)}{X(f)}=-\\frac{2\\pi^2}{\\alpha}f$$
+  
+  $$ln|X(f)|=-\\frac{\\pi^2}{\\alpha}f^2+k$$
+  $$X(f)=ce^{-\\pi^2f^2/ \\alpha } $$
+  $$X(0) = \\sqrt{\\frac{\\pi}{\\alpha}}=c$$
+  
+  Comentario: las gaussianas transformo fourier y se transformar en gaussianas
+  
+  Y las respuesta del ejercicio
+  
+  $$X(f)=\\sqrt{\\frac{\\pi}{\\alpha}}e^{-f^2\\pi^2/\\alpha}$$
+  
+  las gaussianas auto funciones de la transformada de fourier, se transforman en si mismas
+  
+  
+  Sere 
+'''
+tags: []
+isStarred: false
+isTrashed: false
