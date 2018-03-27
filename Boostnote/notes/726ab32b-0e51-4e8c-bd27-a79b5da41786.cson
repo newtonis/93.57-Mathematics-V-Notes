@@ -1,0 +1,74 @@
+createdAt: "2018-03-27T14:05:49.660Z"
+updatedAt: "2018-03-27T14:41:48.290Z"
+type: "MARKDOWN_NOTE"
+folder: "82bec2fdf2f2d22d3517"
+title: "Clase 3/27/2018"
+content: '''
+  ### Clase 3/27/2018
+  
+  La clase pasada definimos distribucion normal o de gauss de una variable aletoria
+  $$X \\sim N(\\mu,\\sigma)$$
+  
+  $$\\mu \\; \\epsilon \\; R , \\sigma \\; \\epsilon \\; R^{+}$$
+  
+  $$E(X)=\\mu$$
+  $$\\sigma(X)=\\sigma$$
+  
+  $$f_x(x)=\\frac{1}{\\sqrt{2\\pi}\\sigma}e^{-( (x-\\mu)/\\sigma)^2/2}$$
+  
+  $$x \\; \\epsilon \\; R$$
+  
+  $$P(a<X<b)=\\int_{a}^{b}f_x(x)dx=F_x(b)-F_x(a) =\\phi(\\frac{b-\\mu}{\\sigma})-\\phi(\\frac{a-\\mu}{\\sigma})$$
+  
+  su primitiva admite desarrollo en serie aunque no se pueda calcular con un numero finito de desarrollos
+  
+  $$Z=\\frac{X-\\mu}{\\sigma}$$
+  $Z$ es la estandarizacion de $X$
+  $$E(Z)=\\frac{E(X)-\\mu}{\\sigma}=0$$
+  
+  $$V(Z)=V(\\frac{X}{\\sigma}-\\frac{\\mu}{\\sigma})=V(\\frac{X}{\\sigma})=\\frac{1}{\\sigma^2}V(X)=1$$
+  
+  $$F_x(x)= \\phi(\\frac{x-\\mu}{\\sigma})$$
+  
+  ### Propiedades de phi
+  
+  $$\\phi(-z)=1-\\phi(z)$$
+  $$\\phi^{-1}(\\alpha)=Z_\\alpha \\; \\; \\; , \\; \\; \\; Z_\\alpha=-Z_1-\\alpha$$
+  
+  La absisa tal que el area acumulada hasta a ella es $\\alpha$ es $Z_\\alpha$
+  
+  Por ejemplo si $\\alpha=0.25$
+  
+  $$Z_{0.25}=q_1$$
+  $$Z_{0.5}=0$$
+  $$Z_{0.75}=q_3=-q_1$$
+  
+  $$Z_{0.25}=-Z_{0.75}=-0.6745$$
+  
+  Si $X \\sim N(\\mu,\\sigma)$, luego
+  
+  $$q_1=\\mu-0.6745\\sigma$$
+  $$q_3=\\mu+0.6745\\sigma$$
+  
+  $$iqr=q_3-q_1=1.349\\sigma$$
+  
+  $$L_1=q_1-1.5iqr$$
+  $$L_2=q_3+1.5iqr$$
+  
+  
+  $$P(A)=P(X<L_1)+P(X>L_2)$$
+  $$=2P(X<L_1)=2F_x(L_1)$$
+  $$2\\phi(\\frac{\\mu-2.698\\sigma-\\mu}{\\sigma})$$
+  $$=2\\phi(-2.698)=2(1-\\phi(2.698)) \\approx 0.007$$
+  7 de cada mil me da outlier
+  
+  Conveniente tener una copia de la tabla de las distribuciones normal standard
+  
+  ![0.7jp0fmthknd.png](/:storage/0.x7y1pyrczyf.png)
+  
+  
+  
+'''
+tags: []
+isStarred: false
+isTrashed: false

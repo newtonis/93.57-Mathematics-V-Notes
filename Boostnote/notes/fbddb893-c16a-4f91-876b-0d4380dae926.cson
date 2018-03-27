@@ -1,5 +1,5 @@
 createdAt: "2018-03-19T02:03:33.866Z"
-updatedAt: "2018-03-25T21:20:36.051Z"
+updatedAt: "2018-03-27T20:56:10.725Z"
 type: "MARKDOWN_NOTE"
 folder: "58c175c2f5d0af47f676"
 title: "Formulas guia 1,2,3"
@@ -47,7 +47,7 @@ content: '''
   
   
   $$[e_{total}] = [\\frac{W}{m^{2}}]$$
-  Es la **Energia por unidad de area**, o **densidad de energia** sobre la superficie de un cuerpo caliente producida por **todas las longitudes de onda**
+  Es la **Potenca por unidad de area**, o **densidad de energia** sobre la superficie de un cuerpo caliente producida por **todas las longitudes de onda**
   
   $$[e_\\lambda] = [\\frac{W}{m^3}] $$
   Es la **energia por unidad de area por unidad de frecuencia**. Su principal propiedad es que 
