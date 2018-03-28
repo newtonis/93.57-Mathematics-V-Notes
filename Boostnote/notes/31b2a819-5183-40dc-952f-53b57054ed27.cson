@@ -1,0 +1,83 @@
+createdAt: "2018-03-26T23:54:57.961Z"
+updatedAt: "2018-03-27T01:23:09.613Z"
+type: "MARKDOWN_NOTE"
+folder: "3ffd0de1fe60507d8625"
+title: "Ejercicio 5"
+content: '''
+  ### Ejercicio 5
+  En general tenemos
+  
+  <p align="center">
+    <img src="/:storage/0.qp16thwi4om.png">
+  </p>
+  
+  Transformamos la fuente de corriente
+  
+  <p align="center">
+    <img src="/:storage/0.b6y7xgozylg.png">
+  </p>
+  
+  Resolvemos para $t<0$
+  Suponemos que ha ocurrido un largo tiempo, el capacitor se encuentra abierto
+  $$V_x=3V$$
+  Como no hay corriente en la resistencia de $20k$
+  $$V_c(0^-)=+20kUVx+3V$$
+  $$V_c(0^-)=+60kU+3V$$
+  Resolvemos para $t>0$
+  
+  <p align="center">
+    <img src="/:storage/0.6yemd05sphe.png">
+  </p>
+  
+  
+  $V_x=-I2k$ ya que $I$ va en el sentido que cae la tension, si $I$ es positiva, luego $Vx<0$ ya que el extremo superior es menor al inferior, y $V_x$ se definio con polaridad opuesta.
+  
+  $$+20kU(-I2k)-I2k-V_c-I20k=0$$
+  $$40MUI+I22k+V_c=0$$
+  $$I_c(40MU + 22k)+V_c=0$$
+  definimos $R=40MU+22k$
+  
+  $$ \\frac{dV_c}{dt}+\\frac{V_c}{RC}=0$$
+  
+  $$ S=-\\frac{V_c}{RC} $$
+  
+  
+  $$V_c^{(g)}=Ae^{(-t/ (RC) )}$$
+  
+  $$V_c(0^{-})=V_c(0^{+})$$
+  $$A=60kU + 3 \\; (V)$$
+  
+  Por lo tanto el resultado final es
+  
+  $$V_c= 
+  \\begin{cases}
+  60kU+3 \\; (V) & t<0\\\\
+  (60kU+3)e^{-t/((40MU+22k)47*10^{-12})} \\; (V)& t > 0
+  \\end{cases}
+  $$
+  
+  Evaluamos si $U=0$
+  $$
+  V_c=\\begin{cases}
+  3 \\; (V) & t<0\\\\
+  3e^{-967117t} \\; (V)& t > 0
+  \\end{cases}
+  $$
+  
+  Evaluamos si $U=10^{-3}$
+  $$
+  V_c=\\begin{cases}
+  63 \\; (V) & t<0\\\\
+  63e^{-343170t} \\; (V)& t > 0
+  \\end{cases}
+  $$
+  
+  
+  
+  
+  
+  
+'''
+tags: []
+isStarred: false
+isTrashed: false
