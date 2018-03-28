@@ -1,5 +1,5 @@
 createdAt: "2018-03-26T18:41:03.218Z"
-updatedAt: "2018-03-26T22:50:44.975Z"
+updatedAt: "2018-03-28T01:26:39.986Z"
 type: "MARKDOWN_NOTE"
 folder: "e58a84a619a157cea5b5"
 title: "Notas clase Nelly 3/26/2018"
@@ -406,6 +406,14 @@ content: '''
   $$arg(X_a(f))= arctg(-\\frac{2\\pi f}{\\alpha}) $$
   
   ufff arctg no sirve en todos los casos
+  #### Ejercicio 6
+  No quiero calcular integrales
+  
+  $$y(t)=\\prod(t)sin(20\\pi t)$$
+  
+  Viva la linealidad, directo al grano
+  
+  $$y(t)=\\prod(t)(\\frac{1}{2i}e^{i20\\pi t}-\\frac{1}{2i}e^{-i20\\pi t})$$
   
   ## Ejercicio 8
   

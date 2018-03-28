@@ -1,5 +1,5 @@
 createdAt: "2018-03-18T20:34:39.692Z"
-updatedAt: "2018-03-26T19:59:31.278Z"
+updatedAt: "2018-03-28T01:26:31.573Z"
 type: "MARKDOWN_NOTE"
 folder: "e58a84a619a157cea5b5"
 title: "Recopilacion de propiedades de funciones generalizadas"
@@ -115,14 +115,6 @@ content: '''
   $s$ es una serie de fourier si y solo si $X_0=0$
   
   
-  #### Ejercicio 6
-  No quiero calcular integrales
-  
-  $$y(t)=\\prod(t)sin(20\\pi t)$$
-  
-  Viva la linealidad, directo al grano
-  
-  $$y(t)=\\prod(t)(\\frac{1}{2i}e^{i20\\pi t}-\\frac{1}{2i}e^{-i20\\pi t})$$
   
   
 '''
