@@ -1,12 +1,4 @@
-createdAt: "2018-03-19T02:03:33.866Z"
-<<<<<<< HEAD
-updatedAt: "2018-03-25T21:29:46.377Z"
-=======
-updatedAt: "2018-03-27T20:56:10.725Z"
->>>>>>> f3656bc41782120bd31b563824c9e22edf00505c
 type: "MARKDOWN_NOTE"
-folder: "58c175c2f5d0af47f676"
-title: "Formulas guia 1,2,3"
 content: '''
   (Ariel Nowik: anowik@itba.edu.ar )
   # Formulas guia 1,2,3
@@ -51,14 +43,10 @@ content: '''
   
   
   $$[e_{total}] = [\\frac{W}{m^{2}}]$$
-<<<<<<< HEAD
-  Es la **Energia por unidad de area**, o **densidad superficial de energia** sobre la superficie de un cuerpo caliente producida por **todas las longitudes de onda**
-=======
-  Es la **Potenca por unidad de area**, o **densidad de energia** sobre la superficie de un cuerpo caliente producida por **todas las longitudes de onda**
->>>>>>> f3656bc41782120bd31b563824c9e22edf00505c
+  Es la **Potencia por unidad de area**, o **densidad superficial de energia** sobre la superficie de un cuerpo caliente producida por **todas las longitudes de onda**
   
   $$[e_\\lambda] = [\\frac{W}{m^3}] $$
-  Es la **energia por unidad de area por unidad de frecuencia**. Su principal propiedad es que 
+  Es la **potencia por unidad de area por unidad de frecuencia**. Su principal propiedad es que 
   $$e_\\lambda*\\triangle\\lambda \\approx e_{(\\lambda,\\lambda+\\triangle\\lambda)}$$
   siempre que $\\triangle\\lambda$ sea suficientemente chico (En esos casos escribimos $\\triangle \\lambda=d\\lambda$)
   
@@ -108,8 +96,13 @@ content: '''
   
   
 '''
+title: "Formulas guia 1,2,3"
+folder: "82bec2fdf2f2d22d3517"
+createdAt: "2018-03-28T01:28:21.333Z"
+updatedAt: "2018-03-28T01:28:26.047Z"
+isStarred: false
+isTrashed: false
 tags: [
   "Formulas"
 ]
-isStarred: false
-isTrashed: false
+isPinned: false
