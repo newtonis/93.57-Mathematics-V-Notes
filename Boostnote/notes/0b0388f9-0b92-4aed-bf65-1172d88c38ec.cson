@@ -1,9 +1,40 @@
 createdAt: "2018-03-22T15:14:59.493Z"
-updatedAt: "2018-03-24T00:40:36.745Z"
+updatedAt: "2018-03-29T02:59:47.590Z"
 type: "MARKDOWN_NOTE"
 folder: "58c175c2f5d0af47f676"
-title: ""
-content: ""
+title: "Errores Lab"
+content: '''
+  ### Errores Lab
+  
+  $$v_L=\\frac{x_{dif} }{t_{dif}}$$
+  
+  $$\\triangle v_L=\\sqrt{ (\\frac{\\partial v_l}{\\partial x_{dif} })^2\\triangle x_{dif}^2 + (\\frac{\\partial v_l}{\\partial t_{dif}})^2\\triangle t_{dif}^2 }$$
+  
+  $$\\Delta v_L=\\sqrt{\\frac{\\Delta x_{dif}^2}{t_{dif}^2}+\\frac{x_{dif}^2\\Delta t_{dif}^2}{t_{dif}^4}}=\\frac{1}{t_{dif}}\\sqrt{\\Delta x_{dif}^2+\\frac{x_{dif}^2\\Delta t_{dif}^2 }{t_{dif}^2}}$$
+  
+  $$\\triangle a= 
+    |
+    \\frac{
+      \\partial a
+    }{
+      \\partial v_L
+    }\\triangle v_L
+  |
+  $$
+  
+  $$ 
+  \\triangle a=\\frac{\\Delta v_L}{2\\sqrt{V_l}}\\sqrt{\\frac{9	\\eta}{2(p-\\sigma)g}}
+  $$
+  
+  $$\\Delta q = \\sqrt{
+  (\\frac{\\partial q}{\\partial a})^2\\triangle a^2+(
+  \\frac{\\partial q}{\\partial V})^2\\triangle V^2}$$
+  
+  $$ \\Delta q=\\sqrt{(\\frac{12\\pi a^2(p-\\sigma)gd\\Delta a}{3V} )^2 + (\\frac{4\\pi a^3(p-\\sigma)gd\\Delta V}{3V^2})^2}$$
+  
+  
+  
+'''
 tags: []
 isStarred: false
 isTrashed: false
