@@ -1,10 +1,10 @@
 createdAt: "2018-03-18T20:34:39.692Z"
-updatedAt: "2018-03-28T01:26:31.573Z"
+updatedAt: "2018-04-01T03:35:21.623Z"
 type: "MARKDOWN_NOTE"
 folder: "e58a84a619a157cea5b5"
-title: "Recopilacion de propiedades de funciones generalizadas"
+title: "Recopilacion de propiedades"
 content: '''
-  ## Recopilacion de propiedades de funciones generalizadas
+  # Recopilacion de propiedades
   **(Incompleto, falta pulir , emprolijar, completar)**
   
   (Ariel Nowik: anowik@itba.edu.ar )
@@ -29,7 +29,7 @@ content: '''
   \\end{cases}
    $$
    
-   ## Fourier
+   # Fourier
   
   ### Serie trigonometrica
   **(Revisado $\\checkmark$)**
@@ -65,12 +65,12 @@ content: '''
   **(Revisado $\\checkmark$)**
   
   $$a_0=X_0$$
-  $$X_n = \\frac{a_n-ib_n}{2}$$
-  
-  $$a_n= 2Re(C_n)$$
-  $$b_n= -2Im(C_n)$$
-  ### Relgas relacionadas con los coeficientes de Fourier
-  
+  $$X_n = \\frac{a_n-ib_n}{2} , n >0$$
+  $$X_{-n} = \\frac{a_n+ib_n}{2},n > 0 $$
+  $$a_n= 2Re(X_n)$$
+  $$b_n= -2Im(X_n)$$
+  ### Reglas relacionadas con los coeficientes de Fourier
+  **(Revisado $\\checkmark$)**
   $$Im(x(t))=0  \\implies X_n=X_{-n}^{*}$$
   
   $$x(t)=x(-t) \\implies  \\begin{cases} b_n=0  \\\\ X_n=X_{-n}=a_n/2\\end{cases}$$
@@ -78,6 +78,7 @@ content: '''
   $$x(t)=-x(t+T/2) \\implies X_{2n}=0$$
   
   ### Convergencia
+  **(Revisado $\\checkmark$)**
   
   #### Puntual
   - $X$ continua a trozos en $I=[t_0,t_0+T]$
@@ -113,6 +114,53 @@ content: '''
   
   Donde $s$ es la serie obtenida de integrar termino a termino la serie de $X$ entre $t_0$ y $t_0+t$. 
   $s$ es una serie de fourier si y solo si $X_0=0$
+  
+  
+  # Transformada de Fourier
+  
+  #### Algunas transformadas famosas
+  
+  $$e^{-\\alpha t}u(t) \\leftrightarrow \\frac{1}{\\alpha+i2\\pi f} , \\; \\; \\alpha >0$$
+  
+  $$ e^{\\alpha t}u(-t) \\leftrightarrow \\frac{1}{\\alpha-i2\\pi f}
+  ,\\alpha >0$$
+  
+  $$\\prod(\\frac{t}{T}) \\leftrightarrow Tsinc(fT)$$
+  $$\\bigwedge(\\frac{t}{T}) \\leftrightarrow T^2sinc^2(fT)$$
+  $$u(t) \\to \\frac{1}{i2\\pi f}+\\frac{1}{2}\\delta(f)$$
+  
+  ### Propiedades
+  $$x(t-t_{o}) \\leftrightarrow e^{i2\\pi t_0 f}X(f)$$
+  $$x(at) \\leftrightarrow \\frac{1}{|a|}X(f/a)$$
+  
+  $$x'(t) \\leftrightarrow i2\\pi f X(f)$$
+  
+  $$F[x(t)(-2i\\pi t)^{(n)}]=X^{(n)}(f)$$
+  
+  $$F[(x*y)(t)](f) = X(f)Y(f)$$
+  
+  $$\\int_{-\\infty}^{\\infty} |x(t)|^2dt=\\int_{-\\infty}^{\\infty}|X(f)|^2df$$
+  
+  #### Paridades
+  
+  $x$ es real y par $\\implies$ $X(f)$ es real y par
+  y vale
+  $$X(f)=2\\int_{0}^{\\infty}x(t)cos(2\\pi ft)dt$$
+  $x$ es real e impar $\\implies$ $X(f)$ es imaginaria e impar
+  y vale que
+  $$X(f)=-2i\\int_{0}^{\\infty}x(t)sin(2\\pi f t)dt$$
+  
+  $x$ es real $\\implies$ $X(f)=|X(f)|e^{j \\theta(f)}=Re(f)+iIm(f)$
+  vale que
+  
+  $$|X(f)|, Re(f) \\to pares$$
+  $$\\theta(f), Im(f) \\to impares$$
+  
+  #### Transformada de funciones periodias
+  $$x(t) \\sim \\sum_{n=-\\infty}^{\\infty}X_ne^{i2n\\pi t/T} \\implies X(f)=\\sum_{n=-\\infty}^{\\infty}X_n \\delta(f-\\frac{n}{T})$$
+  
+  
+  
   
   
   

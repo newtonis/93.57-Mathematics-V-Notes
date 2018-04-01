@@ -41,6 +41,7 @@ content: '''
   ### Formulas guia 3
   **(En construcción)**
   
+  ### Potencia emitida
   $$[e_{total}] = [\\frac{W}{m^{2}}]$$
   
   $$[e_\\lambda] = [\\frac{W}{m^3}] $$
@@ -49,48 +50,43 @@ content: '''
   
   $$e_{total} = \\int_{0}^{\\infty}e_\\lambda d\\lambda$$
   
-  Ley de **Kirchhoff**
+  ### Ley de Kirchhoff
   $$
   
-  \\underbrace{e_f}_{Potencia }
+  e_f
+  =J(f,T)A_f
+  $$
+  En cuerpos negros $A_f=1$
   
+  $$e_{total}=\\int_{0}^{\\infty}e_f df = \\sigma T^4 $$
   
-  =J(f,T)A_f$$
-  En cuerpos negros
-  $$e_f=J(f,T)$$
-  
-  $$e_j=\\int_{0}^{\\infty}e_f df = \\sigma T^4 $$
-  
-  Ley de **Stefan**
+  ### Ley de Stefan
   $$e_{total} = a\\sigma T^4$$
   
-  Ley del desplazamiento de **Wien**
+  ### Ley del desplazamiento de Wien
   $$\\lambda_{max}b=T $$
   
-  Relacion densidad de energia con la energia
+  
   $$J(f,T)=u(f,T)c/4$$
   
-  
+  ### Aproximacion de Wien de u
+  Funciona si $\\lambda$ es chico, en $UV$
   $$u(f,T)=Af^3e^{-Bf/T}$$
   
-  Ley de **Planck**
-  $$u(f,T)=\\frac{8\\pi h f^3}{c^3}(\\frac{1}{e^{hf/(k_bT)}-1})$$
+  ### Aproximacion de Rayleigh-Jeans de u
+  Funciona si $\\lambda$ es grande, en $IR$
+  $$u(\\lambda,T)=\\frac{8\\pi}{\\lambda^4}k_bT$$
   
-  En terminos de longitud de onda
+  ### Numero de resonadores
+  $$N(f)df=\\frac{8\\pi f^2}{c^3}{df}$$
   
+  ### Ley de Planck
+  $$u(\\lambda,T)=\\frac{8\\pi hc}{\\lambda^5(e^{hc/(\\lambda k_b T)}-1)}$$
   
+  ### Efecto fotoelectrico
   
-  
-  $$E_{resonador}=nhf$$
-  
-  $$n=1,2,3,...,$$
-  
-  $$\\triangle E = hf$$
-  
-  $$u(f,T)df=\\overline{E}N(f)df$$
-  
-  $\\overline{E}$ es el promedio estacionario de la energia
-  
+  $$K_e=hf-w$$
+  $$\\phi \\to w\\;en\\;la\\;superficie$$
   
   
   
@@ -100,7 +96,7 @@ content: '''
 title: "Formulas guia 1,2,3"
 folder: "58c175c2f5d0af47f676"
 createdAt: "2018-03-28T01:28:21.333Z"
-updatedAt: "2018-03-29T03:03:11.265Z"
+updatedAt: "2018-03-29T04:12:18.973Z"
 isStarred: false
 isTrashed: false
 tags: [

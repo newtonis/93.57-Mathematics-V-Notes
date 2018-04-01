@@ -1,5 +1,5 @@
 createdAt: "2018-03-26T18:41:03.218Z"
-updatedAt: "2018-03-28T01:26:39.986Z"
+updatedAt: "2018-03-31T22:11:19.417Z"
 type: "MARKDOWN_NOTE"
 folder: "e58a84a619a157cea5b5"
 title: "Notas clase Nelly 3/26/2018"
@@ -50,7 +50,7 @@ content: '''
   
   - Linealidad
   - Dualidad
-  $$X(t) \\to (-f)$$
+  $$F[x(-t)] \\to F[x(t)](-f)$$
   
   - Traslacion
   $$X(t-t_0) \\to X(f)e^{-i2\\pi t_0f}$$
@@ -71,8 +71,6 @@ content: '''
   
   $$x^*(t)= \\int_{-\\infty}^{\\infty}X(f)e^{i2\\pi ft}df$$
   
-  ### Demostracion 
-  **(falta)**
   
   ### Transformadas utiles
   
@@ -177,16 +175,16 @@ content: '''
   Supogamos que 
   $$x: R\\to R,real \\implies X(f)=\\int_{-\\infty}^{\\infty}x(t)e^{-i2\\pi f t} dt$$
   
-  La conjugada de la integral es la integral de la conjuntada
+  La conjugada de la integral es la integral de la conjugada
   
-  $$X^*(f)=\\int_{-\\infty}^{\\infty}x(t)e^{-i2\\pi f t}dt = X(-f)$$
+  $$X^*(f)=\\int_{-\\infty}^{\\infty}x(t)e^{i2\\pi f t}dt = X(-f)$$
   
   Supongamos que
   
   $$x:R ->R, par \\implies $$
   $$X(f)=\\int_{-\\infty}^{\\infty}x(t)e^{-2\\pi f t}dt=\\int_{-\\infty}^{\\infty}x(t)cos(2\\pi f t)dt-
   
-  \\underbrace{ i\\int_{-\\infty}^{\\infty} x(t)cos(2\\pi f t)dt }_{ =0}$$
+  \\underbrace{ i\\int_{-\\infty}^{\\infty} x(t)sin(2\\pi f t)dt }_{ =0}$$
   
   Por lo tanto $X(f)$ real y par
   
@@ -369,7 +367,7 @@ content: '''
   $$x_0(t)=(1-t)u(t)u(1-t)$$
   
   No tenemos ganas de hacer partes... uff cuenta para casa, da
-  $$X_0(t)=\\int_{0}^{1}(1-T)e^{-i2\\pi f t}dt$$
+  $$X_0(t)=\\int_{0}^{1}(1-t)e^{-i2\\pi f t}dt$$
   
   sumo $x_0(t)$ y $x_0(-t)$ y obtengo el triangulito
   

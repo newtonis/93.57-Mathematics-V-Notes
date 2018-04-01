@@ -1,5 +1,5 @@
 createdAt: "2018-03-22T19:02:33.758Z"
-updatedAt: "2018-03-29T03:04:49.742Z"
+updatedAt: "2018-03-29T14:58:42.060Z"
 type: "MARKDOWN_NOTE"
 folder: "58c175c2f5d0af47f676"
 title: "Notas clase 22/3/2018 (Rinaldi)"
@@ -10,7 +10,7 @@ content: '''
   **(Revisado $\\checkmark$)**
   
   
-  $$r = 5 cm$$ 
+  $$r = 0.5 cm$$ 
   
   $$T = 6000  k$$
   
@@ -46,13 +46,12 @@ content: '''
    
    { (5505 *10^{-10}m)^5(e^{4.36}-1)}}_{u_t(\\lambda)}*
    
-   \\underbrace{ \\frac{\\pi}{400}m^2 }_{S_{orificio}} *
+   \\underbrace{ \\frac{\\pi}{40000}m^2 }_{S_{orificio}} *
    
-   \\underbrace{ 10*10^{-10} m}_{d\\lambda} \\approx 7.53 W
+   \\underbrace{ 10*10^{-10} m}_{d\\lambda } \\approx 7.53 W
    
    $$
     
-  Deberia dar $7.53W$, hay que verificar si esta mal la respuesta
    
    #### Ejercicio 2
    
@@ -150,8 +149,6 @@ content: '''
   $$\\frac{(e_t)_{real}}{(e_t)_{teorico}} \\approx 1 \\implies (3)$$
   
   $(3) \\implies$ es valido analizar la estrella como un cuerpo negro
-  
-  ### Ejercicio 5
   
   $$[(e_T)_{teorico]} = [\\frac{c u(\\lambda)\\triangle \\lambda}{4}] =[\\frac{J}{m^2s}]$$
   
