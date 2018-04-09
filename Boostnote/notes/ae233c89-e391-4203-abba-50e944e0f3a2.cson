@@ -1,5 +1,5 @@
 createdAt: "2018-03-22T13:08:22.596Z"
-updatedAt: "2018-03-22T14:55:08.121Z"
+updatedAt: "2018-04-01T20:17:39.502Z"
 type: "MARKDOWN_NOTE"
 folder: "82bec2fdf2f2d22d3517"
 title: "Clase 3/22/2018"
@@ -253,7 +253,7 @@ content: '''
   
   Se hace un cociente de probabilidad, la fraccion de que la falla este en $(t,\\triangle t)$ sabiendo que ya fallo despues de $t$
   
-  $$\\frac{t<T<t+\\triangle t}{\\triangle t *P(T>t)}=\\frac{\\int_{t}^{t+\\triangle t} f(x)dx}{\\triangle t (1-F(t))}=(1)$$
+  $$\\frac{P(t<T<t+\\triangle t)}{\\triangle t *P(T>t)}=\\frac{\\int_{t}^{t+\\triangle t} f(x)dx}{\\triangle t (1-F(t))}=(1)$$
   
   Notar que 
   

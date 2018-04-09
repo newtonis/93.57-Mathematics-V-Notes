@@ -1,7 +1,7 @@
 type: "MARKDOWN_NOTE"
 content: '''
   (Ariel Nowik: anowik@itba.edu.ar )
-  # Formulas guia 1,2,3
+  # Recopilacion de fórmulas
   
   ### Posición
   
@@ -17,6 +17,9 @@ content: '''
   $$u_{x}'=\\frac{u_{x}-v}{1-u_{x}v/c^2}$$
   $$u_{y}'=\\frac{u_{y}}{\\gamma(1-u_{x}v/c^2)}$$
   $$u_{z}'=\\frac{u_{z}}{\\gamma(1-u_{x}v/c^2)}$$
+  
+  ### Truco
+  $$\\vec F = \\frac{\\vec F \\cdot \\vec u }{c^2}\\vec u+\\frac{m_0 \\vec a}{\\sqrt{1-u^2/c^2}}$$
   
   ### Efecto Doppler relativista
   **(Revisado $\\checkmark$)**
@@ -86,17 +89,22 @@ content: '''
   ### Efecto fotoelectrico
   
   $$K_e=hf-w$$
-  $$\\phi \\to w\\;en\\;la\\;superficie$$
   
+  $$I=nhf$$
+  
+  ### Efecto Compton
+  
+  $$\\triangle \\lambda = \\frac{h}{m_ec}(1-cos\\;\\theta)$$
+  $$\\frac{h}{m_ec} \\approx 0.0243 \\dot A$$
   
   
   
   
 '''
-title: "Formulas guia 1,2,3"
+title: "Recopilacion de fórmulas"
 folder: "58c175c2f5d0af47f676"
 createdAt: "2018-03-28T01:28:21.333Z"
-updatedAt: "2018-03-29T04:12:18.973Z"
+updatedAt: "2018-04-08T20:49:11.281Z"
 isStarred: false
 isTrashed: false
 tags: [
