@@ -1,0 +1,68 @@
+createdAt: "2018-05-28T02:21:03.292Z"
+updatedAt: "2018-05-28T02:22:25.415Z"
+type: "MARKDOWN_NOTE"
+folder: "82bec2fdf2f2d22d3517"
+title: ""
+content: '''
+  <img src="/:storage/apuntesari_proba1p.png">
+  
+  ###### (Ariel Nowik: anowik@itba.edu.ar - Consultas - correcciones - sugerencias)
+  
+  ## Distribuciones discretas
+  
+  #### Distribucion geometrica
+  Se extran $k$ elementos hasta que haya un exito donde $p$ es la probabilidad de exito.
+  $$ X \\sim Geom(p) \\implies P(X=k) = (1-p)^{k-1}p$$
+  $$E(X)=\\frac{1}{p}$$
+  
+  #### Distribucion hipergeometrica (sin reemplazo)
+  
+  $$ X \\sim H(N,R,n) \\implies P(X=r) = \\frac{\\binom{R}{r}\\binom{N-R}{n-r}} {\\binom{N}{n}} $$
+  
+  - $N$ : Cantidad de elementos de la poblaciòn
+  - $R$ : Cantidad de elementos "Buenos" de la poblacion
+  - $n$ : Cantidad de elementos de la muestra
+  - $X$ : Cantidad de elementos "Buenos" de la muestra 
+  
+  $$E(X)= \\frac{nR}{N} \\; \\; \\; \\; V(X)=\\frac{nR}{N}(1-\\frac{R}{N})\\frac{N-n}{N-1}$$
+  
+  #### Distribucion Binomial (con reemplazo)
+  - $n$ : Cantidad de experimentos independientes
+  - $p$ : Probabilidad de exito
+  - $X$ : Cantidad de exitos 
+  $$ X \\sim Bin(n,p) \\implies P(X=r)=p^{r}(1-p)^{n-r}\\binom{n}{r}$$
+  
+  $$ E(X)=np \\; \\; \\; \\; V(X)=np(1-p)$$
+  
+  #### Distribucion de Poisson
+  - Se pide $n$ grande, $p$ pequeño para aproximar binomial con Poisson
+  $$X \\sim Poiss(\\lambda) \\implies P(X=k)=\\frac{e^{-\\lambda}\\lambda^{k}}{k!}$$ 
+  $$ \\lambda = np\\; \\; \\; \\; E(X)=\\lambda \\; \\; \\; \\; V(X)=\\lambda$$
+  
+  ## Distribuciones continuas
+  
+  #### Uniforme
+  
+  $$X \\sim U(a,b) \\implies f_X(x)=\\frac{1}{b-a} \\; \\; , \\; \\; F_X(x)=\\frac{x-a}{b-a} \\; \\; x \\; \\epsilon \\;(a,b)  $$
+  $$E(X)=\\frac{a+b}{2} \\; \\; \\; \\; V(X)=\\frac{(b-a)^2}{12}$$
+  
+  #### Exponencial
+  
+  $$X \\sim Exp(b) \\implies f_X(x)=be^{-bx} \\; , \\; F_X(x)=1-e^{-bx} \\; \\; b > 0$$
+  $$E(X)=\\frac{1}{b} \\; \\; V(X)=\\frac{1}{b^2}$$
+  
+  #### Normal
+  
+  $$X \\sim Norm(\\mu,\\sigma) \\implies f_X(x)=\\frac{1}{\\sigma\\sqrt{2\\pi}}e^{((x-\\mu)/\\sigma)^2/2} \\; \\; \\; \\; , \\; \\; \\; F_X(x)=\\phi(\\frac{x-\\mu}{\\sigma})$$
+  
+  ## Fórmulas
+  $$V(X) = E([X-E(X)]^2) = E(X^2)-E(X)^2$$
+  $$E(G(X))=\\int_{-\\infty}^{\\infty}G(x)f_X(x)dx$$
+  $$E(aX+bY)=aE(X)+bE(Y)$$
+  $$V(aX+bY+c)=a^2V(X)+b^2V(Y)$$
+  
+  $$\\int_{0}^{\\infty}te^{-\\lambda t}dt=\\frac{1}{\\lambda^2} \\; \\; \\; \\; \\lambda>0$$
+'''
+tags: []
+isStarred: false
+isTrashed: false

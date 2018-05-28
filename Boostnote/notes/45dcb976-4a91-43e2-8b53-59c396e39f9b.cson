@@ -1,0 +1,41 @@
+createdAt: "2018-05-01T04:21:10.552Z"
+updatedAt: "2018-05-01T05:15:29.061Z"
+type: "MARKDOWN_NOTE"
+folder: "e58a84a619a157cea5b5"
+title: "Ejercicio 4b 1er cuatrimestre 2016"
+content: '''
+  ## Ejercicio 4b 1er cuatrimestre 2016
+  (Ariel Nowik: anowik@itba.edu.ar )
+  
+  
+  Sean $x(n)$,$y(n)$ señales en tiempo discreto periódicas de periodo $N$. Demuestre que $z(n)$ es periódica de período $N$ y que si $\\alpha_k,\\beta_k,\\gamma_k$ son los coeficientes de la serie exponencial de fourier de, respectivamente, $x(n)$,$y(n)$ y $z(n)$, entonces 
+  $\\gamma_k=\\sum_{l=0}^{N-1}\\alpha_l\\beta_{k-l}=\\sum_{l=0}^{N-1}\\alpha_{k-l}{\\beta_l}$
+  
+  
+  ### Solución
+  
+  Para empezar
+  $$z(n+N)=xy(n+N)=x(n+N)y(n+N)=x(n)y(n)=xy(n)=z(n) \\implies \\; Z \\; periodo \\; N$$
+  Y ahora demostramos la igualdad de los coeficientes
+  
+  $$\\sum_{l=0}^{N-1}\\alpha_l \\beta_{k-l}=\\sum_{l=0}^{N-1}\\alpha_l(\\frac{1}{N}\\sum_{n=0}^{N-1}y(n)e^{-i2\\pi n(k-l)/N})=\\frac{1}{N}\\sum_{l=0}^{N-1} \\sum_{n=0}^{N-1}\\alpha_ly(n)e^{-i2\\pi n(k-l)/N}$$
+  Invertimos el orden de las sumas y agrupamos para conseguir expresada la serie de $x(n)$
+  
+  $$=\\frac{1}{N} \\sum_{n=0}^{N-1}y(n)
+  ( 
+  \\underbrace{
+  
+  \\sum_{l=0}^{N-1}
+  \\alpha_l e^{i2\\pi nl/N})
+  }_{x(n)}
+  e^{-i2\\pi nk/N}=\\frac{1}{N}\\sum_{n=0}^{N-1}
+  
+  \\underbrace{x(n)y(n)}_{z(n)}
+  
+  e^{-i2\\pi nk/N}=\\gamma_k$$
+  
+  Y queda demostrado. No es necesario demostrar que $\\sum_{l=0}^{N-1}\\alpha_l\\beta_{k-l}=\\sum_{l=0}^{N-1}\\alpha_{k-l}{\\beta_l}$ porque como $x(n)y(n)$=$y(n)x(n)$ por una cuestion de simetría si vale la igualdad $\\gamma_k=\\sum_{l=0}^{N-1}\\alpha_l\\beta_{k-l}$ entonces vale tambien $\\gamma_k=\\sum_{l=0}^{N-1}\\beta_l\\alpha_{k-l}$
+'''
+tags: []
+isStarred: false
+isTrashed: false

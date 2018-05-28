@@ -1,0 +1,25 @@
+createdAt: "2018-05-27T02:49:43.363Z"
+updatedAt: "2018-05-28T00:52:31.224Z"
+type: "MARKDOWN_NOTE"
+folder: "82bec2fdf2f2d22d3517"
+title: ""
+content: '''
+   <img src="/:storage/apuntesari_proba.png">
+  
+  ##### (Ariel Nowik: anowik@itba.edu.ar - correcciones, sugerencias, consultas)
+  
+  
+  ##### Central del limite
+  $$S_n \\sim Norm(n\\mu,\\sigma\\sqrt{n})$$
+  $$\\bar X \\sim Norm(\\mu,\\sigma/\\sqrt n) $$
+  ##### Poisson
+  $$P(X=k)=\\frac{e^{-\\lambda}}{k!}\\lambda^k \\; \\; \\; \\lambda = \\alpha \\Delta t$$
+  
+  ##### Confianza $\\alpha$ de una variable estandarizada T
+  $$\\mu = \\bar X \\pm t_{\\alpha/2,n-1}\\frac{s}{\\sqrt{n}}$$
+  
+  
+'''
+tags: []
+isStarred: false
+isTrashed: false

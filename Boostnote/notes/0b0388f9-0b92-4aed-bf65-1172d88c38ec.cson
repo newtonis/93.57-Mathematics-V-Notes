@@ -1,5 +1,5 @@
 createdAt: "2018-03-22T15:14:59.493Z"
-updatedAt: "2018-03-29T02:59:47.590Z"
+updatedAt: "2018-04-09T23:32:46.290Z"
 type: "MARKDOWN_NOTE"
 folder: "58c175c2f5d0af47f676"
 title: "Errores Lab"
@@ -12,6 +12,7 @@ content: '''
   
   $$\\Delta v_L=\\sqrt{\\frac{\\Delta x_{dif}^2}{t_{dif}^2}+\\frac{x_{dif}^2\\Delta t_{dif}^2}{t_{dif}^4}}=\\frac{1}{t_{dif}}\\sqrt{\\Delta x_{dif}^2+\\frac{x_{dif}^2\\Delta t_{dif}^2 }{t_{dif}^2}}$$
   
+  $$\\Delta v_L=\\frac{x_{dif}\\Delta t_{dif}}{t_{dif}^2}$$
   $$\\triangle a= 
     |
     \\frac{

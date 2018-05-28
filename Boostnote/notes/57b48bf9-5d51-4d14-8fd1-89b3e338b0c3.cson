@@ -1,0 +1,98 @@
+createdAt: "2018-05-25T14:33:58.771Z"
+updatedAt: "2018-05-28T03:26:25.606Z"
+type: "MARKDOWN_NOTE"
+folder: "e58a84a619a157cea5b5"
+title: "Teoremas Mate 5"
+content: '''
+  # Teoremas Mate 5
+  
+  ### Teorema del valor inicial
+  
+  - $x(n)$ causal
+  - $X(z)$ con radio de convergencia absouta $R_{ax}$
+  
+  $$\\implies \\lim_{z \\to \\infty}X(z)=x(0)$$
+  
+  ### Teorema del valor final
+  
+  - $x(n)$ causal
+  - $x(n) \\to A$ conforme $n \\to \\infty$
+  
+  $$\\implies \\lim_{z \\to 1}(1-z^{-1})X(z)=A$$
+  $$0\\leq\\theta_0\\leq\\pi/2$$
+  
+  
+  ### Proposicion 1 
+  Muy larga
+  
+  ### Proposicion 2
+  
+  - $X(z)$ cantidad finita de polos $z_1, ... ,z_n$
+  
+  $$\\implies \\lim_{n \\to \\infty}x(n)=0 \\; si \\; \\vert z_i \\vert <1$$
+  
+  - Si, además:
+    - $X(z)=X_1(z)+\\frac{a}{z-1}$
+    - $X_1(z)$ tiene sus $M-1$ polos dentro del circulo unitario
+  $$\\implies \\lim_{n \\to \\infty}x(n)=a$$
+  
+  ### Metodos transformada inversa
+  - division larga
+  - series de laurent
+  - integrales de linea (residuos)
+  - fracciones simples
+  
+  
+  ### Bibo-estabilidad
+  
+  - un sistema LTI es bibo estable si su respuesta impulsiva $h(n)$ verifica
+  
+  $$\\sum_{n\\epsilon Z} \\vert h(n) \\vert<\\infty$$
+  
+  
+  Propiedad | Significado util | $H(t,\\tau)$
+  :---:|:---:|:---:
+  instantaneo | $y(t_0)$ solo depende de $x(t_0)$ | $t \\neq \\tau \\implies H(t,\\tau)=0$
+  dinamico | $y(t_0)$ depende de $x$ en otros instantes | $\\varnothing$
+  causal | $y(t_0)$ depende como mucho de $x(t\\leq t_0)$ | $\\tau>t$ $\\implies$ $H(t,\\tau)=0$
+  tiempo invariante | $x(t) \\to y(t) \\implies x(t-t_0) \\ \\to y(t-t_0)$ | $H(t,\\tau)=H(t-\\tau,0)$
+  relajado en $n_0$ | $y_{[t_0,\\infty]}$ depende solo de $x_{[t_0,\\infty]}$ | 
+  
+  ### Respuesta impusiva
+  
+  Sea un sistema lineal relajado donde $y(t)=H(x(t))$
+  Se demuestra que
+  $$y(t)=\\int_{-\\infty}^{\\infty}x(\\tau)
+  
+  \\underbrace{H[\\delta(t-\\tau)]}_{\\tiny{rta \\; impulsiva}}
+  
+  d\\tau$$
+  
+  
+  Un sistema descripto por
+  
+  $$y(t)=\\int_{-\\infty}^{\\infty}x(\\tau)h(t,\\tau)d\\tau$$
+  
+  esta relajado en $t_0$ si y solo si $x_{[t_0,\\infty]}=0 \\implies y_{[t_0,\\infty]}=0$
+  
+  
+  ### Propiedad util
+  
+  si el sistema es causal relajado en $t_0$ entonces, para todo $t\\geq t_0$
+  
+  $$y(t)=\\int_{t_0}^{t}x(\\tau)h(t,\\tau)d\\tau$$
+  
+  
+  Si el sistema es tiempo invariante, la $h$ se puede convertir en una funcion de una sola variable
+  
+  $$h(t,\\tau)=h(t-\\tau,0)$$
+  
+  En un sistema S lineal continuo relajado y tiempo invariante (LTI)
+  
+  $$y(t)=x*h(t)$$
+  
+  
+'''
+tags: []
+isStarred: false
+isTrashed: false

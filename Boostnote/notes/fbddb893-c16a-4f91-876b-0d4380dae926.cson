@@ -3,51 +3,34 @@ content: '''
   (Ariel Nowik: anowik@itba.edu.ar )
   # Recopilacion de fórmulas
   
-  ### Posición
-  
-  **(Revisado $\\checkmark$)**
+  ## Relatividad
   $$x' = \\gamma (x- vt)$$
   $$y' = y$$
   $$z' = z$$
   $$t' = (t-\\frac{v}{c^2}x)$$
   $$ \\gamma = \\frac{1}{\\sqrt{1-v^2/c^2}} $$
   
-  ### Velocidad
-  **(Revisado $\\checkmark$)**
   $$u_{x}'=\\frac{u_{x}-v}{1-u_{x}v/c^2}$$
   $$u_{y}'=\\frac{u_{y}}{\\gamma(1-u_{x}v/c^2)}$$
   $$u_{z}'=\\frac{u_{z}}{\\gamma(1-u_{x}v/c^2)}$$
   
-  ### Truco
   $$\\vec F = \\frac{\\vec F \\cdot \\vec u }{c^2}\\vec u+\\frac{m_0 \\vec a}{\\sqrt{1-u^2/c^2}}$$
   
-  ### Efecto Doppler relativista
-  **(Revisado $\\checkmark$)**
   $$f_{obs}=f_{fuente}\\frac{\\sqrt{1+v/c}}{\\sqrt{1-v/c}}$$
   
-  ### Cantidad de movimiento
-  **(Revisado $\\checkmark$)**
   
   $$\\vec p=\\gamma m_0 \\vec u$$
   $$\\vec F = \\frac{d\\vec{p}}{dt}$$
-  $$\\vec F = q\\vec{v} \\times\\vec B$$
   
   ### Energía
-  **(Revisado $\\checkmark$)**
   
   $$E = m_0c^2 + K = \\gamma m_0c^2$$
   $$E^2=\\vec p^2c^2+m_0^2c^4$$
-  #### En fotones
-  **(Revisado $\\checkmark$)**
+  $$p=\\frac{\\sqrt{E^2-E_0^2}}{c}$$
   $$E = pc$$
   
-  ### Formulas guia 3
-  **(En construcción)**
   
-  ### Potencia emitida
-  $$[e_{total}] = [\\frac{W}{m^{2}}]$$
-  
-  $$[e_\\lambda] = [\\frac{W}{m^3}] $$
+  ### Potencia 
   si $\\triangle \\lambda$ es chico
   $$e_\\lambda*\\triangle\\lambda \\approx e_{(\\lambda,\\lambda+\\triangle\\lambda)}$$ 
   
@@ -97,14 +80,29 @@ content: '''
   $$\\triangle \\lambda = \\frac{h}{m_ec}(1-cos\\;\\theta)$$
   $$\\frac{h}{m_ec} \\approx 0.0243 \\dot A$$
   
+  ### Modelo del atomo
+  
+  $$ v_n = \\frac{Ze^2 }{\\hbar 4\\pi \\epsilon_0 n}$$
+  $$ r_n = \\frac{n^2\\hbar^2 4\\pi \\epsilon_0}{mze^2}$$
+  
+  $$E_n=\\frac{-13.6eV}{n^2}Z$$
+  
+  Series de 
+  - Lyman (uv) $\\implies$ 2,3,4 $\\to$ 1
+  - Balmer (visible-uv) $\\implies$ 3,4,5 $\\to$ 2
+  - Paschen,Bracket,Pfund (ir)
   
   
-  
+  $$R_\\gamma  \\implies 0,1/100 < \\lambda < 1 \\dot A$$
+  $$R_x  \\implies 1/100 \\dot A < \\lambda < 1\\dot A$$
+  $$uv \\implies 1\\dot A  < \\lambda < 3900 \\dot A$$
+  $$vis  \\implies 3900 \\dot A  < \\lambda < 7200 \\dot A$$
+  $$ir  \\implies \\lambda > 7200 \\dot A$$
 '''
 title: "Recopilacion de fórmulas"
 folder: "58c175c2f5d0af47f676"
 createdAt: "2018-03-28T01:28:21.333Z"
-updatedAt: "2018-04-08T20:49:11.281Z"
+updatedAt: "2018-04-18T21:50:00.574Z"
 isStarred: false
 isTrashed: false
 tags: [

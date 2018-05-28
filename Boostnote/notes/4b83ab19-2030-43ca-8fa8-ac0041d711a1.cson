@@ -1,0 +1,43 @@
+createdAt: "2018-05-24T23:44:32.652Z"
+updatedAt: "2018-05-28T03:22:51.944Z"
+type: "MARKDOWN_NOTE"
+folder: "e58a84a619a157cea5b5"
+title: ""
+content: '''
+  <img src="/:storage/apuntesari.png">
+  
+  ###### (Ariel Nowik: anowik@itba.edu.ar - correcciones, sugerencias, consultas)
+  
+  ### Famosos transformada Z
+  
+  $x(n)\\; causal$|$X(z)$
+  :---:|:---:
+  $\\delta(n)$|1 
+  $\\delta(n-n_0)$|$z^{-n_0}$
+  $u(n)$ | $\\frac{z}{z-1} ,\\vert z\\vert>1$
+  $\\alpha^nu$ | $\\frac{1}{1-\\alpha z^{-1}}=\\frac{z}{z-\\alpha} ,\\vert z \\vert> \\vert \\alpha\\vert$
+  $n\\alpha^n$|$-z\\frac{d}{dz}\\frac{z}{z-a}=\\frac{az}{(z-a)^2}$
+  $e^{-\\alpha Tn }$ | $\\frac{z}{z-e^{-\\alpha T}},\\vert{z \\vert>\\vert e^{\\alpha T}\\vert}$
+  $ne^{-\\alpha Tn}$ | $\\frac{Te^{-\\alpha T}z^{-1}}{(1-e^{-\\alpha T}z^{-1})^2}$
+  $nT$|$\\frac{Tz^{-1}}{(1-z^{-1})^2}$
+  $x(n-n_0)$ | $z^{-n_0}X(z)+z^{-n_0}\\sum_{m=-n_0}^{-1}x(m)z^{-m} ,n_0>0$
+  $x(n+n_0)$ | $z^{-n_0}X(z)-z^{-n_0}\\sum_{m=0}^{n_0-1}x(m)z^{-m} ,n_0>0$
+  $n^{k}x(n)$ | $(-z\\frac{d}{dz})^{(k)}X(z)$
+  $x*y(n)$|$X(z)Y(z)$
+  $b^{n}x(n)$ | $X(\\frac{z}{b}) ,\\vert z \\vert>R_{ax} \\vert b \\vert$
+  $sin(bn)$ |$\\frac{sin(b)z^{-1}}{1-2cos(b)z^{-1}+z^{-2}}$
+  $cos(bn)$| $\\frac{1-cos(b)z^{-1}}{1-2cos(b)z^{-1}+z^{-2}}$
+  
+  
+  $$X(z)= \\sum_{n\\epsilon Z}x(nT)z^{-n}$$
+  $$x(n)=\\sum_{i} Res[z^{n-1}X(z),z_i]$$
+  $$\\lim_{z \\to \\infty}X(z)=x(0)$$
+  
+  ### Sistemas
+  Sistema LTI $\\implies$ $y(t)=x*h(t)$
+  
+  
+'''
+tags: []
+isStarred: false
+isTrashed: false

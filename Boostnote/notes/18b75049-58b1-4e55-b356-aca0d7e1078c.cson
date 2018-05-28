@@ -1,0 +1,25 @@
+createdAt: "2018-05-09T02:35:49.707Z"
+updatedAt: "2018-05-13T03:57:46.816Z"
+type: "MARKDOWN_NOTE"
+folder: "58c175c2f5d0af47f676"
+title: "Segunda parte: formulas"
+content: '''
+  ### Segunda parte: formulas
+  
+  ### Broglie
+  
+  
+  Tema | Nombre | formula
+  :---:|:---:|:---:
+  Broglie | numero de onda - cantidad de movimiento | $k\\hbar=p$
+  Broglie | frecuencia angular - energia | $w\\hbar=E$
+  Broglie | w(k) no relativista | $w(k) = \\frac{\\hbar k^2}{2m}$
+  Schrödinger | General | $-\\frac{\\hbar^2}{2m}\\frac{\\partial^2\\psi}{\\partial x^2}+U(x)\\psi=i\\hbar\\frac{\\partial \\psi}{\\partial t}$
+  Schrödinger | si $\\psi(x,t)=\\psi(x)\\phi(t)$ | $-\\frac{\\hbar^2}{2m}\\frac{\\partial ^2\\psi}{\\partial x^2}+U(x)\\psi(x)=E\\psi(x)$
+  Schrödinger |  | $\\phi(t)=e^{-iwt } \\; w=\\frac{E}{\\hbar}$
+  
+  
+'''
+tags: []
+isStarred: false
+isTrashed: false

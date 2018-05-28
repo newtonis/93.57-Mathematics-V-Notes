@@ -1,5 +1,5 @@
 createdAt: "2018-03-18T20:34:39.692Z"
-updatedAt: "2018-04-08T22:46:04.985Z"
+updatedAt: "2018-04-26T03:19:05.063Z"
 type: "MARKDOWN_NOTE"
 folder: "e58a84a619a157cea5b5"
 title: "Recopilacion de propiedades"
@@ -12,9 +12,8 @@ content: '''
   # Funciones generalizadas
   
   ## Delta de Dirac
-  **(Revisado $\\checkmark$)**
   
-  $$\\delta(t-t_0)f(t)=\\delta(t)f(t_0)$$
+  $$\\delta(t-t_0)f(t)=\\delta(t-t_0)f(t_0)$$
   
   Sea $f$ continua a trozos, continua en $t_{0}$
   
@@ -53,7 +52,7 @@ content: '''
   ### Serie exponencial
   **(Revisado $\\checkmark$)**
   
-  $$x(t) \\sim \\sum_{n=-\\infty}^{\\infty}X_{k}e^{iw_{n}t}$$
+  $$x(t) \\sim \\sum_{k=-\\infty}^{\\infty}X_{k}e^{iw_{n}t}$$
   
   Donde
   

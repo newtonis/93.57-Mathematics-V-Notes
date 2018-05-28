@@ -1,0 +1,36 @@
+createdAt: "2018-05-01T18:25:36.624Z"
+updatedAt: "2018-05-05T04:09:39.946Z"
+type: "MARKDOWN_NOTE"
+folder: "e58a84a619a157cea5b5"
+title: "Ejercicio 1a 2do cuatrimestre 2015"
+content: '''
+  ## Ejercicio 1a 2do cuatrimestre 2015
+  (Ariel Nowik: anowik@itba.edu.ar )
+  
+  Sean $x(t)$ una señal de potencial y para todo $t$ $\\epsilon$ $R$ sean $y(t)=x(-t)$,$z(t)=-x(-t)$
+  Demuestre que $S_y(f)=S_z(f)=S_x(-f)$, donde $S_x,S_y,S_z$ son las densidades espectrales de potencia de $x$,$y$ y $z$ respectivamente. Utilice este hecho para calcular la densidad espectral de potencial de $x(t)=sign(t)$
+  
+  ### Solución
+  
+  Resolvemos la primera parte. Segun la nota 3, pagina 18, se define
+  $$x_T(t)=\\begin{cases} x(t) & |t|\\leq T \\\\
+  0 & |t|>T\\end{cases}$$
+  Se tiene 
+  $$y_T(t)=-x_T(t) \\; \\; \\; \\; z_T(t)=-x_T(-t) \\; \\; \\; \\;z_T(t)=-y_T(t) \\; \\; \\; \\;  \\forall  \\; \\; T>0$$
+  
+  Por lo tanto al transformar
+  
+  $$Z_T(f)=-Y_T(f) \\implies |Z_T(f)|^2=|Y_T(f)|^2 \\implies \\lim_{T\\to\\infty} \\frac{1}{2T}|Z_T(f)|^2=\\lim_{T\\to\\infty}\\frac{1}{2T}|Y_T(f)|^2 \\implies S_z(f)=S_y(f)$$
+  
+  $$Z_T(f)=-X_T(-f) \\implies |Z_T(f)|^2=|X_T(-f)|^2 \\implies \\lim_{T\\to\\infty} \\frac{1}{2T}|Z_T(f)|^2=\\lim_{T\\to\\infty}\\frac{1}{2T}|X_T(-f)|^2 \\implies S_z(f)=S_x(-f)$$
+  Y queda resuelta la primera parte
+  
+  Para la segunda parte, se tiene
+  
+  $$x(t)=sign(t)=u(t)-u(-t) \\implies x_T(t)=u_T(t)-u_T(-t) \\implies X_T(f)=U_T(f)-U_T(-f)$$
+  
+  $$S_x(f)=\\lim_{T\\to \\infty}\\frac{1}{2T}|x_T(t)|^2=\\lim_{T\\to\\infty}\\frac{1}{2T}|u_T(f)|
+'''
+tags: []
+isStarred: false
+isTrashed: false
