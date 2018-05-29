@@ -1,5 +1,5 @@
 createdAt: "2018-05-24T23:44:32.652Z"
-updatedAt: "2018-05-28T03:22:51.944Z"
+updatedAt: "2018-05-28T20:45:53.463Z"
 type: "MARKDOWN_NOTE"
 folder: "e58a84a619a157cea5b5"
 title: ""
@@ -7,12 +7,13 @@ content: '''
   <img src="/:storage/apuntesari.png">
   
   ###### (Ariel Nowik: anowik@itba.edu.ar - correcciones, sugerencias, consultas)
+  ###### Preview
   
   ### Famosos transformada Z
   
   $x(n)\\; causal$|$X(z)$
-  :---:|:---:
-  $\\delta(n)$|1 
+  :---:|:---:|:---:
+  $\\delta(n)$|1 |
   $\\delta(n-n_0)$|$z^{-n_0}$
   $u(n)$ | $\\frac{z}{z-1} ,\\vert z\\vert>1$
   $\\alpha^nu$ | $\\frac{1}{1-\\alpha z^{-1}}=\\frac{z}{z-\\alpha} ,\\vert z \\vert> \\vert \\alpha\\vert$
@@ -23,18 +24,28 @@ content: '''
   $x(n-n_0)$ | $z^{-n_0}X(z)+z^{-n_0}\\sum_{m=-n_0}^{-1}x(m)z^{-m} ,n_0>0$
   $x(n+n_0)$ | $z^{-n_0}X(z)-z^{-n_0}\\sum_{m=0}^{n_0-1}x(m)z^{-m} ,n_0>0$
   $n^{k}x(n)$ | $(-z\\frac{d}{dz})^{(k)}X(z)$
-  $x*y(n)$|$X(z)Y(z)$
+  $x*y(n)$|$X(z)Y(z) ,\\vert z \\vert>R\\leq min(R_1,R_2)$
   $b^{n}x(n)$ | $X(\\frac{z}{b}) ,\\vert z \\vert>R_{ax} \\vert b \\vert$
   $sin(bn)$ |$\\frac{sin(b)z^{-1}}{1-2cos(b)z^{-1}+z^{-2}}$
   $cos(bn)$| $\\frac{1-cos(b)z^{-1}}{1-2cos(b)z^{-1}+z^{-2}}$
   
+  <br>
   
-  $$X(z)= \\sum_{n\\epsilon Z}x(nT)z^{-n}$$
+  ### Propiedades
+  $$X(z)= \\sum_{n\\epsilon Z}x(n)z^{-n}$$
   $$x(n)=\\sum_{i} Res[z^{n-1}X(z),z_i]$$
   $$\\lim_{z \\to \\infty}X(z)=x(0)$$
+  $$\\lim_{z\\to 1}(1-z^{-1})X(z)=A \\; \\; |arg(\\theta)|\\leq\\theta_0<\\pi/2$$
   
   ### Sistemas
   Sistema LTI $\\implies$ $y(t)=x*h(t)$
+  
+  
+  ### Laplace
+  
+  $x(t)$ | $X(s)$
+  :---:|:---:
+  $sh(\\alpha y)$ | $\\frac{\\alpha}{s^2-\\alpha^2}$
   
   
 '''
