@@ -1,5 +1,5 @@
 createdAt: "2018-05-24T23:44:32.652Z"
-updatedAt: "2018-05-28T20:45:53.463Z"
+updatedAt: "2018-05-29T01:23:49.158Z"
 type: "MARKDOWN_NOTE"
 folder: "e58a84a619a157cea5b5"
 title: ""
@@ -15,17 +15,17 @@ content: '''
   :---:|:---:|:---:
   $\\delta(n)$|1 |
   $\\delta(n-n_0)$|$z^{-n_0}$
-  $u(n)$ | $\\frac{z}{z-1} ,\\vert z\\vert>1$
-  $\\alpha^nu$ | $\\frac{1}{1-\\alpha z^{-1}}=\\frac{z}{z-\\alpha} ,\\vert z \\vert> \\vert \\alpha\\vert$
+  $u(n)$ | $\\frac{z}{z-1} \\; \\; , \\; \\;\\vert z\\vert>1$
+  $\\alpha^nu$ | $\\frac{1}{1-\\alpha z^{-1}}=\\frac{z}{z-\\alpha} \\; \\;, \\; \\; \\vert z \\vert> \\vert \\alpha\\vert$
   $n\\alpha^n$|$-z\\frac{d}{dz}\\frac{z}{z-a}=\\frac{az}{(z-a)^2}$
-  $e^{-\\alpha Tn }$ | $\\frac{z}{z-e^{-\\alpha T}},\\vert{z \\vert>\\vert e^{\\alpha T}\\vert}$
+  $e^{-\\alpha Tn }$ | $\\frac{z}{z-e^{-\\alpha T}} \\; \\;, \\; \\;\\vert{z \\vert>\\vert e^{\\alpha T}\\vert}$
   $ne^{-\\alpha Tn}$ | $\\frac{Te^{-\\alpha T}z^{-1}}{(1-e^{-\\alpha T}z^{-1})^2}$
   $nT$|$\\frac{Tz^{-1}}{(1-z^{-1})^2}$
-  $x(n-n_0)$ | $z^{-n_0}X(z)+z^{-n_0}\\sum_{m=-n_0}^{-1}x(m)z^{-m} ,n_0>0$
-  $x(n+n_0)$ | $z^{-n_0}X(z)-z^{-n_0}\\sum_{m=0}^{n_0-1}x(m)z^{-m} ,n_0>0$
+  $x(n-n_0)$ | $z^{-n_0}X(z)+z^{-n_0}\\sum_{m=-n_0}^{-1}x(m)z^{-m}$
+  $x(n+n_0)$ | $z^{-n_0}X(z)-z^{-n_0}\\sum_{m=0}^{n_0-1}x(m)z^{-m}$
   $n^{k}x(n)$ | $(-z\\frac{d}{dz})^{(k)}X(z)$
-  $x*y(n)$|$X(z)Y(z) ,\\vert z \\vert>R\\leq min(R_1,R_2)$
-  $b^{n}x(n)$ | $X(\\frac{z}{b}) ,\\vert z \\vert>R_{ax} \\vert b \\vert$
+  $x*y(n)$|$X(z)Y(z) \\; \\; , \\; \\;\\vert z \\vert>R\\leq min(R_1,R_2)$
+  $b^{n}x(n)$ | $X(\\frac{z}{b}) \\; \\;, \\; \\;\\vert z \\vert>R_{ax} \\vert b \\vert$
   $sin(bn)$ |$\\frac{sin(b)z^{-1}}{1-2cos(b)z^{-1}+z^{-2}}$
   $cos(bn)$| $\\frac{1-cos(b)z^{-1}}{1-2cos(b)z^{-1}+z^{-2}}$
   
@@ -35,7 +35,7 @@ content: '''
   $$X(z)= \\sum_{n\\epsilon Z}x(n)z^{-n}$$
   $$x(n)=\\sum_{i} Res[z^{n-1}X(z),z_i]$$
   $$\\lim_{z \\to \\infty}X(z)=x(0)$$
-  $$\\lim_{z\\to 1}(1-z^{-1})X(z)=A \\; \\; |arg(\\theta)|\\leq\\theta_0<\\pi/2$$
+  $$\\lim_{n\\to\\infty}x(n)=A \\implies \\lim_{z\\to 1}(1-z^{-1})X(z)=A \\; \\; |arg(z-1)|\\leq\\theta_0<\\pi/2$$
   
   ### Sistemas
   Sistema LTI $\\implies$ $y(t)=x*h(t)$
@@ -48,6 +48,14 @@ content: '''
   $sh(\\alpha y)$ | $\\frac{\\alpha}{s^2-\\alpha^2}$
   
   
+  
+  ### Sturm Liouville
+  Caso | $\\lambda _n$ | $\\phi_n$ 
+  :---:|:---:|:---:
+  $\\phi(0)=\\phi(L)=0$ | $\\frac{n\\pi}{L}$ | $sin(\\frac{n\\pi}{L}x) \\; \\; n \\epsilon N$
+  $\\frac{d\\phi}{dx}(0)=\\frac{d\\phi}{dx}(L)=0$ | $\\frac{n\\pi}{L}$ | $cos(\\frac{n\\pi}{L}x) \\; \\; n \\epsilon N_0$
+  $\\phi(0)=0 \\; , \\; h\\phi(L)+\\frac{d\\phi}{dx}(L)=0 \\; ,\\;h>0$ | $\\mu_n^2\\; , \\; tan(\\mu L)=-\\frac{\\mu}{h}$ | $sin(\\mu_nx) \\; \\; n \\epsilon N$
+  $\\phi(0)=0 \\; , \\; h\\phi(L)+\\frac{d\\phi}{dx}(L)=0 \\; ,\\;h<0$ | $[\\frac{(2n-1)\\pi}{2L}]^2$ | $sin(\\frac{(2n-1)\\pi}{2L}x) \\; \\; n \\epsilon N_0$
 '''
 tags: []
 isStarred: false

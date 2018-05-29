@@ -1,5 +1,5 @@
 createdAt: "2018-05-25T14:33:58.771Z"
-updatedAt: "2018-05-28T03:26:25.606Z"
+updatedAt: "2018-05-28T04:04:12.032Z"
 type: "MARKDOWN_NOTE"
 folder: "e58a84a619a157cea5b5"
 title: "Teoremas Mate 5"
@@ -55,9 +55,8 @@ content: '''
   instantaneo | $y(t_0)$ solo depende de $x(t_0)$ | $t \\neq \\tau \\implies H(t,\\tau)=0$
   dinamico | $y(t_0)$ depende de $x$ en otros instantes | $\\varnothing$
   causal | $y(t_0)$ depende como mucho de $x(t\\leq t_0)$ | $\\tau>t$ $\\implies$ $H(t,\\tau)=0$
-  tiempo invariante | $x(t) \\to y(t) \\implies x(t-t_0) \\ \\to y(t-t_0)$ | $H(t,\\tau)=H(t-\\tau,0)$
-  relajado en $n_0$ | $y_{[t_0,\\infty]}$ depende solo de $x_{[t_0,\\infty]}$ | 
-  
+  tiempo invariante  | $x(t) \\to y(t) \\implies x(t-t_0) \\ \\to y(t-t_0)$ | $H(t,\\tau)=H(t-\\tau,0)$ (lineal)
+  relajado en $t_0$ | $y_{[t_0,\\infty]}$ depende solo de $x_{[t_0,\\infty]}$ | $t\\geq t_0,\\tau<t_0 \\implies$$H(t,\\tau)=0$
   ### Respuesta impusiva
   
   Sea un sistema lineal relajado donde $y(t)=H(x(t))$
@@ -69,7 +68,7 @@ content: '''
   d\\tau$$
   
   
-  Un sistema descripto por
+  Un sistema lineal descripto por
   
   $$y(t)=\\int_{-\\infty}^{\\infty}x(\\tau)h(t,\\tau)d\\tau$$
   
