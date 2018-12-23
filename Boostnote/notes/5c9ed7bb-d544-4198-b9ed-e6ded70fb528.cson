@@ -1,0 +1,17 @@
+createdAt: "2018-12-20T04:08:55.486Z"
+updatedAt: "2018-12-20T04:23:54.069Z"
+type: "MARKDOWN_NOTE"
+folder: "82bec2fdf2f2d22d3517"
+title: "Modelo $T$"
+content: '''
+  ## Modelo $T$
+  
+  Se muestra a continuación el modelo T del transistor, utilizado varias veces para la resolució del circuito. Tiene una gran similitud con el modelo $\\pi$, es totalmente equivalente
+  
+   <img src="/:storage/modelos.png" width=600>
+   
+  
+'''
+tags: []
+isStarred: false
+isTrashed: false

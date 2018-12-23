@@ -29,6 +29,16 @@
       "key": "6c095c0ea4ba6629f6a5",
       "color": "#FF8E00",
       "name": "fechas"
+    },
+    {
+      "key": "5919065e19f536d7f3b3",
+      "color": "#E10051",
+      "name": "electro 1"
+    },
+    {
+      "key": "3c6c7a866e29deea4be5",
+      "color": "#3FD941",
+      "name": "TC"
     }
   ],
   "version": "1.0"

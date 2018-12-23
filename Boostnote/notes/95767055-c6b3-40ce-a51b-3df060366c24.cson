@@ -1,0 +1,97 @@
+createdAt: "2018-06-28T14:40:37.333Z"
+updatedAt: "2018-06-28T14:40:50.305Z"
+type: "MARKDOWN_NOTE"
+folder: "e58a84a619a157cea5b5"
+title: "Introduccion a las ecuaciones diferenciales en derivadas parciales"
+content: '''
+  # Introduccion a las ecuaciones diferenciales en derivadas parciales
+  
+  
+  Con una condicion de borde homogenea y una con una funcion arbitraria
+  Por ejemplo,
+  $$ \\begin{cases}
+  
+  \\frac{\\partial u^2}{\\partial x^2}+\\frac{\\partial u^2}{\\partial y^2}=0 \\\\
+   u_y(x,0)=u_y(x,b)=0  & 0<x<a \\\\
+   u_x(0,y)=f(y) \\; \\; u_x(a,y)=g(y) & 0<y<b
+  \\end{cases}$$
+  
+  - Proponer para variables separables, $u(x,y)=X(x)Y(y)$
+  - Considerando $u_{xx}=X''Y\\; \\;u_{yy}=XY''$ llegar a que deben valer, al mismo tiempo
+  $$ \\begin{cases}
+   Y''+\\lambda Y=0 \\\\
+   X''-\\lambda X=0
+   \\end{cases} $$
+  
+  
+  - Plantear la condiciones de borde homgeneas y llegar a condiciones de sturm liouville $u_y(x,0)=\\underbrace{X(x)}_{\\neq 0}Y'(0)=0$ $\\implies$ $Y'(0)=Y'(b)=0$ o si las condiciones de borde son sin derivadas $Y(0)=Y(b)=0$
+  Con $X(x)$ no se puede plantear nada porque las condiciones tienen funciones.
+  
+  
+  
+  - Aplicar formulas de sturm liouville
+  ## Sturm Liouville
+  $$f''(x)+\\lambda f(x)=0 \\; \\; \\; \\; \\; \\; 0<x<L$$
+  Caso | $w _n^2=\\lambda_n$ | $f(x)$ 
+  :---:|:---:|:---:
+  $f(0)=f(L)=0$ | $(\\frac{n\\pi}{L})^2$ | $sin(w_nx) \\; \\; n \\epsilon N$
+  $f'(0)=f'(L)=0$ | $(\\frac{n\\pi}{L})^2$ | $cos(w_nx) \\; \\; n \\epsilon N_0$
+  $f(0)=0 \\; , \\; hf(L)+f'(L)=0 \\; ,\\;h>0$ | $\\mu_n^2\\; , \\; tan(\\mu L)=-\\frac{\\mu}{h}$ | $sin(w_nx) \\; \\; n \\epsilon N$
+  $f(0)=0 \\; , \\; hf(L)+f'(L)=0 \\; ,\\;h<0$ | $[\\frac{(2n-1)\\pi}{2L}]^2$ | $sin(w_nx) \\; \\; n \\epsilon N_0$
+  
+  - Ahora que tenemos familias de soluciones para $Y_n(y)=cos(w_ny)$, necesitamos asociar familias de soluciones $X_n(x)$ para cada $Y_n(y)$ que provoquen que $u(x,y)$ verifique las condiciones de borde con funciones.
+  
+  - Como $u_n(x,y)=Y_n(y)X_n(x)$ verifica todas las condiciones anteriores menos las de borde con funciones, entonces se propone con superposicion
+  
+  $$u(x,y)=\\sum_{k\\epsilon N,N_0} \\underbrace{Y_n(y)}_{conocido}X_n(x) \\implies u_x(x,y)=\\sum_{k\\epsilon N,N_0} \\underbrace{Y_n(y)}_{conocido}X_n'(x)$$ 
+  
+  Que tambien verifica las condiciones anteriores menos las de borde con funciones. Ahora si, con esta $u(x,y)$ planteamos las condiciones de borde con funciones para obtener dos series de fourier
+  
+  $$f(y)=u_x(0,y)=\\sum_{k\\epsilon N,N_0} cos(w_ny) \\underbrace{X_n'(0)}_{a_n} \\; \\; \\; 0<y<a$$ 
+  $$g(y)=u_x(a,y)=\\sum_{k\\epsilon N,N_0} cos(w_ny) \\underbrace{X_n'(a)}_{a_n'} \\; \\; \\; 0<y<a$$ 
+  
+  Por medio de las formulas de fourier, se obtienen entonces $X_n'(0),X_n'(a)$. 
+  
+  - Se resuelve entonces, para cada valor de n la ecuacion restante, que es una ecuacion diferencial con condiciones de borde.
+  $$X_n''-\\lambda_nX_n=0 \\; \\; \\;X'_n(0)=a_n \\; \\; X_n'(a)=a_n'$$
+  Aqui se plantean soluciones con cosenos y senos hiperbolicos
+  $$
+  \\begin{cases}
+  X_n(x)=A_nsinh(w_n x)+B_ncosh(w_nx) & n\\geq1 \\\\
+  X_0(x)=A_0x+B_0 & n=0
+  \\end{cases}
+  $$
+  
+  - Se despejan todos los $X_n$ segun corresponda y se expresa entonces la solucion
+  $$u(x,y)=\\sum_{k\\epsilon N,N_0} \\underbrace{Y_n(y)X_n(x)}_{conocidos}$$
+  
+  
+  ## Cambio para conseguir condiciones homogeneas
+  
+  Supongamos que se tiene
+  
+  $$u(0,t)=T_0 \\; \\; \\; \\;u(a,t)=T_1$$
+  el cambio 
+  $$v(x,t)=u(x,t)-T_0+\\frac{T_0-T_1}{a}x$$
+  consigue un problema de condiciones homogeneas. Se deberan conseguir las derivadas parciales de $v$ en funcion de las derivadas parciales de $u$
+  
+  #### Ecuaciones ordinarias 
+  
+  Para poder hacerlas debe conocerce una familia de los coeficientes de $a$ (en funcion de $n$) de lo contrario es un problema de Sturm liouiville
+  
+  |Forma|Solucion|Condiciones iniciales
+  |:---:|:---:|:---:|
+  |$X''+a_n^2 X=0 \\; \\;$ | $A_ncos(a_nx)+B_nsin(a_nx)$ | 2
+  |$X''-a_n^2X=0 \\; \\;$ | $A_nch(a_nx)+B_nsh(a_nx)$ | 2
+  |$X''=0$ | $A_0x+B_0$ | 2
+  |$X'+a_nX=0$ | $A_ne^{-a_nt}$ | 1
+  
+  
+  #### Series utiles
+  $$f(x)=\\sum_{n\\epsilon N_0}a_ncos(w_nx) \\implies a_n=\\frac{2}{L}\\int_{0}^{L}f(x)cos(w_nx)dx \\; \\; \\; \\; \\; \\; \\; \\; \\; \\; w_n=\\frac{\\pi n}{L}$$ 
+  $$f(x)=\\sum_{n\\epsilon N} b_nsin(w_nx) \\implies b_n=\\frac{2}{L}\\int_{0}^{L}f(x)sin(w_n x)dx \\; \\; \\; \\; \\; \\; \\; \\; \\; \\; w_n=\\frac{\\pi n}{L}$$
+  
+'''
+tags: []
+isStarred: false
+isTrashed: false

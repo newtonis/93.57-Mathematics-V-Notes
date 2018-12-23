@@ -1,0 +1,36 @@
+createdAt: "2018-06-24T18:36:39.299Z"
+updatedAt: "2018-06-24T21:01:31.399Z"
+type: "MARKDOWN_NOTE"
+folder: "e58a84a619a157cea5b5"
+title: "Acerca de la transformada Z bilateral y la causalidad"
+content: '''
+  <img src="/:storage/comentarios.png" width=384 height=100>
+  
+  ###### (Ariel Nowik: anowik@itba.edu.ar - correcciones, sugerencias, consultas)
+  
+  
+  # Acerca de la transformada Z bilateral y la causalidad
+  
+  Imaginemos que tenemos un par $x(n)$ y su transformada $X(z)$, y aún más, supongamos que podemos escribir $X(z) = \\frac{N(z)}{D(z)}$ donde $N(z)$ y $D(z)$ son polinominos.
+  
+  Con certeza, podemos afirmar que existen solo tres posibilidades acerca de lo que podria valer el limite de $X(z)$ conforme $z\\to \\infty$
+  
+  $$ \\lim_{z\\to\\infty} X(z) \\begin{cases} 0 & gr(D)>gr(N)\\\\ A & gr(D)=gr(N)\\\\ diverge & gr(N) > gr(D)\\end{cases} $$
+  Donde $A \\; \\epsilon \\; \\mathbb C \\; , \\;A \\neq 0$
+  Observando desde otra perspectiva, si intentamos calcular el limite de $X(z)$ pero utilizando $x(n)$ tampoco existen demasiados casos a analizar
+  
+  $$ \\lim_{z\\to\\infty}X(z)=\\lim_{z\\to\\infty}\\sum_{n \\epsilon Z}x(n)z^{-n}=\\lim_{z\\to\\infty}\\sum_{n\\epsilon Z}x(-n)z^{n}$$
+  Existen solo dos posibilidades acerca de lo que podria suceder ya que como $z^n\\to\\infty$ cuando $n>0$, es necesario que los terminos de $x(-n)$ con $n>0$ sean nulos para que el limite sea finito. Los terminos con $n<0$ no influyen ya que $z^n\\to 0$ en esos casos
+  
+  $$\\lim_{z\\to\\infty}\\sum_{n\\epsilon Z}x(-n)z^{n}= \\begin{cases} x(0) & x(n<0)=0 \\implies x(n)\\;causal\\\\ diverge & sino \\end{cases}$$
+  
+  En definitiva, entonces, obtuvimos situaciones equivalentes y asociables. Cuando
+  - El limite sea $x(0)$ y por lo tanto $x(n)$ sea causal corresponde a los casos donde $gr(D)\\geq gr(N)$ (limite finito, vale $A \\neq 0$ o $0$)
+  - En limite diverge y por lo tanto $x(n)$ no es causal entendemos que debe suceder que $gr(N)>gr(D)$ (limite divergente)
+  
+  
+  Si bien es algo totalmente complicado pensar en una suma infinita de limites divergentes, por lo menos en los casos donde $x(n)$ sea no nula en finitos puntos $n<0$ , que son todos los casos trabajados en la materia, el argumento funciona sin ninguna duda.
+'''
+tags: []
+isStarred: false
+isTrashed: false

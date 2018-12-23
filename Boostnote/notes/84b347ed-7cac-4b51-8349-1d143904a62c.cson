@@ -1,0 +1,129 @@
+createdAt: "2018-06-24T23:30:55.540Z"
+updatedAt: "2018-06-28T00:59:15.180Z"
+type: "MARKDOWN_NOTE"
+folder: "e58a84a619a157cea5b5"
+title: "Transcripciones de las soluciones de Nelly 2do Parcial 2018 Mate 5"
+content: '''
+  ### Transcripciones de las soluciones de Nelly 2do Parcial 2018 Mate 5
+  
+  #### Ejercicio 1
+  Encuentre la solucion de
+  
+  $$ \\frac{\\partial ^2u}{\\partial x^2}(x,t)=\\frac{1}{k}\\frac{\\partial u(x,t)}{\\partial t} \\; \\; \\; \\;x \\epsilon \\mathbb R,t>0$$
+  $$u(x,0)=2sin(2\\pi f_0x) \\; \\; \\; \\; x \\epsilon \\mathbb R$$
+  
+  ##### Solución
+  
+  Se transforma tanto la solucion como las condiciones de borde
+  $$(i2\\pi f)^2U(f,t)=\\frac{1}{k}U_t(f,t)$$
+  $$u(x,0)=\\frac{1}{i}(e^{i2\\pi f_0x}-e^{-i2\\pi f_0x}) \\implies u(f,0)=\\frac{1}{i}\\delta(f-f_0)-\\frac{1}{i}\\delta(f+f_0)$$
+  
+  $$-4\\pi^2f^2k=\\frac{U_t(f,t)}{U(f,t)} \\implies U(f,t)=A(f)e^{-4\\pi^2 kf^2 t}$$
+  $$U(f,0)=A(f)=\\frac{1}{i}\\delta(f-f_0)-\\frac{1}{i}\\delta(f+f_0)$$
+  
+  Por lo tanto
+  $$U(f,t)=\\frac{1}{i}\\delta(f-f_0)e^{-4\\pi^2 kf^2 t}-\\frac{1}{i}\\delta(f+f_0) e^{-4\\pi^2 kf^2 t}$$
+  Utilizando propiedades de la delta de dirac cambiamos $f$ por $f_0$
+  $$U(f,t)=\\frac{1}{i}\\delta(f-f_0)e^{-4\\pi^2 kf_0^2 t}-\\frac{1}{i}\\delta(f+f_0) e^{-4\\pi^2 kf_0^2 t}$$
+  Y por lo tanto antitransformar es facil, se convierte en constante lo molesto; obtenemos la respuesta
+  $$U(x,t)=\\frac{1}{i}e^{-4\\pi^2 kf_0^2 t}e^{i2\\pi f_0x}-\\frac{1}{i}\\delta(f+f_0) e^{-4\\pi^2 kf_0^2 t}e^{-i2\\pi f_0x}=2e^{-4\\pi^2 kf_0^2 t}\\frac{e^{i2\\pi f_0x}-e^{-i2\\pi f_0x}}{2i}$$
+  $$U(x,t)=2e^{-4\\pi^2kf_0^2t}sin(2\\pi f_0x)$$
+  
+  
+  #### Ejercicio 2
+  
+  Considere el sistema descripto por 
+  $$y'(t)-(1+2t)y(t)=x(t)$$
+  (a) Encuentre su respuesta impulsiva
+  (b) Demuestre que no es BIBO-estable; (**pista**: considere x(t)=u(t))
+  <br>
+  <br>
+  ##### Solución
+  Consideramos $x(t)=\\delta(t-\\tau)$ y resolvemos la ecuacion diferencial resultante. Vamos primero por la solucion homogenea
+  
+  $$\\frac{y'(t)}{y(t)}=1+2t \\implies y_h(t)=ce^{t+t^2}$$
+  Para conseguir una solucion particular usamos variacion de parametros
+  
+  $$y_p(t)=c(t,\\tau)e^{t+t^2}$$
+  <br>
+  Al derivar y reemplazar se llega a que
+  
+  $$c'(t-\\tau)e^{t+t^2}=\\delta(t-\\tau)$$
+  $$c'(t,\\tau)=e^{-t-t^2}\\delta(t-\\tau)=e^{-\\tau-\\tau^2}\\delta(t-\\tau)$$
+  $$c(t,\\tau)=e^{-\\tau-\\tau^2}u(t-\\tau)$$
+  Por lo tanto tomamos como solucion
+  $$h(t,\\tau)=e^{t+t^2-\\tau-\\tau^2}u(t-\\tau)$$
+  
+  Para el item B consideramos $x(t)=u(t)$ e intentamos mostrar que la salida no es acotada
+  
+  $$y(t)=\\int_{-\\infty}^{\\infty}x(\\tau)h(t,\\tau)d\\tau=\\int_{0}^{t}e^{t+t^2}e^{-(\\tau+\\tau^2)}d\\tau$$
+  $$=e^{t+t^2}\\int_{0}^{t}\\underbrace{e^{-(\\tau+\\tau^2)}}_{\\geq e^{-(t+t^2)}}d\\tau\\geq e^{t+t^2}\\int_{0}^{t}e^{-(t+t^2)}d\\tau=t \\implies y(t)\\;no\\;acotada$$
+  
+  #### Ejercicio 3
+  La función transferencia de un sistema LTI en tiempo discreto está dada por
+  
+  $$H(z)=\\frac{z(z-1)^2}{z^2-z-\\frac{3}{16}}$$
+  a) ¿Es causal el sistema?
+  b) ¿Es BIBO-estable?
+  c) Si $y(n)$ es la respuesta del sistema a la rampa unitaria determine, en caso de existir $\\lim_{n\\to\\infty}y(n)$
+  d) Calcule $y(n)$ del punto c
+  
+  ##### Solución
+  
+  a) No es causal el sistema, ya que $gr(N)>gr(D)$
+  b) Si es bibo estable, ya que los polos verifican que $\\vert z \\vert<1$
+  <br>
+  c,d) $x(n)=nu(n)$
+  
+  $$Z[u(n)]=\\frac{z}{z-1}$$
+  $$Z[nu(n)]=\\frac{z}{(z-1)^2}=X(z)$$
+  
+  $$Y(z)=\\frac{z}{(z-1)^2}\\frac{z(z-1)^2}{(z-1/4)(z-3/4)}=\\frac{z^2}{(z-1/4)(z-3/4)} \\implies y(n)\\underbrace{\\to}_{n\\to\\infty}0$$
+  $$\\frac{Y(z)}{z}=\\frac{1/2}{z-1/4}+\\frac{3/2}{z-3/4} $$
+  $$Y(z)=\\frac{-1}{2}\\frac{z}{z-1/4}+\\frac{3}{2}\\frac{z}{z-3/4}$$
+  $$y(n)=[-\\frac{1}{2}(\\frac{1}{4})^n+\\frac{3}{2}(\\frac{3}{4})^n]
+  u(n)$$
+  
+  
+  
+  #### Ejercicio 4
+  
+  La relación entrada salida de un sistema en tiempo discreto relajado en $n=0$ viene dada por
+  
+  $$y(n)-\\frac{1}{2}y(n-1)=x(n)-x(n-1) \\; \\; \\; n\\epsilon N$$
+  
+  a) determine su respuesta en frecuencia
+  b) Si $y(n)$ es la respuesta al escalón unitario, e $Y(f)=F_d[y(n)](f)$, calcule
+  $$\\int_{<1>}\\vert Y(f) \\vert^2df$$
+  
+  ##### Solución
+  
+  a) Aplicamos la transformada Z a ambos miembros
+  
+  $$Y(z)(1-\\frac{1}{2}z^{-1})=X(z)(1-z^{-1})$$
+  $$\\frac{Y(z)}{X(z)}=H(z)=\\frac{1-z^{-1}}{1-\\frac{1}{2}z^{-1}}$$
+  $$H(f)=H(z)[z=e^{i2\\pi f}]=\\underbrace{\\frac{1-e^{-i2\\pi f}}{1-\\frac{1}{2}e^{-i2\\pi f}} }_{rta\\;en\\;frecuencia}$$
+  b) como $X(z)=\\frac{1}{1-z^{-1}}$
+  $$Y(z)=\\frac{1}{1-\\frac{1}{2}z^{-1}} \\implies y(n)=(\\frac{1}{2})^nu(n)$$
+  $$\\int_{<1>}\\vert y(f) \\vert ^2 df\\underbrace{=}_{parseval}\\sum_{n=-\\infty}^{\\infty}\\vert y(n)\\vert^2=\\sum_{n=0}^{\\infty}(\\frac{1}{2})^{2n}=\\frac{1}{1-1/4}=\\frac{4}{3}$$
+  
+  #### Ejercicio 5
+  
+  Un sistema LTI A con respuesta impulsiva $h_A(t)$ es inversible si existe otro sistema LTI B con respuesta impulsiva $h_B(t)$ (el inverso de A) tal que $h_A(t)*h_B(t)=\\delta(t)$
+  
+  a) Si $h_A(t)=\\frac{1}{1+i2\\pi t}$ ¿Es A inversible?
+  b) Si la función transferencia de otro sistema $A_1$ inversible es una función racional de $s$, ¿Baco qué condiciones serán $A_1$ y su inverso BIBO-estables?
+  
+  ##### Solución 
+  
+  $$H_A(f)=e^{f}u(-f)$$
+  Como $H_A(f)$ es nula si $f<0$ entonces no existe $G(f)$ tal que $H_A(f)G(f)=1 \\implies$ no existe $g(t)$ tal que  $H_A(t)*g(t)=\\delta(t)$ $\\implies$ no es inversible
+  
+  b)
+  $$H_{A_1}(s)=\\frac{P(s)}{Q(s)} $$
+  Como necesitamos $gr(Q)\\geq gr(P)$ tanto para $H_{A_1}(s)$ como para $1/H_{A_1}(s)$ no queda otra alternativa más que pedir $gr(P)=gr(Q)$
+  
+'''
+tags: []
+isStarred: false
+isTrashed: false

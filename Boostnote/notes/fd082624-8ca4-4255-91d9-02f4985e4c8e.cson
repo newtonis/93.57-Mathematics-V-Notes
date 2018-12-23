@@ -1,0 +1,13 @@
+createdAt: "2018-07-05T15:20:54.601Z"
+updatedAt: "2018-07-22T13:39:13.835Z"
+type: "MARKDOWN_NOTE"
+folder: "82bec2fdf2f2d22d3517"
+title: "Valor final mejorado"
+content: '''
+  #### Valor final mejorado
+  $$X(z)=\\frac{P(z)}{(z-z_1)(z-z_2)...(z-z_n)}+\\frac{a}{z-1},|z_i|<1 \\implies \\lim_{n\\to \\infty}x(n)=a$$
+  
+'''
+tags: []
+isStarred: false
+isTrashed: true

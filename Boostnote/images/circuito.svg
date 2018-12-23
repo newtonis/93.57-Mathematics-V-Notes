@@ -1,0 +1,2546 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:ns0="http://www.iki.fi/pav/software/textext/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="circuito.svg"
+   inkscape:export-filename="/home/newtonis/Notas/Boostnote/images/circuito1.png"
+   inkscape:export-xdpi="588"
+   inkscape:export-ydpi="588">
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="231.40896"
+     inkscape:cy="846.0606"
+     inkscape:document-units="mm"
+     inkscape:current-layer="g2146-0"
+     showgrid="false"
+     inkscape:window-width="1231"
+     inkscape:window-height="1025"
+     inkscape:window-x="1329"
+     inkscape:window-y="27"
+     inkscape:window-maximized="0"
+     showguides="false" />
+  <defs
+     id="defs2">
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect18112"
+       is_visible="true"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <inkscape:path-effect
+       only_selected="false"
+       apply_with_weight="true"
+       apply_no_weight="true"
+       helper_size="0"
+       steps="2"
+       weight="33.333333"
+       is_visible="true"
+       id="path-effect15028"
+       effect="bspline" />
+    <inkscape:path-effect
+       only_selected="false"
+       apply_with_weight="true"
+       apply_no_weight="true"
+       helper_size="0"
+       steps="2"
+       weight="33.333333"
+       is_visible="true"
+       id="path-effect14016"
+       effect="bspline" />
+    <inkscape:path-effect
+       only_selected="false"
+       apply_with_weight="true"
+       apply_no_weight="true"
+       helper_size="0"
+       steps="2"
+       weight="33.333333"
+       is_visible="true"
+       id="path-effect13994"
+       effect="bspline" />
+    <inkscape:path-effect
+       only_selected="false"
+       apply_with_weight="true"
+       apply_no_weight="true"
+       helper_size="0"
+       steps="2"
+       weight="33.333333"
+       is_visible="true"
+       id="path-effect13748"
+       effect="bspline" />
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect9123"
+       is_visible="true"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="Arrow1Mstart"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mstart">
+      <path
+         transform="scale(0.4) translate(10,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path1445" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker3489"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path3487"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.4) rotate(180) translate(10,0)" />
+    </marker>
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect3147"
+       is_visible="true"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect2650"
+       is_visible="true"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <inkscape:path-effect
+       only_selected="false"
+       apply_with_weight="true"
+       apply_no_weight="true"
+       helper_size="0"
+       steps="2"
+       weight="33.333333"
+       is_visible="true"
+       id="path-effect2361"
+       effect="bspline" />
+    <inkscape:path-effect
+       only_selected="false"
+       apply_with_weight="true"
+       apply_no_weight="true"
+       helper_size="0"
+       steps="2"
+       weight="33.333333"
+       is_visible="true"
+       id="path-effect1837"
+       effect="bspline" />
+    <inkscape:path-effect
+       only_selected="false"
+       apply_with_weight="true"
+       apply_no_weight="true"
+       helper_size="0"
+       steps="2"
+       weight="33.333333"
+       is_visible="true"
+       id="path-effect1791"
+       effect="bspline" />
+    <inkscape:path-effect
+       only_selected="false"
+       apply_with_weight="true"
+       apply_no_weight="true"
+       helper_size="0"
+       steps="2"
+       weight="33.333333"
+       is_visible="true"
+       id="path-effect1787"
+       effect="bspline" />
+    <marker
+       inkscape:collect="always"
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker1717"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend">
+      <path
+         transform="scale(0.4) rotate(180) translate(10,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path1715" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="Arrow1Mend"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend">
+      <path
+         transform="scale(0.4) rotate(180) translate(10,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path1448" />
+    </marker>
+    <marker
+       id="BJTArrow-3"
+       orient="auto"
+       refX="0"
+       refY="0"
+       style="overflow:visible"
+       inkscape:stockid="BJTArrow">
+      <path
+         d="m 0,0 -3,1.25 v -2.5 z"
+         style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.60000002"
+         id="path878-6"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       id="BJTArrow-3-2"
+       orient="auto"
+       refX="0"
+       refY="0"
+       style="overflow:visible"
+       inkscape:stockid="BJTArrow">
+      <path
+         d="m 0,0 -3,1.25 v -2.5 z"
+         style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.60000002"
+         id="path878-6-7"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="BJTArrow"
+       style="overflow:visible"
+       refY="0"
+       refX="0"
+       orient="auto"
+       id="BJTArrow-6">
+      <path
+         inkscape:connector-curvature="0"
+         id="path1000-1"
+         style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.60000002"
+         d="m 0,0 -3,1.25 v -2.5 z" />
+    </marker>
+    <marker
+       inkscape:stockid="BJTArrow"
+       style="overflow:visible"
+       refY="0"
+       refX="0"
+       orient="auto"
+       id="BJTArrow-6-5">
+      <path
+         inkscape:connector-curvature="0"
+         id="path1000-1-9"
+         style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.60000002"
+         d="m 0,0 -3,1.25 v -2.5 z" />
+    </marker>
+    <marker
+       inkscape:stockid="BJTArrow"
+       style="overflow:visible"
+       refY="0"
+       refX="0"
+       orient="auto"
+       id="BJTArrow-2">
+      <path
+         inkscape:connector-curvature="0"
+         id="path1000-9"
+         style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.60000002"
+         d="m 0,0 -3,1.25 v -2.5 z" />
+    </marker>
+    <marker
+       inkscape:stockid="BJTArrow"
+       style="overflow:visible"
+       refY="0"
+       refX="0"
+       orient="auto"
+       id="BJTArrow-2-0">
+      <path
+         inkscape:connector-curvature="0"
+         id="path1000-9-3"
+         style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.60000002"
+         d="m 0,0 -3,1.25 v -2.5 z" />
+    </marker>
+    <marker
+       inkscape:stockid="BJTArrow"
+       style="overflow:visible"
+       refY="0"
+       refX="0"
+       orient="auto"
+       id="BJTArrow-6-4">
+      <path
+         inkscape:connector-curvature="0"
+         id="path1000-1-4"
+         style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.60000002"
+         d="m 0,0 -3,1.25 v -2.5 z" />
+    </marker>
+    <marker
+       inkscape:stockid="BJTArrow"
+       style="overflow:visible"
+       refY="0"
+       refX="0"
+       orient="auto"
+       id="BJTArrow-6-4-3">
+      <path
+         inkscape:connector-curvature="0"
+         id="path1000-1-4-1"
+         style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.60000002"
+         d="m 0,0 -3,1.25 v -2.5 z" />
+    </marker>
+    <marker
+       inkscape:stockid="BJTArrow"
+       style="overflow:visible"
+       refY="0"
+       refX="0"
+       orient="auto"
+       id="BJTArrow-6-4-6">
+      <path
+         inkscape:connector-curvature="0"
+         id="path1000-1-4-6"
+         style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.60000002"
+         d="m 0,0 -3,1.25 v -2.5 z" />
+    </marker>
+    <marker
+       inkscape:stockid="BJTArrow"
+       style="overflow:visible"
+       refY="0"
+       refX="0"
+       orient="auto"
+       id="BJTArrow-7">
+      <path
+         id="path1000-2"
+         style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.60000002"
+         d="m 0,0 -3,1.25 v -2.5 z"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="BJTArrow"
+       style="overflow:visible"
+       refY="0"
+       refX="0"
+       orient="auto"
+       id="BJTArrow-7-4">
+      <path
+         id="path1000-2-9"
+         style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.60000002"
+         d="m 0,0 -3,1.25 v -2.5 z"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="BJTArrow"
+       style="overflow:visible"
+       refY="0"
+       refX="0"
+       orient="auto"
+       id="BJTArrow-6-9">
+      <path
+         inkscape:connector-curvature="0"
+         id="path1000-1-7"
+         style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.60000002"
+         d="m 0,0 -3,1.25 v -2.5 z" />
+    </marker>
+    <marker
+       inkscape:stockid="BJTArrow"
+       style="overflow:visible"
+       refY="0"
+       refX="0"
+       orient="auto"
+       id="BJTArrow-6-9-9">
+      <path
+         inkscape:connector-curvature="0"
+         id="path1000-1-7-4"
+         style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.60000002"
+         d="m 0,0 -3,1.25 v -2.5 z" />
+    </marker>
+    <marker
+       id="BJTArrow"
+       orient="auto"
+       refX="0.0"
+       refY="0.0"
+       style="overflow:visible"
+       inkscape:stockid="BJTArrow">
+      <path
+         d="M 0,0 l -3.000000,1.250000 l 0,-2.500000 z"
+         style="stroke-width:0.6;stroke:#000000;fill:#000000;fill-rule:evenodd"
+         id="path2230" />
+    </marker>
+    <marker
+       id="BJTArrow-8"
+       orient="auto"
+       refX="0"
+       refY="0"
+       style="overflow:visible"
+       inkscape:stockid="BJTArrow">
+      <path
+         d="m 0,0 -3,1.25 v -2.5 z"
+         style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.60000002"
+         id="path2230-5"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       id="BJTArrow-1"
+       orient="auto"
+       refX="0"
+       refY="0"
+       style="overflow:visible"
+       inkscape:stockid="BJTArrow">
+      <path
+         inkscape:connector-curvature="0"
+         d="m 0,0 -3,1.25 v -2.5 z"
+         style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.60000002"
+         id="path2230-59" />
+    </marker>
+    <marker
+       id="BJTArrow-1-4"
+       orient="auto"
+       refX="0"
+       refY="0"
+       style="overflow:visible"
+       inkscape:stockid="BJTArrow">
+      <path
+         inkscape:connector-curvature="0"
+         d="m 0,0 -3,1.25 v -2.5 z"
+         style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.60000002"
+         id="path2230-59-4" />
+    </marker>
+    <marker
+       id="BJTArrow-9"
+       orient="auto"
+       refX="0"
+       refY="0"
+       style="overflow:visible"
+       inkscape:stockid="BJTArrow">
+      <path
+         inkscape:connector-curvature="0"
+         d="m 0,0 -3,1.25 v -2.5 z"
+         style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.60000002"
+         id="path2230-7" />
+    </marker>
+    <marker
+       id="BJTArrow-64"
+       orient="auto"
+       refX="0"
+       refY="0"
+       style="overflow:visible"
+       inkscape:stockid="BJTArrow">
+      <path
+         inkscape:connector-curvature="0"
+         d="m 0,0 -3,1.25 v -2.5 z"
+         style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.60000002"
+         id="path2230-3" />
+    </marker>
+    <marker
+       id="BJTArrow-9-7"
+       orient="auto"
+       refX="0"
+       refY="0"
+       style="overflow:visible"
+       inkscape:stockid="BJTArrow">
+      <path
+         inkscape:connector-curvature="0"
+         d="m 0,0 -3,1.25 v -2.5 z"
+         style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.60000002"
+         id="path2230-7-6" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="Arrow1Mstart-5"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mstart">
+      <path
+         transform="matrix(0.4,0,0,0.4,4,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path1445-9"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="Arrow1Mstart-5-9"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mstart">
+      <path
+         transform="matrix(0.4,0,0,0.4,4,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path1445-9-2"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker3489-6"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3487-2"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect9123-9"
+       is_visible="true"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker3489-6-0"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3487-2-8"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect9123-9-1"
+       is_visible="true"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="Arrow1Mstart-5-9-0"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mstart">
+      <path
+         transform="matrix(0.4,0,0,0.4,4,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path1445-9-2-4"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker3489-61"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3487-3"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect9123-2"
+       is_visible="true"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker3489-6-1"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3487-2-5"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect9123-9-9"
+       is_visible="true"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker3489-6-0-9"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3487-2-8-1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect9123-9-1-0"
+       is_visible="true"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker3489-6-0-5"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3487-2-8-8"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect9123-9-1-7"
+       is_visible="true"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker3489-6-04"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3487-2-80"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect9123-9-4"
+       is_visible="true"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker3489-2"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3487-9"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect9123-6"
+       is_visible="true"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <marker
+       id="BJTArrow-9-7-4"
+       orient="auto"
+       refX="0"
+       refY="0"
+       style="overflow:visible"
+       inkscape:stockid="BJTArrow">
+      <path
+         inkscape:connector-curvature="0"
+         d="m 0,0 -3,1.25 v -2.5 z"
+         style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.60000002"
+         id="path2230-7-6-0" />
+    </marker>
+    <marker
+       id="BJTArrow-64-9"
+       orient="auto"
+       refX="0"
+       refY="0"
+       style="overflow:visible"
+       inkscape:stockid="BJTArrow">
+      <path
+         inkscape:connector-curvature="0"
+         d="m 0,0 -3,1.25 v -2.5 z"
+         style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.60000002"
+         id="path2230-3-6" />
+    </marker>
+    <marker
+       id="BJTArrow-9-2"
+       orient="auto"
+       refX="0"
+       refY="0"
+       style="overflow:visible"
+       inkscape:stockid="BJTArrow">
+      <path
+         inkscape:connector-curvature="0"
+         d="m 0,0 -3,1.25 v -2.5 z"
+         style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.60000002"
+         id="path2230-7-5" />
+    </marker>
+    <marker
+       id="BJTArrow-1-4-4"
+       orient="auto"
+       refX="0"
+       refY="0"
+       style="overflow:visible"
+       inkscape:stockid="BJTArrow">
+      <path
+         inkscape:connector-curvature="0"
+         d="m 0,0 -3,1.25 v -2.5 z"
+         style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.60000002"
+         id="path2230-59-4-4" />
+    </marker>
+    <marker
+       id="BJTArrow-1-9"
+       orient="auto"
+       refX="0"
+       refY="0"
+       style="overflow:visible"
+       inkscape:stockid="BJTArrow">
+      <path
+         inkscape:connector-curvature="0"
+         d="m 0,0 -3,1.25 v -2.5 z"
+         style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.60000002"
+         id="path2230-59-9" />
+    </marker>
+    <inkscape:path-effect
+       only_selected="false"
+       apply_with_weight="true"
+       apply_no_weight="true"
+       helper_size="0"
+       steps="2"
+       weight="33.333333"
+       is_visible="true"
+       id="path-effect2361-3"
+       effect="bspline" />
+    <marker
+       id="BJTArrow-8-6"
+       orient="auto"
+       refX="0"
+       refY="0"
+       style="overflow:visible"
+       inkscape:stockid="BJTArrow">
+      <path
+         d="m 0,0 -3,1.25 v -2.5 z"
+         style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.60000002"
+         id="path2230-5-0"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker3489-5"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3487-0"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect9123-29"
+       is_visible="true"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker3489-6-4"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3487-2-3"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect9123-9-5"
+       is_visible="true"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker3489-6-0-1"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3487-2-8-7"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect9123-9-1-4"
+       is_visible="true"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <marker
+       id="BJTArrow-31"
+       orient="auto"
+       refX="0"
+       refY="0"
+       style="overflow:visible"
+       inkscape:stockid="BJTArrow">
+      <path
+         inkscape:connector-curvature="0"
+         d="m 0,0 -3,1.25 v -2.5 z"
+         style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.60000002"
+         id="path2230-4" />
+    </marker>
+    <inkscape:path-effect
+       only_selected="false"
+       apply_with_weight="true"
+       apply_no_weight="true"
+       helper_size="0"
+       steps="2"
+       weight="33.333333"
+       is_visible="true"
+       id="path-effect13748-6"
+       effect="bspline" />
+  </defs>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       inkscape:export-ydpi="588"
+       inkscape:export-xdpi="588"
+       inkscape:export-filename="/home/newtonis/Notas/Boostnote/images/circuitos/circuito1.png"
+       ry="2.2678571"
+       rx="2.2678571"
+       y="39.108414"
+       x="2.3609998"
+       height="10.438472"
+       width="16.889795"
+       id="rect4530"
+       style="fill:#ffd5d5;fill-opacity:1;fill-rule:nonzero;stroke:#0d0d0d;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:2,1;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill" />
+    <rect
+       inkscape:export-ydpi="588"
+       inkscape:export-xdpi="588"
+       inkscape:export-filename="/home/newtonis/Notas/Boostnote/images/circuitos/circuito1.png"
+       ry="2.2678571"
+       rx="2.2678571"
+       y="39.10368"
+       x="83.214325"
+       height="10.438472"
+       width="16.889795"
+       id="rect4530-3"
+       style="fill:#ffd5d5;fill-opacity:1;fill-rule:nonzero;stroke:#0d0d0d;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:2, 1;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill" />
+    <g
+       inkscape:export-ydpi="588"
+       inkscape:export-xdpi="588"
+       inkscape:export-filename="/home/newtonis/Notas/Boostnote/images/circuitos/circuito1.png"
+       ns0:jacobian_sqrt="0.352778"
+       inkscapeversion="0.92.3"
+       ns0:alignment="middle center"
+       ns0:scale="1.0"
+       ns0:preamble="/home/newtonis/.config/inkscape/extensions/default_packages.tex"
+       ns0:text="$V_1$"
+       ns0:pdfconverter="pstoedit"
+       ns0:texconverter="pdflatex"
+       ns0:version="0.8.1"
+       word-spacing="normal"
+       letter-spacing="normal"
+       font-size-adjust="none"
+       font-stretch="normal"
+       font-weight="normal"
+       font-variant="normal"
+       font-style="normal"
+       stroke-miterlimit="10.433"
+       xml:space="preserve"
+       transform="matrix(0.71231958,0,0,-0.71231958,-100.82815,514.53089)"
+       id="content"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.49525246;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+<path
+   id="path4619"
+   d="m 154.98,662.89 0.04,0.07 0.05,0.06 0.04,0.07 0.04,0.05 0.05,0.06 0.04,0.05 0.05,0.05 0.04,0.04 0.04,0.04 0.04,0.04 0.04,0.03 0.05,0.03 0.04,0.03 0.04,0.03 0.04,0.02 0.04,0.02 0.04,0.02 0.04,0.02 0.04,0.01 0.03,0.02 0.04,0.01 0.04,0.01 0.04,0.01 h 0.03 l 0.04,0.01 h 0.04 l 0.07,0.01 0.07,0.01 h 0.07 c 0.12,0.01 0.13,0.18 0.13,0.19 0,0.08 -0.05,0.12 -0.13,0.12 -0.26,0 -0.55,-0.03 -0.82,-0.03 -0.33,0 -0.67,0.03 -0.98,0.03 -0.06,0 -0.19,0 -0.19,-0.19 0,-0.11 0.09,-0.12 0.16,-0.12 0.26,-0.02 0.46,-0.12 0.46,-0.33 0,-0.15 -0.15,-0.36 -0.15,-0.37 l -3.07,-4.85 -0.67,5.25 c 0,0.17 0.22,0.3 0.68,0.3 0.14,0 0.25,0 0.25,0.2 0,0.09 -0.08,0.11 -0.14,0.11 -0.4,0 -0.82,-0.03 -1.23,-0.03 -0.18,0 -0.37,0.01 -0.55,0.01 -0.18,0 -0.37,0.02 -0.54,0.02 -0.07,0 -0.19,0 -0.19,-0.19 0,-0.12 0.09,-0.12 0.25,-0.12 0.56,0 0.57,-0.09 0.6,-0.34 l 0.79,-6.13 c 0.03,-0.19 0.07,-0.22 0.19,-0.22 0.16,0 0.2,0.05 0.28,0.18 z"
+   inkscape:connector-curvature="0"
+   style="fill:#000000;stroke-width:0" />
+<path
+   id="path4621"
+   d="m 156.87,660.16 v 0.01 0.01 0.01 0.01 0 0.01 0.01 0.01 h -0.01 v 0.01 0.01 0 0.01 0 0.01 0 0.01 0 0.01 l -0.01,0.01 v 0.01 0 l -0.01,0.01 v 0.01 h -0.01 v 0.01 h -0.01 v 0 l -0.01,0.01 h -0.01 -0.01 -0.01 v 0 h -0.01 v 0 l -0.01,0.01 h -0.01 v 0 h -0.01 v 0 h -0.01 -0.01 -0.01 v 0 h -0.01 -0.01 -0.01 -0.01 v 0 h -0.01 c -0.45,-0.44 -1.09,-0.45 -1.37,-0.45 v -0.25 c 0.16,0 0.62,0 1.01,0.2 v -3.55 c 0,-0.23 0,-0.32 -0.7,-0.32 h -0.26 v -0.25 c 0.12,0.01 0.98,0.03 1.24,0.03 0.22,0 1.1,-0.02 1.25,-0.03 v 0.25 h -0.26 c -0.7,0 -0.7,0.09 -0.7,0.32 z"
+   inkscape:connector-curvature="0"
+   style="fill:#000000;stroke-width:0" />
+</g>    <g
+       inkscape:export-ydpi="588"
+       inkscape:export-xdpi="588"
+       inkscape:export-filename="/home/newtonis/Notas/Boostnote/images/circuitos/circuito1.png"
+       id="g4949"
+       transform="matrix(0.71232,0,0,-0.71232,-15.33578,514.39464)"
+       xml:space="preserve"
+       stroke-miterlimit="10.433"
+       font-style="normal"
+       font-variant="normal"
+       font-weight="normal"
+       font-stretch="normal"
+       font-size-adjust="none"
+       letter-spacing="normal"
+       word-spacing="normal"
+       ns0:version="0.8.1"
+       ns0:texconverter="pdflatex"
+       ns0:pdfconverter="pstoedit"
+       ns0:text="$V_2$"
+       ns0:preamble="/home/newtonis/.config/inkscape/extensions/default_packages.tex"
+       ns0:scale="2.01917234068"
+       ns0:alignment="middle center"
+       inkscapeversion="0.92.3"
+       ns0:jacobian_sqrt="0.71232"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+<path
+   inkscape:connector-curvature="0"
+   d="m 154.98,662.89 0.04,0.07 0.05,0.06 0.04,0.07 0.04,0.05 0.05,0.06 0.04,0.05 0.05,0.05 0.04,0.04 0.04,0.04 0.04,0.04 0.04,0.03 0.05,0.03 0.04,0.03 0.04,0.03 0.04,0.02 0.04,0.02 0.04,0.02 0.04,0.02 0.04,0.01 0.03,0.02 0.04,0.01 0.04,0.01 0.04,0.01 h 0.03 l 0.04,0.01 h 0.04 l 0.07,0.01 0.07,0.01 h 0.07 c 0.12,0.01 0.13,0.18 0.13,0.19 0,0.08 -0.05,0.12 -0.13,0.12 -0.26,0 -0.55,-0.03 -0.82,-0.03 -0.33,0 -0.67,0.03 -0.98,0.03 -0.06,0 -0.19,0 -0.19,-0.19 0,-0.11 0.09,-0.12 0.16,-0.12 0.26,-0.02 0.46,-0.12 0.46,-0.33 0,-0.15 -0.15,-0.36 -0.15,-0.37 l -3.07,-4.85 -0.67,5.25 c 0,0.17 0.22,0.3 0.68,0.3 0.14,0 0.25,0 0.25,0.2 0,0.09 -0.08,0.11 -0.14,0.11 -0.4,0 -0.82,-0.03 -1.23,-0.03 -0.18,0 -0.37,0.01 -0.55,0.01 -0.18,0 -0.37,0.02 -0.54,0.02 -0.07,0 -0.19,0 -0.19,-0.19 0,-0.12 0.09,-0.12 0.25,-0.12 0.56,0 0.57,-0.09 0.6,-0.34 l 0.79,-6.13 c 0.03,-0.19 0.07,-0.22 0.19,-0.22 0.16,0 0.2,0.05 0.28,0.18 z"
+   style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-opacity:1"
+   id="path4945" />
+<path
+   inkscape:connector-curvature="0"
+   d="m 158.05,657.01 h -0.23 c -0.02,-0.16 -0.09,-0.57 -0.19,-0.64 -0.05,-0.04 -0.59,-0.04 -0.69,-0.04 h -1.28 c 0.73,0.65 0.98,0.84 1.39,1.17 0.52,0.41 1,0.84 1,1.5 0,0.84 -0.74,1.36 -1.63,1.36 -0.87,0 -1.46,-0.61 -1.46,-1.25 0,-0.35 0.3,-0.39 0.38,-0.39 0.16,0 0.37,0.12 0.37,0.37 0,0.13 -0.05,0.37 -0.42,0.37 0.22,0.5 0.7,0.65 1.02,0.65 0.7,0 1.07,-0.54 1.07,-1.11 0,-0.6 -0.44,-1.08 -0.66,-1.33 l -1.69,-1.66 c -0.07,-0.06 -0.07,-0.07 -0.07,-0.27 h 2.89 z"
+   style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-opacity:1"
+   id="path4947" />
+</g>    <g
+       inkscape:export-ydpi="588"
+       inkscape:export-xdpi="588"
+       inkscape:export-filename="/home/newtonis/Notas/Boostnote/images/circuitos/circuito1.png"
+       ns0:jacobian_sqrt="0.712319"
+       inkscapeversion="0.92.3"
+       ns0:alignment="middle center"
+       ns0:scale="2.01917234068"
+       ns0:preamble="/home/newtonis/.config/inkscape/extensions/default_packages.tex"
+       ns0:text="$Q_1$"
+       ns0:pdfconverter="pstoedit"
+       ns0:texconverter="pdflatex"
+       ns0:version="0.8.1"
+       word-spacing="normal"
+       letter-spacing="normal"
+       font-size-adjust="none"
+       font-stretch="normal"
+       font-weight="normal"
+       font-variant="normal"
+       font-style="normal"
+       stroke-miterlimit="10.433"
+       xml:space="preserve"
+       transform="matrix(0.6524602,0,0,-0.6524602,-58.63222,467.79281)"
+       id="g5261"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.09174323;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+<path
+   id="path5257"
+   d="m 153.08,657.29 0.14,0.06 0.15,0.07 0.14,0.07 0.14,0.08 0.14,0.08 0.14,0.09 0.14,0.1 0.13,0.1 0.13,0.11 0.13,0.11 0.13,0.12 0.12,0.12 0.12,0.13 0.12,0.13 0.11,0.13 0.1,0.14 0.11,0.14 0.1,0.15 0.09,0.15 0.09,0.16 0.08,0.15 0.07,0.16 0.07,0.17 0.07,0.16 0.06,0.17 0.05,0.17 0.04,0.17 0.03,0.18 0.03,0.17 0.02,0.18 0.02,0.18 v 0.18 c 0,1.59 -1.06,2.67 -2.54,2.67 l -0.06,-0.25 c 1,0 1.72,-0.77 1.72,-2.11 0,-0.99 -0.5,-3.31 -2.18,-4.25 -0.05,0.35 -0.15,1.08 -0.88,1.08 v -0.22 c 0.42,0 0.61,-0.24 0.61,-0.85 0,-0.15 -0.01,-0.16 -0.11,-0.2 -0.26,-0.11 -0.56,-0.17 -0.84,-0.17 v 0 c -0.14,0 -0.46,0 -0.46,0.42 0,0.4 0.38,0.8 0.8,0.8 v 0.22 c -0.53,0 -1.02,-0.5 -1.02,-1.02 0,-0.2 0.07,-0.31 0.07,-0.32 v 0 c -0.78,0.31 -1.12,1.09 -1.12,1.98 0,0.69 0.26,2.1 1.02,3.17 0.72,1.01 1.66,1.47 2.39,1.47 l 0.06,0.25 c -2.15,0 -4.35,-2.26 -4.35,-4.57 0,-1.65 1.12,-2.65 2.55,-2.65 0.25,0 0.59,0.04 0.98,0.14 -0.04,-0.61 -0.04,-0.63 -0.04,-0.76 0,-0.32 0,-1.09 0.83,-1.09 1.19,0 1.66,1.82 1.66,1.92 0,0.07 -0.07,0.1 -0.11,0.1 -0.08,0 -0.09,-0.05 -0.12,-0.11 -0.24,-0.7 -0.81,-0.95 -1.16,-0.95 -0.46,0 -0.61,0.27 -0.71,1.02 z"
+   inkscape:connector-curvature="0"
+   style="fill:#000000;stroke-width:0" />
+<path
+   id="path5259"
+   d="m 158.93,660.16 v 0.01 0.01 0.01 0.01 0 0.01 0.01 0.01 0 0.01 0.01 0 0.01 0 0.01 h -0.01 v 0.01 0 0.01 0.01 0.01 h -0.01 v 0.01 l -0.01,0.01 v 0 l -0.01,0.01 v 0 h -0.01 l -0.01,0.01 h -0.01 v 0 h -0.01 -0.01 v 0 h -0.01 l -0.01,0.01 v 0 h -0.01 v 0 h -0.01 -0.01 v 0 h -0.01 -0.01 -0.01 v 0 h -0.01 -0.01 -0.01 -0.01 c -0.45,-0.44 -1.08,-0.45 -1.37,-0.45 v -0.25 c 0.17,0 0.63,0 1.01,0.2 v -3.55 c 0,-0.23 0,-0.32 -0.7,-0.32 h -0.26 v -0.25 c 0.12,0.01 0.98,0.03 1.24,0.03 0.22,0 1.1,-0.02 1.26,-0.03 v 0.25 h -0.27 c -0.7,0 -0.7,0.09 -0.7,0.32 z"
+   inkscape:connector-curvature="0"
+   style="fill:#000000;stroke-width:0" />
+</g>    <g
+       inkscape:export-ydpi="588"
+       inkscape:export-xdpi="588"
+       inkscape:export-filename="/home/newtonis/Notas/Boostnote/images/circuitos/circuito1.png"
+       id="g5600"
+       transform="matrix(0.65246,0,0,-0.65246,-41.375177,467.624)"
+       xml:space="preserve"
+       stroke-miterlimit="10.433"
+       font-style="normal"
+       font-variant="normal"
+       font-weight="normal"
+       font-stretch="normal"
+       font-size-adjust="none"
+       letter-spacing="normal"
+       word-spacing="normal"
+       ns0:version="0.8.1"
+       ns0:texconverter="pdflatex"
+       ns0:pdfconverter="pstoedit"
+       ns0:text="$Q_2$"
+       ns0:preamble="/home/newtonis/.config/inkscape/extensions/default_packages.tex"
+       ns0:scale="1.84949382122"
+       ns0:alignment="middle center"
+       inkscapeversion="0.92.3"
+       ns0:jacobian_sqrt="0.65246"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+<path
+   inkscape:connector-curvature="0"
+   d="m 153.08,657.29 0.14,0.06 0.15,0.07 0.14,0.07 0.14,0.08 0.14,0.08 0.14,0.09 0.14,0.1 0.13,0.1 0.13,0.11 0.13,0.11 0.13,0.12 0.12,0.12 0.12,0.13 0.12,0.13 0.11,0.13 0.1,0.14 0.11,0.14 0.1,0.15 0.09,0.15 0.09,0.16 0.08,0.15 0.07,0.16 0.07,0.17 0.07,0.16 0.06,0.17 0.05,0.17 0.04,0.17 0.03,0.18 0.03,0.17 0.02,0.18 0.02,0.18 v 0.18 c 0,1.59 -1.06,2.67 -2.54,2.67 l -0.06,-0.25 c 1,0 1.72,-0.77 1.72,-2.11 0,-0.99 -0.5,-3.31 -2.18,-4.25 -0.05,0.35 -0.15,1.08 -0.88,1.08 v -0.22 c 0.42,0 0.61,-0.24 0.61,-0.85 0,-0.15 -0.01,-0.16 -0.11,-0.2 -0.26,-0.11 -0.56,-0.17 -0.84,-0.17 v 0 c -0.14,0 -0.46,0 -0.46,0.42 0,0.4 0.38,0.8 0.8,0.8 v 0.22 c -0.53,0 -1.02,-0.5 -1.02,-1.02 0,-0.2 0.07,-0.31 0.07,-0.32 v 0 c -0.78,0.31 -1.12,1.09 -1.12,1.98 0,0.69 0.26,2.1 1.02,3.17 0.72,1.01 1.66,1.47 2.39,1.47 l 0.06,0.25 c -2.15,0 -4.35,-2.26 -4.35,-4.57 0,-1.65 1.12,-2.65 2.55,-2.65 0.25,0 0.59,0.04 0.98,0.14 -0.04,-0.61 -0.04,-0.63 -0.04,-0.76 0,-0.32 0,-1.09 0.83,-1.09 1.19,0 1.66,1.82 1.66,1.92 0,0.07 -0.07,0.1 -0.11,0.1 -0.08,0 -0.09,-0.05 -0.12,-0.11 -0.24,-0.7 -0.81,-0.95 -1.16,-0.95 -0.46,0 -0.61,0.27 -0.71,1.02 z"
+   style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-opacity:1"
+   id="path5596" />
+<path
+   inkscape:connector-curvature="0"
+   d="m 160.12,657.01 h -0.24 c -0.02,-0.16 -0.09,-0.57 -0.18,-0.64 -0.06,-0.04 -0.6,-0.04 -0.69,-0.04 h -1.29 c 0.74,0.65 0.98,0.84 1.4,1.17 0.52,0.41 1,0.84 1,1.5 0,0.84 -0.74,1.36 -1.64,1.36 -0.86,0 -1.45,-0.61 -1.45,-1.25 0,-0.35 0.3,-0.39 0.37,-0.39 0.17,0 0.37,0.12 0.37,0.37 0,0.13 -0.05,0.37 -0.41,0.37 0.21,0.5 0.69,0.65 1.02,0.65 0.7,0 1.06,-0.54 1.06,-1.11 0,-0.6 -0.43,-1.08 -0.66,-1.33 l -1.68,-1.66 c -0.07,-0.06 -0.07,-0.07 -0.07,-0.27 h 2.88 z"
+   style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-opacity:1"
+   id="path5598" />
+</g>    <g
+       inkscape:export-ydpi="588"
+       inkscape:export-xdpi="588"
+       inkscape:export-filename="/home/newtonis/Notas/Boostnote/images/circuitos/circuito1.png"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       ns0:jacobian_sqrt="0.65246"
+       inkscapeversion="0.92.3"
+       ns0:alignment="middle center"
+       ns0:scale="1.84949384957"
+       ns0:preamble="/home/newtonis/.config/inkscape/extensions/default_packages.tex"
+       ns0:text="$Q_3$"
+       ns0:pdfconverter="pstoedit"
+       ns0:texconverter="pdflatex"
+       ns0:version="0.8.1"
+       word-spacing="normal"
+       letter-spacing="normal"
+       font-size-adjust="none"
+       font-stretch="normal"
+       font-weight="normal"
+       font-variant="normal"
+       font-style="normal"
+       stroke-miterlimit="10.433"
+       xml:space="preserve"
+       transform="matrix(0.65246,0,0,-0.65246,-71.649733,494.75036)"
+       id="g5945">
+<path
+   inkscape:connector-curvature="0"
+   id="path5941"
+   style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-opacity:1"
+   d="m 153.08,657.29 0.14,0.06 0.15,0.07 0.14,0.07 0.14,0.08 0.14,0.08 0.14,0.09 0.14,0.1 0.13,0.1 0.13,0.11 0.13,0.11 0.13,0.12 0.12,0.12 0.12,0.13 0.12,0.13 0.11,0.13 0.1,0.14 0.11,0.14 0.1,0.15 0.09,0.15 0.09,0.16 0.08,0.15 0.07,0.16 0.07,0.17 0.07,0.16 0.06,0.17 0.05,0.17 0.04,0.17 0.03,0.18 0.03,0.17 0.02,0.18 0.02,0.18 v 0.18 c 0,1.59 -1.06,2.67 -2.54,2.67 l -0.06,-0.25 c 1,0 1.72,-0.77 1.72,-2.11 0,-0.99 -0.5,-3.31 -2.18,-4.25 -0.05,0.35 -0.15,1.08 -0.88,1.08 v -0.22 c 0.42,0 0.61,-0.24 0.61,-0.85 0,-0.15 -0.01,-0.16 -0.11,-0.2 -0.26,-0.11 -0.56,-0.17 -0.84,-0.17 v 0 c -0.14,0 -0.46,0 -0.46,0.42 0,0.4 0.38,0.8 0.8,0.8 v 0.22 c -0.53,0 -1.02,-0.5 -1.02,-1.02 0,-0.2 0.07,-0.31 0.07,-0.32 v 0 c -0.78,0.31 -1.12,1.09 -1.12,1.98 0,0.69 0.26,2.1 1.02,3.17 0.72,1.01 1.66,1.47 2.39,1.47 l 0.06,0.25 c -2.15,0 -4.35,-2.26 -4.35,-4.57 0,-1.65 1.12,-2.65 2.55,-2.65 0.25,0 0.59,0.04 0.98,0.14 -0.04,-0.61 -0.04,-0.63 -0.04,-0.76 0,-0.32 0,-1.09 0.83,-1.09 1.19,0 1.66,1.82 1.66,1.92 0,0.07 -0.07,0.1 -0.11,0.1 -0.08,0 -0.09,-0.05 -0.12,-0.11 -0.24,-0.7 -0.81,-0.95 -1.16,-0.95 -0.46,0 -0.61,0.27 -0.71,1.02 z" />
+<path
+   inkscape:connector-curvature="0"
+   id="path5943"
+   style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-opacity:1"
+   d="m 158.5,658.06 h 0.05 0.05 l 0.05,-0.01 h 0.04 l 0.05,-0.01 0.05,-0.02 0.04,-0.01 0.04,-0.02 0.05,-0.02 0.04,-0.02 0.04,-0.02 0.03,-0.02 0.04,-0.03 0.03,-0.03 0.04,-0.03 0.03,-0.04 0.03,-0.03 0.03,-0.04 0.03,-0.04 0.02,-0.05 0.02,-0.04 0.03,-0.05 0.02,-0.05 0.01,-0.05 0.02,-0.05 0.01,-0.06 0.02,-0.05 0.01,-0.06 v -0.07 l 0.01,-0.06 v -0.07 -0.07 c 0,-0.86 -0.5,-1.12 -0.91,-1.12 -0.28,0 -0.89,0.08 -1.18,0.49 0.32,0.02 0.4,0.24 0.4,0.39 0,0.22 -0.17,0.38 -0.38,0.38 -0.2,0 -0.39,-0.11 -0.39,-0.4 0,-0.65 0.72,-1.08 1.57,-1.08 0.97,0 1.64,0.65 1.64,1.34 0,0.55 -0.45,1.09 -1.22,1.25 0.74,0.26 1,0.78 1,1.21 0,0.55 -0.63,0.96 -1.41,0.96 -0.77,0 -1.37,-0.38 -1.37,-0.93 0,-0.24 0.16,-0.37 0.37,-0.37 0.21,0 0.35,0.16 0.35,0.35 0,0.2 -0.14,0.35 -0.35,0.36 0.24,0.31 0.72,0.39 0.98,0.39 0.32,0 0.76,-0.16 0.76,-0.76 0,-0.29 -0.1,-0.61 -0.28,-0.83 -0.23,-0.26 -0.43,-0.28 -0.78,-0.3 -0.17,-0.01 -0.19,-0.01 -0.22,-0.02 -0.02,0 -0.07,-0.01 -0.07,-0.09 0,-0.1 0.06,-0.1 0.18,-0.1 z" />
+</g>    <g
+       inkscape:export-ydpi="588"
+       inkscape:export-xdpi="588"
+       inkscape:export-filename="/home/newtonis/Notas/Boostnote/images/circuitos/circuito1.png"
+       id="g6296"
+       transform="matrix(0.65246,0,0,-0.65246,-25.127194,495.08594)"
+       xml:space="preserve"
+       stroke-miterlimit="10.433"
+       font-style="normal"
+       font-variant="normal"
+       font-weight="normal"
+       font-stretch="normal"
+       font-size-adjust="none"
+       letter-spacing="normal"
+       word-spacing="normal"
+       ns0:version="0.8.1"
+       ns0:texconverter="pdflatex"
+       ns0:pdfconverter="pstoedit"
+       ns0:text="$Q_4$"
+       ns0:preamble="/home/newtonis/.config/inkscape/extensions/default_packages.tex"
+       ns0:scale="1.84949387792"
+       ns0:alignment="middle center"
+       inkscapeversion="0.92.3"
+       ns0:jacobian_sqrt="0.65246"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+<path
+   inkscape:connector-curvature="0"
+   d="m 153.08,657.29 0.14,0.06 0.15,0.07 0.14,0.07 0.14,0.08 0.14,0.08 0.14,0.09 0.14,0.1 0.13,0.1 0.13,0.11 0.13,0.11 0.13,0.12 0.12,0.12 0.12,0.13 0.12,0.13 0.11,0.13 0.1,0.14 0.11,0.14 0.1,0.15 0.09,0.15 0.09,0.16 0.08,0.15 0.07,0.16 0.07,0.17 0.07,0.16 0.06,0.17 0.05,0.17 0.04,0.17 0.03,0.18 0.03,0.17 0.02,0.18 0.02,0.18 v 0.18 c 0,1.59 -1.06,2.67 -2.54,2.67 l -0.06,-0.25 c 1,0 1.72,-0.77 1.72,-2.11 0,-0.99 -0.5,-3.31 -2.18,-4.25 -0.05,0.35 -0.15,1.08 -0.88,1.08 v -0.22 c 0.42,0 0.61,-0.24 0.61,-0.85 0,-0.15 -0.01,-0.16 -0.11,-0.2 -0.26,-0.11 -0.56,-0.17 -0.84,-0.17 v 0 c -0.14,0 -0.46,0 -0.46,0.42 0,0.4 0.38,0.8 0.8,0.8 v 0.22 c -0.53,0 -1.02,-0.5 -1.02,-1.02 0,-0.2 0.07,-0.31 0.07,-0.32 v 0 c -0.78,0.31 -1.12,1.09 -1.12,1.98 0,0.69 0.26,2.1 1.02,3.17 0.72,1.01 1.66,1.47 2.39,1.47 l 0.06,0.25 c -2.15,0 -4.35,-2.26 -4.35,-4.57 0,-1.65 1.12,-2.65 2.55,-2.65 0.25,0 0.59,0.04 0.98,0.14 -0.04,-0.61 -0.04,-0.63 -0.04,-0.76 0,-0.32 0,-1.09 0.83,-1.09 1.19,0 1.66,1.82 1.66,1.92 0,0.07 -0.07,0.1 -0.11,0.1 -0.08,0 -0.09,-0.05 -0.12,-0.11 -0.24,-0.7 -0.81,-0.95 -1.16,-0.95 -0.46,0 -0.61,0.27 -0.71,1.02 z"
+   style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-opacity:1"
+   id="path6292" />
+<path
+   inkscape:connector-curvature="0"
+   d="m 160.29,656.88 v 0.25 h -0.78 v 3.1 c 0,0.15 0,0.2 -0.15,0.2 -0.09,0 -0.12,0 -0.18,-0.1 l -2.32,-3.2 v -0.25 h 2.06 l 0.04,0.25 h -1.84 l 1.84,2.55 v -2.55 l -0.04,-0.25 v -0.57 c 0,-0.23 0,-0.32 -0.57,-0.32 h -0.19 v -0.25 c 0.35,0.02 0.8,0.03 1.05,0.03 0.26,0 0.71,-0.01 1.06,-0.03 v 0.25 h -0.19 c -0.57,0 -0.57,0.09 -0.57,0.32 v 0.57 z"
+   style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-opacity:1"
+   id="path6294" />
+</g>    <g
+       inkscape:export-ydpi="588"
+       inkscape:export-xdpi="588"
+       inkscape:export-filename="/home/newtonis/Notas/Boostnote/images/circuitos/circuito1.png"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       ns0:jacobian_sqrt="0.65246"
+       inkscapeversion="0.92.3"
+       ns0:alignment="middle center"
+       ns0:scale="1.84949387792"
+       ns0:preamble="/home/newtonis/.config/inkscape/extensions/default_packages.tex"
+       ns0:text="$Q_5$"
+       ns0:pdfconverter="pstoedit"
+       ns0:texconverter="pdflatex"
+       ns0:version="0.8.1"
+       word-spacing="normal"
+       letter-spacing="normal"
+       font-size-adjust="none"
+       font-stretch="normal"
+       font-weight="normal"
+       font-variant="normal"
+       font-style="normal"
+       stroke-miterlimit="10.433"
+       xml:space="preserve"
+       transform="matrix(0.65246,0,0,-0.65246,-67.158877,509.39403)"
+       id="g6653">
+<path
+   id="path6649"
+   style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-opacity:1"
+   d="m 145.83863,640.77968 0.14,0.06 0.15,0.07 0.14,0.07 0.14,0.08 0.14,0.08 0.14,0.09 0.14,0.1 0.13,0.1 0.13,0.11 0.13,0.11 0.13,0.12 0.12,0.12 0.12,0.13 0.12,0.13 0.11,0.13 0.1,0.14 0.11,0.14 0.1,0.15 0.09,0.15 0.09,0.16 0.08,0.15 0.07,0.16 0.07,0.17 0.07,0.16 0.06,0.17 0.05,0.17 0.04,0.17 0.03,0.18 0.03,0.17 0.02,0.18 0.02,0.18 v 0.18 c 0,1.59 -1.06,2.67 -2.54,2.67 l -0.06,-0.25 c 1,0 1.72,-0.77 1.72,-2.11 0,-0.99 -0.5,-3.31 -2.18,-4.25 -0.05,0.35 -0.15,1.08 -0.88,1.08 v -0.22 c 0.42,0 0.61,-0.24 0.61,-0.85 0,-0.15 -0.01,-0.16 -0.11,-0.2 -0.26,-0.11 -0.56,-0.17 -0.84,-0.17 v 0 c -0.14,0 -0.46,0 -0.46,0.42 0,0.4 0.38,0.8 0.8,0.8 v 0.22 c -0.53,0 -1.02,-0.5 -1.02,-1.02 0,-0.2 0.07,-0.31 0.07,-0.32 v 0 c -0.78,0.31 -1.12,1.09 -1.12,1.98 0,0.69 0.26,2.1 1.02,3.17 0.72,1.01 1.66,1.47 2.39,1.47 l 0.06,0.25 c -2.15,0 -4.35,-2.26 -4.35,-4.57 0,-1.65 1.12,-2.65 2.55,-2.65 0.25,0 0.59,0.04 0.98,0.14 -0.04,-0.61 -0.04,-0.63 -0.04,-0.76 0,-0.32 0,-1.09 0.83,-1.09 1.19,0 1.66,1.82 1.66,1.92 0,0.07 -0.07,0.1 -0.11,0.1 -0.08,0 -0.09,-0.05 -0.12,-0.11 -0.24,-0.7 -0.81,-0.95 -1.16,-0.95 -0.46,0 -0.61,0.27 -0.71,1.02 z"
+   inkscape:connector-curvature="0" />
+<path
+   id="path6651"
+   style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-opacity:1"
+   d="m 150.42863,643.10968 0.03,-0.01 h 0.04 l 0.03,-0.01 0.03,-0.01 h 0.03 l 0.03,-0.01 0.03,-0.01 h 0.02 l 0.03,-0.01 h 0.02 0.03 l 0.02,-0.01 h 0.03 0.02 l 0.02,-0.01 h 0.02 0.02 0.02 0.02 0.02 l 0.02,-0.01 h 0.01 0.02 0.02 0.01 0.02 0.01 0.01 0.02 0.01 0.01 0.01 c 0.92,0 1.47,0.63 1.47,0.73 0,0.08 -0.05,0.1 -0.09,0.1 -0.01,0 -0.02,0 -0.05,-0.02 -0.17,-0.06 -0.54,-0.2 -1.06,-0.2 -0.19,0 -0.56,0.01 -1.02,0.18 -0.07,0.04 -0.08,0.04 -0.09,0.04 -0.09,0 -0.09,-0.08 -0.09,-0.19 v -2.05 c 0,-0.12 0,-0.2 0.11,-0.2 0.07,0 0.07,0.01 0.14,0.1 0.3,0.38 0.73,0.43 0.97,0.43 0.42,0 0.61,-0.33 0.65,-0.39 0.12,-0.23 0.17,-0.49 0.17,-0.89 0,-0.21 0,-0.62 -0.22,-0.93 -0.17,-0.25 -0.47,-0.42 -0.81,-0.42 -0.46,0 -0.93,0.26 -1.1,0.71 0.27,-0.02 0.4,0.16 0.4,0.34 0,0.3 -0.26,0.36 -0.35,0.36 -0.02,0 -0.35,0 -0.35,-0.38 0,-0.62 0.57,-1.25 1.41,-1.25 0.9,0 1.68,0.66 1.68,1.54 0,0.78 -0.6,1.51 -1.47,1.51 -0.31,0 -0.67,-0.08 -0.98,-0.34 z"
+   inkscape:connector-curvature="0" />
+</g>    <g
+       inkscape:export-ydpi="588"
+       inkscape:export-xdpi="588"
+       inkscape:export-filename="/home/newtonis/Notas/Boostnote/images/circuitos/circuito1.png"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       ns0:jacobian_sqrt="0.65246"
+       inkscapeversion="0.92.3"
+       ns0:alignment="middle center"
+       ns0:scale="1.84949390627"
+       ns0:preamble="/home/newtonis/.config/inkscape/extensions/default_packages.tex"
+       ns0:text="$Q_6$"
+       ns0:pdfconverter="pstoedit"
+       ns0:texconverter="pdflatex"
+       ns0:version="0.8.1"
+       word-spacing="normal"
+       letter-spacing="normal"
+       font-size-adjust="none"
+       font-stretch="normal"
+       font-weight="normal"
+       font-variant="normal"
+       font-style="normal"
+       stroke-miterlimit="10.433"
+       xml:space="preserve"
+       transform="matrix(0.65246,0,0,-0.65246,-26.27874,521.10179)"
+       id="g7361">
+<path
+   id="path7357"
+   style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-opacity:1"
+   d="m 153.08,657.29 0.14,0.06 0.15,0.07 0.14,0.07 0.14,0.08 0.14,0.08 0.14,0.09 0.14,0.1 0.13,0.1 0.13,0.11 0.13,0.11 0.13,0.12 0.12,0.12 0.12,0.13 0.12,0.13 0.11,0.13 0.1,0.14 0.11,0.14 0.1,0.15 0.09,0.15 0.09,0.16 0.08,0.15 0.07,0.16 0.07,0.17 0.07,0.16 0.06,0.17 0.05,0.17 0.04,0.17 0.03,0.18 0.03,0.17 0.02,0.18 0.02,0.18 v 0.18 c 0,1.59 -1.06,2.67 -2.54,2.67 l -0.06,-0.25 c 1,0 1.72,-0.77 1.72,-2.11 0,-0.99 -0.5,-3.31 -2.18,-4.25 -0.05,0.35 -0.15,1.08 -0.88,1.08 v -0.22 c 0.42,0 0.61,-0.24 0.61,-0.85 0,-0.15 -0.01,-0.16 -0.11,-0.2 -0.26,-0.11 -0.56,-0.17 -0.84,-0.17 v 0 c -0.14,0 -0.46,0 -0.46,0.42 0,0.4 0.38,0.8 0.8,0.8 v 0.22 c -0.53,0 -1.02,-0.5 -1.02,-1.02 0,-0.2 0.07,-0.31 0.07,-0.32 v 0 c -0.78,0.31 -1.12,1.09 -1.12,1.98 0,0.69 0.26,2.1 1.02,3.17 0.72,1.01 1.66,1.47 2.39,1.47 l 0.06,0.25 c -2.15,0 -4.35,-2.26 -4.35,-4.57 0,-1.65 1.12,-2.65 2.55,-2.65 0.25,0 0.59,0.04 0.98,0.14 -0.04,-0.61 -0.04,-0.63 -0.04,-0.76 0,-0.32 0,-1.09 0.83,-1.09 1.19,0 1.66,1.82 1.66,1.92 0,0.07 -0.07,0.1 -0.11,0.1 -0.08,0 -0.09,-0.05 -0.12,-0.11 -0.24,-0.7 -0.81,-0.95 -1.16,-0.95 -0.46,0 -0.61,0.27 -0.71,1.02 z"
+   inkscape:connector-curvature="0" />
+<path
+   id="path7359"
+   style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-opacity:1"
+   d="m 157.64,658.02 v 0.1 0.11 0.1 l 0.01,0.1 0.01,0.1 0.01,0.1 0.01,0.1 0.01,0.09 0.02,0.1 0.03,0.09 0.02,0.09 0.03,0.09 0.02,0.04 0.01,0.05 0.02,0.04 0.02,0.04 0.02,0.04 0.02,0.04 0.03,0.04 0.02,0.04 c 0.24,0.38 0.62,0.64 1.06,0.64 0.21,0 0.49,-0.06 0.63,-0.25 -0.17,-0.01 -0.32,-0.13 -0.32,-0.33 0,-0.17 0.12,-0.33 0.33,-0.33 0.21,0 0.34,0.14 0.34,0.34 0,0.41 -0.3,0.77 -0.99,0.77 -1.01,0 -2.03,-0.92 -2.03,-2.41 0,-1.81 0.85,-2.35 1.62,-2.35 0.85,0 1.59,0.65 1.59,1.56 0,0.88 -0.7,1.54 -1.52,1.54 l -0.04,-0.2 c 0.32,0 0.54,-0.12 0.72,-0.38 0.16,-0.27 0.17,-0.56 0.17,-0.96 0,-0.4 0,-0.69 -0.19,-0.96 -0.17,-0.24 -0.39,-0.38 -0.73,-0.38 v 0 c -0.35,0 -0.63,0.21 -0.77,0.51 -0.11,0.21 -0.16,0.56 -0.16,0.98 0,0.67 0.4,1.19 0.96,1.19 l 0.04,0.2 c -0.56,0 -0.87,-0.37 -1.02,-0.68 z"
+   inkscape:connector-curvature="0" />
+</g>    <g
+       inkscape:export-ydpi="588"
+       inkscape:export-xdpi="588"
+       inkscape:export-filename="/home/newtonis/Notas/Boostnote/images/circuitos/circuito1.png"
+       id="g7730"
+       transform="matrix(0.65246,0,0,-0.65246,-42.335147,515.66569)"
+       xml:space="preserve"
+       stroke-miterlimit="10.433"
+       font-style="normal"
+       font-variant="normal"
+       font-weight="normal"
+       font-stretch="normal"
+       font-size-adjust="none"
+       letter-spacing="normal"
+       word-spacing="normal"
+       ns0:version="0.8.1"
+       ns0:texconverter="pdflatex"
+       ns0:pdfconverter="pstoedit"
+       ns0:text="$Q_7$"
+       ns0:preamble="/home/newtonis/.config/inkscape/extensions/default_packages.tex"
+       ns0:scale="1.84949393462"
+       ns0:alignment="middle center"
+       inkscapeversion="0.92.3"
+       ns0:jacobian_sqrt="0.65246"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+<path
+   inkscape:connector-curvature="0"
+   d="m 153.08,657.29 0.14,0.06 0.15,0.07 0.14,0.07 0.14,0.08 0.14,0.08 0.14,0.09 0.14,0.1 0.13,0.1 0.13,0.11 0.13,0.11 0.13,0.12 0.12,0.12 0.12,0.13 0.12,0.13 0.11,0.13 0.1,0.14 0.11,0.14 0.1,0.15 0.09,0.15 0.09,0.16 0.08,0.15 0.07,0.16 0.07,0.17 0.07,0.16 0.06,0.17 0.05,0.17 0.04,0.17 0.03,0.18 0.03,0.17 0.02,0.18 0.02,0.18 v 0.18 c 0,1.59 -1.06,2.67 -2.54,2.67 l -0.06,-0.25 c 1,0 1.72,-0.77 1.72,-2.11 0,-0.99 -0.5,-3.31 -2.18,-4.25 -0.05,0.35 -0.15,1.08 -0.88,1.08 v -0.22 c 0.42,0 0.61,-0.24 0.61,-0.85 0,-0.15 -0.01,-0.16 -0.11,-0.2 -0.26,-0.11 -0.56,-0.17 -0.84,-0.17 v 0 c -0.14,0 -0.46,0 -0.46,0.42 0,0.4 0.38,0.8 0.8,0.8 v 0.22 c -0.53,0 -1.02,-0.5 -1.02,-1.02 0,-0.2 0.07,-0.31 0.07,-0.32 v 0 c -0.78,0.31 -1.12,1.09 -1.12,1.98 0,0.69 0.26,2.1 1.02,3.17 0.72,1.01 1.66,1.47 2.39,1.47 l 0.06,0.25 c -2.15,0 -4.35,-2.26 -4.35,-4.57 0,-1.65 1.12,-2.65 2.55,-2.65 0.25,0 0.59,0.04 0.98,0.14 -0.04,-0.61 -0.04,-0.63 -0.04,-0.76 0,-0.32 0,-1.09 0.83,-1.09 1.19,0 1.66,1.82 1.66,1.92 0,0.07 -0.07,0.1 -0.11,0.1 -0.08,0 -0.09,-0.05 -0.12,-0.11 -0.24,-0.7 -0.81,-0.95 -1.16,-0.95 -0.46,0 -0.61,0.27 -0.71,1.02 z"
+   style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-opacity:1"
+   id="path7726" />
+<path
+   inkscape:connector-curvature="0"
+   d="m 160.33,659.94 0.01,0.01 v 0.01 h 0.01 v 0.01 l 0.01,0.01 v 0 l 0.01,0.01 v 0 0.01 l 0.01,0.01 v 0 0.01 0 l 0.01,0.01 v 0.01 0 0.01 0.01 0.01 h 0.01 v 0.01 0.01 0.01 0.01 0.01 0.01 0.02 0.01 0.01 0.01 0.01 0 0.01 0.01 0.01 h -1.83 c -0.28,0 -0.36,0.01 -0.61,0.03 -0.36,0.03 -0.38,0.07 -0.4,0.19 h -0.24 l -0.24,-1.49 h 0.24 c 0.01,0.11 0.08,0.57 0.19,0.64 0.06,0.04 0.62,0.04 0.73,0.04 h 1.52 c -0.22,-0.29 -0.58,-0.72 -0.72,-0.92 -0.92,-1.2 -1,-2.3 -1,-2.71 0,-0.08 0,-0.4 0.32,-0.4 0.34,0 0.34,0.31 0.34,0.41 v 0.27 c 0,1.35 0.28,1.97 0.58,2.35 z"
+   style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-opacity:1"
+   id="path7728" />
+</g>    <g
+       inkscape:export-ydpi="588"
+       inkscape:export-xdpi="588"
+       inkscape:export-filename="/home/newtonis/Notas/Boostnote/images/circuitos/circuito1.png"
+       ns0:jacobian_sqrt="0.65246"
+       inkscapeversion="0.92.3"
+       ns0:alignment="middle center"
+       ns0:scale="1.84949393462"
+       ns0:preamble="/home/newtonis/.config/inkscape/extensions/default_packages.tex"
+       ns0:text="$R_1$"
+       ns0:pdfconverter="pstoedit"
+       ns0:texconverter="pdflatex"
+       ns0:version="0.8.1"
+       word-spacing="normal"
+       letter-spacing="normal"
+       font-size-adjust="none"
+       font-stretch="normal"
+       font-weight="normal"
+       font-variant="normal"
+       font-style="normal"
+       stroke-miterlimit="10.433"
+       xml:space="preserve"
+       transform="matrix(0.65246,0,0,-0.65246,-74.307122,549.9993)"
+       id="g8084"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+<path
+   id="path8080"
+   d="m 153.89,660.61 0.09,0.02 0.1,0.03 0.09,0.03 0.1,0.03 0.1,0.03 0.09,0.03 0.1,0.04 0.1,0.04 0.09,0.05 0.09,0.04 0.09,0.05 0.09,0.05 0.09,0.05 0.09,0.06 0.08,0.06 0.08,0.06 0.08,0.06 0.07,0.06 0.08,0.07 0.06,0.07 0.07,0.07 0.06,0.07 0.05,0.08 0.05,0.08 0.05,0.08 0.03,0.08 0.04,0.08 0.03,0.09 0.02,0.09 0.02,0.09 0.01,0.09 v 0.09 c 0,0.85 -0.9,1.49 -2.2,1.49 h -2.84 c -0.2,0 -0.29,0 -0.29,-0.2 0,-0.11 0.09,-0.11 0.28,-0.11 0.01,0 0.21,0 0.37,-0.02 0.18,-0.02 0.27,-0.03 0.27,-0.16 0,-0.04 -0.01,-0.07 -0.04,-0.19 l -1.33,-5.33 c -0.1,-0.39 -0.12,-0.47 -0.91,-0.47 -0.18,0 -0.27,0 -0.27,-0.2 0,-0.11 0.12,-0.11 0.14,-0.11 0.28,0 0.98,0.04 1.26,0.04 0.28,0 0.98,-0.04 1.26,-0.04 0.08,0 0.2,0 0.2,0.2 0,0.11 -0.09,0.11 -0.28,0.11 -0.36,0 -0.65,0 -0.65,0.18 0,0.06 0.02,0.11 0.04,0.17 l 0.65,2.63 h 1.19 l -0.01,0.22 h -1.12 l 0.65,2.59 c 0.06,0.24 0.09,0.34 0.28,0.37 0.09,0.01 0.41,0.01 0.61,0.01 0.71,0 1.81,0 1.81,-0.98 0,-0.34 -0.16,-1.02 -0.55,-1.41 -0.25,-0.26 -0.78,-0.58 -1.68,-0.58 l 0.01,-0.22 c 0.91,0 1.09,-0.55 1.09,-0.9 0,-0.15 -0.08,-0.46 -0.14,-0.69 -0.07,-0.27 -0.16,-0.64 -0.16,-0.84 0,-1.07 1.19,-1.07 1.32,-1.07 0.85,0 1.2,1 1.2,1.14 0,0.12 -0.11,0.12 -0.12,0.12 -0.09,0 -0.11,-0.07 -0.13,-0.14 -0.25,-0.74 -0.68,-0.91 -0.91,-0.91 -0.32,0 -0.4,0.22 -0.4,0.61 0,0.31 0.06,0.82 0.11,1.13 0.01,0.14 0.03,0.33 0.03,0.47 0,0.77 -0.66,1.07 -0.93,1.17 z"
+   inkscape:connector-curvature="0"
+   style="fill:#000000;stroke-width:0" />
+<path
+   id="path8082"
+   d="m 158.62,660.16 v 0.01 0.01 0.01 0.01 0 0.01 0.01 0.01 0 0.01 0.01 0 0.01 0 l -0.01,0.01 v 0 0.01 0 0.01 0.01 l -0.01,0.01 v 0 0.01 l -0.01,0.01 v 0 l -0.01,0.01 v 0 h -0.01 l -0.01,0.01 h -0.01 -0.01 v 0 h -0.01 -0.01 v 0 l -0.01,0.01 v 0 h -0.01 v 0 h -0.01 -0.01 -0.01 v 0 h -0.01 -0.01 -0.01 v 0 h -0.01 -0.01 -0.01 c -0.45,-0.44 -1.08,-0.45 -1.37,-0.45 v -0.25 c 0.17,0 0.63,0 1.01,0.2 v -3.55 c 0,-0.23 0,-0.32 -0.7,-0.32 h -0.26 v -0.25 c 0.12,0.01 0.98,0.03 1.24,0.03 0.22,0 1.1,-0.02 1.25,-0.03 v 0.25 h -0.26 c -0.7,0 -0.7,0.09 -0.7,0.32 z"
+   inkscape:connector-curvature="0"
+   style="fill:#000000;stroke-width:0" />
+</g>    <g
+       inkscape:export-ydpi="588"
+       inkscape:export-xdpi="588"
+       inkscape:export-filename="/home/newtonis/Notas/Boostnote/images/circuitos/circuito1.png"
+       id="g8465"
+       transform="matrix(0.65246,0,0,-0.65246,-40.425653,550.59666)"
+       xml:space="preserve"
+       stroke-miterlimit="10.433"
+       font-style="normal"
+       font-variant="normal"
+       font-weight="normal"
+       font-stretch="normal"
+       font-size-adjust="none"
+       letter-spacing="normal"
+       word-spacing="normal"
+       ns0:version="0.8.1"
+       ns0:texconverter="pdflatex"
+       ns0:pdfconverter="pstoedit"
+       ns0:text="$R_2$"
+       ns0:preamble="/home/newtonis/.config/inkscape/extensions/default_packages.tex"
+       ns0:scale="1.84949396297"
+       ns0:alignment="middle center"
+       inkscapeversion="0.92.3"
+       ns0:jacobian_sqrt="0.65246"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+<path
+   inkscape:connector-curvature="0"
+   d="m 153.89,660.61 0.09,0.02 0.1,0.03 0.09,0.03 0.1,0.03 0.1,0.03 0.09,0.03 0.1,0.04 0.1,0.04 0.09,0.05 0.09,0.04 0.09,0.05 0.09,0.05 0.09,0.05 0.09,0.06 0.08,0.06 0.08,0.06 0.08,0.06 0.07,0.06 0.08,0.07 0.06,0.07 0.07,0.07 0.06,0.07 0.05,0.08 0.05,0.08 0.05,0.08 0.03,0.08 0.04,0.08 0.03,0.09 0.02,0.09 0.02,0.09 0.01,0.09 v 0.09 c 0,0.85 -0.9,1.49 -2.2,1.49 h -2.84 c -0.2,0 -0.29,0 -0.29,-0.2 0,-0.11 0.09,-0.11 0.28,-0.11 0.01,0 0.21,0 0.37,-0.02 0.18,-0.02 0.27,-0.03 0.27,-0.16 0,-0.04 -0.01,-0.07 -0.04,-0.19 l -1.33,-5.33 c -0.1,-0.39 -0.12,-0.47 -0.91,-0.47 -0.18,0 -0.27,0 -0.27,-0.2 0,-0.11 0.12,-0.11 0.14,-0.11 0.28,0 0.98,0.04 1.26,0.04 0.28,0 0.98,-0.04 1.26,-0.04 0.08,0 0.2,0 0.2,0.2 0,0.11 -0.09,0.11 -0.28,0.11 -0.36,0 -0.65,0 -0.65,0.18 0,0.06 0.02,0.11 0.04,0.17 l 0.65,2.63 h 1.19 l -0.01,0.22 h -1.12 l 0.65,2.59 c 0.06,0.24 0.09,0.34 0.28,0.37 0.09,0.01 0.41,0.01 0.61,0.01 0.71,0 1.81,0 1.81,-0.98 0,-0.34 -0.16,-1.02 -0.55,-1.41 -0.25,-0.26 -0.78,-0.58 -1.68,-0.58 l 0.01,-0.22 c 0.91,0 1.09,-0.55 1.09,-0.9 0,-0.15 -0.08,-0.46 -0.14,-0.69 -0.07,-0.27 -0.16,-0.64 -0.16,-0.84 0,-1.07 1.19,-1.07 1.32,-1.07 0.85,0 1.2,1 1.2,1.14 0,0.12 -0.11,0.12 -0.12,0.12 -0.09,0 -0.11,-0.07 -0.13,-0.14 -0.25,-0.74 -0.68,-0.91 -0.91,-0.91 -0.32,0 -0.4,0.22 -0.4,0.61 0,0.31 0.06,0.82 0.11,1.13 0.01,0.14 0.03,0.33 0.03,0.47 0,0.77 -0.66,1.07 -0.93,1.17 z"
+   style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-opacity:1"
+   id="path8461" />
+<path
+   inkscape:connector-curvature="0"
+   d="m 159.81,657.01 h -0.24 c -0.02,-0.16 -0.09,-0.57 -0.18,-0.64 -0.06,-0.04 -0.6,-0.04 -0.69,-0.04 h -1.29 c 0.73,0.65 0.98,0.84 1.4,1.17 0.52,0.41 1,0.84 1,1.5 0,0.84 -0.74,1.36 -1.64,1.36 -0.87,0 -1.45,-0.61 -1.45,-1.25 0,-0.35 0.3,-0.39 0.37,-0.39 0.17,0 0.37,0.12 0.37,0.37 0,0.13 -0.05,0.37 -0.41,0.37 0.21,0.5 0.69,0.65 1.02,0.65 0.7,0 1.06,-0.54 1.06,-1.11 0,-0.6 -0.43,-1.08 -0.66,-1.33 l -1.68,-1.66 c -0.07,-0.06 -0.07,-0.07 -0.07,-0.27 h 2.88 z"
+   style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-opacity:1"
+   id="path8463" />
+</g>    <g
+       inkscape:export-ydpi="588"
+       inkscape:export-xdpi="588"
+       inkscape:export-filename="/home/newtonis/Notas/Boostnote/images/circuitos/circuito1.png"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       ns0:jacobian_sqrt="0.65246"
+       inkscapeversion="0.92.3"
+       ns0:alignment="middle center"
+       ns0:scale="1.84949399132"
+       ns0:preamble="/home/newtonis/.config/inkscape/extensions/default_packages.tex"
+       ns0:text="$R_3$"
+       ns0:pdfconverter="pstoedit"
+       ns0:texconverter="pdflatex"
+       ns0:version="0.8.1"
+       word-spacing="normal"
+       letter-spacing="normal"
+       font-size-adjust="none"
+       font-stretch="normal"
+       font-weight="normal"
+       font-variant="normal"
+       font-style="normal"
+       stroke-miterlimit="10.433"
+       xml:space="preserve"
+       transform="matrix(0.65246,0,0,-0.65246,-56.578593,550.32329)"
+       id="g8852">
+<path
+   id="path8848"
+   style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-opacity:1"
+   d="m 153.89,660.61 0.09,0.02 0.1,0.03 0.09,0.03 0.1,0.03 0.1,0.03 0.09,0.03 0.1,0.04 0.1,0.04 0.09,0.05 0.09,0.04 0.09,0.05 0.09,0.05 0.09,0.05 0.09,0.06 0.08,0.06 0.08,0.06 0.08,0.06 0.07,0.06 0.08,0.07 0.06,0.07 0.07,0.07 0.06,0.07 0.05,0.08 0.05,0.08 0.05,0.08 0.03,0.08 0.04,0.08 0.03,0.09 0.02,0.09 0.02,0.09 0.01,0.09 v 0.09 c 0,0.85 -0.9,1.49 -2.2,1.49 h -2.84 c -0.2,0 -0.29,0 -0.29,-0.2 0,-0.11 0.09,-0.11 0.28,-0.11 0.01,0 0.21,0 0.37,-0.02 0.18,-0.02 0.27,-0.03 0.27,-0.16 0,-0.04 -0.01,-0.07 -0.04,-0.19 l -1.33,-5.33 c -0.1,-0.39 -0.12,-0.47 -0.91,-0.47 -0.18,0 -0.27,0 -0.27,-0.2 0,-0.11 0.12,-0.11 0.14,-0.11 0.28,0 0.98,0.04 1.26,0.04 0.28,0 0.98,-0.04 1.26,-0.04 0.08,0 0.2,0 0.2,0.2 0,0.11 -0.09,0.11 -0.28,0.11 -0.36,0 -0.65,0 -0.65,0.18 0,0.06 0.02,0.11 0.04,0.17 l 0.65,2.63 h 1.19 l -0.01,0.22 h -1.12 l 0.65,2.59 c 0.06,0.24 0.09,0.34 0.28,0.37 0.09,0.01 0.41,0.01 0.61,0.01 0.71,0 1.81,0 1.81,-0.98 0,-0.34 -0.16,-1.02 -0.55,-1.41 -0.25,-0.26 -0.78,-0.58 -1.68,-0.58 l 0.01,-0.22 c 0.91,0 1.09,-0.55 1.09,-0.9 0,-0.15 -0.08,-0.46 -0.14,-0.69 -0.07,-0.27 -0.16,-0.64 -0.16,-0.84 0,-1.07 1.19,-1.07 1.32,-1.07 0.85,0 1.2,1 1.2,1.14 0,0.12 -0.11,0.12 -0.12,0.12 -0.09,0 -0.11,-0.07 -0.13,-0.14 -0.25,-0.74 -0.68,-0.91 -0.91,-0.91 -0.32,0 -0.4,0.22 -0.4,0.61 0,0.31 0.06,0.82 0.11,1.13 0.01,0.14 0.03,0.33 0.03,0.47 0,0.77 -0.66,1.07 -0.93,1.17 z"
+   inkscape:connector-curvature="0" />
+<path
+   id="path8850"
+   style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-opacity:1"
+   d="m 158.19,658.06 h 0.05 0.05 l 0.05,-0.01 h 0.04 l 0.05,-0.01 0.04,-0.02 0.05,-0.01 0.04,-0.02 0.04,-0.02 0.04,-0.02 0.04,-0.02 0.04,-0.02 0.04,-0.03 0.03,-0.03 0.04,-0.03 0.03,-0.04 0.03,-0.03 0.03,-0.04 0.02,-0.04 0.03,-0.05 0.02,-0.04 0.03,-0.05 0.02,-0.05 0.01,-0.05 0.02,-0.05 0.01,-0.06 0.02,-0.05 0.01,-0.06 v -0.07 l 0.01,-0.06 v -0.07 -0.07 c 0,-0.86 -0.5,-1.12 -0.91,-1.12 -0.28,0 -0.89,0.08 -1.19,0.49 0.33,0.02 0.41,0.24 0.41,0.39 0,0.22 -0.17,0.38 -0.38,0.38 -0.2,0 -0.4,-0.11 -0.4,-0.4 0,-0.65 0.73,-1.08 1.58,-1.08 0.97,0 1.64,0.65 1.64,1.34 0,0.55 -0.45,1.09 -1.22,1.25 0.74,0.26 1,0.78 1,1.21 0,0.55 -0.63,0.96 -1.41,0.96 -0.77,0 -1.37,-0.38 -1.37,-0.93 0,-0.24 0.15,-0.37 0.37,-0.37 0.21,0 0.35,0.16 0.35,0.35 0,0.2 -0.14,0.35 -0.35,0.36 0.24,0.31 0.72,0.39 0.98,0.39 0.32,0 0.76,-0.16 0.76,-0.76 0,-0.29 -0.1,-0.61 -0.28,-0.83 -0.24,-0.26 -0.43,-0.28 -0.78,-0.3 -0.18,-0.01 -0.19,-0.01 -0.22,-0.02 -0.02,0 -0.07,-0.01 -0.07,-0.09 0,-0.1 0.06,-0.1 0.18,-0.1 z"
+   inkscape:connector-curvature="0" />
+</g>    <rect
+       inkscape:export-ydpi="588"
+       inkscape:export-xdpi="588"
+       inkscape:export-filename="/home/newtonis/Notas/Boostnote/images/circuitos/circuito1.png"
+       ry="2.2678571"
+       rx="2.2678571"
+       y="72.39859"
+       x="75.264389"
+       height="12.710258"
+       width="19.758659"
+       id="rect4530-3-3"
+       style="fill:#ffd5d5;fill-opacity:1;fill-rule:nonzero;stroke:#0d0d0d;stroke-width:0.99999988;stroke-miterlimit:4;stroke-dasharray:1.99999995, 0.99999998;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill" />
+    <g
+       inkscape:export-ydpi="588"
+       inkscape:export-xdpi="588"
+       inkscape:export-filename="/home/newtonis/Notas/Boostnote/images/circuitos/circuito1.png"
+       id="g12520"
+       transform="matrix(0.71231992,0,0,-0.71231975,-26.709367,550.20376)"
+       xml:space="preserve"
+       stroke-miterlimit="10.433"
+       font-style="normal"
+       font-variant="normal"
+       font-weight="normal"
+       font-stretch="normal"
+       font-size-adjust="none"
+       letter-spacing="normal"
+       word-spacing="normal"
+       ns0:version="0.8.1"
+       ns0:texconverter="pdflatex"
+       ns0:pdfconverter="pstoedit"
+       ns0:text="$I_{out}$"
+       ns0:preamble="/home/newtonis/.config/inkscape/extensions/default_packages.tex"
+       ns0:scale="2.01917236903"
+       ns0:alignment="middle center"
+       inkscapeversion="0.92.3"
+       ns0:jacobian_sqrt="0.71232"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+<path
+   inkscape:connector-curvature="0"
+   d="m 152.44,663.26 0.01,0.03 0.01,0.03 0.01,0.03 v 0.03 l 0.01,0.02 0.01,0.03 0.01,0.02 0.01,0.03 0.01,0.02 0.01,0.02 0.02,0.02 0.01,0.02 0.02,0.01 0.01,0.02 0.02,0.01 0.02,0.02 0.03,0.01 0.02,0.01 0.03,0.01 0.03,0.01 0.03,0.01 h 0.02 l 0.02,0.01 h 0.02 0.02 l 0.02,0.01 h 0.02 0.02 l 0.02,0.01 h 0.03 0.02 0.03 0.02 l 0.03,0.01 h 0.03 0.03 0.03 0.03 0.03 0.03 0.04 0.03 0.04 c 0.24,0 0.32,0 0.32,0.19 0,0.12 -0.11,0.12 -0.15,0.12 -0.29,0 -1.03,-0.03 -1.32,-0.03 -0.3,0 -1.02,0.03 -1.32,0.03 -0.07,0 -0.2,0 -0.2,-0.2 0,-0.11 0.09,-0.11 0.28,-0.11 0.42,0 0.68,0 0.68,-0.19 0,-0.05 0,-0.07 -0.02,-0.16 l -1.34,-5.35 c -0.09,-0.37 -0.12,-0.47 -0.91,-0.47 -0.23,0 -0.32,0 -0.32,-0.2 0,-0.11 0.12,-0.11 0.15,-0.11 0.29,0 1.02,0.04 1.31,0.04 0.3,0 1.03,-0.04 1.33,-0.04 0.08,0 0.2,0 0.2,0.19 0,0.12 -0.08,0.12 -0.3,0.12 -0.18,0 -0.23,0 -0.42,0.02 -0.22,0.02 -0.25,0.06 -0.25,0.17 0,0.08 0.02,0.16 0.03,0.23 z"
+   style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-opacity:1"
+   id="path12512" />
+<path
+   inkscape:connector-curvature="0"
+   d="m 156.8,657.59 v 0.07 0.07 l -0.01,0.07 -0.01,0.06 -0.02,0.07 -0.01,0.06 -0.02,0.06 -0.03,0.06 -0.02,0.05 -0.03,0.06 -0.03,0.05 -0.03,0.05 -0.04,0.04 -0.04,0.05 -0.04,0.04 -0.04,0.04 -0.05,0.04 -0.04,0.03 -0.05,0.03 -0.05,0.04 -0.05,0.02 -0.05,0.03 -0.06,0.02 -0.05,0.03 -0.06,0.01 -0.06,0.02 -0.06,0.01 -0.06,0.02 -0.06,0.01 h -0.06 l -0.07,0.01 h -0.06 l -0.01,-0.2 c 0.38,0 0.7,-0.25 0.7,-0.77 0,-0.17 -0.08,-0.85 -0.39,-1.34 -0.27,-0.41 -0.69,-0.63 -1.04,-0.63 v 0 c -0.34,0 -0.69,0.22 -0.69,0.77 0,0.28 0.13,0.96 0.4,1.36 0.3,0.43 0.71,0.61 1.02,0.61 l 0.01,0.2 c -1.04,0 -2.02,-0.97 -2.02,-1.92 0,-0.7 0.52,-1.22 1.28,-1.22 1,0 2,0.92 2,1.92 z"
+   style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-opacity:1"
+   id="path12514" />
+<path
+   inkscape:connector-curvature="0"
+   d="m 159.98,656.87 v -0.02 -0.01 l -0.01,-0.02 v -0.01 l -0.01,-0.02 v -0.01 -0.02 l -0.01,-0.01 -0.01,-0.04 -0.01,-0.03 v -0.04 l -0.01,-0.01 v -0.02 l -0.01,-0.01 v -0.02 -0.01 l -0.01,-0.02 v -0.01 -0.01 l -0.01,-0.01 v -0.02 -0.01 h -0.01 v -0.01 -0.01 0 0 l -0.01,-0.01 v 0 0 0 0 0 c -0.13,-0.22 -0.41,-0.59 -0.85,-0.59 -0.48,0 -0.48,0.45 -0.48,0.57 0,0.41 0.2,0.91 0.39,1.41 0.06,0.14 0.1,0.25 0.1,0.36 0,0.36 -0.31,0.6 -0.66,0.6 -0.7,0 -1.02,-0.96 -1.02,-1.07 0,-0.09 0.1,-0.09 0.12,-0.09 0.1,0 0.11,0.04 0.13,0.11 0.17,0.58 0.47,0.85 0.75,0.85 0.11,0 0.17,-0.07 0.17,-0.24 0,-0.16 -0.06,-0.31 -0.12,-0.47 -0.38,-0.96 -0.38,-1.16 -0.38,-1.35 0,-0.11 0,-0.43 0.26,-0.66 0.2,-0.16 0.47,-0.22 0.72,-0.22 0.44,0 0.68,0.24 0.9,0.46 0.16,-0.45 0.63,-0.46 0.71,-0.46 0.24,0 0.42,0.14 0.55,0.37 0.16,0.27 0.25,0.67 0.25,0.69 0,0.1 -0.09,0.1 -0.11,0.1 -0.1,0 -0.11,-0.03 -0.16,-0.22 -0.08,-0.33 -0.21,-0.74 -0.51,-0.74 -0.18,0 -0.23,0.16 -0.23,0.34 0,0.12 0.06,0.37 0.11,0.55 0.04,0.18 0.11,0.47 0.15,0.62 l 0.16,0.62 c 0.04,0.17 0.12,0.48 0.12,0.52 0,0.14 -0.11,0.22 -0.23,0.22 -0.26,0 -0.31,-0.2 -0.36,-0.43 z"
+   style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-opacity:1"
+   id="path12516" />
+<path
+   inkscape:connector-curvature="0"
+   d="m 163.46,658.49 h 0.71 c 0.13,0 0.22,0 0.22,0.15 0,0.1 -0.09,0.1 -0.21,0.1 h -0.66 l 0.26,1.03 c 0,0.03 0.02,0.07 0.02,0.09 0,0.13 -0.1,0.23 -0.24,0.23 -0.18,0 -0.28,-0.12 -0.33,-0.3 -0.05,-0.18 0.04,0.16 -0.27,-1.05 h -0.71 c -0.13,0 -0.22,0 -0.22,-0.15 0,-0.1 0.08,-0.1 0.21,-0.1 h 0.66 l -0.41,-1.64 c -0.04,-0.18 -0.11,-0.43 -0.11,-0.52 0,-0.41 0.35,-0.66 0.75,-0.66 0.78,0 1.22,0.98 1.22,1.06 0,0.1 -0.09,0.1 -0.11,0.1 -0.09,0 -0.09,-0.02 -0.15,-0.14 -0.19,-0.43 -0.55,-0.82 -0.94,-0.82 -0.14,0 -0.24,0.09 -0.24,0.34 0,0.07 0.03,0.21 0.04,0.28 z"
+   style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-opacity:1"
+   id="path12518" />
+</g>    <g
+       inkscape:export-ydpi="588"
+       inkscape:export-xdpi="588"
+       inkscape:export-filename="/home/newtonis/Notas/Boostnote/images/circuitos/circuito1.png"
+       ns0:jacobian_sqrt="0.712319"
+       inkscapeversion="0.92.3"
+       ns0:alignment="middle center"
+       ns0:scale="2.01917236903"
+       ns0:preamble="/home/newtonis/.config/inkscape/extensions/default_packages.tex"
+       ns0:text="$19\\mu A$"
+       ns0:pdfconverter="pstoedit"
+       ns0:texconverter="pdflatex"
+       ns0:version="0.8.1"
+       word-spacing="normal"
+       letter-spacing="normal"
+       font-size-adjust="none"
+       font-stretch="normal"
+       font-weight="normal"
+       font-variant="normal"
+       font-style="normal"
+       stroke-miterlimit="10.433"
+       xml:space="preserve"
+       transform="matrix(0.712319,0,0,-0.712319,-45.84325,491.74533)"
+       id="g13030"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+<path
+   id="path13022"
+   d="m 151.64,663.59 v 0.01 0.01 0.02 0.01 0 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0 0.01 0.01 0 0.01 0.01 0.01 l -0.01,0.01 v 0.01 0.01 l -0.01,0.01 v 0 0.01 l -0.01,0.01 h -0.01 v 0.01 h -0.01 l -0.01,0.01 h -0.01 v 0 h -0.01 v 0 h -0.01 v 0 l -0.01,0.01 h -0.01 v 0 h -0.01 -0.01 v 0 h -0.01 -0.01 -0.01 -0.01 -0.01 -0.01 -0.01 -0.01 -0.01 -0.01 c -0.61,-0.63 -1.49,-0.63 -1.81,-0.63 v -0.31 c 0.2,0 0.79,0 1.31,0.25 v -5.14 c 0,-0.36 -0.03,-0.48 -0.93,-0.48 h -0.32 v -0.31 c 0.35,0.04 1.22,0.04 1.61,0.04 0.4,0 1.27,0 1.62,-0.04 v 0.31 h -0.32 c -0.9,0 -0.93,0.11 -0.93,0.48 z"
+   inkscape:connector-curvature="0"
+   style="fill:#000000;stroke-width:0" />
+<path
+   id="path13024"
+   d="m 157.35,660.39 v -0.31 c 0,-2.33 -1.03,-2.79 -1.61,-2.79 -0.17,0 -0.71,0.02 -0.98,0.36 0.44,0 0.52,0.29 0.52,0.46 0,0.31 -0.24,0.46 -0.46,0.46 -0.16,0 -0.46,-0.09 -0.46,-0.48 0,-0.67 0.54,-1.07 1.39,-1.07 1.28,0 2.5,1.35 2.5,3.48 0,2.67 -1.15,3.35 -2.03,3.35 -0.55,0 -1.04,-0.18 -1.47,-0.63 -0.41,-0.44 -0.64,-0.86 -0.64,-1.6 0,-1.25 0.88,-2.22 2,-2.22 l 0.01,0.23 c -0.16,0 -0.62,0 -0.93,0.63 -0.18,0.36 -0.18,0.86 -0.18,1.35 0,0.53 0,1 0.21,1.37 0.27,0.49 0.65,0.62 1,0.62 0.46,0 0.78,-0.33 0.95,-0.78 0.12,-0.32 0.16,-0.95 0.16,-1.4 0,-0.83 -0.34,-1.79 -1.21,-1.79 v 0 l -0.01,-0.23 c 0.6,0 1.01,0.42 1.24,0.99 z"
+   inkscape:connector-curvature="0"
+   style="fill:#000000;stroke-width:0" />
+<path
+   id="path13026"
+   d="m 160.98,660.72 v 0.02 l 0.01,0.02 v 0.02 l 0.01,0.03 0.01,0.02 v 0.02 l 0.01,0.05 0.02,0.05 0.01,0.05 0.01,0.05 0.01,0.05 0.01,0.02 v 0.03 l 0.01,0.02 v 0.02 l 0.01,0.02 v 0.02 l 0.01,0.02 v 0.02 l 0.01,0.01 v 0.02 0.01 0.01 l 0.01,0.02 v 0 0.01 0.01 0 c 0,0.17 -0.12,0.27 -0.29,0.27 -0.03,0 -0.31,-0.01 -0.4,-0.36 L 159,655.52 c -0.03,-0.12 -0.03,-0.14 -0.03,-0.16 0,-0.15 0.11,-0.27 0.28,-0.27 0.21,0 0.33,0.18 0.35,0.21 0.04,0.09 0.17,0.6 0.55,2.13 0.32,-0.27 0.77,-0.3 0.97,-0.3 0.7,0 1.09,0.44 1.32,0.72 0.09,-0.45 0.46,-0.72 0.9,-0.72 0.35,0 0.58,0.22 0.74,0.54 0.17,0.36 0.3,0.97 0.3,0.99 0,0.1 -0.09,0.1 -0.12,0.1 -0.1,0 -0.11,-0.04 -0.14,-0.18 -0.17,-0.65 -0.35,-1.24 -0.76,-1.24 -0.27,0 -0.3,0.26 -0.3,0.46 0,0.22 0.12,0.69 0.2,1.03 l 0.28,1.08 c 0.03,0.15 0.13,0.52 0.17,0.67 0.05,0.23 0.15,0.61 0.15,0.67 0,0.18 -0.14,0.27 -0.29,0.27 -0.05,0 -0.31,-0.01 -0.39,-0.35 l -0.47,-1.86 c -0.12,-0.5 -0.23,-0.91 -0.26,-1.01 -0.01,-0.05 -0.48,-0.96 -1.29,-0.96 -0.5,0 -0.74,0.33 -0.74,0.87 0,0.29 0.07,0.57 0.14,0.84 z"
+   inkscape:connector-curvature="0"
+   style="fill:#000000;stroke-width:0" />
+<path
+   id="path13028"
+   d="m 166.46,658.38 -0.03,-0.06 -0.04,-0.06 -0.04,-0.06 -0.04,-0.05 -0.03,-0.05 -0.04,-0.04 -0.04,-0.05 -0.03,-0.04 -0.04,-0.04 -0.04,-0.04 -0.04,-0.03 -0.03,-0.03 -0.04,-0.03 -0.04,-0.03 -0.04,-0.02 -0.03,-0.03 -0.04,-0.02 -0.04,-0.02 -0.04,-0.02 -0.04,-0.02 -0.04,-0.01 -0.03,-0.01 -0.04,-0.02 -0.04,-0.01 -0.04,-0.01 -0.04,-0.01 h -0.04 l -0.04,-0.01 -0.08,-0.01 -0.08,-0.01 c -0.12,-0.01 -0.21,-0.01 -0.21,-0.2 0,-0.06 0.05,-0.11 0.13,-0.11 0.27,0 0.58,0.04 0.85,0.04 0.33,0 0.68,-0.04 1,-0.04 0.06,0 0.19,0 0.19,0.19 0,0.11 -0.09,0.12 -0.16,0.12 -0.23,0.02 -0.47,0.1 -0.47,0.35 0,0.12 0.06,0.23 0.14,0.37 l 0.76,1.27 h 2.5 l -0.03,0.31 h -2.28 l 1.96,3.28 0.32,-3.28 0.03,-0.31 c 0.02,-0.21 0.16,-1.56 0.16,-1.66 0,-0.3 -0.51,-0.33 -0.72,-0.33 -0.13,0 -0.23,0 -0.23,-0.2 0,-0.11 0.12,-0.11 0.14,-0.11 0.4,0 0.83,0.04 1.24,0.04 0.25,0 0.88,-0.04 1.13,-0.04 0.06,0 0.18,0 0.18,0.2 0,0.11 -0.1,0.11 -0.23,0.11 -0.62,0 -0.62,0.07 -0.65,0.36 l -0.61,6.21 c -0.02,0.2 -0.02,0.24 -0.19,0.24 -0.16,0 -0.2,-0.07 -0.26,-0.17 z"
+   inkscape:connector-curvature="0"
+   style="fill:#000000;stroke-width:0" />
+</g>    <path
+       inkscape:export-ydpi="588"
+       inkscape:export-xdpi="588"
+       inkscape:export-filename="/home/newtonis/Notas/Boostnote/images/circuitos/circuito1.png"
+       inkscape:original-d="M 51.609917,58.481128 V 62.73825 L 13.383625,77.438074"
+       inkscape:path-effect="#path-effect13748"
+       inkscape:connector-curvature="0"
+       id="path13746"
+       d="m 51.609917,58.481128 c 0,0 0,4.257122 0,4.257122 0,0 -38.226292,14.699824 -38.226292,14.699824"
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none" />
+    <g
+       inkscape:export-ydpi="588"
+       inkscape:export-xdpi="588"
+       inkscape:export-filename="/home/newtonis/Notas/Boostnote/images/circuitos/circuito1.png"
+       id="g12520-5"
+       transform="matrix(0.71231993,0,0,-0.71231974,50.498919,548.8055)"
+       xml:space="preserve"
+       stroke-miterlimit="10.433"
+       font-style="normal"
+       font-variant="normal"
+       font-weight="normal"
+       font-stretch="normal"
+       font-size-adjust="none"
+       letter-spacing="normal"
+       word-spacing="normal"
+       ns0:version="0.8.1"
+       ns0:texconverter="pdflatex"
+       ns0:pdfconverter="pstoedit"
+       ns0:text="$I_{out}$"
+       ns0:preamble="/home/newtonis/.config/inkscape/extensions/default_packages.tex"
+       ns0:scale="2.01917236903"
+       ns0:alignment="middle center"
+       inkscapeversion="0.92.3"
+       ns0:jacobian_sqrt="0.71232"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+<path
+   inkscape:connector-curvature="0"
+   d="m 152.44,663.26 0.01,0.03 0.01,0.03 0.01,0.03 v 0.03 l 0.01,0.02 0.01,0.03 0.01,0.02 0.01,0.03 0.01,0.02 0.01,0.02 0.02,0.02 0.01,0.02 0.02,0.01 0.01,0.02 0.02,0.01 0.02,0.02 0.03,0.01 0.02,0.01 0.03,0.01 0.03,0.01 0.03,0.01 h 0.02 l 0.02,0.01 h 0.02 0.02 l 0.02,0.01 h 0.02 0.02 l 0.02,0.01 h 0.03 0.02 0.03 0.02 l 0.03,0.01 h 0.03 0.03 0.03 0.03 0.03 0.03 0.04 0.03 0.04 c 0.24,0 0.32,0 0.32,0.19 0,0.12 -0.11,0.12 -0.15,0.12 -0.29,0 -1.03,-0.03 -1.32,-0.03 -0.3,0 -1.02,0.03 -1.32,0.03 -0.07,0 -0.2,0 -0.2,-0.2 0,-0.11 0.09,-0.11 0.28,-0.11 0.42,0 0.68,0 0.68,-0.19 0,-0.05 0,-0.07 -0.02,-0.16 l -1.34,-5.35 c -0.09,-0.37 -0.12,-0.47 -0.91,-0.47 -0.23,0 -0.32,0 -0.32,-0.2 0,-0.11 0.12,-0.11 0.15,-0.11 0.29,0 1.02,0.04 1.31,0.04 0.3,0 1.03,-0.04 1.33,-0.04 0.08,0 0.2,0 0.2,0.19 0,0.12 -0.08,0.12 -0.3,0.12 -0.18,0 -0.23,0 -0.42,0.02 -0.22,0.02 -0.25,0.06 -0.25,0.17 0,0.08 0.02,0.16 0.03,0.23 z"
+   style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-opacity:1"
+   id="path12512-6" />
+<path
+   inkscape:connector-curvature="0"
+   d="m 156.8,657.59 v 0.07 0.07 l -0.01,0.07 -0.01,0.06 -0.02,0.07 -0.01,0.06 -0.02,0.06 -0.03,0.06 -0.02,0.05 -0.03,0.06 -0.03,0.05 -0.03,0.05 -0.04,0.04 -0.04,0.05 -0.04,0.04 -0.04,0.04 -0.05,0.04 -0.04,0.03 -0.05,0.03 -0.05,0.04 -0.05,0.02 -0.05,0.03 -0.06,0.02 -0.05,0.03 -0.06,0.01 -0.06,0.02 -0.06,0.01 -0.06,0.02 -0.06,0.01 h -0.06 l -0.07,0.01 h -0.06 l -0.01,-0.2 c 0.38,0 0.7,-0.25 0.7,-0.77 0,-0.17 -0.08,-0.85 -0.39,-1.34 -0.27,-0.41 -0.69,-0.63 -1.04,-0.63 v 0 c -0.34,0 -0.69,0.22 -0.69,0.77 0,0.28 0.13,0.96 0.4,1.36 0.3,0.43 0.71,0.61 1.02,0.61 l 0.01,0.2 c -1.04,0 -2.02,-0.97 -2.02,-1.92 0,-0.7 0.52,-1.22 1.28,-1.22 1,0 2,0.92 2,1.92 z"
+   style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-opacity:1"
+   id="path12514-6" />
+<path
+   inkscape:connector-curvature="0"
+   d="m 159.98,656.87 v -0.02 -0.01 l -0.01,-0.02 v -0.01 l -0.01,-0.02 v -0.01 -0.02 l -0.01,-0.01 -0.01,-0.04 -0.01,-0.03 v -0.04 l -0.01,-0.01 v -0.02 l -0.01,-0.01 v -0.02 -0.01 l -0.01,-0.02 v -0.01 -0.01 l -0.01,-0.01 v -0.02 -0.01 h -0.01 v -0.01 -0.01 0 0 l -0.01,-0.01 v 0 0 0 0 0 c -0.13,-0.22 -0.41,-0.59 -0.85,-0.59 -0.48,0 -0.48,0.45 -0.48,0.57 0,0.41 0.2,0.91 0.39,1.41 0.06,0.14 0.1,0.25 0.1,0.36 0,0.36 -0.31,0.6 -0.66,0.6 -0.7,0 -1.02,-0.96 -1.02,-1.07 0,-0.09 0.1,-0.09 0.12,-0.09 0.1,0 0.11,0.04 0.13,0.11 0.17,0.58 0.47,0.85 0.75,0.85 0.11,0 0.17,-0.07 0.17,-0.24 0,-0.16 -0.06,-0.31 -0.12,-0.47 -0.38,-0.96 -0.38,-1.16 -0.38,-1.35 0,-0.11 0,-0.43 0.26,-0.66 0.2,-0.16 0.47,-0.22 0.72,-0.22 0.44,0 0.68,0.24 0.9,0.46 0.16,-0.45 0.63,-0.46 0.71,-0.46 0.24,0 0.42,0.14 0.55,0.37 0.16,0.27 0.25,0.67 0.25,0.69 0,0.1 -0.09,0.1 -0.11,0.1 -0.1,0 -0.11,-0.03 -0.16,-0.22 -0.08,-0.33 -0.21,-0.74 -0.51,-0.74 -0.18,0 -0.23,0.16 -0.23,0.34 0,0.12 0.06,0.37 0.11,0.55 0.04,0.18 0.11,0.47 0.15,0.62 l 0.16,0.62 c 0.04,0.17 0.12,0.48 0.12,0.52 0,0.14 -0.11,0.22 -0.23,0.22 -0.26,0 -0.31,-0.2 -0.36,-0.43 z"
+   style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-opacity:1"
+   id="path12516-4" />
+<path
+   inkscape:connector-curvature="0"
+   d="m 163.46,658.49 h 0.71 c 0.13,0 0.22,0 0.22,0.15 0,0.1 -0.09,0.1 -0.21,0.1 h -0.66 l 0.26,1.03 c 0,0.03 0.02,0.07 0.02,0.09 0,0.13 -0.1,0.23 -0.24,0.23 -0.18,0 -0.28,-0.12 -0.33,-0.3 -0.05,-0.18 0.04,0.16 -0.27,-1.05 h -0.71 c -0.13,0 -0.22,0 -0.22,-0.15 0,-0.1 0.08,-0.1 0.21,-0.1 h 0.66 l -0.41,-1.64 c -0.04,-0.18 -0.11,-0.43 -0.11,-0.52 0,-0.41 0.35,-0.66 0.75,-0.66 0.78,0 1.22,0.98 1.22,1.06 0,0.1 -0.09,0.1 -0.11,0.1 -0.09,0 -0.09,-0.02 -0.15,-0.14 -0.19,-0.43 -0.55,-0.82 -0.94,-0.82 -0.14,0 -0.24,0.09 -0.24,0.34 0,0.07 0.03,0.21 0.04,0.28 z"
+   style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-opacity:1"
+   id="path12518-0" />
+</g>    <rect
+       inkscape:export-ydpi="588"
+       inkscape:export-xdpi="588"
+       inkscape:export-filename="/home/newtonis/Notas/Boostnote/images/circuitos/circuito1.png"
+       ry="2.2678571"
+       rx="2.2678571"
+       y="51.983631"
+       x="117.4738"
+       height="13.445251"
+       width="16.889795"
+       id="rect4530-3-9"
+       style="fill:#ffd5d5;fill-opacity:1;fill-rule:nonzero;stroke:#0d0d0d;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:2.00000003, 1.00000001;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill" />
+    <g
+       inkscape:export-ydpi="588"
+       inkscape:export-xdpi="588"
+       inkscape:export-filename="/home/newtonis/Notas/Boostnote/images/circuitos/circuito1.png"
+       id="g14675"
+       transform="matrix(0.65246,0,0,-0.65246,14.260817,510.59656)"
+       xml:space="preserve"
+       stroke-miterlimit="10.433"
+       font-style="normal"
+       font-variant="normal"
+       font-weight="normal"
+       font-stretch="normal"
+       font-size-adjust="none"
+       letter-spacing="normal"
+       word-spacing="normal"
+       ns0:version="0.8.1"
+       ns0:texconverter="pdflatex"
+       ns0:pdfconverter="pstoedit"
+       ns0:text="$R_{id}$"
+       ns0:preamble="/home/newtonis/.config/inkscape/extensions/default_packages.tex"
+       ns0:scale="1.84949399132"
+       ns0:alignment="middle center"
+       inkscapeversion="0.92.3"
+       ns0:jacobian_sqrt="0.65246"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+<path
+   inkscape:connector-curvature="0"
+   d="m 153.89,660.61 0.09,0.02 0.1,0.03 0.09,0.03 0.1,0.03 0.1,0.03 0.09,0.03 0.1,0.04 0.1,0.04 0.09,0.05 0.09,0.04 0.09,0.05 0.09,0.05 0.09,0.05 0.09,0.06 0.08,0.06 0.08,0.06 0.08,0.06 0.07,0.06 0.08,0.07 0.06,0.07 0.07,0.07 0.06,0.07 0.05,0.08 0.05,0.08 0.05,0.08 0.03,0.08 0.04,0.08 0.03,0.09 0.02,0.09 0.02,0.09 0.01,0.09 v 0.09 c 0,0.85 -0.9,1.49 -2.2,1.49 h -2.84 c -0.2,0 -0.29,0 -0.29,-0.2 0,-0.11 0.09,-0.11 0.28,-0.11 0.01,0 0.21,0 0.37,-0.02 0.18,-0.02 0.27,-0.03 0.27,-0.16 0,-0.04 -0.01,-0.07 -0.04,-0.19 l -1.33,-5.33 c -0.1,-0.39 -0.12,-0.47 -0.91,-0.47 -0.18,0 -0.27,0 -0.27,-0.2 0,-0.11 0.12,-0.11 0.14,-0.11 0.28,0 0.98,0.04 1.26,0.04 0.28,0 0.98,-0.04 1.26,-0.04 0.08,0 0.2,0 0.2,0.2 0,0.11 -0.09,0.11 -0.28,0.11 -0.36,0 -0.65,0 -0.65,0.18 0,0.06 0.02,0.11 0.04,0.17 l 0.65,2.63 h 1.19 l -0.01,0.22 h -1.12 l 0.65,2.59 c 0.06,0.24 0.09,0.34 0.28,0.37 0.09,0.01 0.41,0.01 0.61,0.01 0.71,0 1.81,0 1.81,-0.98 0,-0.34 -0.16,-1.02 -0.55,-1.41 -0.25,-0.26 -0.78,-0.58 -1.68,-0.58 l 0.01,-0.22 c 0.91,0 1.09,-0.55 1.09,-0.9 0,-0.15 -0.08,-0.46 -0.14,-0.69 -0.07,-0.27 -0.16,-0.64 -0.16,-0.84 0,-1.07 1.19,-1.07 1.32,-1.07 0.85,0 1.2,1 1.2,1.14 0,0.12 -0.11,0.12 -0.12,0.12 -0.09,0 -0.11,-0.07 -0.13,-0.14 -0.25,-0.74 -0.68,-0.91 -0.91,-0.91 -0.32,0 -0.4,0.22 -0.4,0.61 0,0.31 0.06,0.82 0.11,1.13 0.01,0.14 0.03,0.33 0.03,0.47 0,0.77 -0.66,1.07 -0.93,1.17 z"
+   style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-opacity:1"
+   id="path14667" />
+<path
+   inkscape:connector-curvature="0"
+   d="m 158.54,660.09 v 0.01 0.01 0.01 0.01 0.01 l -0.01,0.01 v 0.01 0.02 l -0.01,0.01 v 0.01 l -0.01,0.01 v 0.01 l -0.01,0.01 -0.01,0.01 -0.01,0.01 v 0.01 l -0.01,0.01 -0.01,0.01 -0.01,0.01 -0.01,0.01 h -0.01 l -0.02,0.01 -0.01,0.01 -0.01,0.01 h -0.01 l -0.02,0.01 h -0.01 -0.02 l -0.02,0.01 h -0.01 -0.02 -0.02 c -0.19,0 -0.39,-0.18 -0.39,-0.38 0,-0.12 0.09,-0.26 0.28,-0.26 0.2,0 0.39,0.19 0.39,0.38 z"
+   style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-opacity:1"
+   id="path14669" />
+<path
+   inkscape:connector-curvature="0"
+   d="m 157.12,656.55 -0.01,-0.01 v -0.02 l -0.02,-0.03 v -0.02 l -0.01,-0.02 v -0.01 l -0.01,-0.02 v -0.02 -0.02 l -0.01,-0.02 v -0.01 -0.01 -0.01 -0.01 l -0.01,-0.01 v -0.02 -0.01 -0.01 -0.01 c 0,-0.32 0.28,-0.59 0.67,-0.59 0.7,0 1,0.96 1,1.06 0,0.1 -0.09,0.1 -0.11,0.1 -0.1,0 -0.1,-0.05 -0.13,-0.12 -0.16,-0.56 -0.47,-0.84 -0.74,-0.84 -0.14,0 -0.18,0.09 -0.18,0.24 0,0.16 0.05,0.29 0.12,0.44 0.06,0.19 0.14,0.38 0.22,0.56 0.06,0.17 0.31,0.8 0.34,0.88 0.02,0.07 0.04,0.16 0.04,0.23 0,0.32 -0.28,0.59 -0.66,0.59 -0.69,0 -1.01,-0.95 -1.01,-1.07 0,-0.09 0.09,-0.09 0.12,-0.09 0.09,0 0.1,0.04 0.12,0.11 0.18,0.6 0.49,0.85 0.75,0.85 0.11,0 0.17,-0.05 0.17,-0.24 0,-0.16 -0.04,-0.27 -0.21,-0.7 z"
+   style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-opacity:1"
+   id="path14671" />
+<path
+   inkscape:connector-curvature="0"
+   d="m 163.09,660.36 v 0 0 0 0 0 0 0.01 0 0 0 0.01 h 0.01 v 0 0.01 0 0.01 0 0.01 0.01 h 0.01 v 0.01 0 0 0.01 0 0.01 0 0 0.01 0 0 0 h 0.01 v 0 0.01 0 0 0 0 0 0 c 0,0.03 -0.03,0.1 -0.12,0.1 -0.14,0 -0.72,-0.06 -0.89,-0.07 -0.06,-0.01 -0.15,-0.02 -0.15,-0.16 0,-0.1 0.09,-0.1 0.18,-0.1 0.33,0 0.33,-0.05 0.33,-0.1 0,-0.05 -0.01,-0.1 -0.02,-0.16 l -0.4,-1.58 c -0.15,0.23 -0.39,0.41 -0.72,0.41 v -0.2 c 0.49,0 0.62,-0.53 0.62,-0.6 0,-0.03 -0.02,-0.08 -0.02,-0.1 l -0.33,-1.3 c -0.05,-0.2 -0.2,-0.33 -0.36,-0.47 -0.06,-0.05 -0.34,-0.27 -0.64,-0.27 -0.26,0 -0.51,0.18 -0.51,0.67 0,0.37 0.2,1.13 0.36,1.41 0.32,0.56 0.68,0.66 0.88,0.66 v 0.2 c -0.9,0 -1.81,-0.98 -1.81,-1.98 0,-0.68 0.46,-1.16 1.06,-1.16 0.38,0 0.71,0.22 0.99,0.49 0.13,-0.42 0.54,-0.49 0.72,-0.49 0.25,0 0.43,0.15 0.55,0.37 0.16,0.27 0.25,0.67 0.25,0.69 0,0.1 -0.09,0.1 -0.11,0.1 -0.1,0 -0.11,-0.03 -0.16,-0.22 -0.08,-0.33 -0.21,-0.74 -0.51,-0.74 -0.18,0 -0.23,0.15 -0.23,0.34 0,0.13 0.02,0.19 0.04,0.28 z"
+   style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-opacity:1"
+   id="path14673" />
+</g>    <path
+       inkscape:export-ydpi="588"
+       inkscape:export-xdpi="588"
+       inkscape:export-filename="/home/newtonis/Notas/Boostnote/images/circuitos/circuito1.png"
+       sodipodi:nodetypes="cc"
+       inkscape:original-d="m 147.23586,62.374893 h 32.02617 l 6.1562,0"
+       inkscape:path-effect="#path-effect15028"
+       inkscape:connector-curvature="0"
+       id="path15026"
+       d="m 147.23586,62.374893 c 0,0 32.02617,0 32.02617,0 0,0 6.1562,0 6.1562,0"
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <g
+       inkscape:export-ydpi="588"
+       inkscape:export-xdpi="588"
+       inkscape:export-filename="/home/newtonis/Notas/Boostnote/images/circuitos/circuito1.png"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       ns0:jacobian_sqrt="0.65246"
+       inkscapeversion="0.92.3"
+       ns0:alignment="middle center"
+       ns0:scale="1.84949399132"
+       ns0:preamble="/home/newtonis/.config/inkscape/extensions/default_packages.tex"
+       ns0:text="$I_{out}=G_{m1}V_d$"
+       ns0:pdfconverter="pstoedit"
+       ns0:texconverter="pdflatex"
+       ns0:version="0.8.1"
+       word-spacing="normal"
+       letter-spacing="normal"
+       font-size-adjust="none"
+       font-stretch="normal"
+       font-weight="normal"
+       font-variant="normal"
+       font-style="normal"
+       stroke-miterlimit="10.433"
+       xml:space="preserve"
+       transform="matrix(0.65246,0,0,-0.65246,50.103815,482.09654)"
+       id="g16264">
+<path
+   id="path16242"
+   style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-opacity:1"
+   d="m 152.44,663.26 0.01,0.03 0.01,0.03 0.01,0.03 v 0.03 l 0.01,0.02 0.01,0.03 0.01,0.02 0.01,0.03 0.01,0.02 0.01,0.02 0.02,0.02 0.01,0.02 0.02,0.01 0.01,0.02 0.02,0.01 0.02,0.02 0.03,0.01 0.02,0.01 0.03,0.01 0.03,0.01 0.03,0.01 h 0.02 l 0.02,0.01 h 0.02 0.02 l 0.02,0.01 h 0.02 0.02 l 0.02,0.01 h 0.03 0.02 0.03 0.02 l 0.03,0.01 h 0.03 0.03 0.03 0.03 0.03 0.03 0.04 0.03 0.04 c 0.24,0 0.32,0 0.32,0.19 0,0.12 -0.11,0.12 -0.15,0.12 -0.29,0 -1.03,-0.03 -1.32,-0.03 -0.3,0 -1.02,0.03 -1.32,0.03 -0.07,0 -0.2,0 -0.2,-0.2 0,-0.11 0.09,-0.11 0.28,-0.11 0.42,0 0.68,0 0.68,-0.19 0,-0.05 0,-0.07 -0.02,-0.16 l -1.34,-5.35 c -0.09,-0.37 -0.12,-0.47 -0.91,-0.47 -0.23,0 -0.32,0 -0.32,-0.2 0,-0.11 0.12,-0.11 0.15,-0.11 0.29,0 1.02,0.04 1.31,0.04 0.3,0 1.03,-0.04 1.33,-0.04 0.08,0 0.2,0 0.2,0.19 0,0.12 -0.08,0.12 -0.3,0.12 -0.18,0 -0.23,0 -0.42,0.02 -0.22,0.02 -0.25,0.06 -0.25,0.17 0,0.08 0.02,0.16 0.03,0.23 z"
+   inkscape:connector-curvature="0" />
+<path
+   id="path16244"
+   style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-opacity:1"
+   d="m 156.8,657.59 v 0.07 0.07 l -0.01,0.07 -0.01,0.06 -0.02,0.07 -0.01,0.06 -0.02,0.06 -0.03,0.06 -0.02,0.05 -0.03,0.06 -0.03,0.05 -0.03,0.05 -0.04,0.04 -0.04,0.05 -0.04,0.04 -0.04,0.04 -0.05,0.04 -0.04,0.03 -0.05,0.03 -0.05,0.04 -0.05,0.02 -0.05,0.03 -0.06,0.02 -0.05,0.03 -0.06,0.01 -0.06,0.02 -0.06,0.01 -0.06,0.02 -0.06,0.01 h -0.06 l -0.07,0.01 h -0.06 l -0.01,-0.2 c 0.38,0 0.7,-0.25 0.7,-0.77 0,-0.17 -0.08,-0.85 -0.39,-1.34 -0.27,-0.41 -0.69,-0.63 -1.04,-0.63 v 0 c -0.34,0 -0.69,0.22 -0.69,0.77 0,0.28 0.13,0.96 0.4,1.36 0.3,0.43 0.71,0.61 1.02,0.61 l 0.01,0.2 c -1.04,0 -2.02,-0.97 -2.02,-1.92 0,-0.7 0.52,-1.22 1.28,-1.22 1,0 2,0.92 2,1.92 z"
+   inkscape:connector-curvature="0" />
+<path
+   id="path16246"
+   style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-opacity:1"
+   d="m 159.98,656.87 v -0.02 -0.01 l -0.01,-0.02 v -0.01 l -0.01,-0.02 v -0.01 -0.02 l -0.01,-0.01 -0.01,-0.04 -0.01,-0.03 v -0.04 l -0.01,-0.01 v -0.02 l -0.01,-0.01 v -0.02 -0.01 l -0.01,-0.02 v -0.01 -0.01 l -0.01,-0.01 v -0.02 -0.01 h -0.01 v -0.01 -0.01 0 0 l -0.01,-0.01 v 0 0 0 0 0 c -0.13,-0.22 -0.41,-0.59 -0.85,-0.59 -0.48,0 -0.48,0.45 -0.48,0.57 0,0.41 0.2,0.91 0.39,1.41 0.06,0.14 0.1,0.25 0.1,0.36 0,0.36 -0.31,0.6 -0.66,0.6 -0.7,0 -1.02,-0.96 -1.02,-1.07 0,-0.09 0.1,-0.09 0.12,-0.09 0.1,0 0.11,0.04 0.13,0.11 0.17,0.58 0.47,0.85 0.75,0.85 0.11,0 0.17,-0.07 0.17,-0.24 0,-0.16 -0.06,-0.31 -0.12,-0.47 -0.38,-0.96 -0.38,-1.16 -0.38,-1.35 0,-0.11 0,-0.43 0.26,-0.66 0.2,-0.16 0.47,-0.22 0.72,-0.22 0.44,0 0.68,0.24 0.9,0.46 0.16,-0.45 0.63,-0.46 0.71,-0.46 0.24,0 0.42,0.14 0.55,0.37 0.16,0.27 0.25,0.67 0.25,0.69 0,0.1 -0.09,0.1 -0.11,0.1 -0.1,0 -0.11,-0.03 -0.16,-0.22 -0.08,-0.33 -0.21,-0.74 -0.51,-0.74 -0.18,0 -0.23,0.16 -0.23,0.34 0,0.12 0.06,0.37 0.11,0.55 0.04,0.18 0.11,0.47 0.15,0.62 l 0.16,0.62 c 0.04,0.17 0.12,0.48 0.12,0.52 0,0.14 -0.11,0.22 -0.23,0.22 -0.26,0 -0.31,-0.2 -0.36,-0.43 z"
+   inkscape:connector-curvature="0" />
+<path
+   id="path16248"
+   style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-opacity:1"
+   d="m 163.46,658.49 h 0.71 c 0.13,0 0.22,0 0.22,0.15 0,0.1 -0.09,0.1 -0.21,0.1 h -0.66 l 0.26,1.03 c 0,0.03 0.02,0.07 0.02,0.09 0,0.13 -0.1,0.23 -0.24,0.23 -0.18,0 -0.28,-0.12 -0.33,-0.3 -0.05,-0.18 0.04,0.16 -0.27,-1.05 h -0.71 c -0.13,0 -0.22,0 -0.22,-0.15 0,-0.1 0.08,-0.1 0.21,-0.1 h 0.66 l -0.41,-1.64 c -0.04,-0.18 -0.11,-0.43 -0.11,-0.52 0,-0.41 0.35,-0.66 0.75,-0.66 0.78,0 1.22,0.98 1.22,1.06 0,0.1 -0.09,0.1 -0.11,0.1 -0.09,0 -0.09,-0.02 -0.15,-0.14 -0.19,-0.43 -0.55,-0.82 -0.94,-0.82 -0.14,0 -0.24,0.09 -0.24,0.34 0,0.07 0.03,0.21 0.04,0.28 z"
+   inkscape:connector-curvature="0" />
+<path
+   id="path16250"
+   style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-opacity:1"
+   d="m 174.86,660.48 h 0.03 0.03 0.03 l 0.01,0.01 h 0.02 0.01 0.02 0.01 0.01 l 0.02,0.01 h 0.01 0.01 l 0.02,0.01 h 0.01 l 0.01,0.01 h 0.01 l 0.01,0.01 0.01,0.01 0.01,0.01 0.01,0.01 0.01,0.01 v 0 l 0.01,0.01 v 0 0.01 0.01 h 0.01 v 0.01 0.01 0 l 0.01,0.01 v 0.01 0.01 0.01 0 0.01 0.01 c 0,0.2 -0.19,0.2 -0.33,0.2 h -5.97 c -0.14,0 -0.33,0 -0.33,-0.2 0,-0.2 0.19,-0.2 0.34,-0.2 z"
+   inkscape:connector-curvature="0" />
+<path
+   id="path16252"
+   style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-opacity:1"
+   d="m 174.87,658.56 h 0.01 0.02 0.03 0.02 0.02 0.01 0.02 0.01 0.01 l 0.02,0.01 h 0.01 0.01 l 0.02,0.01 h 0.01 l 0.01,0.01 h 0.01 l 0.01,0.01 h 0.01 l 0.01,0.01 0.01,0.01 0.01,0.01 v 0 l 0.01,0.01 v 0.01 h 0.01 v 0.01 0 0.01 l 0.01,0.01 v 0 0.01 0.01 h 0.01 v 0.01 0.01 0.01 0.01 0.01 0.01 c 0,0.19 -0.19,0.19 -0.34,0.19 h -5.95 c -0.15,0 -0.34,0 -0.34,-0.19 0,-0.2 0.19,-0.2 0.33,-0.2 z"
+   inkscape:connector-curvature="0" />
+<path
+   id="path16254"
+   style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-opacity:1"
+   d="m 186.1,664.14 v 0 0.01 0 0 0.01 0 0 0.01 0 0.01 0 h -0.01 v 0.01 0 0.01 h -0.01 v 0 0.01 h -0.01 v 0 0.01 h -0.01 v 0 l -0.01,0.01 h -0.01 v 0 0 0 h -0.01 v 0 0 l -0.01,0.01 v 0 h -0.01 v 0 0 H 186 v 0 h -0.01 c -0.03,0 -0.03,-0.01 -0.14,-0.12 l -0.7,-0.77 c -0.09,0.14 -0.55,0.89 -1.66,0.89 -2.22,0 -4.47,-2.2 -4.47,-4.5 0,-1.58 1.11,-2.72 2.73,-2.72 0.44,0 0.88,0.09 1.24,0.24 0.5,0.19 0.69,0.4 0.87,0.6 0.09,-0.25 0.35,-0.62 0.45,-0.62 0.05,0 0.07,0.04 0.07,0.04 0.02,0.02 0.12,0.4 0.17,0.61 l 0.19,0.77 c 0.04,0.16 0.09,0.33 0.13,0.5 0.11,0.45 0.12,0.47 0.69,0.48 0.05,0 0.16,0.01 0.16,0.2 0,0.07 -0.05,0.11 -0.13,0.11 -0.23,0 -0.82,-0.03 -1.05,-0.03 -0.31,0 -1.09,0.03 -1.4,0.03 -0.09,0 -0.21,0 -0.21,-0.2 0,-0.11 0.08,-0.11 0.3,-0.11 0.01,0 0.3,0 0.53,-0.02 0.26,-0.03 0.31,-0.06 0.31,-0.19 0,-0.09 -0.11,-0.54 -0.21,-0.9 -0.28,-1.1 -1.57,-1.21 -1.92,-1.21 -0.96,0 -2.01,0.57 -2.01,2.09 0,0.31 0.1,1.95 1.15,3.24 0.54,0.67 1.51,1.28 2.49,1.28 1.02,0 1.61,-0.77 1.61,-1.92 0,-0.39 -0.03,-0.4 -0.03,-0.5 0,-0.1 0.11,-0.1 0.15,-0.1 0.13,0 0.13,0.02 0.18,0.2 z"
+   inkscape:connector-curvature="0" />
+<path
+   id="path16256"
+   style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-opacity:1"
+   d="m 189.39,656.3 v -0.01 -0.01 l -0.01,-0.02 v -0.01 -0.02 l -0.01,-0.01 -0.01,-0.03 v -0.04 l -0.01,-0.03 -0.01,-0.03 v -0.01 l -0.01,-0.02 v -0.01 l -0.01,-0.02 V 656.02 656 l -0.01,-0.01 v -0.01 -0.02 -0.01 l -0.01,-0.01 v -0.01 -0.01 0 -0.01 -0.01 0 -0.01 c 0,-0.15 0.12,-0.22 0.23,-0.22 0.13,0 0.24,0.09 0.28,0.15 0.03,0.07 0.09,0.29 0.12,0.44 0.04,0.13 0.11,0.45 0.16,0.62 0.04,0.15 0.08,0.31 0.12,0.47 0.07,0.3 0.07,0.31 0.21,0.53 0.23,0.34 0.57,0.73 1.12,0.73 0.39,0 0.41,-0.32 0.41,-0.48 0,-0.42 -0.3,-1.19 -0.41,-1.48 -0.08,-0.2 -0.11,-0.26 -0.11,-0.38 0,-0.37 0.31,-0.6 0.67,-0.6 0.7,0 1.01,0.96 1.01,1.06 0,0.1 -0.1,0.1 -0.12,0.1 -0.09,0 -0.1,-0.05 -0.13,-0.12 -0.16,-0.56 -0.46,-0.84 -0.74,-0.84 -0.15,0 -0.17,0.09 -0.17,0.24 0,0.16 0.03,0.25 0.16,0.56 0.08,0.22 0.37,0.95 0.37,1.35 0,0.11 0,0.4 -0.26,0.6 -0.12,0.09 -0.32,0.19 -0.65,0.19 -0.63,0 -1.02,-0.41 -1.24,-0.71 -0.06,0.6 -0.55,0.71 -0.91,0.71 -0.58,0 -0.97,-0.36 -1.18,-0.64 -0.05,0.49 -0.46,0.64 -0.75,0.64 -0.3,0 -0.46,-0.22 -0.55,-0.38 -0.15,-0.26 -0.25,-0.65 -0.25,-0.69 0,-0.09 0.1,-0.09 0.12,-0.09 0.09,0 0.1,0.02 0.15,0.21 0.11,0.41 0.24,0.75 0.51,0.75 0.18,0 0.23,-0.15 0.23,-0.34 0,-0.13 -0.06,-0.39 -0.11,-0.57 -0.05,-0.19 -0.12,-0.48 -0.15,-0.63 l -0.23,-0.89 c -0.03,-0.09 -0.07,-0.27 -0.07,-0.29 0,-0.15 0.13,-0.22 0.24,-0.22 0.13,0 0.24,0.09 0.27,0.15 0.04,0.07 0.09,0.29 0.13,0.44 0.03,0.13 0.11,0.45 0.15,0.62 0.04,0.15 0.09,0.31 0.12,0.47 0.08,0.28 0.09,0.34 0.3,0.62 0.19,0.28 0.52,0.64 1.04,0.64 0.41,0 0.42,-0.35 0.42,-0.48 0,-0.18 -0.02,-0.27 -0.12,-0.66 z"
+   inkscape:connector-curvature="0" />
+<path
+   id="path16258"
+   style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-opacity:1"
+   d="m 195.77,660.16 v 0.01 0.01 0.01 0.01 0 0.01 0.01 0.01 0 0.01 0.01 0 0.01 0 0.01 h -0.01 v 0.01 0 0.01 0.01 0.01 h -0.01 v 0.01 l -0.01,0.01 v 0 l -0.01,0.01 v 0 h -0.01 l -0.01,0.01 h -0.01 v 0 h -0.01 -0.01 v 0 h -0.01 l -0.01,0.01 v 0 h -0.01 v 0 h -0.01 -0.01 v 0 h -0.01 -0.01 -0.01 v 0 h -0.01 -0.01 -0.01 -0.01 c -0.45,-0.44 -1.08,-0.45 -1.37,-0.45 v -0.25 c 0.17,0 0.63,0 1.01,0.2 v -3.55 c 0,-0.23 0,-0.32 -0.69,-0.32 h -0.27 v -0.25 c 0.13,0.01 0.99,0.03 1.24,0.03 0.22,0 1.1,-0.02 1.26,-0.03 v 0.25 h -0.27 c -0.7,0 -0.7,0.09 -0.7,0.32 z"
+   inkscape:connector-curvature="0" />
+<path
+   id="path16260"
+   style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-opacity:1"
+   d="m 204.16,662.89 0.05,0.07 0.04,0.06 0.05,0.07 0.04,0.05 0.04,0.06 0.05,0.05 0.04,0.05 0.04,0.04 0.05,0.04 0.04,0.04 0.04,0.03 0.04,0.03 0.04,0.03 0.04,0.03 0.04,0.02 0.04,0.02 0.04,0.02 0.04,0.02 0.04,0.01 0.04,0.02 0.04,0.01 0.04,0.01 0.03,0.01 h 0.04 l 0.04,0.01 h 0.03 l 0.08,0.01 0.07,0.01 h 0.07 c 0.12,0.01 0.13,0.18 0.13,0.19 0,0.08 -0.05,0.12 -0.13,0.12 -0.26,0 -0.55,-0.03 -0.82,-0.03 -0.33,0 -0.67,0.03 -0.99,0.03 -0.06,0 -0.19,0 -0.19,-0.19 0,-0.11 0.09,-0.12 0.16,-0.12 0.27,-0.02 0.46,-0.12 0.46,-0.33 0,-0.15 -0.15,-0.36 -0.15,-0.37 l -3.06,-4.85 -0.68,5.25 c 0,0.17 0.23,0.3 0.69,0.3 0.14,0 0.25,0 0.25,0.2 0,0.09 -0.08,0.11 -0.14,0.11 -0.4,0 -0.83,-0.03 -1.24,-0.03 -0.18,0 -0.37,0.01 -0.55,0.01 -0.17,0 -0.36,0.02 -0.53,0.02 -0.07,0 -0.19,0 -0.19,-0.19 0,-0.12 0.09,-0.12 0.25,-0.12 0.55,0 0.56,-0.09 0.59,-0.34 l 0.79,-6.13 c 0.03,-0.19 0.07,-0.22 0.2,-0.22 0.16,0 0.2,0.05 0.28,0.18 z"
+   inkscape:connector-curvature="0" />
+<path
+   id="path16262"
+   style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-opacity:1"
+   d="m 207.7,660.36 v 0 0 0 0 0 0 0.01 0 h 0.01 v 0 0.01 0 0 0.01 0 0.01 0 l 0.01,0.01 v 0.01 0 0.01 0 0 0.01 0 0.01 h 0.01 v 0 0.01 0 0 0 0 0 0.01 0 0 0 0 0 0 c 0,0.03 -0.03,0.1 -0.11,0.1 -0.14,0 -0.72,-0.06 -0.9,-0.07 -0.05,-0.01 -0.15,-0.02 -0.15,-0.16 0,-0.1 0.1,-0.1 0.18,-0.1 0.34,0 0.34,-0.05 0.34,-0.1 0,-0.05 -0.02,-0.1 -0.03,-0.16 l -0.4,-1.58 c -0.15,0.23 -0.39,0.41 -0.72,0.41 v -0.2 c 0.49,0 0.62,-0.53 0.62,-0.6 0,-0.03 -0.01,-0.08 -0.02,-0.1 l -0.33,-1.3 c -0.05,-0.2 -0.2,-0.33 -0.35,-0.47 -0.07,-0.05 -0.35,-0.27 -0.65,-0.27 -0.26,0 -0.51,0.18 -0.51,0.67 0,0.37 0.2,1.13 0.37,1.41 0.32,0.56 0.67,0.66 0.87,0.66 v 0.2 c -0.9,0 -1.8,-0.98 -1.8,-1.98 0,-0.68 0.45,-1.16 1.05,-1.16 0.38,0 0.71,0.22 0.99,0.49 0.14,-0.42 0.54,-0.49 0.72,-0.49 0.26,0 0.43,0.15 0.56,0.37 0.15,0.27 0.24,0.67 0.24,0.69 0,0.1 -0.09,0.1 -0.11,0.1 -0.1,0 -0.1,-0.03 -0.15,-0.22 -0.09,-0.33 -0.22,-0.74 -0.51,-0.74 -0.19,0 -0.23,0.15 -0.23,0.34 0,0.13 0.01,0.19 0.03,0.28 z"
+   inkscape:connector-curvature="0" />
+</g>    <path
+       inkscape:export-ydpi="588"
+       inkscape:export-xdpi="588"
+       inkscape:export-filename="/home/newtonis/Notas/Boostnote/images/circuitos/circuito1.png"
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 194.01719,62.233161 c 0,0 -15.08025,0 -15.08025,0"
+       id="path18110"
+       inkscape:connector-curvature="0"
+       inkscape:path-effect="#path-effect18112"
+       inkscape:original-d="M 194.01719,62.233161 H 178.93694" />
+    <g
+       style="stroke:#000000;stroke-opacity:1;fill-opacity:1"
+       ns0:jacobian_sqrt="0.46414"
+       inkscapeversion="0.92.3"
+       ns0:alignment="middle center"
+       ns0:scale="1.31567318381"
+       ns0:preamble="/home/newtonis/.config/inkscape/extensions/default_packages.tex"
+       ns0:text="$+Vcc$"
+       ns0:pdfconverter="pstoedit"
+       ns0:texconverter="pdflatex"
+       ns0:version="0.8.1"
+       text-anchor="start"
+       word-spacing="normal"
+       letter-spacing="normal"
+       font-size-adjust="none"
+       font-stretch="normal"
+       font-weight="normal"
+       font-variant="normal"
+       font-style="normal"
+       fill-opacity="1"
+       fill-rule="evenodd"
+       fill="none"
+       stroke-opacity="1"
+       stroke-dashoffset="0"
+       stroke-dasharray="none"
+       stroke-miterlimit="10.433"
+       stroke-linejoin="miter"
+       stroke-linecap="butt"
+       stroke="black"
+       xml:space="preserve"
+       transform="matrix(0.464140,0.000000,0.000000,-0.464140,-15.579998,375.200022)"
+       id="g19508"
+       inkscape:export-filename="/home/newtonis/Notas/Boostnote/images/circuitos/circuito1.png"
+       inkscape:export-xdpi="588"
+       inkscape:export-ydpi="588">
+<path
+   id="path19500"
+   style="stroke:#000000;stroke-opacity:1;fill-opacity:1"
+   fill="black"
+   stroke-width="0"
+   d="M152.79,659.52 H155.57 C155.71,659.52,155.9,659.52,155.9,659.72 C155.9,659.92,155.71,659.92,155.57,659.92 H152.79 V662.7 C152.79,662.84,152.79,663.03,152.59,663.03 C152.39,663.03,152.39,662.84,152.39,662.7 V659.92 H149.6 C149.46,659.92,149.27,659.92,149.27,659.72 C149.27,659.52,149.46,659.52,149.6,659.52 H152.39 V656.74 C152.39,656.6,152.39,656.41,152.59,656.41 C152.79,656.41,152.79,656.6,152.79,656.74 Z " />
+<path
+   id="path19502"
+   style="stroke:#000000;stroke-opacity:1;fill-opacity:1"
+   fill="black"
+   stroke-width="0"
+   d="M162.72,662.89 L162.77,662.96 L162.81,663.02 L162.86,663.09 L162.9,663.14 L162.95,663.2 L162.99,663.25 L163.03,663.3 L163.08,663.34 L163.12,663.38 L163.16,663.42 L163.2,663.45 L163.24,663.48 L163.29,663.51 L163.33,663.54 L163.37,663.56 L163.41,663.58 L163.45,663.6 L163.49,663.62 L163.52,663.63 L163.56,663.65 L163.6,663.66 L163.64,663.67 L163.68,663.68 L163.71,663.68 L163.75,663.69 L163.79,663.69 L163.86,663.7 L163.93,663.71 L164,663.71 C164.12,663.72,164.13,663.89,164.13,663.9 C164.13,663.98,164.08,664.02,164,664.02 C163.74,664.02,163.45,663.99,163.18,663.99 C162.85,663.99,162.51,664.02,162.2,664.02 C162.13,664.02,162.01,664.02,162.01,663.83 C162.01,663.72,162.1,663.71,162.16,663.71 C162.43,663.69,162.62,663.59,162.62,663.38 C162.62,663.23,162.47,663.02,162.47,663.01 L159.41,658.16 L158.74,663.41 C158.74,663.58,158.96,663.71,159.42,663.71 C159.56,663.71,159.67,663.71,159.67,663.91 C159.67,664,159.59,664.02,159.53,664.02 C159.13,664.02,158.71,663.99,158.3,663.99 C158.12,663.99,157.93,664,157.75,664 C157.57,664,157.38,664.02,157.21,664.02 C157.14,664.02,157.02,664.02,157.02,663.83 C157.02,663.71,157.11,663.71,157.27,663.71 C157.83,663.71,157.84,663.62,157.87,663.37 L158.65,657.24 C158.68,657.05,158.73,657.02,158.85,657.02 C159.01,657.02,159.05,657.07,159.13,657.2 Z " />
+<path
+   id="path19504"
+   style="stroke:#000000;stroke-opacity:1;fill-opacity:1"
+   fill="black"
+   stroke-width="0"
+   d="M168.43,661.01 L168.4,661.01 L168.37,661.01 L168.35,661.01 L168.32,661.01 L168.29,661.01 L168.26,661 L168.25,661 L168.23,661 L168.22,661 L168.21,660.99 L168.19,660.99 L168.18,660.99 L168.17,660.98 L168.15,660.98 L168.14,660.97 L168.13,660.96 L168.11,660.96 L168.1,660.95 L168.09,660.94 L168.07,660.94 L168.06,660.93 L168.05,660.92 L168.03,660.91 L168.02,660.9 L168.01,660.88 L167.99,660.87 C167.84,660.72,167.82,660.55,167.82,660.48 C167.82,660.24,167.99,660.14,168.18,660.14 C168.47,660.14,168.74,660.37,168.74,660.77 C168.74,661.26,168.27,661.63,167.57,661.63 C166.22,661.63,164.89,660.21,164.89,658.8 C164.89,657.91,165.47,657.13,166.51,657.13 C167.93,657.13,168.77,658.18,168.77,658.3 C168.77,658.36,168.71,658.43,168.65,658.43 C168.6,658.43,168.58,658.41,168.52,658.33 C167.74,657.34,166.65,657.34,166.53,657.34 C165.9,657.34,165.63,657.83,165.63,658.43 C165.63,658.83,165.83,659.8,166.17,660.41 C166.48,660.98,167.03,661.41,167.57,661.41 C167.91,661.41,168.29,661.28,168.43,661.01 Z " />
+<path
+   id="path19506"
+   style="stroke:#000000;stroke-opacity:1;fill-opacity:1"
+   fill="black"
+   stroke-width="0"
+   d="M172.74,661.01 L172.72,661.01 L172.69,661.01 L172.66,661.01 L172.63,661.01 L172.6,661.01 L172.57,661 L172.56,661 L172.54,661 L172.53,661 L172.52,660.99 L172.5,660.99 L172.49,660.99 L172.48,660.98 L172.46,660.98 L172.45,660.97 L172.44,660.96 L172.42,660.96 L172.41,660.95 L172.4,660.94 L172.38,660.94 L172.37,660.93 L172.36,660.92 L172.35,660.91 L172.33,660.9 L172.32,660.88 L172.31,660.87 C172.15,660.72,172.13,660.55,172.13,660.48 C172.13,660.24,172.31,660.14,172.49,660.14 C172.79,660.14,173.05,660.37,173.05,660.77 C173.05,661.26,172.59,661.63,171.88,661.63 C170.53,661.63,169.21,660.21,169.21,658.8 C169.21,657.91,169.78,657.13,170.82,657.13 C172.25,657.13,173.08,658.18,173.08,658.3 C173.08,658.36,173.02,658.43,172.96,658.43 C172.91,658.43,172.89,658.41,172.83,658.33 C172.05,657.34,170.96,657.34,170.84,657.34 C170.21,657.34,169.94,657.83,169.94,658.43 C169.94,658.83,170.14,659.8,170.48,660.41 C170.79,660.98,171.34,661.41,171.89,661.41 C172.23,661.41,172.6,661.28,172.74,661.01 Z " />
+</g>  </g>
+  <g
+     style="stroke-width:0.94349939;stroke-miterlimit:10.43299961;stroke-dasharray:none"
+     transform="matrix(-0.52905668,0,0,-0.53082891,45.862006,146.69781)"
+     inkscape:label="BJT"
+     id="g898-7" />
+  <g
+     inkscape:export-ydpi="588"
+     inkscape:export-xdpi="588"
+     inkscape:export-filename="/home/newtonis/Notas/Boostnote/images/circuitos/circuito1.png"
+     transform="matrix(0.51634896,0,0,0.51726938,-3.3153175,-7.3527031)"
+     style="stroke-width:0.96747547;stroke-miterlimit:4;stroke-dasharray:none"
+     id="g2146"
+     inkscape:label="BJT">
+    <g
+       style="stroke-width:0.96747547;stroke-miterlimit:4;stroke-dasharray:none"
+       id="g2144"
+       inkscape:label="BJT">
+      <path
+         inkscape:connector-curvature="0"
+         id="path2132"
+         inkscape:label="none"
+         style="fill:none;stroke:#000000;stroke-width:0.96747547;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+         d="M 40,100 H 68" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path2134"
+         inkscape:label="none"
+         style="fill:none;stroke:#000000;stroke-width:0.96747547;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+         d="m 67.5,94 v 12" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path2136"
+         inkscape:label="none"
+         style="fill:none;stroke:#000000;stroke-width:0.96747547;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+         d="m 68,97 7,-5 V 75" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path2138"
+         inkscape:label="none"
+         style="fill:none;stroke:#000000;stroke-width:0.96747547;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#BJTArrow)"
+         d="m 68,103 7,5" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path2140"
+         inkscape:label="none"
+         style="fill:none;stroke:#000000;stroke-width:0.96747547;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+         d="m 75,108 v 10.60625"
+         sodipodi:nodetypes="cc" />
+      <circle
+         r="10"
+         cy="100"
+         cx="72"
+         id="path2142"
+         inkscape:label="circle"
+         style="fill:none;stroke:#000000;stroke-width:0.96747547;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none" />
+    </g>
+  </g>
+  <g
+     inkscape:export-ydpi="588"
+     inkscape:export-xdpi="588"
+     inkscape:export-filename="/home/newtonis/Notas/Boostnote/images/circuitos/circuito1.png"
+     transform="matrix(-0.51634895,0,0,0.51726939,106.77953,-7.3527051)"
+     style="stroke-width:0.96747547;stroke-miterlimit:4;stroke-dasharray:none"
+     id="g2146-0"
+     inkscape:label="BJT">
+    <g
+       style="stroke-width:0.96747547;stroke-miterlimit:4;stroke-dasharray:none"
+       id="g2144-9"
+       inkscape:label="BJT">
+      <path
+         inkscape:connector-curvature="0"
+         id="path2132-6"
+         inkscape:label="none"
+         style="fill:none;stroke:#000000;stroke-width:0.96747547;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+         d="M 40,100 H 68" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path2134-3"
+         inkscape:label="none"
+         style="fill:none;stroke:#000000;stroke-width:0.96747547;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+         d="m 67.5,94 v 12" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path2136-8"
+         inkscape:label="none"
+         style="fill:none;stroke:#000000;stroke-width:0.96747547;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+         d="m 68,97 7,-5 V 75" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path2138-5"
+         inkscape:label="none"
+         style="fill:none;stroke:#000000;stroke-width:0.96747547;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#BJTArrow-8)"
+         d="m 68,103 7,5" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path2140-6"
+         inkscape:label="none"
+         style="fill:none;stroke:#000000;stroke-width:0.96747547;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+         d="m 75,108 v 11.25179"
+         sodipodi:nodetypes="cc" />
+      <circle
+         r="10"
+         cy="100"
+         cx="72"
+         id="path2142-1"
+         inkscape:label="circle"
+         style="fill:none;stroke:#000000;stroke-width:0.96747547;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path2132-6-2"
+         inkscape:label="none"
+         style="fill:none;stroke:#000000;stroke-width:0.96747553;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+         d="M 32.019241,158.92714 H 75.030052"
+         sodipodi:nodetypes="cc" />
+    </g>
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.96747547;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker3489)"
+       d="m 32.019241,158.92714 c 0,0 25.6219,0 25.6219,0"
+       id="path9121"
+       inkscape:connector-curvature="0"
+       inkscape:path-effect="#path-effect9123"
+       inkscape:original-d="m 32.019241,158.92714 h 25.6219" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.96747553;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker3489-6)"
+       d="m 20.287106,158.92005 c 0,0 25.6219,0 25.6219,0"
+       id="path9121-9"
+       inkscape:connector-curvature="0"
+       inkscape:path-effect="#path-effect9123-9"
+       inkscape:original-d="m 20.287106,158.92005 h 25.6219" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.96747553;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker3489-6-0)"
+       d="m 17.461344,158.92714 c 0,0 16.304845,0 16.304845,0"
+       id="path9121-9-3"
+       inkscape:connector-curvature="0"
+       inkscape:path-effect="#path-effect9123-9-1"
+       inkscape:original-d="M 17.461344,158.92714 H 33.766189"
+       sodipodi:nodetypes="cc" />
+  </g>
+  <path
+     inkscape:export-ydpi="588"
+     inkscape:export-xdpi="588"
+     inkscape:export-filename="/home/newtonis/Notas/Boostnote/images/circuitos/circuito1.png"
+     inkscape:original-d="M 35.410854,31.442499 H 68.053357"
+     inkscape:path-effect="#path-effect2361"
+     inkscape:connector-curvature="0"
+     id="path2359"
+     d="m 35.410854,31.442499 c 0,0 32.642503,0 32.642503,0"
+     style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <g
+     inkscape:export-ydpi="588"
+     inkscape:export-xdpi="588"
+     inkscape:export-filename="/home/newtonis/Notas/Boostnote/images/circuitos/circuito1.png"
+     style="stroke-width:0.96156842;stroke-miterlimit:4;stroke-dasharray:none"
+     transform="matrix(-0.51952676,0,0,-0.52044124,77.399172,142.46424)"
+     inkscape:label="BJT"
+     id="g2259-8">
+    <g
+       transform="translate(5.8203151,61.369056)"
+       style="stroke-width:0.96156842;stroke-miterlimit:4;stroke-dasharray:none"
+       inkscape:label="BJT"
+       id="g2257-4">
+      <path
+         inkscape:connector-curvature="0"
+         d="M 40,100 H 68"
+         style="fill:none;stroke:#000000;stroke-width:0.96156842;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+         inkscape:label="none"
+         id="path2245-8" />
+      <path
+         inkscape:connector-curvature="0"
+         d="m 67.5,94 v 12"
+         style="fill:none;stroke:#000000;stroke-width:0.96156842;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+         inkscape:label="none"
+         id="path2247-1" />
+      <path
+         inkscape:connector-curvature="0"
+         d="m 68,97 7,-5 V 56.25564"
+         style="fill:none;stroke:#000000;stroke-width:0.96156842;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+         inkscape:label="none"
+         id="path2249-0"
+         sodipodi:nodetypes="ccc" />
+      <path
+         inkscape:connector-curvature="0"
+         d="m 75,108 -7,-5"
+         style="fill:none;stroke:#000000;stroke-width:0.96156842;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#BJTArrow-1)"
+         inkscape:label="none"
+         id="path2251-3" />
+      <path
+         inkscape:connector-curvature="0"
+         d="m 75,108 v 0"
+         style="fill:none;stroke:#000000;stroke-width:0.96156842;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+         inkscape:label="none"
+         id="path2253-0"
+         sodipodi:nodetypes="cc" />
+      <circle
+         r="10"
+         cy="100"
+         cx="72"
+         style="fill:none;stroke:#000000;stroke-width:0.96156842;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+         inkscape:label="circle"
+         id="path2255-4" />
+    </g>
+  </g>
+  <g
+     inkscape:export-ydpi="588"
+     inkscape:export-xdpi="588"
+     inkscape:export-filename="/home/newtonis/Notas/Boostnote/images/circuitos/circuito1.png"
+     style="stroke-width:0.96156842;stroke-miterlimit:4;stroke-dasharray:none"
+     transform="matrix(0.51952676,0,0,-0.52044124,26.065044,142.47924)"
+     inkscape:label="BJT"
+     id="g2259-8-4">
+    <g
+       transform="translate(5.8203151,61.369056)"
+       style="stroke-width:0.96156842;stroke-miterlimit:4;stroke-dasharray:none"
+       inkscape:label="BJT"
+       id="g2257-4-7">
+      <path
+         inkscape:connector-curvature="0"
+         d="M 40,100 H 68"
+         style="fill:none;stroke:#000000;stroke-width:0.96156842;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+         inkscape:label="none"
+         id="path2245-8-6" />
+      <path
+         inkscape:connector-curvature="0"
+         d="m 67.5,94 v 12"
+         style="fill:none;stroke:#000000;stroke-width:0.96156842;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+         inkscape:label="none"
+         id="path2247-1-3" />
+      <path
+         inkscape:connector-curvature="0"
+         d="m 68,97 7,-5 V 55.998868"
+         style="fill:none;stroke:#000000;stroke-width:0.96156842;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+         inkscape:label="none"
+         id="path2249-0-1"
+         sodipodi:nodetypes="ccc" />
+      <path
+         inkscape:connector-curvature="0"
+         d="m 75,108 -7,-5"
+         style="fill:none;stroke:#000000;stroke-width:0.96156842;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#BJTArrow-1-4)"
+         inkscape:label="none"
+         id="path2251-3-7" />
+      <path
+         inkscape:connector-curvature="0"
+         d="m 75,108 v 0"
+         style="fill:none;stroke:#000000;stroke-width:0.96156842;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+         inkscape:label="none"
+         id="path2253-0-5"
+         sodipodi:nodetypes="cc" />
+      <circle
+         r="10"
+         cy="100"
+         cx="72"
+         style="fill:none;stroke:#000000;stroke-width:0.96156842;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+         inkscape:label="circle"
+         id="path2255-4-9" />
+    </g>
+  </g>
+  <g
+     inkscape:export-ydpi="588"
+     inkscape:export-xdpi="588"
+     inkscape:export-filename="/home/newtonis/Notas/Boostnote/images/circuitos/circuito1.png"
+     transform="matrix(-0.51634895,0,0,0.51726939,73.948032,46.093335)"
+     style="stroke-width:0.96747547;stroke-miterlimit:4;stroke-dasharray:none"
+     id="g2146-5"
+     inkscape:label="BJT">
+    <g
+       style="stroke-width:0.96747547;stroke-miterlimit:4;stroke-dasharray:none"
+       id="g2144-3"
+       inkscape:label="BJT">
+      <path
+         inkscape:connector-curvature="0"
+         id="path2132-8"
+         inkscape:label="none"
+         style="fill:none;stroke:#000000;stroke-width:0.96747547;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+         d="M 43.574433,100 H 68"
+         sodipodi:nodetypes="cc" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path2134-8"
+         inkscape:label="none"
+         style="fill:none;stroke:#000000;stroke-width:0.96747547;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+         d="m 67.5,94 v 12" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path2136-3"
+         inkscape:label="none"
+         style="fill:none;stroke:#000000;stroke-width:0.96747547;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+         d="m 67.633979,98.826787 7,-5 V 55.636069"
+         sodipodi:nodetypes="ccc" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path2138-1"
+         inkscape:label="none"
+         style="fill:none;stroke:#000000;stroke-width:0.96747547;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#BJTArrow-9)"
+         d="m 68,103 7,5" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path2140-8"
+         inkscape:label="none"
+         style="fill:none;stroke:#000000;stroke-width:0.96747547;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+         d="m 75,108 v 10.60625"
+         sodipodi:nodetypes="cc" />
+      <circle
+         r="10"
+         cy="100"
+         cx="72"
+         id="path2142-9"
+         inkscape:label="circle"
+         style="fill:none;stroke:#000000;stroke-width:0.96747547;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none" />
+    </g>
+  </g>
+  <g
+     inkscape:export-ydpi="588"
+     inkscape:export-xdpi="588"
+     inkscape:export-filename="/home/newtonis/Notas/Boostnote/images/circuitos/circuito1.png"
+     transform="matrix(0.51634895,0,0,0.51726939,13.076394,26.985054)"
+     style="stroke-width:0.96747547;stroke-miterlimit:4;stroke-dasharray:none"
+     id="g2146-3"
+     inkscape:label="BJT">
+    <g
+       style="stroke-width:0.96747547;stroke-miterlimit:4;stroke-dasharray:none"
+       id="g2144-38"
+       inkscape:label="BJT">
+      <path
+         inkscape:connector-curvature="0"
+         id="path2132-60"
+         inkscape:label="none"
+         style="fill:none;stroke:#000000;stroke-width:0.96747547;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+         d="M 43.235089,100 H 68"
+         sodipodi:nodetypes="cc" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path2134-4"
+         inkscape:label="none"
+         style="fill:none;stroke:#000000;stroke-width:0.96747547;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+         d="m 67.5,94 v 12" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path2136-88"
+         inkscape:label="none"
+         style="fill:none;stroke:#000000;stroke-width:0.96747547;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#marker1717)"
+         d="m 68,97 7,-5 V 80.325872"
+         sodipodi:nodetypes="ccc" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path2138-8"
+         inkscape:label="none"
+         style="fill:none;stroke:#000000;stroke-width:0.96747547;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#BJTArrow-64)"
+         d="m 68,103 7,5" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path2140-9"
+         inkscape:label="none"
+         style="fill:none;stroke:#000000;stroke-width:0.96747547;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+         d="m 75,108 v 48.05536"
+         sodipodi:nodetypes="cc" />
+      <circle
+         r="10"
+         cy="100"
+         cx="72"
+         id="path2142-7"
+         inkscape:label="circle"
+         style="fill:none;stroke:#000000;stroke-width:0.96747547;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none" />
+    </g>
+  </g>
+  <g
+     inkscape:export-ydpi="588"
+     inkscape:export-xdpi="588"
+     inkscape:export-filename="/home/newtonis/Notas/Boostnote/images/circuitos/circuito1.png"
+     transform="matrix(0.51634895,0,0,0.51726939,30.21051,44.716966)"
+     style="stroke-width:0.96747547;stroke-miterlimit:4;stroke-dasharray:none"
+     id="g2146-5-4"
+     inkscape:label="BJT">
+    <g
+       style="stroke-width:0.96747547;stroke-miterlimit:4;stroke-dasharray:none"
+       id="g2144-3-3"
+       inkscape:label="BJT"
+       transform="translate(-1.3747359,2.6284932)">
+      <path
+         inkscape:connector-curvature="0"
+         id="path2132-8-0"
+         inkscape:label="none"
+         style="fill:none;stroke:#000000;stroke-width:0.96747547;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+         d="M 41.892186,100 H 68"
+         sodipodi:nodetypes="cc" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path2134-8-3"
+         inkscape:label="none"
+         style="fill:none;stroke:#000000;stroke-width:0.96747547;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+         d="m 67.5,94 v 12" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path2136-3-0"
+         inkscape:label="none"
+         style="fill:none;stroke:#000000;stroke-width:0.96747547;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+         d="m 67.633979,98.826787 7,-5 V 55.636069"
+         sodipodi:nodetypes="ccc" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path2138-1-9"
+         inkscape:label="none"
+         style="fill:none;stroke:#000000;stroke-width:0.96747547;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#BJTArrow-9-7)"
+         d="m 68,103 7,5" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path2140-8-2"
+         inkscape:label="none"
+         style="fill:none;stroke:#000000;stroke-width:0.96747547;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+         d="m 75,108 v 10.60625"
+         sodipodi:nodetypes="cc" />
+      <circle
+         r="10"
+         cy="100"
+         cx="72"
+         id="path2142-9-5"
+         inkscape:label="circle"
+         style="fill:none;stroke:#000000;stroke-width:0.96747547;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none" />
+    </g>
+  </g>
+  <g
+     inkscape:export-ydpi="588"
+     inkscape:export-xdpi="588"
+     inkscape:export-filename="/home/newtonis/Notas/Boostnote/images/circuitos/circuito1.png"
+     style="stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none"
+     transform="rotate(-90,135.20536,125.44394)"
+     inkscape:label="Resistor"
+     id="g3269">
+    <g
+       transform="translate(3.204581,-94.539553)"
+       style="stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none"
+       id="g3264">
+      <path
+         sodipodi:nodetypes="cccccccccc"
+         inkscape:connector-curvature="0"
+         d="m 121.34501,120 h 5.96675 l 2,3 3,-6 3,6 3,-6 3,6 3,-6 2,3 H 150"
+         style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;marker-start:url(#Arrow1Mstart)"
+         inkscape:label="none"
+         id="path3262" />
+    </g>
+    <g
+       transform="translate(2.9415871,-77.958847)"
+       style="stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none"
+       id="g3264-4">
+      <path
+         sodipodi:nodetypes="cccccccccc"
+         inkscape:connector-curvature="0"
+         d="m 121.34501,120 h 5.96675 l 2,3 3,-6 3,6 3,-6 3,6 3,-6 2,3 H 150"
+         style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;marker-start:url(#Arrow1Mstart-5)"
+         inkscape:label="none"
+         id="path3262-6" />
+    </g>
+    <g
+       transform="translate(3.2213143,-61.534574)"
+       style="stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none"
+       id="g3264-4-2">
+      <path
+         sodipodi:nodetypes="cccccccccc"
+         inkscape:connector-curvature="0"
+         d="m 121.34501,120 h 5.96675 l 2,3 3,-6 3,6 3,-6 3,6 3,-6 2,3 H 150"
+         style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;marker-start:url(#Arrow1Mstart-5-9)"
+         inkscape:label="none"
+         id="path3262-6-4" />
+    </g>
+    <g
+       transform="translate(42.682395,-3.842743)"
+       style="stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none"
+       id="g3264-4-2-6">
+      <path
+         sodipodi:nodetypes="cccccccccc"
+         inkscape:connector-curvature="0"
+         d="m 121.34501,120 h 5.96675 l 2,3 3,-6 3,6 3,-6 3,6 3,-6 2,3 h 9.16727"
+         style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+         inkscape:label="none"
+         id="path3262-6-4-2" />
+    </g>
+    <g
+       transform="translate(40.872697,46.375485)"
+       style="stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none"
+       id="g3264-4-2-6-8">
+      <path
+         sodipodi:nodetypes="cccccccccc"
+         inkscape:connector-curvature="0"
+         d="m 123.26769,119.9179 h 5.96675 l 2,3 3,-6 3,6 3,-6 3,6 3,-6 2,3 h 9.16727"
+         style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+         inkscape:label="none"
+         id="path3262-6-4-2-2" />
+    </g>
+  </g>
+  <g
+     inkscape:export-ydpi="588"
+     inkscape:export-xdpi="588"
+     inkscape:export-filename="/home/newtonis/Notas/Boostnote/images/circuitos/circuito1.png"
+     id="g4015"
+     inkscape:label="GND"
+     transform="translate(19.103022,28.762025)">
+    <g
+       inkscape:export-ydpi="588"
+       inkscape:export-xdpi="588"
+       inkscape:export-filename="/home/newtonis/Notas/Boostnote/images/circuitos/circuito1.png"
+       id="g4004"
+       inkscape:label="GND"
+       transform="translate(-37.350917,-30.936448)">
+      <circle
+         id="path4002"
+         inkscape:label="circle"
+         style="fill:#000000;stroke:#000000;stroke-width:0.69999999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         cx="70"
+         cy="100"
+         r="1" />
+    </g>
+    <g
+       inkscape:export-ydpi="588"
+       inkscape:export-xdpi="588"
+       inkscape:export-filename="/home/newtonis/Notas/Boostnote/images/circuitos/circuito1.png"
+       id="g4004-7"
+       inkscape:label="GND"
+       transform="translate(-53.668848,-50.110777)">
+      <circle
+         id="path4002-7"
+         inkscape:label="circle"
+         style="fill:#000000;stroke:#000000;stroke-width:0.69999999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         cx="70"
+         cy="100"
+         r="1" />
+    </g>
+    <g
+       inkscape:export-ydpi="588"
+       inkscape:export-xdpi="588"
+       inkscape:export-filename="/home/newtonis/Notas/Boostnote/images/circuitos/circuito1.png"
+       id="g4004-7-5"
+       inkscape:label="GND"
+       transform="translate(-72.283082,-84.439109)">
+      <circle
+         id="path4002-7-4"
+         inkscape:label="circle"
+         style="fill:#000000;stroke:#000000;stroke-width:0.69999999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         cx="70"
+         cy="100"
+         r="1" />
+    </g>
+    <g
+       inkscape:export-ydpi="588"
+       inkscape:export-xdpi="588"
+       inkscape:export-filename="/home/newtonis/Notas/Boostnote/images/circuitos/circuito1.png"
+       id="g4004-7-8"
+       inkscape:label="GND"
+       transform="translate(-2.9244504,-84.439108)">
+      <circle
+         id="path4002-7-1"
+         inkscape:label="circle"
+         style="fill:#000000;stroke:#000000;stroke-width:0.69999999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         cx="70"
+         cy="100"
+         r="1" />
+    </g>
+    <g
+       inkscape:export-ydpi="588"
+       inkscape:export-xdpi="588"
+       inkscape:export-filename="/home/newtonis/Notas/Boostnote/images/circuitos/circuito1.png"
+       id="g4004-7-8-8"
+       inkscape:label="GND"
+       transform="translate(-21.020061,-53.964778)">
+      <circle
+         id="path4002-7-1-9"
+         inkscape:label="circle"
+         style="fill:#000000;stroke:#000000;stroke-width:0.69999999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         cx="70"
+         cy="100"
+         r="1" />
+    </g>
+    <g
+       inkscape:export-ydpi="588"
+       inkscape:export-xdpi="588"
+       inkscape:export-filename="/home/newtonis/Notas/Boostnote/images/circuitos/circuito1.png"
+       id="g4004-7-9"
+       inkscape:label="GND"
+       transform="translate(-37.520003,-70.283866)">
+      <circle
+         id="path4002-7-19"
+         inkscape:label="circle"
+         style="fill:#000000;stroke:#000000;stroke-width:0.69999999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         cx="70"
+         cy="100"
+         r="1" />
+    </g>
+    <g
+       inkscape:export-ydpi="588"
+       inkscape:export-xdpi="588"
+       inkscape:export-filename="/home/newtonis/Notas/Boostnote/images/circuitos/circuito1.png"
+       id="g4004-7-8-6"
+       inkscape:label="GND"
+       transform="translate(36.839637,-66.602194)">
+      <circle
+         id="path4002-7-1-7"
+         inkscape:label="circle"
+         style="fill:#000000;stroke:#000000;stroke-width:0.69999999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         cx="70"
+         cy="100"
+         r="1" />
+    </g>
+    <g
+       inkscape:export-ydpi="588"
+       inkscape:export-xdpi="588"
+       inkscape:export-filename="/home/newtonis/Notas/Boostnote/images/circuitos/circuito1.png"
+       id="g4004-7-8-6-2"
+       inkscape:label="GND"
+       transform="translate(86.956585,-66.44135)">
+      <circle
+         id="path4002-7-1-7-7"
+         inkscape:label="circle"
+         style="fill:#000000;stroke:#000000;stroke-width:0.69999999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         cx="70"
+         cy="100"
+         r="1" />
+    </g>
+    <g
+       inkscape:export-ydpi="588"
+       inkscape:export-xdpi="588"
+       inkscape:export-filename="/home/newtonis/Notas/Boostnote/images/circuitos/circuito1.png"
+       ns0:jacobian_sqrt="0.65246"
+       inkscapeversion="0.92.3"
+       ns0:alignment="middle center"
+       ns0:scale="1.84949399132"
+       ns0:preamble="/home/newtonis/.config/inkscape/extensions/default_packages.tex"
+       ns0:text="$R_{o1}$"
+       ns0:pdfconverter="pstoedit"
+       ns0:texconverter="pdflatex"
+       ns0:version="0.8.1"
+       word-spacing="normal"
+       letter-spacing="normal"
+       font-size-adjust="none"
+       font-stretch="normal"
+       font-weight="normal"
+       font-variant="normal"
+       font-style="normal"
+       stroke-miterlimit="10.433"
+       xml:space="preserve"
+       transform="matrix(0.65246,0,0,-0.65246,65.940489,481.88259)"
+       id="g15308"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+<path
+   id="path15302"
+   d="m 153.89,660.61 0.09,0.02 0.1,0.03 0.09,0.03 0.1,0.03 0.1,0.03 0.09,0.03 0.1,0.04 0.1,0.04 0.09,0.05 0.09,0.04 0.09,0.05 0.09,0.05 0.09,0.05 0.09,0.06 0.08,0.06 0.08,0.06 0.08,0.06 0.07,0.06 0.08,0.07 0.06,0.07 0.07,0.07 0.06,0.07 0.05,0.08 0.05,0.08 0.05,0.08 0.03,0.08 0.04,0.08 0.03,0.09 0.02,0.09 0.02,0.09 0.01,0.09 v 0.09 c 0,0.85 -0.9,1.49 -2.2,1.49 h -2.84 c -0.2,0 -0.29,0 -0.29,-0.2 0,-0.11 0.09,-0.11 0.28,-0.11 0.01,0 0.21,0 0.37,-0.02 0.18,-0.02 0.27,-0.03 0.27,-0.16 0,-0.04 -0.01,-0.07 -0.04,-0.19 l -1.33,-5.33 c -0.1,-0.39 -0.12,-0.47 -0.91,-0.47 -0.18,0 -0.27,0 -0.27,-0.2 0,-0.11 0.12,-0.11 0.14,-0.11 0.28,0 0.98,0.04 1.26,0.04 0.28,0 0.98,-0.04 1.26,-0.04 0.08,0 0.2,0 0.2,0.2 0,0.11 -0.09,0.11 -0.28,0.11 -0.36,0 -0.65,0 -0.65,0.18 0,0.06 0.02,0.11 0.04,0.17 l 0.65,2.63 h 1.19 l -0.01,0.22 h -1.12 l 0.65,2.59 c 0.06,0.24 0.09,0.34 0.28,0.37 0.09,0.01 0.41,0.01 0.61,0.01 0.71,0 1.81,0 1.81,-0.98 0,-0.34 -0.16,-1.02 -0.55,-1.41 -0.25,-0.26 -0.78,-0.58 -1.68,-0.58 l 0.01,-0.22 c 0.91,0 1.09,-0.55 1.09,-0.9 0,-0.15 -0.08,-0.46 -0.14,-0.69 -0.07,-0.27 -0.16,-0.64 -0.16,-0.84 0,-1.07 1.19,-1.07 1.32,-1.07 0.85,0 1.2,1 1.2,1.14 0,0.12 -0.11,0.12 -0.12,0.12 -0.09,0 -0.11,-0.07 -0.13,-0.14 -0.25,-0.74 -0.68,-0.91 -0.91,-0.91 -0.32,0 -0.4,0.22 -0.4,0.61 0,0.31 0.06,0.82 0.11,1.13 0.01,0.14 0.03,0.33 0.03,0.47 0,0.77 -0.66,1.07 -0.93,1.17 z"
+   inkscape:connector-curvature="0"
+   style="fill:#000000;stroke-width:0" />
+<path
+   id="path15304"
+   d="m 159.99,657.59 v 0.07 l -0.01,0.07 v 0.07 l -0.02,0.06 -0.01,0.07 -0.02,0.06 -0.02,0.06 -0.02,0.06 -0.03,0.05 -0.03,0.06 -0.03,0.05 -0.03,0.05 -0.04,0.04 -0.03,0.05 -0.04,0.04 -0.05,0.04 -0.04,0.04 -0.05,0.03 -0.04,0.03 -0.05,0.04 -0.06,0.02 -0.05,0.03 -0.05,0.02 -0.06,0.03 -0.06,0.01 -0.05,0.02 -0.06,0.01 -0.06,0.02 -0.07,0.01 h -0.06 l -0.06,0.01 h -0.07 v -0.2 c 0.38,0 0.7,-0.25 0.7,-0.77 0,-0.17 -0.09,-0.85 -0.4,-1.34 -0.26,-0.41 -0.68,-0.63 -1.03,-0.63 v 0 c -0.35,0 -0.7,0.22 -0.7,0.77 0,0.28 0.13,0.96 0.41,1.36 0.3,0.43 0.7,0.61 1.02,0.61 v 0.2 c -1.03,0 -2.01,-0.97 -2.01,-1.92 0,-0.7 0.51,-1.22 1.27,-1.22 1,0 2.01,0.92 2.01,1.92 z"
+   inkscape:connector-curvature="0"
+   style="fill:#000000;stroke-width:0" />
+<path
+   id="path15306"
+   d="m 162.55,660.16 v 0.01 0.01 0.01 0.01 0 0.01 0.01 0.01 0 0.01 0.01 0 0.01 0 0.01 0 l -0.01,0.01 v 0 0.01 0.01 0.01 h -0.01 v 0.01 l -0.01,0.01 v 0 l -0.01,0.01 v 0 h -0.01 l -0.01,0.01 v 0 h -0.01 -0.01 -0.01 v 0 h -0.01 v 0.01 h -0.01 -0.01 v 0 h -0.01 -0.01 v 0 h -0.01 -0.01 -0.01 v 0 h -0.01 -0.01 -0.01 -0.01 c -0.45,-0.44 -1.08,-0.45 -1.37,-0.45 v -0.25 c 0.17,0 0.63,0 1.02,0.2 v -3.55 c 0,-0.23 0,-0.32 -0.7,-0.32 h -0.27 v -0.25 c 0.13,0.01 0.99,0.03 1.24,0.03 0.22,0 1.1,-0.02 1.26,-0.03 v 0.25 h -0.27 c -0.7,0 -0.7,0.09 -0.7,0.32 z"
+   inkscape:connector-curvature="0"
+   style="fill:#000000;stroke-width:0" />
+</g>    <g
+       inkscape:export-ydpi="588"
+       inkscape:export-xdpi="588"
+       inkscape:export-filename="/home/newtonis/Notas/Boostnote/images/circuitos/circuito1.png"
+       id="g4004-7-8-6-2-8"
+       inkscape:label="GND"
+       transform="translate(104.42079,-66.485239)">
+      <circle
+         id="path4002-7-1-7-7-0"
+         inkscape:label="circle"
+         style="fill:#000000;stroke:#000000;stroke-width:0.69999999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         cx="70"
+         cy="100"
+         r="1" />
+    </g>
+  </g>
+  <g
+     inkscape:export-ydpi="588"
+     inkscape:export-xdpi="588"
+     inkscape:export-filename="/home/newtonis/Notas/Boostnote/images/circuitos/circuito1.png"
+     transform="rotate(90,92.515935,29.004315)"
+     style="stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none"
+     inkscape:label="Source"
+     id="g4381">
+    <g
+       style="stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none"
+       inkscape:label="Source"
+       id="g4376">
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         d="M 72.772432,70 H 78"
+         style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+         inkscape:label="none"
+         id="path4368" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         d="M 94.822142,70 H 92"
+         style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+         inkscape:label="none"
+         id="path4370" />
+      <circle
+         r="7"
+         cy="70"
+         cx="85"
+         style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+         inkscape:label="circle"
+         id="path4372" />
+      <path
+         inkscape:connector-curvature="0"
+         d="m 81,70 h 5 v 1.2 L 89,70 86,68.8 V 70"
+         style="fill:#000000;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+         inkscape:label="none"
+         id="path4374" />
+    </g>
+  </g>
+  <g
+     inkscape:export-ydpi="588"
+     inkscape:export-xdpi="588"
+     inkscape:export-filename="/home/newtonis/Notas/Boostnote/images/circuitos/circuito1.png"
+     transform="rotate(90,111.76315,105.56547)"
+     style="stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none"
+     inkscape:label="Source"
+     id="g4381-5">
+    <g
+       style="stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none"
+       inkscape:label="Source"
+       id="g4376-6">
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         d="M 68.567447,70 78,70"
+         style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+         inkscape:label="none"
+         id="path4368-9" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         d="M 102.70659,70 H 92"
+         style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+         inkscape:label="none"
+         id="path4370-8" />
+      <circle
+         r="7"
+         cy="70"
+         cx="85"
+         style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+         inkscape:label="circle"
+         id="path4372-7" />
+      <path
+         inkscape:connector-curvature="0"
+         d="m 81,70 h 5 v 1.2 L 89,70 86,68.8 V 70"
+         style="fill:#000000;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+         inkscape:label="none"
+         id="path4374-2" />
+    </g>
+  </g>
+  <path
+     inkscape:export-ydpi="588"
+     inkscape:export-xdpi="588"
+     inkscape:export-filename="/home/newtonis/Notas/Boostnote/images/circuitos/circuito1.png"
+     sodipodi:nodetypes="cc"
+     inkscape:original-d="M 176.0548,96.508909 H 125.6514"
+     inkscape:path-effect="#path-effect13994"
+     inkscape:connector-curvature="0"
+     id="path13992"
+     d="m 176.0548,96.508909 c 0,0 -50.4034,0 -50.4034,0"
+     style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <g
+     inkscape:export-ydpi="588"
+     inkscape:export-xdpi="588"
+     inkscape:export-filename="/home/newtonis/Notas/Boostnote/images/circuitos/circuito1.png"
+     ns0:jacobian_sqrt="0.712319"
+     inkscapeversion="0.92.3"
+     ns0:alignment="middle center"
+     ns0:scale="2.01917236903"
+     ns0:preamble="/home/newtonis/.config/inkscape/extensions/default_packages.tex"
+     ns0:text="$V_d$"
+     ns0:pdfconverter="pstoedit"
+     ns0:texconverter="pdflatex"
+     ns0:version="0.8.1"
+     word-spacing="normal"
+     letter-spacing="normal"
+     font-size-adjust="none"
+     font-stretch="normal"
+     font-weight="normal"
+     font-variant="normal"
+     font-style="normal"
+     stroke-miterlimit="10.433"
+     xml:space="preserve"
+     transform="matrix(0.712319,0,0,-0.712319,16.080952,526.8609)"
+     id="g14257"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+<path
+   id="path14253"
+   d="m 154.98,662.89 0.04,0.07 0.05,0.06 0.04,0.07 0.04,0.05 0.05,0.06 0.04,0.05 0.05,0.05 0.04,0.04 0.04,0.04 0.04,0.04 0.04,0.03 0.05,0.03 0.04,0.03 0.04,0.03 0.04,0.02 0.04,0.02 0.04,0.02 0.04,0.02 0.04,0.01 0.03,0.02 0.04,0.01 0.04,0.01 0.04,0.01 h 0.03 l 0.04,0.01 h 0.04 l 0.07,0.01 0.07,0.01 h 0.07 c 0.12,0.01 0.13,0.18 0.13,0.19 0,0.08 -0.05,0.12 -0.13,0.12 -0.26,0 -0.55,-0.03 -0.82,-0.03 -0.33,0 -0.67,0.03 -0.98,0.03 -0.06,0 -0.19,0 -0.19,-0.19 0,-0.11 0.09,-0.12 0.16,-0.12 0.26,-0.02 0.46,-0.12 0.46,-0.33 0,-0.15 -0.15,-0.36 -0.15,-0.37 l -3.07,-4.85 -0.67,5.25 c 0,0.17 0.22,0.3 0.68,0.3 0.14,0 0.25,0 0.25,0.2 0,0.09 -0.08,0.11 -0.14,0.11 -0.4,0 -0.82,-0.03 -1.23,-0.03 -0.18,0 -0.37,0.01 -0.55,0.01 -0.18,0 -0.37,0.02 -0.54,0.02 -0.07,0 -0.19,0 -0.19,-0.19 0,-0.12 0.09,-0.12 0.25,-0.12 0.56,0 0.57,-0.09 0.6,-0.34 l 0.79,-6.13 c 0.03,-0.19 0.07,-0.22 0.19,-0.22 0.16,0 0.2,0.05 0.28,0.18 z"
+   inkscape:connector-curvature="0"
+   style="fill:#000000;stroke-width:0" />
+<path
+   id="path14255"
+   d="m 158.52,660.36 v 0 0 0 0 0 0 0.01 0 0 0 0.01 0 0 l 0.01,0.01 v 0 0.01 0 0.01 0.01 0 0.01 h 0.01 v 0 0.01 0 0.01 0 0 0.01 0 0 0 0 0 0.01 0 0 0 0 0 0 c 0,0.03 -0.02,0.1 -0.11,0.1 -0.14,0 -0.72,-0.06 -0.89,-0.07 -0.06,-0.01 -0.16,-0.02 -0.16,-0.16 0,-0.1 0.1,-0.1 0.19,-0.1 0.33,0 0.33,-0.05 0.33,-0.1 0,-0.05 -0.01,-0.1 -0.03,-0.16 l -0.39,-1.58 c -0.15,0.23 -0.39,0.41 -0.73,0.41 v -0.2 c 0.49,0 0.63,-0.53 0.63,-0.6 0,-0.03 -0.02,-0.08 -0.02,-0.1 l -0.33,-1.3 c -0.05,-0.2 -0.21,-0.33 -0.36,-0.47 -0.06,-0.05 -0.34,-0.27 -0.64,-0.27 -0.26,0 -0.51,0.18 -0.51,0.67 0,0.37 0.2,1.13 0.36,1.41 0.32,0.56 0.68,0.66 0.87,0.66 v 0.2 c -0.89,0 -1.8,-0.98 -1.8,-1.98 0,-0.68 0.45,-1.16 1.06,-1.16 0.37,0 0.71,0.22 0.99,0.49 0.13,-0.42 0.54,-0.49 0.72,-0.49 0.25,0 0.43,0.15 0.55,0.37 0.16,0.27 0.25,0.67 0.25,0.69 0,0.1 -0.09,0.1 -0.12,0.1 -0.09,0 -0.1,-0.03 -0.15,-0.22 -0.08,-0.33 -0.22,-0.74 -0.51,-0.74 -0.18,0 -0.23,0.15 -0.23,0.34 0,0.13 0.01,0.19 0.03,0.28 z"
+   inkscape:connector-curvature="0"
+   style="fill:#000000;stroke-width:0" />
+</g></svg>

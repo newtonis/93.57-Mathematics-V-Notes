@@ -1,5 +1,5 @@
 createdAt: "2018-05-28T02:21:03.292Z"
-updatedAt: "2018-05-28T02:22:25.415Z"
+updatedAt: "2018-07-22T13:40:58.135Z"
 type: "MARKDOWN_NOTE"
 folder: "82bec2fdf2f2d22d3517"
 title: ""
@@ -48,7 +48,7 @@ content: '''
   
   #### Exponencial
   
-  $$X \\sim Exp(b) \\implies f_X(x)=be^{-bx} \\; , \\; F_X(x)=1-e^{-bx} \\; \\; b > 0$$
+  $$X \\sim Exp(b) \\implies f_X(x)=be^{-bx} \\; , \\; F_X(x)=1-e^{-bx} \\; \\; x,b > 0$$
   $$E(X)=\\frac{1}{b} \\; \\; V(X)=\\frac{1}{b^2}$$
   
   #### Normal
@@ -59,7 +59,7 @@ content: '''
   $$V(X) = E([X-E(X)]^2) = E(X^2)-E(X)^2$$
   $$E(G(X))=\\int_{-\\infty}^{\\infty}G(x)f_X(x)dx$$
   $$E(aX+bY)=aE(X)+bE(Y)$$
-  $$V(aX+bY+c)=a^2V(X)+b^2V(Y)$$
+  $$V(aX+bY+c)=a^2V(X)+b^2V(Y)\\;\\;,X,Y \\;ind.$$ 
   
   $$\\int_{0}^{\\infty}te^{-\\lambda t}dt=\\frac{1}{\\lambda^2} \\; \\; \\; \\; \\lambda>0$$
 '''

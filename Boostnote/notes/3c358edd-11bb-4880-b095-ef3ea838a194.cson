@@ -1,0 +1,47 @@
+createdAt: "2018-06-28T03:06:34.231Z"
+updatedAt: "2018-06-28T14:50:05.384Z"
+type: "MARKDOWN_NOTE"
+folder: "e58a84a619a157cea5b5"
+title: "E.D.P. Con Integrales de Fourier"
+content: '''
+  
+  # E.D.P. Con Integrales de Fourier
+  <img src="/:storage/fourier2.png">
+  
+  **Formato de solución**
+  $$u(x,t)=\\int_{0}^{\\infty}T(w,t)cos(wx)dw$$
+  
+  
+  
+  # E.D.P. Con Transformada de Fourier
+  <img src="/:storage/fourier_bi.png">
+  
+  Son pocos casos y todos se resuelven solo aplicando la transformada de fourier, consiguiendo una ecuacion diferencial, y luego antitransformando.
+  Existen algunas variaciones en como aplicar las condiciones de borde; se puede:
+  - Antitransformar y luego aplicar las condiciones de borde
+  - Transformar las condiciones de borde, aplicarlas, y luego antitransformar
+  
+  Siempre uno de los dos caminos es el más sencillo.  
+  ## Formatos Tipo
+  
+  
+  
+  **Ejemplo 1: Primer orden**, Formato:
+  $$\\frac{\\partial ^2u}{\\partial x^2}=\\frac{1}{k}\\frac{\\partial u}{\\partial t}\\;\\;\\;\\; x\\epsilon R\\;\\;t>0$$ 
+  $$u(x,0)=f(x)$$
+  **Ejemplo 2: segundo orden**, Formato:
+  $$\\frac{\\partial ^2u}{\\partial x^2}=\\frac{1}{c^2}\\frac{\\partial ^2 u}{\\partial t^2}\\;\\;\\;\\; x\\epsilon R\\;\\;t>0$$
+  $$u(x,0)=g(x) \\; \\;\\ \\; \\;\\; \\; \\; \\; \\frac{\\partial u}{\\partial x}(x,0)=h(x)$$
+  **Ejemplo 3: segundo orden**, Formato:
+  $$\\frac{\\partial ^2 u}{\\partial x^2}+\\frac{\\partial ^2u}{\\partial y^2}=0$$
+  $$u(x,0)=g(x)$$
+  (hay una condicion inicial pero al pedir que la solucion sea acotada surgen las restricciones adicionales necesarias)
+  **Ejemplo 4: segundo orden**, Formato:
+  $$\\frac{\\partial ^2 u}{\\partial x^2}+\\frac{\\partial ^2 u}{\\partial y^2}=f(x)$$
+  $$u(x,0)=0 \\; \\;\\ \\; \\; u(x,1)=0$$
+  
+  
+'''
+tags: []
+isStarred: false
+isTrashed: false

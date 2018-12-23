@@ -1,5 +1,5 @@
 createdAt: "2018-05-24T23:44:32.652Z"
-updatedAt: "2018-06-04T03:29:21.298Z"
+updatedAt: "2018-07-05T18:33:33.745Z"
 type: "MARKDOWN_NOTE"
 folder: "e58a84a619a157cea5b5"
 title: "Famosos transformada Z"
@@ -8,70 +8,88 @@ content: '''
   
   ###### (Ariel Nowik: anowik@itba.edu.ar - correcciones, sugerencias, consultas)
   
-  ###### Este apunte esta en construcción, falta aún
   
   # Famosos transformada Z
-  
-  $x(n)\\; causal$|$X(z)$  | condiciones
+  $$X(z)=\\sum_{n\\epsilon N_0}x(n)z^{-n}$$
+  $f(n)$|$F(z)$  | condiciones
   :---:|:---:|:---:|:---:
   $\\delta(n)$|1 | <br>
   $u(n)$ | $\\frac{z}{z-1}$ | $\\vert z\\vert>1$
   $\\delta(n-n_0)$|$z^{-n_0}$ | <br> 
   $x(n-n_0)$ | $z^{-n_0}X(z)+z^{-n_0}\\sum_{m=-n_0}^{-1}x(m)z^{-m}$  | <br>
+  $x(n-n_0)u(n-n_0)$ | $z^{-n_0}X(z)$ | <br>
   $x(n+n_0)$ | $z^{n_0}X(z)-z^{n_0}\\sum_{m=0}^{n_0-1}x(m)z^{-m}$  | <br>
-  $\\alpha^n$ | $\\frac{1}{1-\\alpha z^{-1}}=\\frac{z}{z-\\alpha}$ | $\\vert z \\vert> \\vert \\alpha\\vert$ 
-  $n\\alpha^n$|$-z\\frac{d}{dz}\\frac{z}{z-a}=\\frac{az}{(z-a)^2}$ | <br>
-  $e^{-\\alpha Tn }$ | $\\frac{z}{z-e^{-\\alpha T}}$ | $\\vert{z \\vert>\\vert e^{\\alpha T}\\vert}$  
-  $ne^{-\\alpha Tn}$ | $\\frac{Te^{-\\alpha T}z^{-1}}{(1-e^{-\\alpha T}z^{-1})^2}$  | <br> 
+  $\\alpha^nu(n)$ | $\\frac{1}{1-\\alpha z^{-1}}=\\frac{z}{z-\\alpha}$ | $\\vert z \\vert> \\vert \\alpha\\vert$ 
+  $n\\alpha^nu(n)$|$-z\\frac{d}{dz}\\frac{z}{z-a}=\\frac{az}{(z-a)^2}$ | <br>
+  $n(n + 1)u(n)$ | $\\frac{2z^2}{(z-1)^3}$ | <br>
+  $e^{-\\alpha Tn }u(n)$ | $\\frac{z}{z-e^{-\\alpha T}}$ | $\\vert{z \\vert>\\vert e^{\\alpha T}\\vert}$  
+  $ne^{-\\alpha Tn}u(n)$ | $\\frac{e^{-\\alpha T}z^{-1}}{(1-e^{-\\alpha T}z^{-1})^2}$  | <br> 
   $n^{k}x(n)$ | $(-z\\frac{d}{dz})^{(k)}X(z)$  | <br> 
   $b^{n}x(n)$ | $X(\\frac{z}{b})$ |  $\\vert z \\vert>R_{ax} \\vert b \\vert$
   $x*y(n)$|$X(z)Y(z)$ |  $\\vert z \\vert>R\\leq min(R_1,R_2)$  
   $sin(bn)$ |$\\frac{sin(b)z^{-1}}{1-2cos(b)z^{-1}+z^{-2}}$  | <br> 
   $cos(bn)$| $\\frac{1-cos(b)z^{-1}}{1-2cos(b)z^{-1}+z^{-2}}$  | <br> 
   
-  <br> <br> <br> <br>
-  # Famosos Laplace
   
-  $x(t) \\; causal$ | $X(s)$ | condiciones
+  # Famosos Laplace
+  $$X(s)=\\int_{0^-}^{\\infty}x(t)e^{-st}dt$$
+  $f(t)$ | $F(s)$ | condiciones
   :---:|:---:|:---:
   $\\delta(t)$ | 1 | $Re(s)>-\\infty$
-  $1$ | $\\frac{1}{s}$ | $Re(s)>0$
+  $u(t)$ | $\\frac{1}{s}$ | $Re(s)>0$
   $x(at)$ | $\\frac{1}{a}X(\\frac{s}{a})$ | $a>0$ | <br>
   $x(t-t_0)u(t-t_0)$ | $e^{-st_0}X(s)$ | $t_0>0$  | <br>
-  $e^{-s_0t}$ | $\\frac{1}{s+s_0}$ | $Re(s)>Re(-S_0)$ | <br>
+  $e^{-s_0t}u(t)$ | $\\frac{1}{s+s_0}$ | $Re(s)>Re(-S_0)$ | <br>
   $x(t)e^{-s_0t}$ | $X(s+s_0)$ |  <br> 
-  $t^n$ | $\\frac{n!}{s^{n+1}}$ | $Re(s)>0$
+  $t^nu(t)$ | $\\frac{n!}{s^{n+1}}$ | $Re(s)>0$
   $t^nx(t)$ | $(-1)^nX^{(n)}(s)$ | <br>
   $x^{(n)}(t)$| $s^nX(s)-s^{n-1}x(0^-)-s^{n-2}x'(0^-) \\; ...$ | <br>
   $x*y(t)$ | $X(s)Y(s)$ | <br>
   $\\int_{-\\infty}^{t}x(\\tau)d\\tau$ | $\\frac{1}{s}X(s)+\\frac{1}{s}\\int_{-\\infty}^{0^{-}}x(\\tau)d\\tau$ |  <br>
-  $sin(w_0t)$ | $\\frac{w_0}{s^2+w_0^2}$ |  $Re(s)>0$
-  $cos(w_0t)$ | $\\frac{s}{s^2+w_0^2}$ | $Re(s)>0$
-  $sh(\\alpha t)$ | $\\frac{\\alpha}{s^2-\\alpha^2}$|$Re(s)>a$
-  $ch(at)$ | $\\frac{s}{s^2-a^2}$ | $Re(s)>a$
+  $sin(w_0t)u(t)$ | $\\frac{w_0}{s^2+w_0^2}$ |  $Re(s)>0$
+  $cos(w_0t)u(t)$ | $\\frac{s}{s^2+w_0^2}$ | $Re(s)>0$
+  $sh(\\alpha t)u(t)$ | $\\frac{\\alpha}{s^2-\\alpha^2}$|$Re(s)>a$
+  $ch(at)u(t)$ | $\\frac{s}{s^2-a^2}$ | $Re(s)>a$
   
   # Sistemas
   
   #### Propiedades elementales
-  $$X(z)=\\sum_{n\\epsilon N_0}x(n)z^{-n}$$
+  
   $$x(n)=\\sum_{i} Res[z^{n-1}X(z),z_i]$$
-  $$Res[X(z),z_i]= \\lim_{z\\to z_i}(z-z_i)X(z)\\;\\;(orden\\;1)$$
+  $$Res[X(z),z_i]= \\sum_{i}\\lim_{z\\to z_i}(z-z_i)X(z)\\;\\;(orden\\;1)$$
   $$X(f)=\\int_{-\\infty}^{\\infty}x(t)e^{-i2\\pi ft}dt$$
-  $$X(s)=\\int_{0^-}^{\\infty}x(t)e^{-st}dt$$
+  
+  
+  #### Causalidad
+  Si $X(z)=\\frac{N(z)}{D(z)}$ donde $N,D$ son polinomios, entonces 
+  $$x(n) \\; causal \\iff  gr(D)\\geq gr(N)$$
+  
   
   Teorema |transformada Z |  laplace 
   :---:|:---:|:---:
   valor incial | $x(0)=lim_{z\\to\\infty}X(z)$ | $f(0^+)=lim_{s\\to\\infty}sF(s)$
-  valor final | $x(\\infty)=lim_{z\\to 1}(z-1)X(z)$ | $f(\\infty)=lim_{s\\to0}sF(s)$
+  valor final | $x(\\infty)=lim_{z\\to 1}(1-z^{-1})X(z) \\; \\;\\tiny{(1)}$ | $f(\\infty)=lim_{s\\to0}sF(s)$
+  $\\tiny{(1)}$ Asumiendo que $x(\\infty)$ existe y es finito. 
+  $lim_{z\\to 1}(1-z^{-1})X(z)$ se debe tomar sobre la región $\\{z \\mid arg(z-1)\\leq \\theta_0 < \\frac{\\pi}{2} \\}$ donde $\\theta_0$ es un numero arbitrario
+  
+  #### Gráfico de la región$:\\{z \\mid arg(z-1)\\leq \\theta_0 < \\frac{\\pi}{2} \\}$
+  <br>
+  <br>
+  <img src="/:storage/grafico_vf.png">
+  <br>
+  
+  
+  #### Valor final mejorado
+  $$X(z)=\\frac{P(z)}{(z-z_1)(z-z_2)...(z-z_n)}+\\frac{a}{z-1},|z_i|<1 \\implies \\lim_{n\\to \\infty}x(n)=a$$
   
   #### Sistema Relajado
   Relajado en $t_0$ $\\implies$ $y(t)=y'(t)=...=y^{n}(t)=0$ $\\; \\; \\;\\forall t<t_0$
   Relajado en $n_0$ $\\implies$ $y(n-1)=y(n-2)=...=y(n-N)=0$ $\\; \\; \\; \\forall n< n_0$
   #### Funciones de transferencia en sistemas LTI
-  $$y(t)=x*h(t) \\; \\; \\; \\; h(t)=\\underbrace{H(\\delta(t))}_{rta\\;impulsiva}$$
+  $$y(t)=x*h(t) \\; \\; \\; \\; h(t)=\\underbrace{H(\\delta(t))}_{rta\\;impulsiva}  \\; \\; \\; \\; \\small{(vale \\;con\\;discreto\\;tambien)}$$ 
   $$y(t)=\\alpha*x'(t) \\; \\; \\; \\; \\; \\alpha(t)=\\underbrace{H(u(t))}_{rta\\; al\\;escalon}$$ 
   
-  $$ h(t) \\; causal \\; \\implies \\; El \\; sistema \\; es \\;causal$$
+  $$ h(t),h(n) \\; causal \\; \\implies \\; El \\; sistema \\; es \\;causal$$
   
   Caso discreto
   $$y(n)=x(n) * h(n)$$
@@ -84,94 +102,34 @@ content: '''
   Continuo | Discreto
   :---:|:---:
    $\\sum_{k\\epsilon Z}\\vert h(n)\\vert<\\infty$ | $\\int_{-\\infty}^{\\infty}\\vert h(t)\\vert dt<\\infty \\; \\;\\tiny(1)$
-  $$$Re(s_i)<0 \\;\\forall i \\; \\;\\tiny(2)$ | $\\vert z_i \\vert<1 \\;\\forall i \\; \\;\\tiny(2)$
+  $$$Re(s_i)<0 \\;\\forall i \\; \\;\\tiny(2)$ | $\\vert z_i \\vert<1 \\;\\forall i$
   
   (1) : Asumiendo $h(t)$ continua o $h(t)=k\\delta(t)+h_1(t)$ con $h_1(t)$ continua
-  (2) : $H(z),H(s)=\\frac{P()}{Q()}$ , $gr(Q)\\geq gr(P)$
+  (2) : $H(s)=\\frac{P()}{Q()}$ , $gr(Q)\\geq gr(P)$
   #### Equivalencias de transformadas
   Continuo | Discreto
   :---:|:---:
-  $H(f)=F[h(t)] = L[h(t)](s = i2\\pi f) \\; \\; \\tiny(1)$  | $H(f)=Z[h(n)](z = i2\\pi f)$
+  $H(f)=F[h(t)] = L[h(t)](s = i2\\pi f) \\; \\; \\tiny(1)$  | $H(f)=Z[h(n)](z = e^{i2\\pi f})$
   (1) : asumiendo $h(t)$ causal
   
   #### Respuesta en frecuencia
   Con un sistema continuo, usando transformada continua de fourer de $h(t)$, $H(f)$
   $$x(t) = e^{i2\\pi ft} \\implies y(t)=H(f)e^{i2\\pi ft} $$
-  $$x(t) \\; periodica \\; (T=1/f_0)\\ \\implies y(t)=\\sum_{n\\epsilon Z}H(nf_0)\\underbrace{X_n}_{\\tiny(1)}e^{i2\\pi nt}=$$
-  $$X_0H(0)+2\\sum_{n\\epsilon N}|X_n||H(nf_0)|cos(2\\pi nf_0t+arg(X_n)+arg(H(nf_0)))$$
+  $$x(t) \\; periodica (T=1/f_0)\\ \\implies x(t)=\\sum_{n\\epsilon Z}\\underbrace{X_n}_{\\tiny(1)} e^{i2\\pi nf_0t}\\implies y(t)=\\sum_{n\\epsilon Z}H(nf_0)X_ne^{i2\\pi nf_0t}$$
   
   (1) : Coeficientes serie exponencial de forier
   Con un sistema discreto, usando transformada discreta de fourier de $h(t)$
   $$x(n)=e^{i2\\pi fn} \\implies y(n) = H(f)e^{i2\\pi fn} $$
   
+  #### Trucos con polinomios
+  $$s^2+bs+c$$
+  $$Re(s_1)\\;y\\;Re(s_2)<0 \\Leftrightarrow b,c>0\\;\\;\\;\\;\\;s_1s_2=c\\;\\;\\;\\;\\;s_1+s_2=-b$$
+  
   <br>
   <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  
-  # Ecuaciones diferenciales
-  
-  #### Pasos para resolver una ecaucion de Laplace con condiciones de frontera
-  (Las otras ecuaciones tienen procedimientos similares)
-  Con una condicion de borde homogenea y una con una funcion arbitraria
-  Por ejemplo,
-  $$ \\begin{cases}
-  
-  \\frac{\\partial u^2}{\\partial x^2}+\\frac{\\partial u^2}{\\partial y^2}=0 \\\\
-   u_y(x,0)=u_y(x,b)=0  & 0<x<a \\\\
-   u_x(0,y)=f(y) \\; \\; u_x(a,y)=g(y) & 0<y<b
-  \\end{cases}$$
-  
-  - Proponer para variables separables, $u(x,y)=X(x)Y(y)$
-  - Considerando $u_{xx}=X''Y\\; \\;u_{yy}=XY''$ llegar a que deben valer, al mismo tiempo
-  $$ \\begin{cases}
-   Y''+\\lambda Y=0 \\\\
-   X''-\\lambda Y=0
-   \\end{cases} $$
-  
-  
-  - Plantear la condiciones de borde homgeneas y llegar a condiciones de sturm liouville $Y'(0)=Y'(b)=0$ o si las condiciones de borde son sin derivadas $Y(0)=Y(b)=0$
-  Con $X(x)$ no se puede plantear nada porque las condiciones tienen funciones.
   
   
   
-  - Aplicar formulas de sturm liouville
-  ## Sturm Liouville
-  $$f''(x)+\\lambda f(x)=0 \\; \\; \\; \\; \\; \\; 0<x<L$$
-  Caso | $w _n^2=\\lambda_n$ | $f(x)$ 
-  :---:|:---:|:---:
-  $f(0)=f(L)=0$ | $(\\frac{n\\pi}{L})^2$ | $sin(w_nx) \\; \\; n \\epsilon N$
-  $f'(0)=f'(L)=0$ | $(\\frac{n\\pi}{L})^2$ | $cos(w_nx) \\; \\; n \\epsilon N_0$
-  $f(0)=0 \\; , \\; hf(L)+f'(L)=0 \\; ,\\;h>0$ | $\\mu_n^2\\; , \\; tan(\\mu L)=-\\frac{\\mu}{h}$ | $sin(w_nx) \\; \\; n \\epsilon N$
-  $f(0)=0 \\; , \\; hf(L)+f'(L)=0 \\; ,\\;h<0$ | $[\\frac{(2n-1)\\pi}{2L}]^2$ | $sin(w_nx) \\; \\; n \\epsilon N_0$
-  
-  - Ahora que tenemos familias de soluciones para $Y_n(y)=cos(w_ny)$, necesitamos asociar familias de soluciones $X_n(x)$ para cada $Y_n(y)$ que provoquen que $u(x,y)$ verifique las condiciones de borde con funciones.
-  
-  - Como $u_n(x,y)=Y_n(y)X_n(x)$ verifica todas las condiciones anteriores menos las de borde con funciones, entonces se propone con superposicion
-  
-  $$u(x,y)=\\sum_{k\\epsilon N,N_0} \\underbrace{Y_n(y)}_{conocido}X_n(x) \\implies u_x(x,y)=\\sum_{k\\epsilon N,N_0} \\underbrace{Y_n(y)}_{conocido}X_n'(x)$$ 
-  
-  Que tambien verifica las condiciones anteriores menos las de borde con funciones. Ahora si, con esta $u(x,y)$ planteamos las condiciones de borde con funciones para obtener dos series de fourier
-  
-  $$f(y)=u_x(0,y)=\\sum_{k\\epsilon N,N_0} cos(w_ny) \\underbrace{X_n'(0)}_{a_n} \\; \\; \\; 0<y<a$$ 
-  $$g(y)=u_x(a,y)=\\sum_{k\\epsilon N,N_0} cos(w_ny) \\underbrace{X_n'(a)}_{a_n'} \\; \\; \\; 0<y<a$$ 
-  
-  Por medio de las formulas de fourier, se obtienen entonces $X_n'(0),X_n'(a)$. 
-  
-  - Se resuelve entonces, para cada valor de n la ecuacion restante, que es una ecuacion diferencial con condiciones de borde.
-  $$X_n''-\\lambda_nX_n=0 \\; \\; \\;X'_n(0)=a_n \\; \\; X_n'(a)=a_n'$$
-  Aqui se plantean soluciones con cosenos y senos hiperbolicos
-  $$
-  \\begin{cases}
-  X_n(x)=A_nsinh(w_n x)+B_ncosh(w_nx) & n\\geq1 \\\\
-  X_0(x)=A_0x+B_0 & n=0
-  \\end{cases}
-  $$
-  
-  - Se despejan todos los $X_n$ segun corresponda y se expresa entonces la solucion
-  $$u(x,y)=\\sum_{k\\epsilon N,N_0} \\underbrace{Y_n(y)X_n(x)}_{conocidos}$$
   
 '''
 tags: []

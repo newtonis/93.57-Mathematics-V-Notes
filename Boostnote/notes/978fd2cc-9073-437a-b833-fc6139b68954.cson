@@ -1,0 +1,88 @@
+createdAt: "2018-12-17T04:41:46.325Z"
+updatedAt: "2018-12-20T04:07:35.656Z"
+type: "MARKDOWN_NOTE"
+folder: "82bec2fdf2f2d22d3517"
+title: "Etapa 3"
+content: '''
+  # Etapa 3
+  
+  ## Polarización
+  
+  En primer lugar asumimos que la fuente de corriente de $Q_{13}$ suministra 180 $\\mu A$.
+  Procederemos a calcular las corrientes de colector $Q_{19}$ y $Q_{18}$.
+  
+   <img src="/:storage/etapa3_polarizacion.png" width=400>
+   
+  Suponemos que conocemos $V_{be18}$. (Por ejemplo $V_{be18}=0.6V$) Entonces $I_{c19}$, despreciando corrientes de base se puede calcular como
+  $$I_{C19}=\\frac{V_{be18}}{R_{10}}=15\\mu A$$
+  Como $I_{c19}+I_{c18}=180\\mu A$ podemos conseguir $I_{c18}=180\\mu A-15\\mu A=165\\mu A$. 
+  Y con $I_{c18}$ podemos, nuevamente obtener un valor de $V_{be18}$
+  $$V_{be18}=V_tln(\\frac{I_{c18}}{I_{s18}})=588mV$$
+  Iterativamente podriamos tomar este valor de $V_{be18}$ y repetir el procedimiento para aumentar la precisión de la respuesta. No obstante, el error debido a no considerar las corrientes de bases es mayor a la precisión que se ganaría iterando varias veces.
+  
+  Por ultimo conseguimos las corrientes de $Q_{14}$ y $Q_{20}$. como $V_{be19}=V_tln(\\frac{I_{c19}}{I_S})=530mV$ entonces como 
+  $$V_{be20}+V_{be14}=V_{be18}+V_{be19}=1.118V$$
+  Y además $I_{c14}=I_{C20}$, podemos planterar la ecuación
+  $$V_tln(\\frac{I_{c14}}{I_{s14}})+V_tln(\\frac{I_{c20}}{I_{s14}})=V_{be20}+V_{be14}=1.118V$$
+  Tomando $I_{s14}=I_{s20}=3*10^{-14}$ se obtiene $I_{c14}=I_{c20}=154\\mu A$
+  
+  
+  ## Observacion 1 necesaria para continuar
+  
+  A partir de ahora, para resolver el analisis incremental necesitamos simplificar el circuito.
+  En primer lugar calcularemos la impedancia incremental equivalente de la fracción del circuito compuesta por $Q_{19}$ y $Q_{18}$
+  
+   <img src="/:storage/etapa3_equivalente.png" width=600>
+  
+  Para ello en primer lugar asumimos que la impedancia vista por $Q_{19}$ es $\\frac{1}{gm}$ (lo cual se puede ver utilizando el modelo T o $\\pi$) y dibujamos el modelo $T$ del transistor $Q_{18}$.
+  
+  
+   <img src="/:storage/etapa_3bloque.png" width=700>
+   
+  Realizando un divisor de corriente podemos hacer posible de calcular el paralelo $R_{10}\\|r_{e18}$ (provocando que la fuente de corriente dependa de otra $ki$)
+   
+   Por ultimo , mediante un pasaje a nivel de corriente podemos ver la impedancia de la fuente de corriente en paralelo a la resistencia. Como la corriente es $(k\\alpha-1)$ veces más grande, entonces la impedancia $\\frac{1}{gm_{19}}$ se ve $(k\\alpha-1)$ veces mas grande.
+    
+  En conclusión la imepdancia del bloque es aproximandamente $r_{e18}$ que es un numero muy chico, lo cual es importante. A partir de ahora sumiremos que el bloque es un cable.
+  
+  
+  ## Observacion 2 necesaria para continuar
+  
+  Debemos asumir que, por el funcionamiento del dispositivo en algunos instantes $Q_{20}$ se encuentra abierto y en otros $Q_{14}$ se encuentra abierto.
+  
+   <img src="/:storage/etapa3_abiertos.png" width=600>
+   
+   
+  De esta forma, podremos analizar el circuito solo en un estado, que será en el que $Q_{20}$ conduce. El otro estado es análogo y totalmente simetrico
+  
+  ## Ganancia
+  
+  La ganancia de tensión es sencilla. Son dos colector comunes en cascada, ambos con ganancia unitaria
+  
+   <img src="/:storage/etapa3_cc.png" width=600>
+   
+  ## Impedancia de entrada
+  
+  Calculamos la impedancia de entrada. Para ello analizamos el bloque verde por separado utilizando el modelo $T$
+  
+  <img src="/:storage/etapa3_impedancia_in.png" width=700>
+  </br>
+  </br>
+  
+  Realizando un divisor de corriente la resistencia vista en el bloque verde por la base es $r_e+R_L$ incrementada $\\beta+1$ veces ya que la corriente que pasa por las resistencias es $\\beta+1$ veces más grande. La resolución de la impedancia de entrada del transistor $Q_{23}$ es exactamente la misma que la del bloque verde, solo que con $R_{i20}$ en ulgar de $R_L$. Es importante considerar que $r_e+R_L\\approx R_L$
+  
+  ## Impedancia de salida
+  
+  Calculamos la impedancia de salida. Para ello debemos considerar $R_{o2}$, la impedancia de salida de la etapa 2 en nuestro analisis. En las etapas anteriores, debido a diversas cosas asumidas no habia sido necesario.
+  
+  
+  <img src="/:storage/etapa3_imepdancia_salida.png" width=700>
+  </br>
+  
+  Resolvemos el boque verde planteando el modelo $T$. La impedancia vista es $r_{e23}$ más $R_{o2}$ con una corriente ($\\beta+1$) veces más chica, es decir, por pasaje a nivel de corriente, disminuida en $\\beta+1$ veces.
+  Para resolver la impedancia de el transistor $Q_{20}$ realizamos la misma cuenta pero con $R_{o23}$ en lugar de $R_{o2}$
+  
+'''
+tags: []
+isStarred: false
+isTrashed: false

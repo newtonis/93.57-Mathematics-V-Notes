@@ -1,10 +1,10 @@
 createdAt: "2018-04-28T14:49:05.665Z"
-updatedAt: "2018-05-28T02:09:02.600Z"
+updatedAt: "2018-11-15T03:52:18.361Z"
 type: "MARKDOWN_NOTE"
 folder: "e58a84a619a157cea5b5"
 title: ""
 content: '''
-  <img src="/:storage/apuntesariP1.png">
+  <img src="/:storage/apuntesariP1.png" width=384 height=100>
   
   ###### (Ariel Nowik: anowik@itba.edu.ar - Consultas - correcciones - sugerencias)
   
@@ -17,7 +17,7 @@ content: '''
   $e^{j2\\pi f_0 t}x(t)$ | $X(f-f_0)$ 
   $x(at)$ | $\\frac{1}{\\|a\\|} X(f/a)$ 
   $(x*y)(t)$|$XY(f)$ 
-  $xy(t)$|$(X*Y)(-f)$ 
+  $xy(t)$|$(X*Y)(f)$ 
   $x^{(n)}(t)$ | $(j2\\pi f)^{(n)}X(f)$ 
   $t^{n}x(t)$ | $\\frac{1}{(-j2\\pi )^{(n)}} \\frac{d^{n}}{df^{n}}X(f)$
   $\\delta(t-t_0)$ | $e^{-j2\\pi ft_0}$
@@ -32,7 +32,7 @@ content: '''
   $e^{-\\alpha \\|t\\|}$ | $\\frac{2\\alpha}{\\alpha^2+(2\\pi f)^2}$ 
   $x(t)$ periodica | $\\sum_{n=-\\infty}^{\\infty}X_n\\delta(f-n/T)$
   $\\sum_{n=-\\infty}^{\\infty}\\delta(t-nT)$ | $\\sum_{n=-\\infty}^{\\infty}\\frac{1}{T}\\delta(f-\\frac{n}{T})$
-  $\\int_{-\\infty}^{t}x(\\tau) d\\tau$ | $\\frac{X(0)}{2}\\delta (f)+\\frac{X(f)}{i2\\pi f}=X(f)*F(u(t))$
+  $\\int_{-\\infty}^{t}x(\\tau) d\\tau$ | $\\frac{X(0)}{2}\\delta (f)+\\frac{X(f)}{i2\\pi f}=X(f)F(u(t))$
   
   ### Famosos transformada discreta de fourier
   
@@ -55,6 +55,17 @@ content: '''
   $te^{at}$|$\\frac{e^{at}}{a}(t-\\frac{1}{a})$
   $tcos(at)$|$\\frac{cos(at)}{a^2}+\\frac{tsin(at)}{a}$
   $tsin(at)$|$\\frac{sin(at)}{a^2}-\\frac{tcos(at)}{a}$
+  ### Propiedades
+  $x$ es real y par $\\implies$ $X(f)$ es real y par
+  
+  $x$ es real e impar $\\implies$ $X(f)$ es imaginaria e impar
+  
+  $x$ es real $\\implies$ $X(f)=\\underbrace{|X(f)|}_{par}e^{j \\overbrace{\\theta(f)}^{impar} }=\\underbrace{Re(f)}_{par}+i\\overbrace{Im(f)}^{impar}$
+  $$X_{n} = \\begin{cases} \\frac{a_{n}-ib_{n}}{2} & n>0 \\\\ \\frac{a_{-n}+ib_{-n}}{2} & n <0 \\\\ a_0 \\; & n=0\\end{cases}$$
+  <br>
+  <br>
+  <br>
+  
   ### Definiciones
   
   Serie de fourier trigonometrica continua
@@ -62,7 +73,7 @@ content: '''
   $$x(t) \\sim a_0+\\sum_{k \\geq 1}a_kcos(2\\pi kt/T)+b_ksin(2\\pi kt/T)$$
   Coeficientes serie de fourier trigonometrica continua
   $$a_0=1/T 
-  \\int_{t_0}^{t_0+T}x(t)dt \\; \\; \\; \\; \\; \\; \\; \\; \\; \\; \\;a_k=2/T\\int_{t_0}^{t_0+T}x(t)cos(2\\pi kt)dt \\; \\; \\; \\; \\; \\; \\; \\; \\; \\; \\; b_k=2/T\\int_{t_0}^{t_0+T}x(t)sin(2\\pi kt)dt$$
+  \\int_{t_0}^{t_0+T}x(t)dt \\; \\; \\; \\; \\; \\; \\;  \\;a_k=2/T\\int_{t_0}^{t_0+T}x(t)cos(2\\pi kt/T)dt \\; \\; \\; \\; \\; \\; \\; \\; \\; b_k=2/T\\int_{t_0}^{t_0+T}x(t)sin(2\\pi kt/T)dt$$
   Parseval serie de fourier trigonometrica continua
   $$ \\frac{2}{T} \\int_{t_0}^{t_0+T}|x(t)|^2dt=2|a_0|^2+\\sum_{k\\geq1}|a_k|^2+|b_k|^2$$
   
@@ -83,6 +94,7 @@ content: '''
   
   Transformada de fourier discreta
   $$X(f)=\\sum_{n=-\\infty}^{\\infty}x(n)e^{-i2\\pi fn} \\; \\; \\; \\; \\; \\; x(n) = \\int_{t_0}^{t_0+1}X(f)e^{i2\\pi f n}df$$
+  
   
 '''
 tags: []

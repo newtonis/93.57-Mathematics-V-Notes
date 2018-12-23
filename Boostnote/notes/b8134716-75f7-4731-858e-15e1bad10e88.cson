@@ -1,0 +1,69 @@
+createdAt: "2018-12-17T03:54:40.503Z"
+updatedAt: "2018-12-17T04:38:45.995Z"
+type: "MARKDOWN_NOTE"
+folder: "82bec2fdf2f2d22d3517"
+title: "Etapa 2"
+content: '''
+  ## Etapa 2
+  
+   <img src="/:storage/etapa2_circuito1.png" width=800>
+   
+  ## Polarización
+  Gracias a la fuente de corriente de arriba
+  $$I_{c17}=550\\mu A$$
+  
+  Por otro lado, para calcular la corriente de $Q_{16}$ , calculamos $V_{be17}$ y con dicha tensión y $R_9$, despreciando la corriente de base de $Q_{17}$ obetenemos $I_{c16}$
+  
+  $$V_{be17}=V_T{ln(\\frac{I_{c17}}{I_s})}=618mV \\implies I_{c17}=I_{e17}=\\frac{I_{e17}R_8+V_{be17}}{R_9}=16.2 \\mu A$$
+  
+  ## Modelo incremental
+  
+  ### Impedancia de entrada
+  
+  Se procederá a calcular la impedancia de entrada ya que su calculo será provechoso para luego conseguir la ganancia de la etapa. Se coloco el modelo del transistor 13b en lugar de la fuente de corriente, no obstante, como la base se encuentra a masa dicho modelo no aporta corriente incremental.
+  
+  Se utilizará modelo T.
+  
+   <img src="/:storage/etapa2_circuito2.png" width=400>
+   
+   Primero calculamos $R_{i17}$. Notar que $I_{op}=(\\alpha-1)I_{e17}$ Por lo que con un pasaje a nivel de corriente podemos ver que
+   $$R_{i17}=\\frac{1}{\\alpha-1}(r_{e17}+R_8)$$
+   Como $\\alpha-1=\\frac{1}{\\beta +1}$ entonces 
+   
+   $$R_{i17}= (\\beta+1)(r_{e17}+R_8)$$
+   
+   En segundo lugar calculamos $R_{i16}=R_{in}$ de utilizando exactamente el mismo metodo. Como en este caso $I_{op}=(\\alpha-1)I_{e16}$ utilizando un pasaje a nivel de corriente
+   
+   $$R_{i16}=\\frac{1}{\\alpha-1}(r_{e16}+R_9\\|R_{i17})$$
+   
+   Compactando las dos expresiones anteriores
+   
+   $$R_{in}=(\\beta+1)[r_{e16}+R_9\\|((\\beta+1)(r_{e17}+R_8))]=4M\\Omega $$
+   
+   ### Ganancia
+   
+   Procederemos a calcular la ganancia de la etapa, definida como $G_{m2}=\\frac{I_{out}}{V_{in}}$
+   
+   Se utilizaran divisores resistivos
+   
+   $$I_{out}=\\alpha I_{e17}=\\frac{v_{e17}}{R_{e17}+R_8}$$
+   
+   $$v_{e17}=v_{in}\\frac{R_{i17}\\|R_9}{R_{i17}\\|R_9+R_{e16}}$$
+   
+   Todos los valores de la ecuación fueron calculados previamente. Reemplazando
+   $$G_{m2}=6.5\\frac{mA}{V}$$
+   
+   ### Impedancia de salida
+   
+  Se asume que la base del transistor 17 se encuentra a masa. 
+  
+    <img src="/:storage/etapa2_circuito3.png" width=600>
+  
+  El circuito de $R_{o17}$ es el mismo del de la etapa 1. Por lo tanto
+  $$R_o=r_{o13}\\|(r_{o17}[1+gm(R_8\\|r_{\\pi 17})])=81k\\Omega$$
+  
+   
+'''
+tags: []
+isStarred: false
+isTrashed: false

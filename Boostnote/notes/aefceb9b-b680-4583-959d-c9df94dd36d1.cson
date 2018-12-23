@@ -1,23 +1,66 @@
 createdAt: "2018-05-27T02:49:43.363Z"
-updatedAt: "2018-05-28T00:52:31.224Z"
+updatedAt: "2018-07-22T13:41:46.738Z"
 type: "MARKDOWN_NOTE"
 folder: "82bec2fdf2f2d22d3517"
 title: ""
 content: '''
-   <img src="/:storage/apuntesari_proba.png">
+   <img src="/:storage/apuntesari_proba2p.png" width=384 height=100>
   
   ##### (Ariel Nowik: anowik@itba.edu.ar - correcciones, sugerencias, consultas)
   
+  ### Covarianza
+  $$Cov(X,Y)=E[(X-E(X))(Y-E(Y))] =E(XY)-E(X)E(Y)$$
+  $$X,Y \\; ind \\; \\implies Cov(X,Y)=0$$
+  $$Y=aX+b \\Leftrightarrow |Cov(X,Y)|=|\\sigma_x\\sigma_y|$$
+  ### Probabilidad conjunta
   
-  ##### Central del limite
-  $$S_n \\sim Norm(n\\mu,\\sigma\\sqrt{n})$$
-  $$\\bar X \\sim Norm(\\mu,\\sigma/\\sqrt n) $$
-  ##### Poisson
+  $$f_x(x)=\\int_{-\\infty}^{\\infty}f(x,y)dy \\; \\; \\; \\; \\; \\; \\;f_y(x)=\\int_{-\\infty}^{\\infty}f(x,y)dx$$
+  $$f_{y\\vert x}(x \\vert y)f_x(x)=f(x,y)$$
+  $$E(X)=\\ \\iint_D  xf(x,y)dA$$
+  ### Teorema central del limite
+  $$x_i\\;\\;i.i.d.\\;\\;E(x_i)=\\mu \\;,\\;V(x_i)=\\sigma^2$$ 
+  $$Criterio: n>30$$
+  $$S_n \\sim Norm(n\\mu,\\sigma\\sqrt{n})\\;\\;\\;, \\;\\;\\;\\bar X \\sim Norm(\\mu,\\sigma/\\sqrt n) $$
+  ### Poisson
   $$P(X=k)=\\frac{e^{-\\lambda}}{k!}\\lambda^k \\; \\; \\; \\lambda = \\alpha \\Delta t$$
   
-  ##### Confianza $\\alpha$ de una variable estandarizada T
-  $$\\mu = \\bar X \\pm t_{\\alpha/2,n-1}\\frac{s}{\\sqrt{n}}$$
+  ### Aproximaciones
+  ##### Poisson con normal
+  si $\\lambda>10$ se puede usar aproximacion normal
+  $$P(X\\leq k)=P(X\\leq k+0.5)\\approx\\phi(\\frac{k+0.5-\\lambda}{\\sqrt{\\lambda}}) $$
+  <br>
+  <br>
   
+  ##### Binomial con poisson
+  si $n>20$ , $p<0.05$  (buena aproximacion)
+  o $n\\geq100$ , $np\\leq10$ (excelente aproximacion)
+  $$Y \\ \\sim Binom(n,p) \\ \\; \\;\\; \\; X\\sim Poiss(\\lambda=np)$$
+  
+  $$P(X\\leq k)\\approx P(Y\\leq k)$$
+  
+  #### Intervalo de confianza $\\alpha$ unilateral
+  
+  <img src="/:storage/confianza1.png" >
+   
+  #### Intervalo de confianza $\\alpha$ bilateral
+  
+  <img src="/:storage/confianza2.png" >
+  
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  
+  #### Prueba e hipótesis significación $\\alpha$, una cola
+  
+  
+  <img src="/:storage/normal1.png" >
+  
+  #### Prueba e hipótesis significación $\\alpha$, dos colas
+  
+  <img src="/:storage/normal2.png" >
   
 '''
 tags: []

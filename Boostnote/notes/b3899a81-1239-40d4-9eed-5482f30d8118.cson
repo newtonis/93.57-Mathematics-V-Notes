@@ -1,0 +1,220 @@
+createdAt: "2018-12-16T18:55:04.903Z"
+updatedAt: "2018-12-20T04:28:57.851Z"
+type: "MARKDOWN_NOTE"
+folder: "5919065e19f536d7f3b3"
+title: "Etapa 1"
+content: '''
+   <img src="/:storage/apuntesari_e1e1.png" width=384 height=100>
+  
+  ##### (Ariel Nowik: anowik@itba.edu.ar - correcciones, sugerencias, consultas)
+  
+  # Etapa 1
+  El circuito equivalente simplificado para un analisis sencillo es el siguiente:
+   <img src="/:storage/circuito1.png" width=800>
+  
+  # Polarización
+  Despreciando toda las corrientes de base despejamos la corrientes de todos los transistores menos $Q_7$
+  
+  $$I_{c1}=I_{c2}=I_{c3}=I_{c5}=I_{c6}=\\frac{19\\mu A}{2}=9.5\\mu A$$
+  <br>
+  <br>
+  
+  Para despejar $Q_7$ despreciamos las corrientes de base de $Q_5$, $Q_6$ y calculamos la caida de tensión sobre $R_3$. 
+  $$V_{R3}=IR_2+V_{BE6} \\implies I_{R3}=I_{C7}=\\frac{I_{C6}R_2+V_{BE6}}{R_3}$$
+  Pero necesitamos $V_{BE6}$. Usamos la ecuación que relaciona $V_{BE6}$ con $I_{C6}$
+  $$I_{c6}=I_{s6}e^{V_{BE6}/V_T} \\implies V_{BE6}=V_Tln(\\frac{I_{c6}}{I_s})=26mVln(\\frac{9.5\\mu A}{10^{-14}A})=517mA \\implies I_{C7}=10.5\\mu A$$
+  
+  # Modelo incremental
+  Se utiliza el modelo T. 
+  Arbitrariamente, para respetar los sentidos fisicos, se opto por colocar los modelos de los transistores 2 y 4 al reves de lo usual.
+  
+  
+  
+   <img src="/:storage/circuito2.png" width=400>
+   
+   
+   Primero se observa la parte de abajo. Debido a los resultados de la polzarización se puede despreciar $I_{b7}$ incremental, por lo que $I_{e3}=I_{e5}$. Además, como asumimos que $R_1=R_2$ y $r_{e5}=r_{e6}$ entonces debe suceder $I_{e5}=I_{e6}$ (ya que $I_{e5}(r_{e5}+R1)=I_{e6}(r_{e6}+R_2))$ . En resumen
+   $$I_{e1}=I_{e3}=I_{e5}=I_{e6}$$
+   
+  
+  En segundo lugar, se observa la parte de arriba. En particular observar que realizando nodos en el transistor 4 se tiene
+  $$(1-\\alpha)I_{e1}+\\alpha I_{e4}=I_{e4} \\implies I_{e4}=I_{e1}$$
+  
+  Por lo tanto 
+  $$I_{out}=2\\alpha I_{e1}$$
+  
+  Por ultimo, se busca la relacion entre $I_{e1}$ y $V_d=V_1-V_2$. Por mallas y la expresion anterior de $I_{out}$ se puede ver que
+  $$V_d=(\\underbrace{r_{e1}+r_{e2}+r_{e3}+r_{e4}}_{4r_e})I_{e1}\\implies I_{out}=\\underbrace{\\frac{2\\alpha}{4r_e}}_{G_{m1}} V_d$$
+  $$G_{m1}=\\frac{2}{4*2.63k\\Omega}=\\frac{1}{5.26}\\frac{mA}{V}$$
+  ### Impedancia de entrada diferencial
+  
+  Es muy sencillo calcularla ya que como $I_{in}=I_{b1}=(1-\\alpha)I_{e1}$ y $V_d=4r_eI_{e1}$ entonces
+  $$R_{id}=\\frac{V_d}{I_{in}}=\\frac{4r_eI_{e1}}{(1-\\alpha)I_E1}=\\frac{4r_e}{1-\\alpha}=4r_e(\\beta+1)=4(2.63k\\Omega)(201)=2.1M\\Omega$$
+  Ya que por definición $\\alpha=\\frac{\\beta}{\\beta+1}$
+  
+  ### Impedancia de salida
+  
+   Se utiliza el modelo hibrido $\\pi$. Se asume que las bases de los transistores 2,4 y 6 estan a 0v. 
+   <img src="/:storage/circuito3.png" width=600>
+   
+  Los tres transistores tienen imedancias de salidas que se calculan igual. En $Q_2$ al estar el colector y la base en masa, su impedancia de salida es $r_{o2}$.
+  Por otro lado, tanto en $Q_4$ como $Q_6$ se tiene la base en masa y el colector a una resistencia ($R_2$  y $r_o2$ correspondientemente) que llamaremos $r_e$.  Utilizando el modelo $\\pi$ planteamos que 
+  $$V_{op}=r_\\pi \\|r_{e}I_{op}+r_o(I_{op}+gmv_{pi}) \\implies R_{o}=r_{\\pi}\\|r_e+r_{o}(1+gm\\frac{v_{\\pi}}{I_{op}})$$
+  Como $v_{\\pi}/I_{o}=r_{\\pi}\\|r_{o}$ finalmente obtenemos
+  $$R_{o}=r_{\\pi}\\|r_{e}+r_{o}(1+gmr_{\\pi}\\|r_{o})\\approx r_{o}(1+gmr_o)$$
+  Aplicando la formula con la parte de arriba y de abajo del circuito se obtiene
+  $$R_{out}=R_{o6}\\|R_{o4}=r_{o4}(1+gmr_{o2})\\|r_{o6}(1+gm r_{o6})=6.7M\\Omega$$
+  
+  # Etapa 2
+  
+   <img src="/:storage/etapa2_circuito1.png" width=300>
+   
+  ## Polarización
+  Gracias a la fuente de corriente de arriba
+  $$I_{c17}=550\\mu A$$
+  
+  Por otro lado, para calcular la corriente de $Q_{16}$ , calculamos $V_{be17}$ y con dicha tensión y $R_9$, despreciando la corriente de base de $Q_{17}$ obetenemos $I_{c16}$
+  
+  $$V_{be17}=V_T{ln(\\frac{I_{c17}}{I_s})}=618mV \\implies I_{c17}=I_{e17}=\\frac{I_{e17}R_8+V_{be17}}{R_9}=16.2 \\mu A$$
+  
+  ## Modelo incremental
+  
+  ### Impedancia de entrada
+  
+  Se procederá a calcular la impedancia de entrada ya que su calculo será provechoso para luego conseguir la ganancia de la etapa. Se coloco el modelo del transistor 13b en lugar de la fuente de corriente, no obstante, como la base se encuentra a masa dicho modelo no aporta corriente incremental.
+  
+  Se utilizará modelo T.
+  
+   <img src="/:storage/etapa2_circuito2.png" width=400>
+   
+   Primero calculamos $R_{i17}$. Notar que $I_{op}=(\\alpha-1)I_{e17}$ Por lo que con un pasaje a nivel de corriente podemos ver que
+   $$R_{i17}=\\frac{1}{\\alpha-1}(r_{e17}+R_8)$$
+   Como $\\alpha-1=\\frac{1}{\\beta +1}$ entonces 
+   
+   $$R_{i17}= (\\beta+1)(r_{e17}+R_8)$$
+   
+   En segundo lugar calculamos $R_{i16}=R_{in}$ de utilizando exactamente el mismo metodo. Como en este caso $I_{op}=(\\alpha-1)I_{e16}$ utilizando un pasaje a nivel de corriente
+   
+   $$R_{i16}=\\frac{1}{\\alpha-1}(r_{e16}+R_9\\|R_{i17})$$
+   
+   Compactando las dos expresiones anteriores
+   
+   $$R_{in}=(\\beta+1)[r_{e16}+R_9\\|((\\beta+1)(r_{e17}+R_8))]=4M\\Omega $$
+   
+   ### Ganancia
+   
+   Procederemos a calcular la ganancia de la etapa, definida como $G_{m2}=\\frac{I_{out}}{V_{in}}$
+   
+   Se utilizaran divisores resistivos
+   
+   $$I_{out}=\\alpha I_{e17}=\\frac{v_{e17}}{R_{e17}+R_8}$$
+   
+   $$v_{e17}=v_{in}\\frac{R_{i17}\\|R_9}{R_{i17}\\|R_9+R_{e16}}$$
+   
+   Todos los valores de la ecuación fueron calculados previamente. Reemplazando
+   $$G_{m2}=6.5\\frac{mA}{V}$$
+   
+   ### Impedancia de salida
+   
+  Se asume que la base del transistor 17 se encuentra a masa. 
+  
+    <img src="/:storage/etapa2_circuito3.png" width=600>
+  
+  El circuito de $R_{o17}$ es el mismo del de la etapa 1. Por lo tanto
+  $$R_o=r_{o13}\\|(r_{o17}[1+gm(R_8\\|r_{\\pi 17})])=81k\\Omega$$
+  
+  </br>
+  </br>
+  </br>
+  
+   # Etapa 3
+  
+  ## Polarización
+  
+  En primer lugar asumimos que la fuente de corriente de $Q_{13}$ suministra 180 $\\mu A$.
+  Procederemos a calcular las corrientes de colector $Q_{19}$ y $Q_{18}$.
+  
+   <img src="/:storage/etapa3_polarizacion.png" width=400>
+   
+  Suponemos que conocemos $V_{be18}$. (Por ejemplo $V_{be18}=0.6V$) Entonces $I_{c19}$, despreciando corrientes de base se puede calcular como
+  $$I_{C19}=\\frac{V_{be18}}{R_{10}}=15\\mu A$$
+  Como $I_{c19}+I_{c18}=180\\mu A$ podemos conseguir $I_{c18}=180\\mu A-15\\mu A=165\\mu A$. 
+  Y con $I_{c18}$ podemos, nuevamente obtener un valor de $V_{be18}$
+  $$V_{be18}=V_tln(\\frac{I_{c18}}{I_{s18}})=588mV$$
+  Iterativamente podriamos tomar este valor de $V_{be18}$ y repetir el procedimiento para aumentar la precisión de la respuesta. No obstante, el error debido a no considerar las corrientes de bases es mayor a la precisión que se ganaría iterando varias veces.
+  
+  Por ultimo conseguimos las corrientes de $Q_{14}$ y $Q_{20}$. como $V_{be19}=V_tln(\\frac{I_{c19}}{I_S})=530mV$ entonces como 
+  $$V_{be20}+V_{be14}=V_{be18}+V_{be19}=1.118V$$
+  Y además $I_{c14}=I_{C20}$, podemos planterar la ecuación
+  $$V_tln(\\frac{I_{c14}}{I_{s14}})+V_tln(\\frac{I_{c20}}{I_{s14}})=V_{be20}+V_{be14}=1.118V$$
+  Tomando $I_{s14}=I_{s20}=3*10^{-14}$ se obtiene $I_{c14}=I_{c20}=154\\mu A$
+  
+  
+  ## Observacion 1 necesaria para continuar
+  
+  A partir de ahora, para resolver el analisis incremental necesitamos simplificar el circuito.
+  En primer lugar calcularemos la impedancia incremental equivalente de la fracción del circuito compuesta por $Q_{19}$ y $Q_{18}$
+  
+   <img src="/:storage/etapa3_equivalente.png" width=600>
+  
+  Para ello en primer lugar asumimos que la impedancia vista por $Q_{19}$ es $\\frac{1}{gm}$ (lo cual se puede ver utilizando el modelo T o $\\pi$) y dibujamos el modelo $T$ del transistor $Q_{18}$.
+  
+  
+   <img src="/:storage/etapa_3bloque.png" width=700>
+   
+  Realizando un divisor de corriente podemos hacer posible de calcular el paralelo $R_{10}\\|r_{e18}$ (provocando que la fuente de corriente dependa de otra $ki$)
+   
+   Por ultimo , mediante un pasaje a nivel de corriente podemos ver la impedancia de la fuente de corriente en paralelo a la resistencia. Como la corriente es $(k\\alpha-1)$ veces más grande, entonces la impedancia $\\frac{1}{gm_{19}}$ se ve $(k\\alpha-1)$ veces mas grande.
+    
+  En conclusión la imepdancia del bloque es aproximandamente $r_{e18}$ que es un numero muy chico, lo cual es importante. A partir de ahora sumiremos que el bloque es un cable.
+  
+  
+  ## Observacion 2 necesaria para continuar
+  
+  Debemos asumir que, por el funcionamiento del dispositivo en algunos instantes $Q_{20}$ se encuentra abierto y en otros $Q_{14}$ se encuentra abierto.
+  
+   <img src="/:storage/etapa3_abiertos.png" width=600>
+   
+   
+  De esta forma, podremos analizar el circuito solo en un estado, que será en el que $Q_{20}$ conduce. El otro estado es análogo y totalmente simetrico
+  
+  ## Ganancia
+  
+  La ganancia de tensión es sencilla. Son dos colector comunes en cascada, ambos con ganancia unitaria
+  
+   <img src="/:storage/etapa3_cc.png" width=600>
+   
+  ## Impedancia de entrada
+  
+  Calculamos la impedancia de entrada. Para ello analizamos el bloque verde por separado utilizando el modelo $T$
+  
+  <img src="/:storage/etapa3_impedancia_in.png" width=700>
+  </br>
+  </br>
+  
+  Realizando un divisor de corriente la resistencia vista en el bloque verde por la base es $r_e+R_L$ incrementada $\\beta+1$ veces ya que la corriente que pasa por las resistencias es $\\beta+1$ veces más grande. La resolución de la impedancia de entrada del transistor $Q_{23}$ es exactamente la misma que la del bloque verde, solo que con $R_{i20}$ en ulgar de $R_L$. Es importante considerar que $r_e+R_L\\approx R_L$
+  
+  ## Impedancia de salida
+  
+  Calculamos la impedancia de salida. Para ello debemos considerar $R_{o2}$, la impedancia de salida de la etapa 2 en nuestro analisis. En las etapas anteriores, debido a diversas cosas asumidas no habia sido necesario.
+  
+  
+  <img src="/:storage/etapa3_imepdancia_salida.png" width=700>
+  </br>
+  
+  Resolvemos el boque verde planteando el modelo $T$. La impedancia vista es $r_{e23}$ más $R_{o2}$ con una corriente ($\\beta+1$) veces más chica, es decir, por pasaje a nivel de corriente, disminuida en $\\beta+1$ veces.
+  Para resolver la impedancia de el transistor $Q_{20}$ realizamos la misma cuenta pero con $R_{o23}$ en lugar de $R_{o2}$
+  
+  
+  
+  ## Modelo $T$
+  
+  Se muestra a continuación el modelo T del transistor, utilizado varias veces para la resolució del circuito. Tiene una gran similitud con el modelo $\\pi$, es totalmente equivalente. Por lo general, salvo en calculos de impedancias de salida, se suele despreciar.
+  
+   <img src="/:storage/modelos.png" width=600>
+   
+  
+'''
+tags: []
+isStarred: false
+isTrashed: false
