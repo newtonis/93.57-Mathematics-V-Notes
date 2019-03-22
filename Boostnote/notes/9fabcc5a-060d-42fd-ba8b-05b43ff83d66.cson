@@ -1,11 +1,37 @@
 createdAt: "2018-12-16T18:58:24.381Z"
-updatedAt: "2018-12-16T18:59:08.228Z"
+updatedAt: "2018-12-23T21:27:47.347Z"
 type: "MARKDOWN_NOTE"
 folder: "3c6c7a866e29deea4be5"
-title: "Criterio de barkhausen - justificación teórica"
+title: "Aclaración 1"
 content: '''
+  ### Aclaración 1
   
-  ## Criterio de barkhausen - justificación teórica
+  El criterio de Barkhausen es un criterio, por lo tanto no tiene demostración y es, desde la perspectiva lógica falso. No obstante nos sirve para poder estimar con una gran efectividad si un sistema realimentado oscilará o no.
+  
+  
+  ### Criterio
+  Se piensa en un sistema descrito con una ganancia a lazo abierto $A(s)$ y una ganancia de lazo $B(s)$
+  
+  <img src="/:storage/bloques.png" width=400>
+  <br>
+  
+  Se dice que la salida $y(t)$ oscila si en algun instante del funcionamiento del sistema forzamos $x(t)=0 \\; \\forall t>t^*$  y no obstante $y(t)$ nunca se anula, se vuelve una función periódica.
+  Se dice que la salida $y(t)$ no oscila si en algun instante del funcionamiento del sistema forzamos $x(t)=0\\; \\forall t>t^*$ $y(t)$, luego de un tiempo, se anula, o crece indefinidamente.
+  
+  El criterio dice que, para que el sistema oscile, debe suceder al mismo tiempo que $|A(s)B(s)|=1$ y $\\angle A(s)B(s)=0$.
+  
+  ### Aclaración 2
+  
+  Si bien el criterio nos habla de que sucede con el sistema cuando forzamos $x(t)=0$, es importante ver que también sirve para estudiar sistemas donde $x(t)$ no se anula. En dichos sistemas las oscilaciones se manifestaran como la adición una señal adicional a la salida idealmente esperada. Pensando en el principio de superposición es razonable pensar que si en dicho sistema fijamos $x(t)=0$ entonces solo quedara la señal adicional.
+  
+  ### Aclaración 3
+  
+  Es importante aclarar que si bien parecería que el sistema no es lineal ya que una entrada $x(t)$ provoca una salida no nula.
+  Sin embargo, los sistemas siempre los modelamos como lineales, la expliación es que en realidad $x(t)$ no es esctrictamente nula, sin muy cercana a 0 (en la práctica ruido). Un sistema con oscilaciones provocara que dicha señal prácticamente nula provoque una salida no nula.
+  
+  ## Interpretación 1 del criterio
+  
+  
   
   
 '''
